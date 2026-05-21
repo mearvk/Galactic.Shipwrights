@@ -1,6 +1,6 @@
 # Galactic.Shipwrights
 
-Shipwrights, Manners &amp; Swains
+**Shipwrights, Manners &amp; Swains**
 
 The Better ideas of Trade and the Better Unions of Trades
 
