@@ -1,0 +1,890 @@
+{
+  "search": {
+    "hits": 1214,
+    "do_facets": true,
+    "query": "ship building",
+    "type": "search"
+  },
+  "views": {
+    "current": "list",
+    "grid": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026st\u003dgrid",
+    "list": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25",
+    "gallery": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026st\u003dgallery",
+    "slideshow": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026st\u003dslideshow"
+  },
+  "facets": [
+    {
+      "type": "displayed",
+      "filters": [
+        {
+          "count": 881,
+          "on": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026fa\u003ddisplayed%3Aanywhere\u0026c\u003d25\u0026sp\u003d1\u0026fo\u003djson",
+          "selected": false,
+          "off": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d1\u0026fo\u003djson",
+          "title": "Larger image available anywhere"
+        },
+        {
+          "count": 110,
+          "on": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026fa\u003ddisplayed%3Alc_only\u0026c\u003d25\u0026sp\u003d1\u0026fo\u003djson",
+          "selected": false,
+          "off": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d1\u0026fo\u003djson",
+          "title": "Larger image available only at the Library of Congress"
+        },
+        {
+          "count": 223,
+          "on": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026fa\u003ddisplayed%3Anot_digitized\u0026c\u003d25\u0026sp\u003d1\u0026fo\u003djson",
+          "selected": false,
+          "off": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d1\u0026fo\u003djson",
+          "title": "Not Digitized"
+        }
+      ],
+      "title": "displayed"
+    }
+  ],
+  "links": {
+    "json": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026fo\u003djson",
+    "html": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25",
+    "rss": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026fo\u003drss"
+  },
+  "suggestions": {
+    "possible": []
+  },
+  "pages": {
+    "current": 1,
+    "next": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d2",
+    "perpage": 25,
+    "last": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d49",
+    "page_list": [
+      {
+        "number": 1
+      },
+      {
+        "url": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d2",
+        "number": 2
+      },
+      {
+        "url": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d3",
+        "number": 3
+      },
+      {
+        "url": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d4",
+        "number": 4
+      },
+      {
+        "url": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d5",
+        "number": 5
+      },
+      {
+        "url": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d6",
+        "number": "..."
+      },
+      {
+        "url": "https://www.loc.gov/pictures/search/?q\u003dship+building\u0026c\u003d25\u0026sp\u003d49",
+        "number": 49
+      }
+    ],
+    "total": 49,
+    "results": "1 - 25"
+  },
+  "results": [
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 1,
+      "medium": "5 x 7 in.",
+      "reproduction_number": "HAER MI-356-19",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/mi0718.photos.196739p/",
+        "resource": "https://www.loc.gov/pictures/item/mi0718.photos.196739p/resource/"
+      },
+      "title": "SOUTHERN END OF ASSEMBLY PLANT, LOOKING N ON SECOND FLOOR, WHICH DID NOT EXIST ON DURING SHIP BUILDING DAYS. NOTE VEHICLE ELEVATOR. ABOVE AND TO THE LEFT IS SHIP BUILDING BALCONY.   - B Building, 3001 Miller Road, Dearborn, MI",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/habshaer/mi/mi0700/mi0718/photos/196739pr.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/habshaer/mi/mi0700/mi0718/photos/196739p_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/habshaer/mi/mi0700/mi0718/photos/196739p_150px.jpg"
+      },
+      "created": "2016-04-18T00:00:00Z",
+      "modified": "2016-04-18T00:00:00Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "call_number": "HAER MI-356-19",
+      "medium_brief": "5 x 7 in.",
+      "source_modified": "2016-04-18T00:00:00Z",
+      "pk": "mi0718.photos.196739p",
+      "created_published_date": ""
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 2,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CA-2965-12",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4510.photos.12/"
+      },
+      "title": "12. Elevated view of courtyard from top of Ship Building toward Spanish Building. Camera height 5\u0027 on Ship Building roof, facing south-southeast. - Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2023-10-20T18:17:10Z",
+      "modified": "2023-10-20T18:17:10Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Schafer, Stephen D.",
+      "call_number": "HABS CA-2965-12",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2023-10-20T18:16:00Z",
+      "pk": "ca4510.photos.12",
+      "created_published_date": "2022"
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 3,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CA-2965-9",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4510.photos.9/"
+      },
+      "title": "9. Elevated view from penthouse of Ship Building over courtyard toward Italian Building and Sunset Blvd. Camera height 5\u0027 on Ship Building roof, facing southwest. - Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2023-10-20T18:17:10Z",
+      "modified": "2023-10-20T18:17:10Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Schafer, Stephen D.",
+      "call_number": "HABS CA-2965-9",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2023-10-20T18:16:00Z",
+      "pk": "ca4510.photos.9",
+      "created_published_date": "2022"
+    },
+    {
+      "source_created": "2021-07-20T00:00:00Z",
+      "index": 4,
+      "medium": "1 photograph : print ; mount 9 x 18 cm (stereograph format)",
+      "reproduction_number": "LC-DIG-stereo-1s36931 (digital file from original)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2021644212/",
+        "resource": "https://www.loc.gov/pictures/item/2021644212/resource/"
+      },
+      "title": "The Queen\u0027s Deck, Clyde Ship Building Yard, showing ship under construction, Glasgow, Scotland",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s30000/1s36000/1s36900/1s36931r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s30000/1s36000/1s36900/1s36931_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s30000/1s36000/1s36900/1s36931_150px.jpg"
+      },
+      "created": "2024-10-29T05:48:20Z",
+      "modified": "2024-10-29T05:48:22Z",
+      "collection": [
+        "diof",
+        "pp",
+        "stereo"
+      ],
+      "creator": "Keystone View Company",
+      "call_number": "STEREO FOREIGN GEOG FILE - Scotland--Glasgow [item] [P\u0026P]",
+      "medium_brief": "1 photograph :",
+      "source_modified": "2024-10-24T15:39:08Z",
+      "pk": "2021644212",
+      "created_published_date": "[between 1860 and 1930]",
+      "subjects": [
+        "Boat \u0026 ship industry--Scotland--Glasgow--1860-1930.",
+        "Hoisting machinery--Scotland--Glasgow--1860-1930.",
+        "Scotland--1860-1930.",
+        "Photographic prints--1860-1930.",
+        "Stereographs--1860-1930."
+      ]
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 5,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CAL,30-TUST,1--1",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca2790.photos.376399p/",
+        "resource": "https://www.loc.gov/pictures/item/ca2790.photos.376399p/resource/"
+      },
+      "title": "1. Site overview. Part 1 of 3-part panorama with nos. CA-2702-2 and CA-2707-3. Southern LTA Ship Hangar (Building 28; Hangar No. 2 in distant center of photograph.  Seen from roadway leading to northern LTA Ship Hangar (Building 29; Hangar no. 1) landing pad. Looking 208 degrees SSW. - Marine Corps Air Station Tustin, East of Red Hill Avenue between Edinger Avenue \u0026 Barranca Parkway, Tustin, Orange County, CA",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/habshaer/ca/ca2700/ca2790/photos/376399pr.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/habshaer/ca/ca2700/ca2790/photos/376399p_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/habshaer/ca/ca2700/ca2790/photos/376399p_150px.jpg"
+      },
+      "created": "2024-12-04T11:26:29Z",
+      "modified": "2024-12-04T11:26:29Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Grogan, Brian C.",
+      "call_number": "HABS CAL,30-TUST,1--1",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2024-12-04T11:26:00Z",
+      "pk": "ca2790.photos.376399p",
+      "created_published_date": "1999"
+    },
+    {
+      "source_created": "2019-09-05T00:00:00Z",
+      "index": 6,
+      "medium": "1 photograph : b\u0026w contact sheet ; 26 x 21 cm or smaller (8 x 10 format)",
+      "reproduction_number": "",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2018752438/"
+      },
+      "title": "[Armed Services Committee subcommittee hearing on nuclear ship building with 1993 defense budget showing witnesses W. R. Phillips of the Newport News Ship and Drydock Co., Roger Tetrault of General Dynamics Corporation, Bruce DeMars of the U.S. Navy and Representative Nancy Johnson]",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2019-11-05T00:00:00Z",
+      "modified": "2019-11-05T00:00:00Z",
+      "collection": [
+        "cqrc",
+        "pp"
+      ],
+      "creator": "Jenkins, R. Michael",
+      "call_number": "CQ-1992-86 [P\u0026P]",
+      "medium_brief": "1 photograph :\n35 photographs :",
+      "source_modified": "2019-10-29T00:00:00Z",
+      "pk": "2018752438",
+      "created_published_date": "[1992-04-07]",
+      "subjects": [
+        "DeMars, Bruce",
+        "Johnson, Nancy",
+        "Tetrault, Roger",
+        "Legislative hearings",
+        "Nuclear ships",
+        "Film negatives.",
+        "Photographic prints."
+      ]
+    },
+    {
+      "source_created": "2003-04-24T00:00:00Z",
+      "index": 7,
+      "medium": "1 photographic print.",
+      "reproduction_number": "LC-USZ62-72752 (b\u0026w film copy neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2003666615/",
+        "resource": "https://www.loc.gov/pictures/item/2003666615/resource/"
+      },
+      "title": "Ship building scenes at Wilmington(?), Del., 1892: [Exterior of ship in stocks]",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20090_150px.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20090_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20090_150px.jpg"
+      },
+      "created": "2016-04-20T00:00:00Z",
+      "modified": "2016-04-20T00:00:00Z",
+      "collection": [
+        "cph",
+        "pp",
+        "reconref"
+      ],
+      "call_number": "SSF - Industry--Boats and Ships [item] [P\u0026P]",
+      "medium_brief": "1 photographic print.",
+      "source_modified": "2003-04-29T00:00:00Z",
+      "pk": "2003666615",
+      "created_published_date": "[no date recorded on caption card]"
+    },
+    {
+      "source_created": "2003-04-24T00:00:00Z",
+      "index": 8,
+      "medium": "1 photographic print.",
+      "reproduction_number": "LC-USZ62-72753 (b\u0026w film copy neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2003666616/",
+        "resource": "https://www.loc.gov/pictures/item/2003666616/resource/"
+      },
+      "title": "Ship building scenes at Wilmington(?), Del., 1892: [Interior of ship]",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20091_150px.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20091_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20091_150px.jpg"
+      },
+      "created": "2016-04-20T00:00:00Z",
+      "modified": "2016-04-20T00:00:00Z",
+      "collection": [
+        "cph",
+        "pp",
+        "reconref"
+      ],
+      "call_number": "SSF - Industry--Boats and Ships [item] [P\u0026P]",
+      "medium_brief": "1 photographic print.",
+      "source_modified": "2003-04-29T00:00:00Z",
+      "pk": "2003666616",
+      "created_published_date": "[no date recorded on caption card]"
+    },
+    {
+      "source_created": "2003-04-24T00:00:00Z",
+      "index": 9,
+      "medium": "1 photographic print.",
+      "reproduction_number": "LC-USZ62-72751 (b\u0026w film copy neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2003666614/",
+        "resource": "https://www.loc.gov/pictures/item/2003666614/resource/"
+      },
+      "title": "Ship building scenes at Wilmington(?), Del., 1892: [View along deck of wooden ship]",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20089_150px.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20089_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/cph/3b20000/3b20000/3b20000/3b20089_150px.jpg"
+      },
+      "created": "2016-04-21T00:00:00Z",
+      "modified": "2016-04-21T00:00:00Z",
+      "collection": [
+        "cph",
+        "pp",
+        "reconref"
+      ],
+      "call_number": "SSF - Industry--Boats and Ships [item] [P\u0026P]",
+      "medium_brief": "1 photographic print.",
+      "source_modified": "2003-04-29T00:00:00Z",
+      "pk": "2003666614",
+      "created_published_date": "[no date recorded on caption card]"
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 10,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-DIG-fsa-8e10912 (digital file from original neg.)\nLC-USE6-D-002579 (b\u0026w film nitrate neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017690450/",
+        "resource": "https://www.loc.gov/pictures/item/2017690450/resource/"
+      },
+      "title": "Conversion. Copper and brass processing. Coils of brass and copper metal are loaded into a freight car and shipped to factories where it is fabricated into thousands of metal parts needed for our war program, or to our airplane submarine, or ship-building industries to become parts of their production. Chase Copper and Brass Company, Euclid, Ohio",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8e10000/8e10900/8e10912r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8e10000/8e10900/8e10912_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8e10000/8e10900/8e10912_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "creator": "Palmer, Alfred T.",
+      "call_number": "LC-USE6- D-002579 [P\u0026P] LOT 2008  (corresponding photographic print)",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017690450",
+      "created_published_date": "1942 Feb.",
+      "subjects": [
+        "United States--Ohio--Cuyahoga County--Euclid.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 11,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-USE6-D-009353 (b\u0026w film nitrate neg.)\nLC-DIG-fsa-8b08247 (digital file from original neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017696867/",
+        "resource": "https://www.loc.gov/pictures/item/2017696867/resource/"
+      },
+      "title": "Baseball players in war production. George Stovall, retired manager of the Cleveland Indians, does his bit at the California Ship Building Corporation where he helps build Liberty ships",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08247r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08247_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08247_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "creator": "Rosener, Ann",
+      "call_number": "LC-USE6- D-009353 [P\u0026P] LOT 1878  (corresponding photographic print)",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017696867",
+      "created_published_date": "1943 Feb.",
+      "subjects": [
+        "United States--California--Los Angeles County--Wilmington.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 12,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-USE6-D-009354 (b\u0026w film nitrate neg.)\nLC-DIG-fsa-8b08248 (digital file from original neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017696868/",
+        "resource": "https://www.loc.gov/pictures/item/2017696868/resource/"
+      },
+      "title": "Baseball players in war production. Lunch hour at California Ship Building Corporation finds two of baseball\u0027s major leaguers talking things over. As fellow ship-builders at the California shipyards, George Stovall, retired manager of the Cleveland Indians, and Vince DiMaggio, Pittsburgh Pirates outfielder, agree that they\u0027re both members of the greatest American team in existence--the team that\u0027s all out to beat the Axis",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08248r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08248_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08248_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "creator": "Rosener, Ann",
+      "call_number": "LC-USE6- D-009354 [P\u0026P] LOT 1878  (corresponding photographic print)",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017696868",
+      "created_published_date": "1943 Feb.",
+      "subjects": [
+        "United States--California--Los Angeles County--Wilmington.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 13,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-USE6-D-009355 (b\u0026w film nitrate neg.)\nLC-DIG-fsa-8b08249 (digital file from original neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017696869/",
+        "resource": "https://www.loc.gov/pictures/item/2017696869/resource/"
+      },
+      "title": "Baseball players in war production. Lunch hour at California Ship Building Corporation finds two of baseball\u0027s major leaguers talking things over. As fellow ship-builders at the California shipyards, George Stovall, retired manager of the Cleveland Indians, and Vince DiMaggio, Pittsburgh Pirates outfielder, agree that they\u0027re both members of the greatest American team in existence--the team that\u0027s all out to beat the Axis",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08249r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08249_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08249_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "creator": "Rosener, Ann",
+      "call_number": "LC-USE6- D-009355 [P\u0026P] LOT 1878  (corresponding photographic print)",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017696869",
+      "created_published_date": "1943 Feb.",
+      "subjects": [
+        "United States--California--Los Angeles County--Wilmington.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 14,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-USE6-D-010588 (b\u0026w film nitrate neg.)\nLC-DIG-fsa-8b08624 (digital file from original neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017698071/",
+        "resource": "https://www.loc.gov/pictures/item/2017698071/resource/"
+      },
+      "title": "Denver, Colorado. A scene in the interior of a ship-building plant, one of eight engaged in a 56 million dollar program. Ship parts from this land-locked plant in Denver will be sent 1,300 miles to Mare Island for assembly",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08600/8b08624r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08600/8b08624_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08600/8b08624_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "call_number": "LC-USE6- D-010588 [P\u0026P]",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017698071",
+      "created_published_date": "1942 May.",
+      "subjects": [
+        "United States--Colorado--Denver County--Denver.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 15,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HAER NY,43-SHOOTI,1--2",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ny1414.photos.122674p/",
+        "resource": "https://www.loc.gov/pictures/item/ny1414.photos.122674p/resource/"
+      },
+      "title": "2.  Photocopy of photograph. View, looking southeast, showing Shooters Island with standard ship building plant in operation. Circa 1930 by Airmap Corporation of America. (Original in Staten Inland Historic Society, Staten Island, New York) - Shooters Island, Ships Graveyard, Newark Bay, Staten Island (subdivision), Richmond County, NY",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/habshaer/ny/ny1400/ny1414/photos/122674pr.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/habshaer/ny/ny1400/ny1414/photos/122674p_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/habshaer/ny/ny1400/ny1414/photos/122674p_150px.jpg"
+      },
+      "created": "2024-12-04T16:51:24Z",
+      "modified": "2024-12-04T16:51:24Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "call_number": "HAER NY,43-SHOOTI,1--2",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2024-12-04T16:51:00Z",
+      "pk": "ny1414.photos.122674p",
+      "created_published_date": ""
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 16,
+      "medium": "32",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/wi0348/"
+      },
+      "title": "Eighth Street Bascule Bridge, Spanning Manitowoc River at U.S. Highway 10 (Eighth Street), Manitowoc, Manitowoc County, WI",
+      "image": {
+        "alt": "habs/haer thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_HABS.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/HABS_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/habs_thumb_large.jpg"
+      },
+      "created": "2018-05-17T00:00:00Z",
+      "modified": "2018-05-17T00:00:00Z",
+      "collection": [
+        "diof",
+        "hh",
+        "survey"
+      ],
+      "creator": "Historic American Engineering Record",
+      "call_number": "HAER WIS,36-MANI,1-",
+      "medium_brief": "Data Page(s): 32",
+      "source_modified": "2018-05-17T00:00:00Z",
+      "pk": "wi0348",
+      "created_published_date": "Documentation compiled after 1968",
+      "subjects": [
+        "vehicular bridges",
+        "concrete abutments",
+        "concrete piers",
+        "bascule bridges",
+        "deck girders",
+        "brick veneer",
+        "hip roofs",
+        "control rooms",
+        "trunnions",
+        "transportation",
+        "counterweights"
+      ]
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 17,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CA-2965-8",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4510.photos.8/"
+      },
+      "title": "8. Vertical context view of courtyard between Mediterranean Building and Ship Building and trees and palms west of Moroccan Building. Camera height 5\u0027, facing north. - Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2023-10-20T18:17:10Z",
+      "modified": "2023-10-20T18:17:10Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Schafer, Stephen D.",
+      "call_number": "HABS CA-2965-8",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2023-10-20T18:16:00Z",
+      "pk": "ca4510.photos.8",
+      "created_published_date": "2022"
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 18,
+      "medium": "15",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4517/",
+        "resource": "https://www.loc.gov/pictures/item/ca4517/resource/"
+      },
+      "title": "Crossroads of the World, Building 5, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/data/media/ca4/ca4517/ca4517.ph/ca4517.photos.1/square.jpg",
+        "thumb": "https://www.loc.gov/pictures/static/data/media/ca4/ca4517/ca4517.ph/ca4517.photos.1/gallery.jpg"
+      },
+      "created": "2023-10-20T18:18:06Z",
+      "modified": "2024-12-13T19:57:36Z",
+      "collection": [
+        "diof",
+        "hh",
+        "survey"
+      ],
+      "creator": "Historic American Buildings Survey",
+      "call_number": "HABS CA-2965-E",
+      "medium_brief": "Photo(s): 15, Data Page(s): 7, Photo Caption Page(s): 3",
+      "source_modified": "2023-10-20T18:17:00Z",
+      "pk": "ca4517",
+      "created_published_date": "Documentation compiled after 1933",
+      "subjects": [
+        "commerce",
+        "commercial facilities",
+        "shopping centers",
+        "Streamline Moderne architectural elements"
+      ]
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 19,
+      "medium": "5 x 7 in.",
+      "reproduction_number": "HABS NH,8-PORT,26--19",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/nh0155.photos.105933p/",
+        "resource": "https://www.loc.gov/pictures/item/nh0155.photos.105933p/resource/"
+      },
+      "title": "19.  Historic American Buildings Survey Clement Moran, Photographer June 20, 1935 SHIP BUILDING IN RAYNES SHIPYARD RE-PHOTOGRAPH - Boyd-Raynes House, Maplewood Avenue, Portsmouth, Rockingham County, NH",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/habshaer/nh/nh0100/nh0155/photos/105933pr.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/habshaer/nh/nh0100/nh0155/photos/105933p_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/habshaer/nh/nh0100/nh0155/photos/105933p_150px.jpg"
+      },
+      "created": "2016-04-17T00:00:00Z",
+      "modified": "2016-04-17T00:00:00Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "call_number": "HABS NH,8-PORT,26--19",
+      "medium_brief": "5 x 7 in.",
+      "source_modified": "2016-04-17T00:00:00Z",
+      "pk": "nh0155.photos.105933p",
+      "created_published_date": ""
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 20,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-USE6-D-009349 (b\u0026w film nitrate neg.)\nLC-DIG-fsa-8b08243 (digital file from original neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017696863/",
+        "resource": "https://www.loc.gov/pictures/item/2017696863/resource/"
+      },
+      "title": "Baseball players in war production. Outfielder Vince DiMaggio, of the Pittsburgh Pirates, has been working at the California Ship Building Corporation since last October. He\u0027s one of the many former athletic stars who are helping to smash the Axis by building the equipment needed by America\u0027s fighting men",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08243r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08243_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08243_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "creator": "Rosener, Ann",
+      "call_number": "LC-USE6- D-009349 [P\u0026P] LOT 1878  (corresponding photographic print)",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017696863",
+      "created_published_date": "1943 Feb.",
+      "subjects": [
+        "United States--California--Los Angeles County--Wilmington.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "2002-01-29T00:00:00Z",
+      "index": 21,
+      "medium": "1 negative : nitrate ; 4 x 5 inches or smaller.",
+      "reproduction_number": "LC-USE6-D-009350 (b\u0026w film nitrate neg.)\nLC-DIG-fsa-8b08244 (digital file from original neg.)",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2017696864/",
+        "resource": "https://www.loc.gov/pictures/item/2017696864/resource/"
+      },
+      "title": "Baseball players in war production. Outfielder Vince DiMaggio, of the Pittsburgh Pirates, has been working at the California Ship Building Corporation since last October. He\u0027s one of the many former athletic stars who are helping to smash the Axis by building the equipment needed by America\u0027s fighting men",
+      "image": {
+        "alt": "digitized item thumbnail",
+        "full": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08244r.jpg",
+        "square": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08244_75x75px.jpg",
+        "thumb": "https://tile.loc.gov/storage-services/service/pnp/fsa/8b08000/8b08200/8b08244_150px.jpg"
+      },
+      "created": "2017-05-16T00:00:00Z",
+      "modified": "2017-05-16T00:00:00Z",
+      "collection": [
+        "ammem",
+        "diof",
+        "fsa",
+        "pp"
+      ],
+      "creator": "Rosener, Ann",
+      "call_number": "LC-USE6- D-009350 [P\u0026P] LOT 1878  (corresponding photographic print)",
+      "medium_brief": "1 negative :",
+      "source_modified": "2017-05-15T00:00:00Z",
+      "pk": "2017696864",
+      "created_published_date": "1943 Feb.",
+      "subjects": [
+        "United States--California--Los Angeles County--Wilmington.",
+        "Nitrate negatives."
+      ]
+    },
+    {
+      "source_created": "2019-09-05T00:00:00Z",
+      "index": 22,
+      "medium": "1 photograph : b\u0026w contact sheet ; 26 x 21 cm or smaller (8 x 10 format)",
+      "reproduction_number": "",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/2018753078/"
+      },
+      "title": "[Sea Air Space Exposition, showing Newport News ship building map of the U.S. displaying the amount of money spent on building aircraft carriers in each state; town meeting in the 7th Congressional District of Baltimore, Maryland, showing Representative Kweisi Mfume, Senator Paul Sarbanes, and Secretary of Labor Richard Reich]",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2019-11-05T00:00:00Z",
+      "modified": "2019-11-05T00:00:00Z",
+      "collection": [
+        "cqrc",
+        "pp"
+      ],
+      "call_number": "CQ-1994-126 [P\u0026P]",
+      "medium_brief": "1 photograph :\n34 photographs :",
+      "source_modified": "2019-10-29T00:00:00Z",
+      "pk": "2018753078",
+      "created_published_date": "[1994-03-31 and 1994-04-04]",
+      "subjects": [
+        "Expositions",
+        "aircraft carriers",
+        "town meetings",
+        "Reich, Richard",
+        "Mfume, Kweisi",
+        "Sarbanes, Paul",
+        "Film negatives.",
+        "Photographic prints."
+      ]
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 23,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CA-2965-11",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4510.photos.11/"
+      },
+      "title": "11. Overview of courtyard between Ship Building (right) and Spanish Building (left). Camera height 5\u0027, facing southeast. - Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2023-10-20T18:17:10Z",
+      "modified": "2023-10-20T18:17:10Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Schafer, Stephen D.",
+      "call_number": "HABS CA-2965-11",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2023-10-20T18:16:00Z",
+      "pk": "ca4510.photos.11",
+      "created_published_date": "2022"
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 24,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CA-2965-15",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4510.photos.15/"
+      },
+      "title": "15. Overview of parking lot and courtyard between Ship Building and north end of Mediterranean Building. Camera height 5\u0027, facing east. - Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2023-10-20T18:17:10Z",
+      "modified": "2023-10-20T18:17:10Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Schafer, Stephen D.",
+      "call_number": "HABS CA-2965-15",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2023-10-20T18:16:00Z",
+      "pk": "ca4510.photos.15",
+      "created_published_date": "2022"
+    },
+    {
+      "source_created": "1970-01-01T00:00:00Z",
+      "index": 25,
+      "medium": "4 x 5 in.",
+      "reproduction_number": "HABS CA-2965-21",
+      "links": {
+        "item": "https://www.loc.gov/pictures/item/ca4510.photos.21/"
+      },
+      "title": "21. Left side of a two-part panorama. Mature trees and parking west of Moroccan Building (right) and north of Ship Building (left). Camera height 5\u0027, facing south-southeast. - Crossroads of the World, 6671 Sunset Boulevard, Los Angeles, Los Angeles County, CA",
+      "image": {
+        "alt": "item not digitized thumbnail",
+        "full": "https://www.loc.gov/pictures/static/images/item/500x500_notdigitized.png",
+        "square": "https://www.loc.gov/pictures/static/images/item/not_digitized_buttons75X75.png",
+        "thumb": "https://www.loc.gov/pictures/static/images/item/notdigitized_buttons140X120.png"
+      },
+      "created": "2023-10-20T18:17:11Z",
+      "modified": "2023-10-20T18:17:11Z",
+      "collection": [
+        "diof",
+        "hh"
+      ],
+      "creator": "Schafer, Stephen D.",
+      "call_number": "HABS CA-2965-21",
+      "medium_brief": "4 x 5 in.",
+      "source_modified": "2023-10-20T18:16:00Z",
+      "pk": "ca4510.photos.21",
+      "created_published_date": "2022"
+    }
+  ]
+}

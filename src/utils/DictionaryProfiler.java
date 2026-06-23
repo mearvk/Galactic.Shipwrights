@@ -16,7 +16,7 @@ public class DictionaryProfiler
 
     public DictionaryProfiler()
     {
-        this.outputFile = "dictionary.list.txt";
+        this.outputFile = "dictionaries/dictionary.list.txt";
         this.scanDir = "src/edifiction";
         this.definitionSources = new String[]{
             "https://api.dictionaryapi.dev/api/v2/entries/en/"
@@ -211,6 +211,7 @@ public class DictionaryProfiler
     {
         try
         {
+            Files.createDirectories(Paths.get(outputFile).getParent());
             StringBuilder sb = new StringBuilder();
             char currentLetter = 0;
             for (Map.Entry<String, String> entry : dictionary.entrySet())

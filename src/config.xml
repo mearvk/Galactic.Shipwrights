@@ -19,7 +19,7 @@
 
     <dictionaryProfiler>
         <enabled>true</enabled>
-        <outputFile>dictionary.list.txt</outputFile>
+        <outputFile>dictionaries/dictionary.list.txt</outputFile>
         <scanDirs>src/edifiction</scanDirs>
         <definitionSources>
             <source>https://en.wiktionary.org/w/api.php</source>

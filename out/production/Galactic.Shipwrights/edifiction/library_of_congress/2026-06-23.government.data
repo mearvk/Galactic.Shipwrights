@@ -1,0 +1,4282 @@
+{
+  "breadcrumbs": [
+    {
+      "Library of Congress": "https://www.loc.gov"
+    },
+    {
+      "Search": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals"
+    }
+  ],
+  "facet_trail": [
+    {
+      "facet": "searchTerms",
+      "field": "searchTerms",
+      "superset": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson",
+      "value": "shipbuilding manuals"
+    },
+    {
+      "facet": "Available Online",
+      "field": "digitized",
+      "superset": "https://www.loc.gov/search/?all\u003dtrue\u0026c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+      "value": "digitized"
+    }
+  ],
+  "facet_views": {
+    "calendar": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026fs\u003dcalendar\u0026q\u003dshipbuilding+manuals",
+    "chart": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026fs\u003dchart\u0026q\u003dshipbuilding+manuals",
+    "current": "list",
+    "list": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals"
+  },
+  "facets": [
+    {
+      "filters": [
+        {
+          "count": 50087,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Available at the Library of Congress Campus",
+          "value": "true"
+        },
+        {
+          "count": 44,
+          "on": "https://www.loc.gov/search/?all\u003dtrue\u0026c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Available Online",
+          "value": "false"
+        }
+      ],
+      "title": "Available Online",
+      "type": "digitized"
+    },
+    {
+      "filters": [
+        {
+          "count": 41769,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:newspaper\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/newspapers/?c\u003d25\u0026dl\u003ditem\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Newspaper",
+          "value": "newspaper"
+        },
+        {
+          "count": 6222,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:book\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/books/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Book/Printed Material",
+          "value": "book"
+        },
+        {
+          "count": 1977,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:periodical\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format:periodical\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Periodical",
+          "value": "periodical"
+        },
+        {
+          "count": 295,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:web+page\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format:web+page\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Web Page",
+          "value": "web page"
+        },
+        {
+          "count": 81,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:manuscript/mixed+material\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/manuscripts/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Manuscript/Mixed Material",
+          "value": "manuscript/mixed material"
+        },
+        {
+          "count": 30,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:legislation\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format:legislation\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Legislation",
+          "value": "legislation"
+        },
+        {
+          "count": 7,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:photo,+print,+drawing\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/photos/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Photo, Print, Drawing",
+          "value": "photo, print, drawing"
+        },
+        {
+          "count": 2,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:map\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/maps/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Map",
+          "value": "map"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:sound+recording\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/audio/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Audio Recording",
+          "value": "sound recording"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003doriginal-format!:film,+video\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/film-and-videos/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Film, Video",
+          "value": "film, video"
+        }
+      ],
+      "title": "Original Format",
+      "type": "original-format"
+    },
+    {
+      "filters": [
+        {
+          "count": 50029,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format!:pdf\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format:pdf\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "PDF",
+          "value": "pdf"
+        },
+        {
+          "count": 48534,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format!:image\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format:image\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Image",
+          "value": "image"
+        },
+        {
+          "count": 48527,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format!:online+text\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format:online+text\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Online Text",
+          "value": "online text"
+        },
+        {
+          "count": 30,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format!:web+page\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format:web+page\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Web Page",
+          "value": "web page"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format!:audio\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format:audio\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Audio",
+          "value": "audio"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format!:video\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003donline-format:video\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Video",
+          "value": "video"
+        }
+      ],
+      "title": "Online Format",
+      "type": "online-format"
+    },
+    {
+      "filters": [
+        {
+          "count": 133,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d2000/2027\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "2000-01-01T00:00:00Z",
+          "title": "2000 to 2027",
+          "value": "2000-01-01T00:00:00Z"
+        },
+        {
+          "count": 39361,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1900/1999\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1900-01-01T00:00:00Z",
+          "title": "1900 to 1999",
+          "value": "1900-01-01T00:00:00Z"
+        },
+        {
+          "count": 10380,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1800/1899\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1800-01-01T00:00:00Z",
+          "title": "1800 to 1899",
+          "value": "1800-01-01T00:00:00Z"
+        },
+        {
+          "count": 8,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1700/1799\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1700-01-01T00:00:00Z",
+          "title": "1700 to 1799",
+          "value": "1700-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1600/1699\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1600-01-01T00:00:00Z",
+          "title": "1600 to 1699",
+          "value": "1600-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1500/1599\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1500-01-01T00:00:00Z",
+          "title": "1500 to 1599",
+          "value": "1500-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1400/1499\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1400-01-01T00:00:00Z",
+          "title": "1400 to 1499",
+          "value": "1400-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1300/1399\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1300-01-01T00:00:00Z",
+          "title": "1300 to 1399",
+          "value": "1300-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1200/1299\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1200-01-01T00:00:00Z",
+          "title": "1200 to 1299",
+          "value": "1200-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1100/1199\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1100-01-01T00:00:00Z",
+          "title": "1100 to 1199",
+          "value": "1100-01-01T00:00:00Z"
+        },
+        {
+          "count": 1,
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026dates\u003d1000/1099\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "term": "1000-01-01T00:00:00Z",
+          "title": "1000 to 1099",
+          "value": "1000-01-01T00:00:00Z"
+        }
+      ],
+      "title": "Date",
+      "type": "dates"
+    },
+    {
+      "filters": [
+        {
+          "count": 43859,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:united+states\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:united+states\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "United States",
+          "value": "united states"
+        },
+        {
+          "count": 9473,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:washington\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:washington\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Washington",
+          "value": "washington"
+        },
+        {
+          "count": 8757,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:district+of+columbia\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:district+of+columbia\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "District of Columbia",
+          "value": "district of columbia"
+        },
+        {
+          "count": 8667,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:washington+d.c.\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:washington+d.c.\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Washington D.C.",
+          "value": "washington d.c."
+        },
+        {
+          "count": 6083,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:new+york\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:new+york\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York",
+          "value": "new york"
+        },
+        {
+          "count": 5608,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:new+york+city\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:new+york+city\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York City",
+          "value": "new york city"
+        },
+        {
+          "count": 5424,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:new+york+county\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:new+york+county\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York County",
+          "value": "new york county"
+        },
+        {
+          "count": 1934,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:maine\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:maine\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Maine",
+          "value": "maine"
+        },
+        {
+          "count": 1804,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:virginia\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:virginia\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Virginia",
+          "value": "virginia"
+        },
+        {
+          "count": 1622,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation!:alabama\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlocation:alabama\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Alabama",
+          "value": "alabama"
+        }
+      ],
+      "index": "https://www.loc.gov/search/index/location/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d1",
+      "title": "Location",
+      "type": "location"
+    },
+    {
+      "filters": [
+        {
+          "count": 41846,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:serial+and+government+publications+division\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:serial+and+government+publications+division\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Serial and Government Publications Division",
+          "value": "serial and government publications division"
+        },
+        {
+          "count": 41407,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:chronicling+america\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:chronicling+america\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Chronicling America",
+          "value": "chronicling america"
+        },
+        {
+          "count": 5894,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:evening+star+%28washington,+d.c.%29+1854-1972\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:evening+star+%28washington,+d.c.%29+1854-1972\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Evening Star (Washington, D.C.) 1854 to 1972",
+          "value": "evening star (washington, d.c.) 1854-1972"
+        },
+        {
+          "count": 5518,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:catalog\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:catalog\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Library of Congress Online Catalog",
+          "value": "catalog"
+        },
+        {
+          "count": 5308,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:general+collections\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:general+collections\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "General Collections",
+          "value": "general collections"
+        },
+        {
+          "count": 4441,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:selected+digitized+books\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:selected+digitized+books\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Selected Digitized Books",
+          "value": "selected digitized books"
+        },
+        {
+          "count": 2484,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:new-york+tribune+%28new+york+%5Bn.y.%5D%29+1866-1924\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:new-york+tribune+%28new+york+%5Bn.y.%5D%29+1866-1924\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New-York Tribune (New York [N.Y.]) 1866 to 1924",
+          "value": "new-york tribune (new york [n.y.]) 1866-1924"
+        },
+        {
+          "count": 2026,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:law+library+of+congress\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:law+library+of+congress\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Law Library of Congress",
+          "value": "law library of congress"
+        },
+        {
+          "count": 1328,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:the+sun+%28new+york+%5Bn.y.%5D%29+1833-1916\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:the+sun+%28new+york+%5Bn.y.%5D%29+1833-1916\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "The Sun (New York [N.Y.]) 1833 to 1916",
+          "value": "the sun (new york [n.y.]) 1833-1916"
+        },
+        {
+          "count": 1159,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof!:federal+register\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dpartof:federal+register\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Federal Register",
+          "value": "federal register"
+        }
+      ],
+      "index": "https://www.loc.gov/search/index/partof/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d1",
+      "title": "Part of",
+      "type": "partof"
+    },
+    {
+      "filters": [
+        {
+          "count": 12598,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:library+of+congress,+washington,+dc\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:library+of+congress,+washington,+dc\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Library of Congress, Washington, DC",
+          "value": "library of congress, washington, dc"
+        },
+        {
+          "count": 2120,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:the+new+york+public+library,+astor,+lenox+and+tilden+foundation\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:the+new+york+public+library,+astor,+lenox+and+tilden+foundation\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "The New York Public Library, Astor, Lenox and Tilden Foundation",
+          "value": "the new york public library, astor, lenox and tilden foundation"
+        },
+        {
+          "count": 1880,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:maine+state+library\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:maine+state+library\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Maine State Library",
+          "value": "maine state library"
+        },
+        {
+          "count": 1756,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:library+of+virginia%3B+richmond,+va\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:library+of+virginia%3B+richmond,+va\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Library of Virginia; Richmond, VA",
+          "value": "library of virginia; richmond, va"
+        },
+        {
+          "count": 1559,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:university+of+alabama+libraries,+tuscaloosa,+al\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:university+of+alabama+libraries,+tuscaloosa,+al\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "University of Alabama Libraries, Tuscaloosa, AL",
+          "value": "university of alabama libraries, tuscaloosa, al"
+        },
+        {
+          "count": 1198,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:university+of+delaware+library,+newark,+de\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:university+of+delaware+library,+newark,+de\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "University of Delaware Library, Newark, DE",
+          "value": "university of delaware library, newark, de"
+        },
+        {
+          "count": 1192,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:connecticut+state+library,+hartford,+ct\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:connecticut+state+library,+hartford,+ct\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Connecticut State Library, Hartford, CT",
+          "value": "connecticut state library, hartford, ct"
+        },
+        {
+          "count": 1163,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:penn+state+university+libraries%3B+university+park,+pa\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:penn+state+university+libraries%3B+university+park,+pa\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Penn State University Libraries; University Park, PA",
+          "value": "penn state university libraries; university park, pa"
+        },
+        {
+          "count": 1159,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:national+archives+and+records+administration\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:national+archives+and+records+administration\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "National Archives and Records Administration",
+          "value": "national archives and records administration"
+        },
+        {
+          "count": 1012,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor!:indiana+state+library\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dcontributor:indiana+state+library\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Indiana State Library",
+          "value": "indiana state library"
+        }
+      ],
+      "index": "https://www.loc.gov/search/index/contributor/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d1",
+      "title": "Contributor",
+      "type": "contributor"
+    },
+    {
+      "filters": [
+        {
+          "count": 44544,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:united+states\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:united+states\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "United States",
+          "value": "united states"
+        },
+        {
+          "count": 40974,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:newspapers\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:newspapers\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Newspapers",
+          "value": "newspapers"
+        },
+        {
+          "count": 9455,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:washington\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:washington\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Washington",
+          "value": "washington"
+        },
+        {
+          "count": 8761,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:district+of+columbia\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:district+of+columbia\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "District of Columbia",
+          "value": "district of columbia"
+        },
+        {
+          "count": 8630,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:washington+%28d.c.%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:washington+%28d.c.%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Washington (D.C.)",
+          "value": "washington (d.c.)"
+        },
+        {
+          "count": 5973,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:new+york\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:new+york\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York",
+          "value": "new york"
+        },
+        {
+          "count": 5685,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:new+york+%28state%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:new+york+%28state%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York (State)",
+          "value": "new york (state)"
+        },
+        {
+          "count": 5608,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:new+york+%28n.y.%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:new+york+%28n.y.%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York (N.Y.)",
+          "value": "new york (n.y.)"
+        },
+        {
+          "count": 5424,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:new+york+county\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:new+york+county\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York County",
+          "value": "new york county"
+        },
+        {
+          "count": 5424,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject!:new+york+county+%28n.y.%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsubject:new+york+county+%28n.y.%29\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "New York County (N.Y.)",
+          "value": "new york county (n.y.)"
+        }
+      ],
+      "index": "https://www.loc.gov/search/index/subject/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d1",
+      "title": "Subject",
+      "type": "subject"
+    },
+    {
+      "filters": [
+        {
+          "count": 49778,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:english\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:english\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "English",
+          "value": "english"
+        },
+        {
+          "count": 415,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:german\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:german\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "German",
+          "value": "german"
+        },
+        {
+          "count": 91,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:spanish\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:spanish\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Spanish",
+          "value": "spanish"
+        },
+        {
+          "count": 45,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:french\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:french\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "French",
+          "value": "french"
+        },
+        {
+          "count": 14,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:hawaiian\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:hawaiian\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Hawaiian",
+          "value": "hawaiian"
+        },
+        {
+          "count": 7,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:czech\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:czech\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Czech",
+          "value": "czech"
+        },
+        {
+          "count": 4,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:italian\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:italian\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Italian",
+          "value": "italian"
+        },
+        {
+          "count": 3,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:yiddish\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:yiddish\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Yiddish",
+          "value": "yiddish"
+        },
+        {
+          "count": 2,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:choctaw\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:choctaw\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Choctaw",
+          "value": "choctaw"
+        },
+        {
+          "count": 2,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage!:japanese\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dlanguage:japanese\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Japanese",
+          "value": "japanese"
+        }
+      ],
+      "index": "https://www.loc.gov/search/index/language/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d1",
+      "title": "Language",
+      "type": "language"
+    },
+    {
+      "filters": [
+        {
+          "count": 50087,
+          "not": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003daccess-restricted!:false\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "on": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003daccess-restricted:false\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+          "title": "Available Online",
+          "value": "false"
+        }
+      ],
+      "title": "Access Condition",
+      "type": "access-restricted"
+    }
+  ],
+  "form_facets": {},
+  "options": {
+    "access_group": [
+      ""
+    ],
+    "access_group_raw": "",
+    "api_version": "1",
+    "application_version": "$Revision$",
+    "cache_tags": [
+      "paprika-iabooks",
+      "catalog-split-00",
+      "catalog",
+      "main-catalog-split-00",
+      "stb/osrdpublic",
+      "catalog-split-11",
+      "office-of-scientific-research-and-development",
+      "main-catalog-split-11",
+      "catalog-split-12",
+      "main-catalog-split-12",
+      "catalog-split-04",
+      "main-catalog-split-04",
+      "lcweb",
+      "usrep103",
+      "us-report",
+      "paprika-gdc",
+      "catalog-split-10",
+      "main-catalog-split-10",
+      "gdc/scd",
+      "general-collections-scan-on-demand-new",
+      "mss65570",
+      "naacp-legal-defense-and-educational-fund-records",
+      "catalog-split-14",
+      "main-catalog-split-14",
+      "ll/llserialset/mono",
+      "congressional-serial-set-document-level",
+      "catalog-split-08",
+      "main-catalog-split-08",
+      "catalog-split-07",
+      "main-catalog-split-07",
+      "catalog-split-01",
+      "main-catalog-split-01",
+      "catalog-split-09",
+      "main-catalog-split-09",
+      "catalog-split-03",
+      "main-catalog-split-03"
+    ],
+    "content_replacement": "",
+    "count": 25,
+    "default_count": 25,
+    "duration": 0.6422595977783203,
+    "embed": [],
+    "embed!": [],
+    "facetLimits": "",
+    "format": "json",
+    "hits": 50087,
+    "host": "www.loc.gov",
+    "ical": false,
+    "iiif": false,
+    "inputEncoding": "UTF-8",
+    "method": "GET",
+    "new_clip_url": false,
+    "onsite": false,
+    "outputEncoding": "UTF-8",
+    "page_campaigns": [],
+    "path_info": "/search/",
+    "port": "443",
+    "query": "shipbuilding manuals",
+    "query_string": "c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+    "redirect_proxy": false,
+    "referer": "",
+    "region": "",
+    "release_id": 123456789,
+    "request_host": "www.loc.gov",
+    "request_params": {
+      "c": [
+        "25"
+      ],
+      "fo": [
+        "json"
+      ],
+      "q": "shipbuilding manuals"
+    },
+    "request_url": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+    "resource": "",
+    "scheme": "https",
+    "searchTerms": "shipbuilding manuals",
+    "solrQuery": "",
+    "template": "search/base",
+    "timestamp": 1782214270.749225,
+    "type": "search",
+    "unionFacets": "",
+    "url": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals"
+  },
+  "pagination": {
+    "current": 1,
+    "from": 1,
+    "last": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d4",
+    "next": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d2",
+    "of": 50087,
+    "page_list": [
+      {
+        "number": 1
+      },
+      {
+        "number": 2,
+        "url": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d2"
+      },
+      {
+        "number": 3,
+        "url": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d3"
+      },
+      {
+        "number": "...",
+        "url": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026sp\u003d4"
+      }
+    ],
+    "perpage": 25,
+    "perpage_options": [
+      25,
+      50,
+      100,
+      150
+    ],
+    "results": "1 - 25",
+    "to": 25,
+    "total": 2004
+  },
+  "results": [
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/18010024",
+        "http://www.loc.gov/item/18010024/",
+        "http://www.loc.gov/resource/gdcmassbookdig.woodenshipbuildi00thom/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00210673295",
+        "http://www.loc.gov/resource/scd0001.00210673295/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "thompson, william john"
+      ],
+      "date": "1918",
+      "dates": [
+        "1918"
+      ],
+      "description": [
+        "Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-30T08:26:23.067Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-00",
+        "catalog",
+        "main-catalog-split-00"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/18010024/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:woodenshipbuildi00thom:woodenshipbuildi00thom_0009/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:woodenshipbuildi00thom:woodenshipbuildi00thom_0009/full/pct:12.5/0/default.jpg#h\u003d453\u0026w\u003d284",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:woodenshipbuildi00thom:woodenshipbuildi00thom_0009/full/pct:25.0/0/default.jpg#h\u003d907\u0026w\u003d568",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:woodenshipbuildi00thom:woodenshipbuildi00thom_0009/full/pct:50.0/0/default.jpg#h\u003d1815\u0026w\u003d1137",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:woodenshipbuildi00thom:woodenshipbuildi00thom_0009/full/pct:100.0/0/default.jpg#h\u003d3631\u0026w\u003d2275"
+      ],
+      "index": 1,
+      "item": {
+        "call_number": [
+          "VM144 .T5"
+        ],
+        "contributors": [
+          "Thompson, William John, 1867- [from old catalog] ed."
+        ],
+        "created_published": [
+          "Chicago, A. C. McClurg \u0026 co., 1918."
+        ],
+        "date": "1918",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "5 p.l., 202 p. 19 cm."
+        ],
+        "notes": [
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Shipbuilding"
+        ],
+        "title": "Wooden shipbuilding: a comprehensive manual for wooden shipbuilders, to which is added a masting and rigging guide,"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "text/plain",
+        "application/json",
+        "application/pdf"
+      ],
+      "number": [
+        "2019-01-27t10:16:21",
+        "18010024"
+      ],
+      "number_lccn": [
+        "18010024"
+      ],
+      "number_source_modified": [
+        "2019-01-27t10:16:21"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 224,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/woodenshipbuildi00thom/woodenshipbuildi00thom.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:woodenshipbuildi00thom:woodenshipbuildi00thom_0009/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/woodenshipbuildi00thom",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/woodenshipbuildi00thom/woodenshipbuildi00thom.pdf",
+          "representative_index": 8,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.woodenshipbuildi00thom/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 224,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/woodenshipbuildi00thom/woodenshipbuildi00thom.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.woodenshipbuildi00thom/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 224,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.woodenshipbuildi00thom/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.woodenshipbuildi00thom/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/woodenshipbuildi00thom/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "shipbuilding"
+      ],
+      "timestamp": "2025-08-30T10:17:20.210Z",
+      "title": "Wooden shipbuilding: a comprehensive manual for wooden shipbuilders, to which is added a masting and rigging guide,",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/18010024/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670208",
+        "http://www.loc.gov/item/2020670208/",
+        "https://search.catalog.loc.gov/instances/6f5c3aba-ee4d-566f-8260-7e178954d6fb",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670208",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670208/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1946",
+      "dates": [
+        "1946"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 6533. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 547 ; end page 613"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:10.663Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-11",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-11"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670208/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670208:2020670208/full/pct:50/0/default.jpg"
+      ],
+      "index": 2,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 02-06-1946."
+        ],
+        "date": "1946",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670208"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (67 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 6533.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 547 ; end page 613"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. Post-ballistic examination of 0.5 inch H-plates manually welded with NRC-2A type ferritic electrode. (Progress Report No. M-635.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2020670208",
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:56"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670208"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:56"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670208:2020670208/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670208/2020670208.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670208/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:41:12.418Z",
+      "title": "Weldability of commercial armor plate. Post-ballistic examination of 0.5 inch H-plates manually welded with NRC-2A type ferritic electrode. (Progress Report No. M-635.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670208/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670209",
+        "http://www.loc.gov/item/2020670209/",
+        "https://search.catalog.loc.gov/instances/4f2959dc-ca57-5d72-8741-5e7a5e1d0c4c",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670209",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670209/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1944",
+      "dates": [
+        "1944"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 3819. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 614 ; end page 658"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:12.560Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-12",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-12"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670209/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670209:2020670209/full/pct:50/0/default.jpg"
+      ],
+      "index": 3,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 06-14-1944."
+        ],
+        "date": "1944",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670209"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (45 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 3819.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 614 ; end page 658"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. Investigation of welded H-plates from the 1942-1943 Canadian cold test. Part II, H-plates manually welded with austenitic Cr-Ni-Mn electrodes. (Progress Report No. M-298.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:56",
+        "2020670209"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670209"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:56"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670209:2020670209/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670209/2020670209.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670209/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:41:12.418Z",
+      "title": "Weldability of commercial armor plate. Investigation of welded H-plates from the 1942-1943 Canadian cold test. Part II, H-plates manually welded with austenitic Cr-Ni-Mn electrodes. (Progress Report No. M-298.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670209/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670210",
+        "http://www.loc.gov/item/2020670210/",
+        "https://search.catalog.loc.gov/instances/0b9f3132-951c-57f5-ba82-d5a0c00523c6",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670210",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670210/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1944",
+      "dates": [
+        "1944"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 4165. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 659 ; end page 697"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:10.388Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-04",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-04"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670210/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670210:2020670210/full/pct:50/0/default.jpg"
+      ],
+      "index": 4,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 09-23-1944."
+        ],
+        "date": "1944",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670210"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (39 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 4165.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 659 ; end page 697"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. Investigation of welded H-plates from the 1942-1943 Canadian cold test. Part III, H-plates manually welded with austenitic Cr-Ni-No electrodes. (Progress Report No. M-369.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2025-06-07t10:34:39.700000",
+        "2020670210",
+        "2024-11-26t16:45:55"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670210"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:55"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670210:2020670210/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670210/2020670210.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670210/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:41:12.418Z",
+      "title": "Weldability of commercial armor plate. Investigation of welded H-plates from the 1942-1943 Canadian cold test. Part III, H-plates manually welded with austenitic Cr-Ni-No electrodes. (Progress Report No. M-369.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670210/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "https://www.loc.gov/aba/publications/FreeSHM/H1468.pdf"
+      ],
+      "author": "Library of Congress Policy and Standards Division",
+      "campaigns": [],
+      "contributor": [
+        "library of congress policy and standards division"
+      ],
+      "creationdate": "Thu Jun  6 12:18:11 2013",
+      "creator": "Acrobat PDFMaker 8.1 for Word",
+      "description": [
+        "Contracts H 1468 BACKGROUND: A contract is a legally enforceable agreement between two or more persons or parties to do or not do something specified. This instruction sheet provides guidelines for assigning the heading Contracts and for establishing phrase headings for particular types of contracts. The free-floating subdivision BContracts and specifications, formerly used under headings for particular types of construction or engineering, was discontinued in 1989. 1. Contracts in general. Assign the heading Contracts (May Subd Geog) to general works about contracts. 2. Special types of contracts. Establish phrase headings for works containing or discussing specific types of contracts, including those pertaining to types of construction or engineering. Establish these headings in straight rather than inverted form. Examples: 150 150 150 150 ## ## ## ## $a $a $a $a Subject Headings Manual Artists\u0027 contracts Mechanical engineering contracts Research and development contracts Shipbuilding contracts H 1"
+      ],
+      "digitized": true,
+      "encrypted": "no",
+      "extract_timestamp": "2026-04-11T21:34:32.164Z",
+      "file size": "25021 bytes",
+      "form": "none",
+      "group": [
+        "lcweb"
+      ],
+      "hassegments": false,
+      "id": "https://www.loc.gov/aba/publications/FreeSHM/H1468.pdf",
+      "image_url": [],
+      "index": 5,
+      "javascript": "no",
+      "keywords": "Subject Headings Manual; SHM; Library of Congress Subject Headings; LCSH",
+      "mime_type": [
+        "application/pdf"
+      ],
+      "moddate": "Wed Jun 19 16:07:24 2013",
+      "online_format": [
+        "pdf"
+      ],
+      "optimized": "no",
+      "original_format": [
+        "book",
+        "web page"
+      ],
+      "page rot": "0",
+      "page size": "612 x 792 pts (letter)",
+      "pages": "1",
+      "partof": [
+        "cataloging and acquisitions"
+      ],
+      "pdf version": "1.4",
+      "producer": "Acrobat Distiller 8.1.0 (Windows)",
+      "shelf_id": "https://www.loc.gov/aba/publications/FreeSHM/H1468.pdf",
+      "site": [
+        "lcweb"
+      ],
+      "subject": [
+        "subject headings manual",
+        "library of congress subject headings",
+        "lcsh",
+        "shm"
+      ],
+      "suspects": "no",
+      "tagged": "yes",
+      "timestamp": "2026-04-11T22:57:50.237Z",
+      "title": "H 1468 Contracts",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/aba/publications/FreeSHM/H1468.pdf",
+      "userproperties": "no"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/usrep514122/",
+        "http://www.loc.gov/resource/usrep.usrep514122/",
+        "http://www.loc.gov/item/usrep.usrep514122/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "scalia, antonin",
+        "supreme court of the united states"
+      ],
+      "date": "1994",
+      "dates": [
+        "1994"
+      ],
+      "description": [
+        "U.S. Reports Volume 514; October Term, 1994; Director, Office of Workers\u0027 Compensation Programs, Department of Labor v. Newport News Shipbuilding \u0026 Dry Dock et al."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-03-02T21:49:18.996Z",
+      "group": [
+        "usrep103",
+        "us-report"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/usrep514122/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:ll:usrep:usrep514:usrep514122:usrep514122/full/pct:25/0/default.jpg"
+      ],
+      "index": 6,
+      "item": {
+        "call_number": [
+          "Call Number: KF101",
+          "Series: Administrative Law",
+          "Series: Volume 514"
+        ],
+        "contributors": [
+          "Scalia, Antonin (Judge)",
+          "Supreme Court of the United States (Author)"
+        ],
+        "created_published": [
+          "1994"
+        ],
+        "date": "19940000",
+        "format": [
+          "periodical"
+        ],
+        "genre": [
+          "Periodical"
+        ],
+        "language": [
+          "eng"
+        ],
+        "notes": [
+          "Description: U.S. Reports Volume 514; October Term, 1994; Director, Office of Workers\u0027 Compensation Programs, Department of Labor v. Newport News Shipbuilding \u0026 Dry Dock et al."
+        ],
+        "rights": "no known restrictions on use or reproduction",
+        "source_collection": "U.S. Reports",
+        "subjects": [
+          "Labor",
+          "Law",
+          "Health",
+          "Law Library",
+          "Supreme Court",
+          "United States",
+          "Government Documents",
+          "Judicial review and appeals",
+          "People with disabilities",
+          "Administrative law and regulatory procedure",
+          "Worker safety and health",
+          "U.S. Reports",
+          "Common law",
+          "Court opinions",
+          "Judicial decisions",
+          "Court cases",
+          "Court decisions",
+          "Longshoremen\u0027s and Harbor Workers\u0027 Compensation Act (L.H.W.C.A.)",
+          "Work-related injury",
+          "Factual finding",
+          "Periodical"
+        ],
+        "title": "U.S. Reports: Director, Office of Workers\u0027 Compensation Programs, Department of Labor v. Newport News Shipbuilding \u0026 (and) Dry Dock. et al., 514 U.S. 122 (1995)."
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "periodical"
+      ],
+      "partof": [
+        "u.s. reports: volume 514",
+        "u.s. reports: administrative law",
+        "united states reports (official opinions of the u.s. supreme court)",
+        "law library of congress"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:ll:usrep:usrep514:usrep514122:usrep514122/full/pct:25/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep514/usrep514122/usrep514122.pdf",
+          "url": "https://www.loc.gov/resource/usrep.usrep514122/"
+        }
+      ],
+      "shelf_id": "Call Number: KF101 Series: Administrative Law Series: Volume 514",
+      "subject": [
+        "longshoremen\u0027s and harbor workers\u0027 compensation act (l.h.w.c.a.)",
+        "court opinions",
+        "government documents",
+        "factual finding",
+        "work-related injury",
+        "administrative law and regulatory procedure",
+        "labor",
+        "common law",
+        "administrative law",
+        "worker safety and health",
+        "court decisions",
+        "supreme court",
+        "judicial decisions",
+        "law library",
+        "health",
+        "united states",
+        "people with disabilities",
+        "judicial review and appeals",
+        "law",
+        "periodical",
+        "u.s. reports",
+        "court cases"
+      ],
+      "subject_major_case_topic": [
+        "administrative law"
+      ],
+      "timestamp": "2026-03-03T03:05:27.096Z",
+      "title": "U.S. Reports: Director, Office of Workers\u0027 Compensation Programs, Department of Labor v. Newport News Shipbuilding \u0026 (and) Dry Dock. et al., 514 U.S. 122 (1995).",
+      "type": [
+        "periodical"
+      ],
+      "url": "https://www.loc.gov/item/usrep514122/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/unk82053145",
+        "http://www.loc.gov/item/unk82053145/",
+        "https://search.catalog.loc.gov/instances/8b8cbfa7-eee9-5b8d-8efe-2634fc358073",
+        "http://www.loc.gov/resource/gdc.00002734254/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "butcher, w. a."
+      ],
+      "date": "1929",
+      "dates": [
+        "1929"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-06-09T06:40:55.202Z",
+      "group": [
+        "paprika-gdc",
+        "catalog-split-10",
+        "catalog",
+        "main-catalog-split-10"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/unk82053145/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00002734254:0003/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00002734254:0003/full/pct:12.5/0/default.jpg#h\u003d267\u0026w\u003d207",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00002734254:0003/full/pct:25.0/0/default.jpg#h\u003d535\u0026w\u003d415",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00002734254:0003/full/pct:50.0/0/default.jpg#h\u003d1071\u0026w\u003d830",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00002734254:0003/full/pct:100.0/0/default.jpg#h\u003d2142\u0026w\u003d1660"
+      ],
+      "index": 7,
+      "item": {
+        "call_number": [
+          "E178.25 .B98"
+        ],
+        "contributors": [
+          "Butcher, W. A. [from old catalog]"
+        ],
+        "created_published": [
+          "New York, Macmillan, 1929."
+        ],
+        "date": "1929",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "192 p. 18 cm."
+        ],
+        "title": "Key to work-test manual in American history."
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "2014-06-05t14:15:00",
+        "unk82053145"
+      ],
+      "number_lccn": [
+        "unk82053145"
+      ],
+      "number_source_modified": [
+        "2014-06-05t14:15:00"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "general collections",
+        "catalog",
+        "selected digitized books"
+      ],
+      "resources": [
+        {
+          "files": 198,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdc/00002734254/00002734254.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdc:00002734254:0003/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdc/00002734254",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdc/00002734254/00002734254.pdf",
+          "representative_index": 2,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00002734254/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 4,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdc/00002734254/00002734254.text.txt",
+          "url": "https://www.loc.gov/resource/gdc.00002734254/",
+          "version": 2
+        }
+      ],
+      "segments": [
+        {
+          "count": 4,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00002734254/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdc.00002734254/"
+        }
+      ],
+      "shelf_id": "E178.25 .B98",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-06-09T06:43:41.873Z",
+      "title": "Key to work-test manual in American history.",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/unk82053145/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/20023274",
+        "http://www.loc.gov/item/20023274/",
+        "http://www.loc.gov/resource/gdcmassbookdig.electricweldinga00unit/",
+        "http://www.loc.gov/resource/scd0001.00332662247/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00332662247"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states shipping board emergency fleet corporation. education and training section"
+      ],
+      "date": "1918",
+      "dates": [
+        "1918"
+      ],
+      "description": [
+        "Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-07-23T06:13:38.642Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-04",
+        "catalog",
+        "main-catalog-split-04"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/20023274/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:electricweldinga00unit:electricweldinga00unit_0001/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:electricweldinga00unit:electricweldinga00unit_0001/full/pct:12.5/0/default.jpg#h\u003d504\u0026w\u003d360",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:electricweldinga00unit:electricweldinga00unit_0001/full/pct:25.0/0/default.jpg#h\u003d1008\u0026w\u003d720",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:electricweldinga00unit:electricweldinga00unit_0001/full/pct:50.0/0/default.jpg#h\u003d2017\u0026w\u003d1440",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:electricweldinga00unit:electricweldinga00unit_0001/full/pct:100.0/0/default.jpg#h\u003d4035\u0026w\u003d2881"
+      ],
+      "index": 8,
+      "item": {
+        "call_number": [
+          "TK4660 .U6"
+        ],
+        "contributors": [
+          "United States shipping board emergency fleet corporation. Education and training section."
+        ],
+        "created_published": [
+          "[Philadelphia, 1918]"
+        ],
+        "date": "1918",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "cover-title, 1 p. l., 50 p. illus., diagrs. 31 cm."
+        ],
+        "notes": [
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Electric welding",
+          "Shipbuilding"
+        ],
+        "title": "Electric welding as applied to steel ship construction;"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "text/plain",
+        "application/json",
+        "application/pdf"
+      ],
+      "number": [
+        "2019-07-23t12:01:14",
+        "20023274"
+      ],
+      "number_lccn": [
+        "20023274"
+      ],
+      "number_source_modified": [
+        "2019-07-23t12:01:14"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 64,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/electricweldinga00unit/electricweldinga00unit.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:electricweldinga00unit:electricweldinga00unit_0001/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/electricweldinga00unit",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/electricweldinga00unit/electricweldinga00unit.pdf",
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.electricweldinga00unit/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 2,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/electricweldinga00unit/electricweldinga00unit.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.electricweldinga00unit/",
+          "version": 18
+        }
+      ],
+      "segments": [
+        {
+          "count": 2,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.electricweldinga00unit/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.electricweldinga00unit/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/electricweldinga00unit/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "shipbuilding",
+        "electric welding"
+      ],
+      "timestamp": "2025-07-23T08:18:38.620Z",
+      "title": "Electric welding as applied to steel ship construction;",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/20023274/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/29009565",
+        "http://www.loc.gov/item/29009565/",
+        "https://search.catalog.loc.gov/instances/6bcc82bb-5c92-5531-bbf8-6feafd6a7c90",
+        "http://www.loc.gov/resource/gdc.00114126962/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "bolton, herbert eugene",
+        "hart, albert bushnell",
+        "matteson, david maydole"
+      ],
+      "date": "1929",
+      "dates": [
+        "1929"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-06-09T06:40:55.202Z",
+      "group": [
+        "paprika-gdc",
+        "catalog-split-04",
+        "catalog",
+        "main-catalog-split-04"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/29009565/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00114126962:0001/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00114126962:0001/full/pct:12.5/0/default.jpg#h\u003d313\u0026w\u003d221",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00114126962:0001/full/pct:25.0/0/default.jpg#h\u003d627\u0026w\u003d442",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00114126962:0001/full/pct:50.0/0/default.jpg#h\u003d1255\u0026w\u003d885",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00114126962:0001/full/pct:100.0/0/default.jpg#h\u003d2510\u0026w\u003d1770"
+      ],
+      "index": 9,
+      "item": {
+        "call_number": [
+          "E175.8 .H34 1929"
+        ],
+        "contributors": [
+          "Hart, Albert Bushnell, 1854-1943.",
+          "Matteson, David Maydole, 1871-1949, joint author.",
+          "Bolton, Herbert Eugene, 1870-1953, joint author."
+        ],
+        "created_published": [
+          "Chicago, Denoyer-Geppert company [c1929]"
+        ],
+        "date": "1929",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States"
+        ],
+        "medium": [
+          "116 p. 21 cm."
+        ],
+        "subjects": [
+          "United States--History--Study and teaching"
+        ],
+        "title": "A teacher\u0027s manual accompanying the Hart-Bolton American history maps,"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "29009565",
+        "2007-12-27t10:37:45"
+      ],
+      "number_lccn": [
+        "29009565"
+      ],
+      "number_source_modified": [
+        "2007-12-27t10:37:45"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "general collections",
+        "catalog",
+        "selected digitized books"
+      ],
+      "resources": [
+        {
+          "files": 120,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdc/00114126962/00114126962.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdc:00114126962:0001/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdc/00114126962",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdc/00114126962/00114126962.pdf",
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00114126962/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 2,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdc/00114126962/00114126962.text.txt",
+          "url": "https://www.loc.gov/resource/gdc.00114126962/",
+          "version": 1
+        }
+      ],
+      "segments": [
+        {
+          "count": 2,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00114126962/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdc.00114126962/"
+        }
+      ],
+      "shelf_id": "E175.8 .H34 1929",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "history",
+        "study and teaching",
+        "united states"
+      ],
+      "timestamp": "2026-06-09T06:49:45.949Z",
+      "title": "A teacher\u0027s manual accompanying the Hart-Bolton American history maps,",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/29009565/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/11031500",
+        "http://www.loc.gov/item/11031500/",
+        "https://search.catalog.loc.gov/instances/5ecf5a46-e079-5de3-9b90-02067cead17b",
+        "http://www.loc.gov/resource/gdc.00400552356/",
+        "https://hdl.loc.gov/loc.gdc/gdcscd.00400552356"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "beaton, james a.",
+        "conklin, geo. w. (george w.)"
+      ],
+      "date": "1911",
+      "dates": [
+        "1911"
+      ],
+      "description": [
+        "Also available in digital form on the Library of Congress Web site."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-04-22T06:45:55.181Z",
+      "group": [
+        "paprika-gdc",
+        "catalog-split-11",
+        "catalog",
+        "gdc/scd",
+        "main-catalog-split-11",
+        "general-collections-scan-on-demand-new"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/11031500/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00400552356:0001/full/pct:25.0/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00400552356:0001/full/pct:25.0/0/default.jpg#h\u003d447\u0026w\u003d342",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00400552356:0001/full/pct:50.0/0/default.jpg#h\u003d895\u0026w\u003d684",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00400552356:0001/full/pct:100.0/0/default.jpg#h\u003d1791\u0026w\u003d1369"
+      ],
+      "index": 10,
+      "item": {
+        "call_number": [
+          "AG105 .C715 1911"
+        ],
+        "contributors": [
+          "Conklin, Geo. W. (George W.)",
+          "Beaton, James A., ed"
+        ],
+        "created_published": [
+          "Chicago, Laird \u0026 Lee, c1911."
+        ],
+        "date": "1911",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/gdcscd.00400552356"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 p.l., xii, 3-517, [1] p. front., illus. (maps) 14 cm."
+        ],
+        "notes": [
+          "Also available in digital form on the Library of Congress Web site."
+        ],
+        "subjects": [
+          "Encyclopedias and dictionaries"
+        ],
+        "title": "The new Conklin\u0027s handy manual of useful information and world\u0027s atlas"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "http://www.loc.gov/resource/gdcscd.00400552356",
+        "11031500",
+        "2026-04-02t16:34:57.500000"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/resource/gdcscd.00400552356"
+      ],
+      "number_lccn": [
+        "11031500"
+      ],
+      "number_source_modified": [
+        "2026-04-02t16:34:57.500000"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "general collections",
+        "catalog",
+        "selected digitized books"
+      ],
+      "resources": [
+        {
+          "files": 538,
+          "former_urls": 1,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdc/00400552356/00400552356.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdc:00400552356:0001/full/pct:25.0/0/default.jpg",
+          "paprika_resource_path": "/sets/gdc/00400552356",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdc/00400552356/00400552356.pdf",
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00400552356/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 4,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdc/00400552356/00400552356.text.txt",
+          "url": "https://www.loc.gov/resource/gdc.00400552356/"
+        }
+      ],
+      "segments": [
+        {
+          "count": 4,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00400552356/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdc.00400552356/"
+        }
+      ],
+      "shelf_id": "AG105 .C715 1911",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "encyclopedias and dictionaries"
+      ],
+      "timestamp": "2026-04-22T07:15:19.461Z",
+      "title": "The new Conklin\u0027s handy manual of useful information and world\u0027s atlas",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/11031500/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/ca08003296",
+        "http://www.loc.gov/item/ca08003296/",
+        "http://www.loc.gov/resource/gdcmassbookdig.manual00mave/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00218991567",
+        "http://www.loc.gov/resource/scd0001.00218991567/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "maverick national bank (boston, mass.)"
+      ],
+      "date": "1887",
+      "dates": [
+        "1887"
+      ],
+      "description": [
+        "Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-09T07:57:37.393Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-00",
+        "catalog",
+        "main-catalog-split-00"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/ca08003296/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manual00mave:manual00mave_0005/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manual00mave:manual00mave_0005/full/pct:12.5/0/default.jpg#h\u003d472\u0026w\u003d312",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manual00mave:manual00mave_0005/full/pct:25.0/0/default.jpg#h\u003d944\u0026w\u003d625",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manual00mave:manual00mave_0005/full/pct:50.0/0/default.jpg#h\u003d1888\u0026w\u003d1251",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manual00mave:manual00mave_0005/full/pct:100.0/0/default.jpg#h\u003d3777\u0026w\u003d2502"
+      ],
+      "index": 11,
+      "item": {
+        "call_number": [
+          "HC105 .M46"
+        ],
+        "contributors": [
+          "Maverick National Bank (Boston, Mass.)"
+        ],
+        "created_published": [
+          "Boston, Wright \u0026 Potter Printing Co., 1887."
+        ],
+        "date": "1887",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States"
+        ],
+        "medium": [
+          "ix, 200 p. 20 cm."
+        ],
+        "notes": [
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Banks and banking--United States",
+          "United States--Economic conditions"
+        ],
+        "title": "Manual."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "2019-02-09t10:11:33",
+        "ca08003296"
+      ],
+      "number_lccn": [
+        "ca08003296"
+      ],
+      "number_source_modified": [
+        "2019-02-09t10:11:33"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 218,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manual00mave/manual00mave.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manual00mave:manual00mave_0005/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/manual00mave",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manual00mave/manual00mave.pdf",
+          "representative_index": 4,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manual00mave/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 9,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manual00mave/manual00mave.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manual00mave/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 9,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manual00mave/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manual00mave/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/manual00mave/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "economic conditions",
+        "united states",
+        "banks and banking"
+      ],
+      "timestamp": "2025-08-09T09:53:52.453Z",
+      "title": "Manual.",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/ca08003296/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/04028680",
+        "http://www.loc.gov/item/04028680/",
+        "http://www.loc.gov/resource/gdcmassbookdig.youngfarmersmanu00todd/",
+        "http://www.loc.gov/resource/scd0001.00025862685/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00025862685"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "todd, s[ereno] edwards"
+      ],
+      "date": "1860",
+      "dates": [
+        "1860"
+      ],
+      "description": [
+        "Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-30T08:18:56.881Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-12",
+        "catalog",
+        "main-catalog-split-12"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/04028680/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:youngfarmersmanu00todd:youngfarmersmanu00todd_0009/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:youngfarmersmanu00todd:youngfarmersmanu00todd_0009/full/pct:12.5/0/default.jpg#h\u003d427\u0026w\u003d250",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:youngfarmersmanu00todd:youngfarmersmanu00todd_0009/full/pct:25.0/0/default.jpg#h\u003d855\u0026w\u003d501",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:youngfarmersmanu00todd:youngfarmersmanu00todd_0009/full/pct:50.0/0/default.jpg#h\u003d1710\u0026w\u003d1002",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:youngfarmersmanu00todd:youngfarmersmanu00todd_0009/full/pct:100.0/0/default.jpg#h\u003d3420\u0026w\u003d2004"
+      ],
+      "index": 12,
+      "item": {
+        "call_number": [
+          "S499 .T62"
+        ],
+        "contributors": [
+          "Todd, S[ereno] Edwards, 1820-1898. [from old catalog]"
+        ],
+        "created_published": [
+          "New York, C. M. Saxton. Barker \u0026 company, 1860."
+        ],
+        "date": "1860",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "vi, [13]-459 p. front., illus. 20 cm."
+        ],
+        "notes": [
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Agriculture--Handbooks, manuals, etc"
+        ],
+        "title": "The young farmers\u0027 manual:"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "text/plain",
+        "application/json",
+        "application/pdf"
+      ],
+      "number": [
+        "2019-02-15t10:07:29",
+        "04028680"
+      ],
+      "number_lccn": [
+        "04028680"
+      ],
+      "number_source_modified": [
+        "2019-02-15t10:07:29"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 468,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/youngfarmersmanu00todd/youngfarmersmanu00todd.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:youngfarmersmanu00todd:youngfarmersmanu00todd_0009/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/youngfarmersmanu00todd",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/youngfarmersmanu00todd/youngfarmersmanu00todd.pdf",
+          "representative_index": 8,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.youngfarmersmanu00todd/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/youngfarmersmanu00todd/youngfarmersmanu00todd.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.youngfarmersmanu00todd/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.youngfarmersmanu00todd/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.youngfarmersmanu00todd/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/youngfarmersmanu00todd/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "agriculture",
+        "handbooks, manuals, etc"
+      ],
+      "timestamp": "2025-08-30T11:28:48.081Z",
+      "title": "The young farmers\u0027 manual:",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/04028680/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/mss6557000378/",
+        "https://hdl.loc.gov/loc.mss/ms015025.mss65570.00378",
+        "http://www.loc.gov/resource/mss65570.mss65570-02905/",
+        "http://www.loc.gov/item/mss65570.mss65570-02905/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "naacp legal defense and educational fund"
+      ],
+      "date": "1953",
+      "dates": [
+        "1953"
+      ],
+      "description": [
+        ""
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-06-12T12:29:50.347Z",
+      "group": [
+        "mss65570",
+        "naacp-legal-defense-and-educational-fund-records"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/mss6557000378/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:mss:mss65570:ms:s6:55:70:-0:29:05:mss65570-02905:0002/full/pct:6.25/0/default.jpg#h\u003d285\u0026w\u003d222",
+        "https://tile.loc.gov/image-services/iiif/service:mss:mss65570:ms:s6:55:70:-0:29:05:mss65570-02905:0002/full/pct:12.5/0/default.jpg#h\u003d570\u0026w\u003d445",
+        "https://tile.loc.gov/image-services/iiif/service:mss:mss65570:ms:s6:55:70:-0:29:05:mss65570-02905:0002/full/pct:25/0/default.jpg#h\u003d1140\u0026w\u003d891",
+        "https://tile.loc.gov/image-services/iiif/service:mss:mss65570:ms:s6:55:70:-0:29:05:mss65570-02905:0002/full/pct:50/0/default.jpg#h\u003d2280\u0026w\u003d1783",
+        "https://tile.loc.gov/image-services/iiif/service:mss:mss65570:ms:s6:55:70:-0:29:05:mss65570-02905:0002/full/pct:100/0/default.jpg#h\u003d4560\u0026w\u003d3566"
+      ],
+      "index": 13,
+      "item": {
+        "call_number": [
+          "series: Office File, 1939-1968",
+          "mss65570, box 29"
+        ],
+        "contributors": [
+          "NAACP Legal Defense and Educational Fund"
+        ],
+        "date": "19530000",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.mss/ms015025.mss65570.00378"
+        ],
+        "format": "mixed material",
+        "genre": [
+          "Manuscripts"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States"
+        ],
+        "related_items": [
+          {
+            "title": "View NAACP Legal Defense and Educational Fund Records Finding Aid",
+            "url": "http://hdl.loc.gov/loc.mss/ms015025.mss65570.00378_bak"
+          }
+        ],
+        "repository": "Manuscript Division",
+        "rights": "No known restrictions on use or reproduction.",
+        "source_collection": "NAACP Legal Defense and Educational Fund Records",
+        "subjects": [
+          "Law--United States.",
+          "Civil rights--United States.",
+          "African Americans--Civil rights.",
+          "African Americans--Segregation.",
+          "Segregation--United States.",
+          "United States--Race relations.",
+          "United States--Armed Forces--African Americans.",
+          "African Americans--Education.",
+          "National Association for the Advancement of Colored People.",
+          "African Americans--Legal status, laws, etc.",
+          "African Americans--Political activity.",
+          "Criminal law--United States.",
+          "Discrimination--Law and legislation--United States.",
+          "Discrimination in criminal justice administration--United States.",
+          "Discrimination in education--United States.",
+          "Discrimination in employment--United States.",
+          "Discrimination in housing--United States.",
+          "Discrimination in public accommodations--United States.",
+          "Discrimination in the military--United States.",
+          "Educational law and legislation--United States.",
+          "Election law--United States.",
+          "Housing--Law and legislation--United States.",
+          "Labor laws and legislation--United States.",
+          "Recreation centers--Law and legislation--United States.",
+          "Suffrage--United States.",
+          "Manuscripts",
+          "United States"
+        ],
+        "title": "NAACP Legal Defense and Educational Fund Records: Office File, 1939-1968; NAACP; West Coast Regional Office; Organization and conference manual, 1953"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states"
+      ],
+      "mime_type": [
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/xml",
+        "image/tiff",
+        "text/plain"
+      ],
+      "online_format": [
+        "image",
+        "pdf",
+        "online text"
+      ],
+      "original_format": [
+        "manuscript/mixed material"
+      ],
+      "partof": [
+        "manuscript division",
+        "naacp legal defense and educational fund records: office file, 1939-1968",
+        "naacp legal defense and educational fund records"
+      ],
+      "resources": [
+        {
+          "files": 118,
+          "image": "https://tile.loc.gov/image-services/iiif/service:mss:mss65570:ms:s6:55:70:-0:29:05:mss65570-02905:0002/full/pct:6.25/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/mss/mss65570/ms/s6/55/70/-0/29/05/mss65570-02905/mss65570-02905.pdf",
+          "representative_index": 1,
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:mss65570.mss65570-02905/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "url": "https://www.loc.gov/resource/mss65570.mss65570-02905/",
+          "word_coordinates": "https://tile.loc.gov/text-services/word-coordinates-service"
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:mss65570.mss65570-02905/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/mss65570.mss65570-02905/"
+        }
+      ],
+      "shelf_id": "mss65570, box 29",
+      "subject": [
+        "african americans",
+        "discrimination",
+        "election law",
+        "discrimination in the military",
+        "educational law and legislation",
+        "armed forces",
+        "recreation centers",
+        "discrimination in education",
+        "discrimination in housing",
+        "manuscripts",
+        "discrimination in public accommodations",
+        "labor laws and legislation",
+        "discrimination in employment",
+        "discrimination in criminal justice administration",
+        "national association for the advancement of colored people",
+        "education",
+        "criminal law",
+        "political activity",
+        "civil rights",
+        "united states",
+        "legal status, laws, etc",
+        "suffrage",
+        "law",
+        "housing",
+        "race relations",
+        "law and legislation",
+        "segregation"
+      ],
+      "timestamp": "2025-06-12T12:52:40.292Z",
+      "title": "NAACP Legal Defense and Educational Fund Records: Office File, 1939-1968; NAACP; West Coast Regional Office; Organization and conference manual, 1953",
+      "type": [
+        "mixed material"
+      ],
+      "url": "https://www.loc.gov/item/mss6557000378/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670229",
+        "http://www.loc.gov/item/2020670229/",
+        "https://search.catalog.loc.gov/instances/399d3230-f2ec-5604-9261-f935aad040a2",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670229",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670229/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1944",
+      "dates": [
+        "1944"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 3514. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 598 ; end page 666"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:08.663Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-14",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-14"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670229/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670229:2020670229/full/pct:50/0/default.jpg"
+      ],
+      "index": 14,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 04-20-1944."
+        ],
+        "date": "1944",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670229"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (69 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 3514.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 598 ; end page 666"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. Investigation of welded H-plates from the 1942-1943 Canadian cold test. Part I, H-plates welded by the unionmelt process. (Progress Report No. M-265.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2025-06-07t10:34:39.700000",
+        "2020670229",
+        "2024-11-26t16:45:51"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670229"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:51"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670229:2020670229/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670229/2020670229.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670229/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:42:06.530Z",
+      "title": "Weldability of commercial armor plate. Investigation of welded H-plates from the 1942-1943 Canadian cold test. Part I, H-plates welded by the unionmelt process. (Progress Report No. M-265.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670229/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2024875545",
+        "http://www.loc.gov/item/2024875545/",
+        "https://search.catalog.loc.gov/instances/e858f0ad-496a-4d7c-b7b3-290c53927d65",
+        "https://hdl.loc.gov/loc.law/llserialsetce.06773_00_00-002-0938-0000",
+        "http://www.loc.gov/resource/llserialsetce.06773_00_00-002-0938-0000/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. government publishing office",
+        "united states. congress. senate",
+        "united states congress. senate"
+      ],
+      "date": "1915",
+      "dates": [
+        "1915"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-02-28T22:06:08.387Z",
+      "group": [
+        "catalog-split-10",
+        "catalog",
+        "ll/llserialset/mono",
+        "main-catalog-split-10",
+        "congressional-serial-set-document-level"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/2024875545/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:06:77:3_:00:_0:0:06773_00_00:06773_00_00-002-0938-0000:0003/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:06:77:3_:00:_0:0:06773_00_00:06773_00_00-002-0938-0000:0003/full/pct:12.5/0/default.jpg#h\u003d437\u0026w\u003d274",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:06:77:3_:00:_0:0:06773_00_00:06773_00_00-002-0938-0000:0003/full/pct:25/0/default.jpg#h\u003d875\u0026w\u003d548",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:06:77:3_:00:_0:0:06773_00_00:06773_00_00-002-0938-0000:0003/full/pct:50/0/default.jpg#h\u003d1751\u0026w\u003d1096",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:06:77:3_:00:_0:0:06773_00_00:06773_00_00-002-0938-0000:0003/full/pct:100/0/default.jpg#h\u003d3503\u0026w\u003d2193"
+      ],
+      "index": 15,
+      "item": {
+        "call_number": [
+          "KF12"
+        ],
+        "contributors": [
+          "United States Congress. Senate",
+          "United States. Government Publishing Office, publisher, distributor",
+          "United States. Congress. Senate, author"
+        ],
+        "created_published": [
+          "[Washington, D.C.]: U.S. Government Printing Office, 1915."
+        ],
+        "date": "1915",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.law/llserialsetce.06773_00_00-002-0938-0000"
+        ],
+        "format": [
+          "text"
+        ],
+        "genre": [
+          "Government publication",
+          "Legislative materials"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (642 pages). tables."
+        ],
+        "other_title": [
+          "Cited as: S. Doc. 63-938"
+        ],
+        "subjects": [
+          "United States.--Congress.--Senate.--Rules and practice",
+          "Statehood (American politics)",
+          "Territories and possessions",
+          "Cabinet officers",
+          "Judges"
+        ],
+        "title": "Senate manual containing the standing rules and orders of the United States Senate, the Constitution of the United States, Declaration of Independence, Articles of Confederation, the Ordinance of 1787, Jefferson\u0027s Manual, etc"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf",
+        "text/plain",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "online resource",
+        "2026-02-18t15:30:30.200000",
+        "2024875545"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2024875545"
+      ],
+      "number_source_modified": [
+        "2026-02-18t15:30:30.200000"
+      ],
+      "online_format": [
+        "pdf",
+        "online text",
+        "image"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "other_title": [
+        "Cited as: S. Doc. 63-938"
+      ],
+      "partof": [
+        "united states congressional serial set: serial no. 6773",
+        "united states congressional serial set (bound house and senate documents and reports)",
+        "senate document",
+        "catalog",
+        "63th congress, 3rd session",
+        "law library of congress"
+      ],
+      "resources": [
+        {
+          "files": 643,
+          "fulltext_file": "page level only",
+          "image": "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:06:77:3_:00:_0:0:06773_00_00:06773_00_00-002-0938-0000:0003/full/pct:12.5/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/ll/llserialsetpdf/06/77/3_/00/_0/0/06773_00_00/06773_00_00-002-0938-0000/SERIALSET-06773_00_00-002-0938-0000.pdf",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:llserialsetce.06773_00_00-002-0938-0000/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "url": "https://www.loc.gov/resource/llserialsetce.06773_00_00-002-0938-0000/"
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:llserialsetce.06773_00_00-002-0938-0000/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/llserialsetce.06773_00_00-002-0938-0000/"
+        }
+      ],
+      "shelf_id": "KF12",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "territories and possessions",
+        "statehood (american politics)",
+        "government publication",
+        "legislative materials",
+        "congress",
+        "senate",
+        "rules and practice",
+        "judges",
+        "united states",
+        "cabinet officers"
+      ],
+      "timestamp": "2026-03-03T23:04:31.477Z",
+      "title": "Senate manual containing the standing rules and orders of the United States Senate, the Constitution of the United States, Declaration of Independence, Articles of Confederation, the Ordinance of 1787, Jefferson\u0027s Manual, etc",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2024875545/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/32033775",
+        "http://www.loc.gov/item/32033775/",
+        "http://www.loc.gov/resource/gdcmassbookdig.manualofclassic00esc/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00030580011",
+        "http://www.loc.gov/resource/scd0001.00030580011/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "fiske, n. w. (nathan welby)",
+        "eschenburg, johann joachim"
+      ],
+      "date": "1841",
+      "dates": [
+        "1841"
+      ],
+      "description": [
+        "Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-09T07:48:24.570Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-14",
+        "catalog",
+        "main-catalog-split-14"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/32033775/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esc:manualofclassic00esc_0013/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esc:manualofclassic00esc_0013/full/pct:12.5/0/default.jpg#h\u003d494\u0026w\u003d278",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esc:manualofclassic00esc_0013/full/pct:25.0/0/default.jpg#h\u003d989\u0026w\u003d556",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esc:manualofclassic00esc_0013/full/pct:50.0/0/default.jpg#h\u003d1978\u0026w\u003d1113",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esc:manualofclassic00esc_0013/full/pct:100.0/0/default.jpg#h\u003d3957\u0026w\u003d2226"
+      ],
+      "index": 16,
+      "item": {
+        "call_number": [
+          "PA3002 .E6 1841"
+        ],
+        "contributors": [
+          "Eschenburg, Johann Joachim, 1743-1820.",
+          "Fiske, N. W. (Nathan Welby), 1798-1847, tr."
+        ],
+        "created_published": [
+          "Philadelphia, Edward C. Biddle, 1841."
+        ],
+        "date": "1841",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "xxiv, 753 p. illus. 23 cm."
+        ],
+        "notes": [
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Classical literature--History and criticism--Handbooks, manuals, etc",
+          "Art, Ancient",
+          "Mythology, Classical",
+          "Classical antiquities",
+          "Classical geography"
+        ],
+        "title": "Manual of classical literature:"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "2019-01-12t10:21:59",
+        "32033775",
+        "7405709"
+      ],
+      "number_lccn": [
+        "32033775"
+      ],
+      "number_oclc": [
+        "7405709"
+      ],
+      "number_source_modified": [
+        "2019-01-12t10:21:59"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 796,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofclassic00esc/manualofclassic00esc.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esc:manualofclassic00esc_0013/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/manualofclassic00esc",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofclassic00esc/manualofclassic00esc.pdf",
+          "representative_index": 12,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualofclassic00esc/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofclassic00esc/manualofclassic00esc.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualofclassic00esc/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualofclassic00esc/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualofclassic00esc/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/manualofclassic00esc/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "classical geography",
+        "classical antiquities",
+        "classical literature",
+        "handbooks, manuals, etc",
+        "mythology, classical",
+        "art, ancient",
+        "history and criticism"
+      ],
+      "timestamp": "2025-08-09T10:04:14.629Z",
+      "title": "Manual of classical literature:",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/32033775/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670232",
+        "http://www.loc.gov/item/2020670232/",
+        "https://search.catalog.loc.gov/instances/5fcb08d6-0c4b-534f-a22d-078ba70cef42",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670232",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670232/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1946",
+      "dates": [
+        "1946"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-1, OD-82 and OD-36-2; OSRD No. 6567. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 724 ; end page 775"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:10.076Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-08",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-08"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670232/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670232:2020670232/full/pct:50/0/default.jpg"
+      ],
+      "index": 17,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 01-15-1946."
+        ],
+        "date": "1946",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670232"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (52 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-1, OD-82 and OD-36-2; OSRD No. 6567.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 724 ; end page 775"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. (Final Report No. M-642.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2020670232",
+        "2024-11-26t16:45:50",
+        "2025-06-07t10:34:39.700000"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670232"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.700000",
+        "2024-11-26t16:45:50"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670232:2020670232/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670232/2020670232.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670232/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:42:06.530Z",
+      "title": "Weldability of commercial armor plate. (Final Report No. M-642.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670232/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670234",
+        "http://www.loc.gov/item/2020670234/",
+        "https://search.catalog.loc.gov/instances/b204b7d2-982b-5d77-8583-5022aa770b86",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670234",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670234/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1946",
+      "dates": [
+        "1946"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-2A and OD-82; OSRD No. 6586. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 31 ; end page 55"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:13.881Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-10",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-10"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670234/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670234:2020670234/full/pct:50/0/default.jpg"
+      ],
+      "index": 18,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 02-06-1946."
+        ],
+        "date": "1946",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670234"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (25 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-2A and OD-82; OSRD No. 6586.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 31 ; end page 55"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. Isothermal and cooling transformation diagrams of WRC-2A weld metal. (Progress Report No. N-658.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2020670234",
+        "2024-11-26t16:45:50",
+        "2025-06-07t10:34:39.900000"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670234"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.900000",
+        "2024-11-26t16:45:50"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670234:2020670234/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670234/2020670234.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670234/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:42:06.530Z",
+      "title": "Weldability of commercial armor plate. Isothermal and cooling transformation diagrams of WRC-2A weld metal. (Progress Report No. N-658.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670234/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2024803848",
+        "http://www.loc.gov/item/2024803848/",
+        "https://hdl.loc.gov/loc.law/llserialsetce.02231_00_00-003-0036-0000",
+        "http://www.loc.gov/resource/llserialsetce.02231_00_00-003-0036-0000/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states congress. house",
+        "lundborg, charles g.",
+        "united states. congress. house",
+        "united states. government publishing office"
+      ],
+      "date": "1884",
+      "dates": [
+        "1884"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-05-15T12:37:59.785Z",
+      "group": [
+        "ll/llserialset/mono",
+        "catalog-split-07",
+        "catalog",
+        "congressional-serial-set-document-level",
+        "main-catalog-split-07"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/2024803848/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/ll/llserialsetce/02/23/1_/00/_0/0/02231_00_00/02231_00_00-003-0036-0000/0011.gif",
+        "https://tile.loc.gov/storage-services/service/ll/llserialsetce/02/23/1_/00/_0/0/02231_00_00/02231_00_00-003-0036-0000/0011.gif#h\u003d150\u0026w\u003d95",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:02:23:1_:00:_0:0:02231_00_00:02231_00_00-003-0036-0000:0011/full/pct:12.5/0/default.jpg#h\u003d425\u0026w\u003d268",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:02:23:1_:00:_0:0:02231_00_00:02231_00_00-003-0036-0000:0011/full/pct:25/0/default.jpg#h\u003d850\u0026w\u003d537",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:02:23:1_:00:_0:0:02231_00_00:02231_00_00-003-0036-0000:0011/full/pct:50/0/default.jpg#h\u003d1700\u0026w\u003d1075",
+        "https://tile.loc.gov/image-services/iiif/service:ll:llserialsetce:02:23:1_:00:_0:0:02231_00_00:02231_00_00-003-0036-0000:0011/full/pct:100/0/default.jpg#h\u003d3400\u0026w\u003d2150"
+      ],
+      "index": 19,
+      "item": {
+        "call_number": [
+          "KF12",
+          "48-1:H.MIS.DOC.36",
+          "Y 1.1/2:SERIAL 2231"
+        ],
+        "contributors": [
+          "United States Congress. House",
+          "Lundborg, Charles G.",
+          "United States. Government Publishing Office, publisher, distributor",
+          "United States. Congress. House, author"
+        ],
+        "created_published": [
+          "[Washington, D.C.]: U.S. Government Printing Office, 1884."
+        ],
+        "date": "1884",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.law/llserialsetce.02231_00_00-003-0036-0000"
+        ],
+        "format": [
+          "text"
+        ],
+        "genre": [
+          "Government publication",
+          "Legislative materials"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (71 pages). illustrations, tables."
+        ],
+        "other_title": [
+          "Cited as: H. Misc. Doc. 48-36"
+        ],
+        "subjects": [
+          "Inventions",
+          "Naval architecture",
+          "Shipbuilding",
+          "Ships, Iron and steel",
+          "Steam-engines"
+        ],
+        "title": "Improvements in steamships. Memorial relating to inventions and improvements in steamships by Capt. Charles G. Lundborg, formerly of the Royal Swedish Navy. February 12, 1884. -- Recommitted to the Committee on American Shipbuilding and Ship-owning Interests and ordered to be printed"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "image/gif",
+        "application/pdf",
+        "text/plain",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "online resource",
+        "2024803848",
+        "2025-03-13t09:06:37"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2024803848"
+      ],
+      "number_source_modified": [
+        "2025-03-13t09:06:37"
+      ],
+      "online_format": [
+        "image",
+        "pdf",
+        "online text"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "other_title": [
+        "Cited as: H. Misc. Doc. 48-36"
+      ],
+      "partof": [
+        "united states congressional serial set (bound house and senate documents and reports)",
+        "catalog",
+        "48th congress, 1st session",
+        "law library of congress",
+        "united states congressional serial set: serial no. 2231"
+      ],
+      "resources": [
+        {
+          "files": 76,
+          "fulltext_file": "page level only",
+          "image": "https://tile.loc.gov/storage-services/service/ll/llserialsetce/02/23/1_/00/_0/0/02231_00_00/02231_00_00-003-0036-0000/0011.gif",
+          "pdf": "https://tile.loc.gov/storage-services/service/ll/llserialsetpdf/02/23/1_/00/_0/0/02231_00_00/02231_00_00-003-0036-0000/SERIALSET-02231_00_00-003-0036-0000.pdf",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:llserialsetce.02231_00_00-003-0036-0000/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "url": "https://www.loc.gov/resource/llserialsetce.02231_00_00-003-0036-0000/"
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:llserialsetce.02231_00_00-003-0036-0000/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/llserialsetce.02231_00_00-003-0036-0000/"
+        }
+      ],
+      "shelf_id": "KF12",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "steam-engines",
+        "government publication",
+        "legislative materials",
+        "inventions",
+        "shipbuilding",
+        "naval architecture",
+        "ships, iron and steel"
+      ],
+      "timestamp": "2025-05-17T16:43:42.143Z",
+      "title": "Improvements in steamships. Memorial relating to inventions and improvements in steamships by Capt. Charles G. Lundborg, formerly of the Royal Swedish Navy. February 12, 1884. -- Recommitted to the Committee on American Shipbuilding and Ship-owning Interests and ordered to be printed",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2024803848/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/ca22000216",
+        "http://www.loc.gov/item/ca22000216/",
+        "http://www.loc.gov/resource/gdcmassbookdig.manualofcivicste00krap/",
+        "http://www.loc.gov/resource/scd0001.00193089628/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00193089628"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "kraps, joseph johnson"
+      ],
+      "date": "1922",
+      "dates": [
+        "1922"
+      ],
+      "description": [
+        "Examination questions: 44 p. at end. Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-09T07:13:52.156Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-01",
+        "catalog",
+        "main-catalog-split-01"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/ca22000216/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:6.25/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:6.25/0/default.jpg#h\u003d258\u0026w\u003d168",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:12.5/0/default.jpg#h\u003d517\u0026w\u003d336",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:25.0/0/default.jpg#h\u003d1035\u0026w\u003d673",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:50.0/0/default.jpg#h\u003d2071\u0026w\u003d1346",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:100.0/0/default.jpg#h\u003d4143\u0026w\u003d2692"
+      ],
+      "index": 20,
+      "item": {
+        "call_number": [
+          "JK38 .K7"
+        ],
+        "contributors": [
+          "Kraps, Joseph Johnson."
+        ],
+        "created_published": [
+          "Salem, Or., The J.J. Kraps co. [c1922]"
+        ],
+        "date": "1922",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "United States",
+          "Oregon"
+        ],
+        "medium": [
+          "1 p. l., 36, [44] p. 22 cm."
+        ],
+        "notes": [
+          "Examination questions: 44 p. at end.",
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "United States--Politics and government--Handbooks, manuals, etc",
+          "Oregon--Politics and government"
+        ],
+        "title": "A manual of civics. Teacher\u0027s ed."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "oregon",
+        "united states"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "text/plain",
+        "application/json",
+        "application/pdf"
+      ],
+      "number": [
+        "17610335",
+        "2018-06-20t12:18:58",
+        "ca22000216"
+      ],
+      "number_lccn": [
+        "ca22000216"
+      ],
+      "number_oclc": [
+        "17610335"
+      ],
+      "number_source_modified": [
+        "2018-06-20t12:18:58"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 60,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofcivicste00krap/manualofcivicste00krap.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofcivicste00krap:manualofcivicste00krap_0003/full/pct:6.25/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/manualofcivicste00krap",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofcivicste00krap/manualofcivicste00krap.pdf",
+          "representative_index": 2,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualofcivicste00krap/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofcivicste00krap/manualofcivicste00krap.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualofcivicste00krap/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualofcivicste00krap/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualofcivicste00krap/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/manualofcivicste00krap/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "politics and government",
+        "handbooks, manuals, etc",
+        "oregon",
+        "united states"
+      ],
+      "timestamp": "2025-08-09T10:04:14.629Z",
+      "title": "A manual of civics. Teacher\u0027s ed.",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/ca22000216/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/2020670227",
+        "http://www.loc.gov/item/2020670227/",
+        "https://search.catalog.loc.gov/instances/0606dd67-60f5-55f2-9f25-88dbaa88ddf1",
+        "https://hdl.loc.gov/loc.gdc/osrd.2020670227",
+        "http://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670227/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "united states. office of scientific research and development. national defense research committee"
+      ],
+      "date": "1943",
+      "dates": [
+        "1943"
+      ],
+      "description": [
+        "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 1165. Research lab: Federal Shipbuilding and Dry Dock Company. Report. Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm. Description from catalog card image included in microfilmed report. start page 478 ; end page 552"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-05-27T13:31:08.935Z",
+      "group": [
+        "stb/osrdpublic",
+        "catalog-split-12",
+        "catalog",
+        "office-of-scientific-research-and-development",
+        "main-catalog-split-12"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/2020670227/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670227:2020670227/full/pct:50/0/default.jpg"
+      ],
+      "index": 21,
+      "item": {
+        "access_advisory": [
+          "Declassified by the authority of the Secretary of Defense Memorandum dated August 2, 1960--Title frame of microfilm reel."
+        ],
+        "call_number": [
+          "U393"
+        ],
+        "contributors": [
+          "United States. Office of Scientific Research and Development. National Defense Research Committee"
+        ],
+        "created_published": [
+          "[United States] : [Office of Scientific Research and Development, National Defense Research Committee, Division 18-War Metallurgy], 01-26-1943."
+        ],
+        "date": "1943",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/osrd.2020670227"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "1 online resource (75 pages)"
+        ],
+        "notes": [
+          "Report series: OEMsr-552; Project Nos. NRC-1 and OD-82; OSRD No. 1165.",
+          "Research lab: Federal Shipbuilding and Dry Dock Company.",
+          "Report.",
+          "Digital reproduction from OSRD-NRDC microfilm; also available in print and on microfilm.",
+          "Description from catalog card image included in microfilmed report.",
+          "start page 478 ; end page 552"
+        ],
+        "repository": [
+          "Library of Congress Science, Technology, and Business Division Washington, D.C. 20540 https://hdl.loc.gov/loc.gdc/scitech.home"
+        ],
+        "title": "Weldability of commercial armor plate. Part I, The evaluation of welding procedure and technique in terms of ballistic tests. Part II, Investigation of the ballistic response of ferritic welds. (Progress Report No. M-45.)"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "application/pdf"
+      ],
+      "number": [
+        "online resource",
+        "2020670227",
+        "2025-06-07t10:34:39.800000",
+        "2024-11-26t16:45:51"
+      ],
+      "number_carrier_type": [
+        "online resource"
+      ],
+      "number_lccn": [
+        "2020670227"
+      ],
+      "number_source_modified": [
+        "2025-06-07t10:34:39.800000",
+        "2024-11-26t16:45:51"
+      ],
+      "online_format": [
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "office of scientific research and development (osrd) reports",
+        "science, technology, and business division",
+        "catalog"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcosrdmicrofilmpublic:2020670227:2020670227/full/pct:50/0/default.jpg",
+          "pdf": "https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020670227/2020670227.pdf",
+          "url": "https://www.loc.gov/resource/gdcosrdmicrofilmpublic.2020670227/"
+        }
+      ],
+      "shelf_id": "U393",
+      "site": [
+        "catalog"
+      ],
+      "timestamp": "2026-05-27T13:42:06.530Z",
+      "title": "Weldability of commercial armor plate. Part I, The evaluation of welding procedure and technique in terms of ballistic tests. Part II, Investigation of the ballistic response of ferritic welds. (Progress Report No. M-45.)",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/2020670227/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/19007314",
+        "http://www.loc.gov/item/19007314/",
+        "http://www.loc.gov/resource/gdcmassbookdig.oxyacetyleneweld00camp/",
+        "http://www.loc.gov/resource/scd0001.00032757194/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00032757194"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "campbell, lorn"
+      ],
+      "date": "1919",
+      "dates": [
+        "1919"
+      ],
+      "description": [
+        "Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-17T18:45:06.396Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-09",
+        "catalog",
+        "main-catalog-split-09"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/19007314/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:oxyacetyleneweld00camp:oxyacetyleneweld00camp_0009/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:oxyacetyleneweld00camp:oxyacetyleneweld00camp_0009/full/pct:12.5/0/default.jpg#h\u003d483\u0026w\u003d272",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:oxyacetyleneweld00camp:oxyacetyleneweld00camp_0009/full/pct:25.0/0/default.jpg#h\u003d966\u0026w\u003d544",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:oxyacetyleneweld00camp:oxyacetyleneweld00camp_0009/full/pct:50.0/0/default.jpg#h\u003d1932\u0026w\u003d1088",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:oxyacetyleneweld00camp:oxyacetyleneweld00camp_0009/full/pct:100.0/0/default.jpg#h\u003d3864\u0026w\u003d2176"
+      ],
+      "index": 22,
+      "item": {
+        "call_number": [
+          "TS227 .C3 1919"
+        ],
+        "contributors": [
+          "Campbell, Lorn, 1891-"
+        ],
+        "created_published": [
+          "New York, John Wiley \u0026 Sons, Inc.; [etc., etc.] 1919."
+        ],
+        "date": "1919",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "ix, 154 p. incl. front. illus. 21 cm."
+        ],
+        "notes": [
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Welding"
+        ],
+        "title": "Oxy-acetylene welding manual,"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "text/plain",
+        "application/json",
+        "application/pdf"
+      ],
+      "number": [
+        "19007314",
+        "2019-01-27t10:21:08",
+        "36197571"
+      ],
+      "number_lccn": [
+        "19007314"
+      ],
+      "number_oclc": [
+        "36197571"
+      ],
+      "number_source_modified": [
+        "2019-01-27t10:21:08"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 176,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/oxyacetyleneweld00camp/oxyacetyleneweld00camp.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:oxyacetyleneweld00camp:oxyacetyleneweld00camp_0009/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/oxyacetyleneweld00camp",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/oxyacetyleneweld00camp/oxyacetyleneweld00camp.pdf",
+          "representative_index": 8,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.oxyacetyleneweld00camp/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/oxyacetyleneweld00camp/oxyacetyleneweld00camp.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.oxyacetyleneweld00camp/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.oxyacetyleneweld00camp/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.oxyacetyleneweld00camp/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/oxyacetyleneweld00camp/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "welding"
+      ],
+      "timestamp": "2025-08-17T19:12:35.196Z",
+      "title": "Oxy-acetylene welding manual,",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/19007314/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/e23000270",
+        "http://www.loc.gov/item/e23000270/",
+        "http://www.loc.gov/resource/gdcmassbookdig.manualforgeorgia00geor/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00197600172"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "georgia. department of education"
+      ],
+      "date": "1922",
+      "dates": [
+        "1922"
+      ],
+      "description": [
+        "Contains bibliographies. \"The teachers\u0027 library, a list suggested by M. M. Parks, state school superintendent, Atlanta, Ga.\": p. 298-322. Also available in digital form."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-09T06:52:23.931Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-03",
+        "catalog",
+        "main-catalog-split-03"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/e23000270/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualforgeorgia00geor:manualforgeorgia00geor_0007/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualforgeorgia00geor:manualforgeorgia00geor_0007/full/pct:12.5/0/default.jpg#h\u003d402\u0026w\u003d240",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualforgeorgia00geor:manualforgeorgia00geor_0007/full/pct:25.0/0/default.jpg#h\u003d805\u0026w\u003d481",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualforgeorgia00geor:manualforgeorgia00geor_0007/full/pct:50.0/0/default.jpg#h\u003d1611\u0026w\u003d962",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualforgeorgia00geor:manualforgeorgia00geor_0007/full/pct:100.0/0/default.jpg#h\u003d3223\u0026w\u003d1925"
+      ],
+      "index": 23,
+      "item": {
+        "call_number": [
+          "LB1561.G4 A3 1922"
+        ],
+        "contributors": [
+          "Georgia. Department of Education"
+        ],
+        "created_published": [
+          "[Atlanta, Ga., Byrd printing co., state printers, 1922."
+        ],
+        "date": "1922",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Georgia"
+        ],
+        "medium": [
+          "322 p. illus., plates (2 col; 1 fold.) tables, forms (1 fold.) 23 cm."
+        ],
+        "notes": [
+          "Contains bibliographies.",
+          "\"The teachers\u0027 library, a list suggested by M. M. Parks, state school superintendent, Atlanta, Ga.\": p. 298-322.",
+          "Also available in digital form."
+        ],
+        "subjects": [
+          "Education--Curricula--Georgia"
+        ],
+        "title": "Manual for Georgia teachers"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "georgia"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "2025-02-20t11:37:33",
+        "8286431",
+        "e23000270"
+      ],
+      "number_lccn": [
+        "e23000270"
+      ],
+      "number_oclc": [
+        "8286431"
+      ],
+      "number_source_modified": [
+        "2025-02-20t11:37:33"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "u.s. government digital resources",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 348,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualforgeorgia00geor/manualforgeorgia00geor.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualforgeorgia00geor:manualforgeorgia00geor_0007/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/manualforgeorgia00geor",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualforgeorgia00geor/manualforgeorgia00geor.pdf",
+          "representative_index": 6,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualforgeorgia00geor/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualforgeorgia00geor/manualforgeorgia00geor.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualforgeorgia00geor/",
+          "version": 7
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualforgeorgia00geor/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualforgeorgia00geor/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/manualforgeorgia00geor/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "education",
+        "curricula",
+        "georgia"
+      ],
+      "timestamp": "2025-08-09T09:57:57.575Z",
+      "title": "Manual for Georgia teachers",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/e23000270/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/07028418",
+        "http://www.loc.gov/item/07028418/",
+        "https://search.catalog.loc.gov/instances/c7f424d0-a4cb-5cba-984c-c2f2aebd67be",
+        "http://www.loc.gov/resource/gdc.00200701252/",
+        "https://hdl.loc.gov/loc.gdc/gdcscd.00200701252"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "samuelson, james"
+      ],
+      "date": "1893",
+      "dates": [
+        "1893"
+      ],
+      "description": [
+        "Also available in digital form on the Library of Congress Web site."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2026-04-23T06:38:53.811Z",
+      "group": [
+        "paprika-gdc",
+        "gdc/scd",
+        "catalog-split-14",
+        "catalog",
+        "general-collections-scan-on-demand-new",
+        "main-catalog-split-14"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/07028418/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00200701252:0001/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00200701252:0001/full/pct:12.5/0/default.jpg#h\u003d288\u0026w\u003d202",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00200701252:0001/full/pct:25.0/0/default.jpg#h\u003d577\u0026w\u003d404",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00200701252:0001/full/pct:50.0/0/default.jpg#h\u003d1155\u0026w\u003d808",
+        "https://tile.loc.gov/image-services/iiif/public:gdc:00200701252:0001/full/pct:100.0/0/default.jpg#h\u003d2310\u0026w\u003d1616"
+      ],
+      "index": 24,
+      "item": {
+        "call_number": [
+          "HD6331 .S2"
+        ],
+        "contributors": [
+          "Samuelson, James, 1829-"
+        ],
+        "created_published": [
+          "London, K. Paul, Trench, Trübner \u0026 co., ltd., 1893."
+        ],
+        "date": "1893",
+        "digital_id": [
+          "https://hdl.loc.gov/loc.gdc/gdcscd.00200701252"
+        ],
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "xi p., 1 l., 94 p. incl. front., illus. 19 cm."
+        ],
+        "notes": [
+          "Also available in digital form on the Library of Congress Web site."
+        ],
+        "subjects": [
+          "Labor and laboring classes. [from old catalog]",
+          "Machinery in the workplace"
+        ],
+        "title": "Labour-saving machinery; an essay on the effect of mechanical appliances in the displacement of manual labour in various industries"
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "text/plain",
+        "application/json",
+        "application/pdf"
+      ],
+      "number": [
+        "2026-04-14t19:29:42.900000",
+        "http://www.loc.gov/resource/gdcscd.00200701252",
+        "07028418"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/resource/gdcscd.00200701252"
+      ],
+      "number_lccn": [
+        "07028418"
+      ],
+      "number_source_modified": [
+        "2026-04-14t19:29:42.900000"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "general collections",
+        "catalog",
+        "selected digitized books"
+      ],
+      "resources": [
+        {
+          "files": 116,
+          "former_urls": 1,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdc/00200701252/00200701252.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdc:00200701252:0001/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdc/00200701252",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdc/00200701252/00200701252.pdf",
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00200701252/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 2,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdc/00200701252/00200701252.text.txt",
+          "url": "https://www.loc.gov/resource/gdc.00200701252/",
+          "version": 2
+        }
+      ],
+      "segments": [
+        {
+          "count": 2,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdc.00200701252/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdc.00200701252/"
+        }
+      ],
+      "shelf_id": "HD6331 .S2",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "machinery in the workplace",
+        "labor and laboring classes"
+      ],
+      "timestamp": "2026-04-23T06:45:58.628Z",
+      "title": "Labour-saving machinery; an essay on the effect of mechanical appliances in the displacement of manual labour in various industries",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/07028418/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/32012022",
+        "http://www.loc.gov/item/32012022/",
+        "http://www.loc.gov/resource/gdcmassbookdig.manualofclassic00esch/",
+        "http://www.loc.gov/resource/scd0001.00030579975/",
+        "https://hdl.loc.gov/loc.gdc/scd0001.00030579975"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "fiske, n. w. (nathan welby)",
+        "joseph meredith toner collection (library of congress)",
+        "eschenburg, johann joachim"
+      ],
+      "date": "1836",
+      "dates": [
+        "1836"
+      ],
+      "description": [
+        "Also available in digital form. LAC tnb 2020-11-24 update (1 card) LAC ecr 2020-12-01 review LC Review of LAC Completed/Approved 2020-12-10"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-08-09T07:43:11.141Z",
+      "group": [
+        "paprika-iabooks",
+        "catalog-split-12",
+        "catalog",
+        "main-catalog-split-12"
+      ],
+      "hassegments": true,
+      "id": "http://www.loc.gov/item/32012022/",
+      "image_url": [
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esch:manualofclassic00esch_0011/full/pct:12.5/0/default.jpg",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esch:manualofclassic00esch_0011/full/pct:12.5/0/default.jpg#h\u003d421\u0026w\u003d236",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esch:manualofclassic00esch_0011/full/pct:25.0/0/default.jpg#h\u003d842\u0026w\u003d472",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esch:manualofclassic00esch_0011/full/pct:50.0/0/default.jpg#h\u003d1685\u0026w\u003d945",
+        "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esch:manualofclassic00esch_0011/full/pct:100.0/0/default.jpg#h\u003d3370\u0026w\u003d1891"
+      ],
+      "index": 25,
+      "item": {
+        "call_number": [
+          "PA3002 .E6 1836"
+        ],
+        "contents": [
+          "pt. I. Archaeology of literature and art.--pt. II. History of ancient literature, Greek and Roman.--pt. III. Mythology of the Greeks and Romans.--pt. IV. Greek and Roman antiquities.--pt. V. Classical geography and chronology."
+        ],
+        "contributors": [
+          "Eschenburg, Johann Joachim, 1743-1820.",
+          "Fiske, N. W. (Nathan Welby), 1798-1847, tr.",
+          "Joseph Meredith Toner Collection (Library of Congress)"
+        ],
+        "created_published": [
+          "Philadelphia, Key and Biddle, 1836."
+        ],
+        "date": "1836",
+        "format": [
+          "text"
+        ],
+        "language": [
+          "eng"
+        ],
+        "medium": [
+          "xviii, 664 p. 23 cm."
+        ],
+        "notes": [
+          "Also available in digital form.",
+          "LAC tnb 2020-11-24 update (1 card)",
+          "LAC ecr 2020-12-01 review",
+          "LC Review of LAC Completed/Approved 2020-12-10"
+        ],
+        "subjects": [
+          "Classical literature--History and criticism",
+          "Art, Ancient",
+          "Mythology, Classical",
+          "Classical antiquities",
+          "Classical geography"
+        ],
+        "title": "Manual of classical literature."
+      },
+      "language": [
+        "english"
+      ],
+      "mime_type": [
+        "text/xml",
+        "image/jpeg",
+        "image/jp2",
+        "application/pdf",
+        "application/json",
+        "text/plain"
+      ],
+      "number": [
+        "4731802",
+        "2021-08-04t09:43:58",
+        "32012022"
+      ],
+      "number_lccn": [
+        "32012022"
+      ],
+      "number_oclc": [
+        "4731802"
+      ],
+      "number_source_modified": [
+        "2021-08-04t09:43:58"
+      ],
+      "online_format": [
+        "online text",
+        "image",
+        "pdf"
+      ],
+      "original_format": [
+        "book"
+      ],
+      "partof": [
+        "selected digitized books",
+        "catalog",
+        "general collections"
+      ],
+      "resources": [
+        {
+          "files": 702,
+          "fulltext_derivative": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofclassic00esch/manualofclassic00esch.text.json",
+          "image": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:manualofclassic00esch:manualofclassic00esch_0011/full/pct:12.5/0/default.jpg",
+          "paprika_resource_path": "/sets/gdcmassbookdig/manualofclassic00esch",
+          "pdf": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofclassic00esch/manualofclassic00esch.pdf",
+          "representative_index": 10,
+          "schemaVersion": "v1",
+          "search": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualofclassic00esch/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "segments": 1,
+          "text_file": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/manualofclassic00esch/manualofclassic00esch.text.txt",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualofclassic00esch/",
+          "version": 6
+        }
+      ],
+      "segments": [
+        {
+          "count": 1,
+          "link": "https://www.loc.gov/search/?c\u003d25\u0026fa\u003dsegmentof:gdcmassbookdig.manualofclassic00esch/\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+          "url": "https://www.loc.gov/resource/gdcmassbookdig.manualofclassic00esch/"
+        }
+      ],
+      "shelf_id": "https://repo.loc.gov/access/public/gdcmassbookdig/manualofclassic00esch/.resource.json",
+      "site": [
+        "catalog"
+      ],
+      "subject": [
+        "classical geography",
+        "classical antiquities",
+        "classical literature",
+        "mythology, classical",
+        "art, ancient",
+        "history and criticism"
+      ],
+      "timestamp": "2025-08-09T10:04:14.629Z",
+      "title": "Manual of classical literature.",
+      "type": [
+        "text"
+      ],
+      "url": "https://www.loc.gov/item/32012022/"
+    }
+  ],
+  "search": {
+    "facet_limits": "",
+    "hits": 50087,
+    "query": "shipbuilding manuals",
+    "recommended": 0,
+    "site": {},
+    "type": "search",
+    "union_facets": "",
+    "url": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals"
+  },
+  "timestamp": 1782214271391,
+  "views": {
+    "brief": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dbrief",
+    "current": "list",
+    "gallery": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgallery",
+    "grid": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dgrid",
+    "list": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals",
+    "slideshow": "https://www.loc.gov/search/?c\u003d25\u0026fo\u003djson\u0026q\u003dshipbuilding+manuals\u0026st\u003dslideshow"
+  }
+}

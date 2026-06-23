@@ -1,0 +1,1332 @@
+[
+  {
+    "language": "English",
+    "entry_date": "2026-06-13T04:01:48Z",
+    "report_number": "SAND2026-22016",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/3369026",
+    "description": "Accurate and efficient constitutive modeling remains a cornerstone issue for solid mechanics\nanalysis. Over the years, the LAMÉ advanced material model library has grown to address this\nchallenge by implementing models capable of describing material systems spanning soft polymers\nto stiff ceramics including both isotropic and anisotropic responses. Inelastic behaviors including\n(visco)plasticity, damage, and fracture have all incorporated for use in various analyses. This\nmultitude of options an",
+    "title": "Library of Advanced Materials for Engineering (LAMÉ) 5.30",
+    "other_number": "1818597",
+    "contract_number": "NA0003525; ",
+    "publication_date": "2026-06-01T00:00:00Z",
+    "osti_id": "3369026",
+    "product_type": "Technical Report",
+    "authors": [
+      "Lester, Brian T. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000245768895)",
+      "Buche, Michael Robert [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000318920502)",
+      "Scherzinger, William M. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0009000612031965)",
+      "Vignes, Chet [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Long, Kevin Nicholas [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000347184161)",
+      "Cundiff, Kenneth Noel [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000300824694)"
+    ],
+    "doe_contract_number": "NA0003525; ",
+    "subjects": [],
+    "sponsor_orgs": [
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "other_identifiers": [
+      "1818597"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3369026"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3369026"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-03-13T12:40:32Z",
+    "report_number": "SAND--2026-16234",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/3018740",
+    "description": "Accurate and efficient constitutive modeling remains a cornerstone issue for solid mechanics analysis. Over the years, the LAMÉ advanced material model library has grown to address this challenge by implementing models capable of describing material systems spanning soft polymers to stiff ceramics including both isotropic and anisotropic responses. Inelastic behaviors including (visco)plasticity, damage, and fracture have all incorporated for use in various analyses. This multitude of options and flexibility, however, comes at the cost of many capabilities, features, and responses and the ensuing complexity in the resulting implementation. Therefore, to enhance confidence and enable the utilization of the LAMÉ library in application, this effort seeks to document and verify the various models in the LAMÉ library. Specifically, the broader strategy, organization, and interface of the library itself is first presented. The physical theory, numerical implementation, and user guide for a large set of models is then discussed. Importantly, a number of verification tests are performed with each model to not only have confidence in the model itself but also highlight some important response characteristics and features that may be of interest to end-users. Finally, in looking ahead to the future, approaches to add material models to this library and further expand the capabilities are presented.",
+    "title": "Library of Advanced Materials for Engineering (LAMÉ) 5.28",
+    "other_number": "1799065",
+    "contract_number": "NA0003525; ",
+    "publication_date": "2026-01-21T00:00:00Z",
+    "osti_id": "3018740",
+    "product_type": "Technical Report",
+    "authors": [
+      "Lester, Brian T. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000245768895)",
+      "Buche, Michael Robert [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000318920502)",
+      "Scherzinger, William M. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0009000612031965)",
+      "Long, Kevin Nicholas [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000347184161)",
+      "Cundiff, Kenneth Noel [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000300824694)",
+      "Stershic, Andrew Joseph [Sandia National Laboratories (SNL-CA), Livermore, CA (United States)] (ORCID:0000000157608074)",
+      "Nataraj, Chiraag M. [Sandia National Laboratories (SNL-CA), Livermore, CA (United States)]"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "96 KNOWLEDGE MANAGEMENT AND PRESERVATION"
+    ],
+    "doe_contract_number": "NA0003525; ",
+    "sponsor_orgs": [
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "other_identifiers": [
+      "1799065"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3018740"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3018740"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-04-29T01:06:48Z",
+    "report_number": "LLNL-TH-2013731",
+    "identifier": "AC52-07NA27344",
+    "country_publication": "United States",
+    "availability": "External/unlimited (No CUI, UCNI, or other Sensitive Unclassified Information)",
+    "title": "From Equations to Discovery: AI-Driven Parameter Space Navigation in Materials Science \u0026 Process Engineering",
+    "contract_number": "AC52-07NA27344; ",
+    "publication_date": "2026-04-28T00:00:00Z",
+    "osti_id": "3031218",
+    "product_type": "Thesis/Dissertation",
+    "authors": [
+      "Hallas, Kristen"
+    ],
+    "subjects": [
+      " organic",
+      " physical and analytical chemistry",
+      "Chemistry - Inorganic",
+      "Engineering",
+      "Materials science",
+      "Mathematics and Computing",
+      "Physics - Condensed matter physics"
+    ],
+    "doe_contract_number": "AC52-07NA27344; ",
+    "sponsor_orgs": [
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Lawrence Livermore National Laboratory (LLNL), Livermore, CA (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3031218"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3031218"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-04-27T15:30:47Z",
+    "relation": "Journal Name: Advanced Materials Technologies Journal Issue: 8 Journal Volume: 11",
+    "identifier": "AC02-06CH11357",
+    "journal_issue": "8",
+    "country_publication": "United States",
+    "journal_type": "AM",
+    "doi": "10.1002/admt.202501973",
+    "description": "The U.S. Department of Energy (DOE) national laboratories represent a unique class of government-owned, contractor-operated research institutions dedicated to conducting research and development (R\u0026D) related activities that address national priorities, supporting and advancing the DOE mission. They play a vital role in sustaining U.S. innovation capacity, stewarding the nation\u0027s technical base, and nurturing science and technologies. In this perspective, we highlight the processing science and scaleup capabilities of the Materials Engineering Research Facility (MERF) at DOE\u0027s Argonne National Laboratory to demonstrate how DOE National Laboratories bridge fundamental science and applied technology development to accelerate deployment. Case studies are presented on selective membranes for critical mineral recovery, sensors for per- and polyfluoroalkyl substances (PFAS) detection, surface functionalization via atomic layer deposition (ALD) and sequential infiltration synthesis (SIS), and lithium recovery from battery recycling waste streams using a novel electrodialysis process. These examples underscore MERF\u0027s role in translating innovative technologies into practical solutions for renewable water and critical resource recovery, which also leverage Argonne\u0027s analytical and computational capabilities. This perspective also outlines mechanisms for collaborating with the DOE national laboratories to strengthen partnerships across government, the national laboratories, academia, and industry.",
+    "title": "Accelerating Discovery to Deployment: Argonne’s Materials Engineering Research Facility (MERF) and Its Role in Scaling Materials Technologies for Water and Resource Solutions ",
+    "other_number": "199724",
+    "contract_number": "AC02-06CH11357",
+    "publication_date": "2026-04-01T00:00:00Z",
+    "journal_volume": "11",
+    "osti_id": "3031164",
+    "journal_name": "Advanced Materials Technologies",
+    "product_type": "Journal Article",
+    "authors": [
+      "Zhang, Yuepeng",
+      "Sengupta, Bratin",
+      "Shi, Xiaoao",
+      "Pu, Haihui",
+      "Elam, Jeffrey W.",
+      "Krumdick, Gregory K.",
+      "Macholz, Jessica Durham",
+      "Bennet Irion, Allison",
+      "Chen, Junhong",
+      "Darling, Seth B."
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC02-06CH11357",
+    "subjects": [],
+    "sponsor_orgs": [
+      "National Science Foundation (NSF)",
+      "US Department of Energy",
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE) - Advanced Materials and Manufacturing Technologies Office (AMMTO)",
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE) - Hydrogen and Fuel Cell Technologies Office (HFTO)",
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE) - Office of Vehicle Technologies (VTO)",
+      "USDOE Office of Science - Energy Frontier Research Center"
+    ],
+    "research_orgs": [
+      "Argonne National Laboratory (ANL)"
+    ],
+    "other_identifiers": [
+      "199724"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3031164"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3031164"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/3031164"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-11-14T08:44:31Z",
+    "report_number": "ORNL/TM--2025/3866; NFE-19-07924",
+    "identifier": "AC05-00OR22725",
+    "country_publication": "United States",
+    "doi": "10.2172/2586896",
+    "description": "The growing demand to increase the performance and efficiency of light-, medium-, and heavy-duty engines continues to drive increases in combustion intensities and cylinder pressures, which result in higher exhaust gas temperatures. Thus, there is a critical need for new materials that can meet the performance and cost targets for components such as exhaust valves which are exposed to these higher exhaust gas temperatures. Oak Ridge National Laboratory (ORNL) has developed several lower-cost, high-strength alloys that have the potential to be adopted into intake and/or exhaust valves in the next generation, high-efficiency engines and other high temperature applications. These alloys are covered by two issued patents: 1. G. Muralidharan, U. S. Patent No. 9,605,565 B2, “Low-cost Fe--Ni--Cr alloys for high temperature valve applications,” March 28, 2017. 2. G. Muralidharan, U. S. Patent 9,752, 468 B2, “Low-Cost, High-Strength Fe-Ni-Cr Alloys for High Temperature Exhaust Valve Applications, Issued Sep. 5, 2017. The overall scope of this CRADA project was for Oak Ridge National Laboratory to collaborate with Tenneco Powertrain to: 1) better define the properties required for intake and/or exhaust valves for next generation vehicles, 2) fabricate industrial scale heats of alloys down-selected from existing patents, 3) generate critical high temperature property data that will help evaluate the suitability of these new alloys for high temperature intake and/or exhaust valves, and finally to 4) fabricate and evaluate the performance of prototype intake/and or exhaust valves.",
+    "title": "Development of Engine Valve Materials for Next Generation Higher Efficiency Engines",
+    "contract_number": "AC05-00OR22725",
+    "publication_date": "2025-05-01T04:00:00Z",
+    "osti_id": "2586896",
+    "product_type": "Technical Report",
+    "authors": [
+      "Muralidharan, Govindarajan [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000301149520)",
+      "Schickling, Laura [Tenneco Powertrain, Northville Township, MI (United States)]"
+    ],
+    "subjects": [
+      "32 ENERGY CONSERVATION, CONSUMPTION, AND UTILIZATION",
+      "33 ADVANCED PROPULSION SYSTEMS",
+      "42 ENGINEERING"
+    ],
+    "doe_contract_number": "AC05-00OR22725",
+    "sponsor_orgs": [
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Office of Sustainable Transportation. Vehicle Technologies Office (VTO)"
+    ],
+    "research_orgs": [
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2586896"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2586896"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-10-02T14:47:51Z",
+    "report_number": "ORNL-TM--2025-3866; CRADA/NFE-19-07294",
+    "identifier": "AC05-00OR22725",
+    "country_publication": "United States",
+    "doi": "10.2172/2565227",
+    "description": "The growing demand to increase the performance and efficiency of light-, medium-, and heavy-duty engines continues to drive increases in combustion intensities and cylinder pressures, which result in higher exhaust gas temperatures. Thus, there is a critical need for new materials that can meet the performance and cost targets for components such as exhaust valves which are exposed to these higher exhaust gas temperatures. Oak Ridge National Laboratory (ORNL) has developed several lower-cost, high-strength alloys that have the potential to be adopted into intake and/or exhaust valves in the next generation, high-efficiency engines and other high temperature applications. These alloys are covered by two issued patents.",
+    "title": "Development of Engine Valve Materials for Next Generation Higher Efficiency Engines",
+    "contract_number": "AC05-00OR22725",
+    "publication_date": "2025-04-30T04:00:00Z",
+    "osti_id": "2565227",
+    "product_type": "Technical Report",
+    "authors": [
+      "Muralidharan, Govindarajan [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)]",
+      "Schickling, Laura [Tenneco Inc., Northville Township, Michigan (United States)]"
+    ],
+    "subjects": [
+      "32 ENERGY CONSERVATION, CONSUMPTION, AND UTILIZATION",
+      "36 MATERIALS SCIENCE",
+      "lower cost alloys",
+      "performance and efficiency of light, medium, and heavy-duty engines"
+    ],
+    "doe_contract_number": "AC05-00OR22725",
+    "sponsor_orgs": [
+      "USDOE Office of Science (SC)"
+    ],
+    "research_orgs": [
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)",
+      "Tenneco Inc., Northville Township, Michigan (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2565227"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2565227"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-04-28T10:17:41Z",
+    "relation": "Journal Name: Integrating Materials and Manufacturing Innovation Journal Issue: 1 Journal Volume: 15",
+    "identifier": "AC05-00OR22725",
+    "journal_issue": "1",
+    "nondoe_contract_number": "FEAA151",
+    "country_publication": "United States",
+    "publisher": "Springer",
+    "journal_type": "AM",
+    "doi": "10.1007/s40192-026-00445-6",
+    "description": "Current approaches to designing graded transition joints (GTJs) between dissimilar metals often rely on linear changes in both composition profiles and thickness of each sublayer. This increases fabrication cost and may not be optimal with respect to residual stress or the formation of undesirable phases. Here, in this study, GTJs between P91 ferritic/martensitic steel and 347H austenitic stainless steel were designed using Integrated Computational Materials Engineering (ICME) principles with nonlinear composition and length profiles. Guided by inputs from classical mechanics and CALPHAD predictions of carbon chemical potential, a novel transition zone consisting of five discrete compositions was proposed, with the thickness of each sublayer varying according to a brachistochrone-inspired distribution. In addition to carbon potential gradients, CALPHAD was used to predict coefficients of thermal expansion, which were incorporated into finite element models to evaluate stress evolution. The proposed nonlinear design resulted in a smoother carbon potential gradient, lower carbon depletion at the P91 interface, and a comparable residual stress under long-term thermal exposure, compared to a conventional linear design using ten sublayers with equal thickness. This work introduces a brachistochrone-inspired distribution for GTJ design, offering a general framework for optimizing graded interfaces between dissimilar metals.",
+    "title": "An Integrated Computational Materials Engineering (ICME) Approach to Design Nonlinear Transition Zones Between Dissimilar Metals",
+    "other_number": "Journal ID: ISSN 2193-9764; Journal ID: ISSN 2193-9772",
+    "contract_number": "AC05-00OR22725",
+    "publication_date": "2026-03-09T00:00:00Z",
+    "journal_volume": "15",
+    "osti_id": "3022930",
+    "journal_name": "Integrating Materials and Manufacturing Innovation",
+    "product_type": "Journal Article",
+    "authors": [
+      "Kannan, Rangasayee [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000257925739)",
+      "Lee, Yousub [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000255630419)",
+      "Feldhausen, Thomas [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States); Univ. of Texas at El Paso, TX (United States)] (ORCID:0000000273115189)",
+      "Saleeby, Kyle [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States); Georgia Institute of Technology, Atlanta, GA (United States)] (ORCID:0000000275238174)",
+      "Lara-Curzio, Edgar [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000345465701)",
+      "Nandwana, Peeyush [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000251471668)"
+    ],
+    "subjects": [
+      "Directed Energy Deposition",
+      "Graded transition joints",
+      "ICME, Dissimilar Metals"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC05-00OR22725",
+    "sponsor_orgs": [
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Advanced Materials \u0026 Manufacturing Technologies Office (AMMTO)",
+      "USDOE Office of Fossil Energy and Carbon Management (FECM)"
+    ],
+    "research_orgs": [
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+    ],
+    "journal_issn": "ISSN 2193-9772",
+    "other_identifiers": [
+      "Journal ID: ISSN 2193-9764; Journal ID: ISSN 2193-9772"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3022930"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3022930"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/3022930"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-06-24T12:18:00Z",
+    "relation": "Journal Name: MRS Bulletin Journal Issue: 5 Journal Volume: 50",
+    "report_number": "BNL--228275-2025-JAAM",
+    "identifier": "SC0012704",
+    "journal_issue": "5",
+    "country_publication": "United States",
+    "publisher": "Springer Nature",
+    "journal_type": "AM",
+    "doi": "10.1557/s43577-025-00908-9",
+    "description": "In this article, the development of nanoporous metals and metallic composites through dealloying processes presents significant opportunities in materials engineering. However, designing multicomponent precursor alloys and establishing corresponding processing methods that yield predictable compositions and nanostructures remain a complex challenge. This article explores how machine learning (ML)-augmented computational and experimental methodologies can tackle these challenges by predicting precursor alloy compositions, final nanoporous structures, and mechanical properties, while integrating ML-enabled autonomous experimentation for material design and quantification. We highlight recent advancements in applying ML to nanostructured materials design via dealloying and discuss how techniques from other nanomaterial designs can be adapted for improved control over morphological and compositional outcomes in nanoporous and nanocomposite materials. Furthermore, we explore the role of ML in autonomous synchrotron x-ray experimentation, enabling real-time feedback between modeling and experimental setups. ML-driven approaches to microstructure characterization and mechanical property prediction are also examined, with a focus on modeling and advanced imaging techniques such as three-dimensional nanotomography. Finally, this article outlines future directions for ML-enhanced materials science, emphasizing the exploration of high-dimensional parameter spaces and the incorporation of materials kinetics into processing and property evaluation, ultimately advancing the design of nanoporous structures and materials science.",
+    "title": "Machine learning approaches for intentional materials engineering",
+    "other_number": "Journal ID: ISSN 0883-7694; Journal ID: ISSN 1938-1425",
+    "contract_number": "SC0012704",
+    "publication_date": "2025-05-14T00:00:00Z",
+    "journal_volume": "50",
+    "osti_id": "2569467",
+    "journal_name": "MRS Bulletin",
+    "product_type": "Journal Article",
+    "authors": [
+      "Chen-Wiegart, Yu-chen Karen [Stony Brook Univ., NY (United States); Brookhaven National Laboratory (BNL), Upton, NY (United States)] (ORCID:0000000344452159)",
+      "Huber, Norbert [Hamburg University of Technology (Germany); Bundesanstalt für Materialforschung und -prüfung, Berlin (Germany)] (ORCID:0000000242529207)",
+      "Yager, Kevin G. [Brookhaven National Laboratory (BNL), Upton, NY (United States)] (ORCID:0000000177452513)"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "Artificial intelligence",
+      "Autonomous",
+      "Hierarchical",
+      "Machine learning",
+      "Morphology",
+      "Nanostructure Porosity",
+      "X-ray tomography"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "SC0012704",
+    "sponsor_orgs": [
+      "National Science Foundation (NSF)",
+      "USDOE Office of Science (SC), Basic Energy Sciences (BES). Scientific User Facilities (SUF)"
+    ],
+    "research_orgs": [
+      "Brookhaven National Laboratory (BNL), Upton, NY (United States). National Synchrotron Light Source II (NSLS-II)"
+    ],
+    "journal_issn": "ISSN 0883-7694",
+    "other_identifiers": [
+      "Journal ID: ISSN 0883-7694; Journal ID: ISSN 1938-1425"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2569467"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2569467"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2569467"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-03-05T09:02:13Z",
+    "report_number": "ORNL/TM--2025/4014; NFE-22-09350",
+    "identifier": "AC05-00OR22725",
+    "country_publication": "United States",
+    "doi": "10.2172/3012508",
+    "description": "The use of blended fuel sources in land based gas turbine engines drives variations in the resulting operational profile (temperatures and pressures) which can impact engine reliability. Furthermore, variability in the manufacture of components affects the resulting microstructure which directly impacts material performance and reliability. Currently, data-driven models are typically used for maintaining and inspecting fleets of engines. Without explicitly capturing material and operational sources of variability conservatism must be used in developing component-level reliability models. Therefore, there exists an opportunity to use information from materials-scale physics models to better inform reliability modeling and reduce conservatism; the impact is more cost-efficient operation and maintenance of current and future fleets. Specifically, this work establishes a computational framework for evaluating the probabilistic high temperature creep performance of hot-section Ni-based superalloys where uncertainty comes from both microstructural and operational variability. A novel high-fidelity physics model which phenomenologically captures grain-boundary sensitive phenomena has been established. A probabilistic calibration procedure was used to calibrate the model and capture uncertainty in the parameterized model coefficients. A design of experiments methodology was established for identifying informative microstructural digital representations for suitable for forward model evaluation. Results show that training a machine-learning surrogate using this design criteria outperforms random selection of microstructural representations. Finally, two surrogate models were developed: (1) a deterministic surrogate model which predicts the local field response given microstructure, constitutive model parameters, and operating conditions (stress, temperature) and (2) a probabilistic model, where uncertainty comes from constitutive law uncertainty, built using denoising diffusion probabilistic models which samples responses given (1) microstructure and (2) operating conditions. These surrogate models enable partner Siemens Energy to rapidly perform UQ analysis specific to creep deformation across a range of microstructures and operating conditions. The impact is that these ML and physics codes can be used to establish more advanced reliability models for the inspection, servicing, and maintenance of land based gas turbine engines.",
+    "title": "Computational materials reliability assessment of hydrogen fueled gas turbine power generation engines",
+    "contract_number": "AC05-00OR22725; ",
+    "publication_date": "2025-12-01T00:00:00Z",
+    "osti_id": "3012508",
+    "product_type": "Technical Report",
+    "authors": [
+      "Fernandez-Zelaia, Patxi [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)]",
+      "Cheng, Jiahao [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000339632403)",
+      "Mayeur, Jason [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000240797777)",
+      "Lee, Yousub [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000255630419)",
+      "Kadau, Kai [Siemens Energy Inc., McDonald, TN (United States)]",
+      "Knipe, Kevin [Siemens Energy Inc., McDonald, TN (United States)]",
+      "Trigueiro, Juliana [Siemens Energy Inc., McDonald, TN (United States)]"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "42 ENGINEERING"
+    ],
+    "doe_contract_number": "AC05-00OR22725; ",
+    "sponsor_orgs": [
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Advanced Materials \u0026 Manufacturing Technologies Office (AMMTO)",
+      "USDOE Office of Fossil Energy and Carbon Management (FECM)"
+    ],
+    "research_orgs": [
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)",
+      "Siemens Energy Inc., McDonald, TN (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3012508"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3012508"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-02-06T12:24:10Z",
+    "relation": "Journal Name: Nano Letters Journal Issue: 25 Journal Volume: 25",
+    "identifier": "AC02-05CH11231",
+    "journal_issue": "25",
+    "country_publication": "United States",
+    "journal_type": "AM",
+    "doi": "10.1021/acs.nanolett.5c02040",
+    "description": "Achieving deterministic control over the properties of low-dimensional materials with nanoscale precision is a long-sought goal. Mastering this capability has a transformative effect on the design of multifunctional electrical and optical devices. Here, we present an ion-assisted synthetic technique that enables precise control over the material composition and energy landscape of two-dimensional (2D) atomic crystals. Our method transforms binary transition-metal dichalcogenides, like MoSe2, into ternary MoS2αSe2(1-α) alloys with systematically adjustable compositions, α. By piecewise assembly of the lateral, compositionally modulated MoS2αSe2(1-α) segments within 2D atomic layers, we present a synthetic pathway toward the realization of multicompositional designer materials. Our technique enables the fabrication of advanced 2D structures with arbitrary boundaries, dimensions as small as 30 nm, and fully customizable energy landscapes. Our optical characterizations further showcase the potential for implementing tailored optoelectronics in these engineered 2D crystals.",
+    "title": "Ion-Assisted Nanoscale Material Engineering in Atomic Layers",
+    "other_number": "ark:/13030/qt5mj1n0qf; https://escholarship.org/uc/item/5mj1n0qf",
+    "contract_number": "AC02-05CH11231",
+    "publication_date": "2025-06-25T00:00:00Z",
+    "journal_volume": "25",
+    "osti_id": "2573994",
+    "journal_name": "Nano Letters",
+    "product_type": "Journal Article",
+    "authors": [
+      "Taghinejad, Hossein",
+      "Taghinejad, Mohammad",
+      "Abdollahramezani, Sajjad",
+      "Li, Qitong",
+      "Woods, Eric V",
+      "Tian, Mengkun",
+      "Eftekhar, Ali A",
+      "Lyu, Yuanqi",
+      "Zhang, Xiang",
+      "Ajayan, Pulickel M",
+      "Cai, Wenshan",
+      "Brongersma, Mark L",
+      "Analytis, James G",
+      "Adibi, Ali"
+    ],
+    "subjects": [
+      "2D materials",
+      "atomic defects",
+      "focused ion beam",
+      "heterostructures",
+      "optoelectronics"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC02-05CH11231",
+    "sponsor_orgs": [
+      "US Department of Energy",
+      "USDOE Office of Science (SC), Basic Energy Sciences (BES) (SC-22), Materials Sciences \u0026 Engineering Division (SC-22.2)"
+    ],
+    "research_orgs": [
+      "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)"
+    ],
+    "other_identifiers": [
+      "ark:/13030/qt5mj1n0qf; https://escholarship.org/uc/item/5mj1n0qf"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2573994"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2573994"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2573994"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-02-20T12:10:23Z",
+    "relation": "Journal Name: Advanced Materials Journal Issue: 35 Journal Volume: 37",
+    "identifier": "SC0021940; AC02-76SF00515; AC05-00OR22725",
+    "journal_issue": "35",
+    "nondoe_contract_number": "DMR-2118448",
+    "country_publication": "United States",
+    "publisher": "Wiley",
+    "journal_type": "AM",
+    "doi": "10.1002/adma.202505642",
+    "description": "Thermoelectric materials offer a promising pathway to directly convert waste heat to electricity. However, achieving high performance remains challenging due to intrinsic trade-offs between electrical conductivity, the Seebeck coefficient, and thermal conductivity, which are further complicated by the presence of defects. This review explores how artificial intelligence (AI) and machine learning (ML) are transforming thermoelectric materials design. Advanced ML approaches including deep neural networks, graph-based models, and transformer architectures, integrated with high-throughput simulations and growing databases, effectively capture structure-property relationships in a complex multiscale defect space and overcome the “curse of dimensionality”. This review discusses AI-enhanced defect engineering strategies such as composition optimization, entropy and dislocation engineering, and grain boundary design, along with emerging inverse design techniques for generating materials with targeted properties. Finally, it outlines future opportunities in novel physics mechanisms and sustainability, highlighting the critical role of AI in accelerating the discovery of thermoelectric materials.",
+    "title": "AI‐Driven Defect Engineering for Advanced Thermoelectric Materials",
+    "other_number": "Journal ID: ISSN 1521-4095; Journal ID: ISSN 0935-9648",
+    "contract_number": "AC02-76SF00515; AC05-00OR22725; SC0020148; SC0021940",
+    "publication_date": "2025-06-23T00:00:00Z",
+    "journal_volume": "37",
+    "osti_id": "2574889",
+    "journal_name": "Advanced Materials",
+    "product_type": "Journal Article",
+    "authors": [
+      "Fu, Chu‐Liang [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)]",
+      "Cheng, Mouyang [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)]",
+      "Hung, Nguyen Tuan [Tohoku University, Sendai (Japan)]",
+      "Rha, Eunbi [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)]",
+      "Chen, Zhantao [SLAC National Accelerator Laboratory (SLAC), Menlo Park, CA (United States); Stanford University, CA (United States)]",
+      "Okabe, Ryotaro [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)]",
+      "Carrizales, Denisse Córdova [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)]",
+      "Mandal, Manasi [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)]",
+      "Cheng, Yongqiang [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)]",
+      "Li, Mingda [Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)] (ORCID:0000000270556368)"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "artificial intelligence",
+      "defect engineering",
+      "machine learning",
+      "thermoelectrics"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC02-76SF00515; AC05-00OR22725; SC0020148; SC0021940",
+    "sponsor_orgs": [
+      "National Science Foundation (NSF)",
+      "USDOE Office of Science (SC), Basic Energy Sciences (BES)"
+    ],
+    "research_orgs": [
+      "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)",
+      "SLAC National Accelerator Laboratory (SLAC), Menlo Park, CA (United States)"
+    ],
+    "journal_issn": "ISSN 1521-4095",
+    "other_identifiers": [
+      "Journal ID: ISSN 1521-4095; Journal ID: ISSN 0935-9648"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2574889"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2574889"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2574889"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-03-17T09:16:20Z",
+    "relation": "Journal Name: Angewandte Chemie (International Edition) Journal Issue: 3 Journal Volume: 65",
+    "report_number": "NLR/JA--2800-99143",
+    "identifier": "AC36-08GO28308; AC02-06CH11357",
+    "journal_issue": "3",
+    "country_publication": "United States",
+    "publisher": "Wiley",
+    "journal_type": "AM",
+    "doi": "10.1002/anie.202518809",
+    "description": "Multi-material products that combine multiple complementary polymers can create products with desired performance but present challenges to end-of-life (EoL) management. The emerging mono-material product design based on a single polymer type addresses the fundamental EoL issue, but challenges of delivering vastly tunable material properties by the single polymer still remain. Here, we introduce a simple strategy to produce biodegradable poly(3-hydroxybutyrate) (P3HB) materials with a wide range of material properties by engineering a stereomicrostructure continuum, achieved through polymerizing diastereomeric mixtures of racemic and meso-dimethyl diolides at various feed ratios with a single catalyst. This one-step, one-pot process produces biodegradable P3HB mono-materials ranging from rigid to flexible thermoplastics, to tough thermoplastic elastomers, to a pressure-sensitive adhesive (PSA), which have been then combined to fabricate prototype all-P3HB PSA tapes, demonstrating the feasibility of designing mono-material products through engineering polymer stereomicrostructures.",
+    "title": "Mono‐Materials Created by Engineering a Continuum of P3HB Stereomicrostructures in a One‐Step Catalytic Process",
+    "other_number": "Journal ID: ISSN 1433-7851; Journal ID: ISSN 1521-3773",
+    "contract_number": "AC02-06CH11357; AC36-08GO28308",
+    "publication_date": "2025-11-26T00:00:00Z",
+    "journal_volume": "65",
+    "osti_id": "3017172",
+    "journal_name": "Angewandte Chemie (International Edition)",
+    "product_type": "Journal Article",
+    "authors": [
+      "Quinn, Ethan C. [Colorado State Univ., Fort Collins, CO (United States)]",
+      "Parker, Celine R. [Colorado State Univ., Fort Collins, CO (United States)]",
+      "Gace, Maëlle T. [Colorado State Univ., Fort Collins, CO (United States)]",
+      "Lee, Minjung [National Renewable Energy Laboratory (NREL), Golden, CO (United States); BOTTLE Consortium, Golden, CO (United States)]",
+      "Xu, Shu [Argonne National Laboratory (ANL), Argonne, IL (United States); Northwestern Univ., Evanston, IL (United States)]",
+      "Poppen, Ethan [Colorado State Univ., Fort Collins, CO (United States)]",
+      "Zhang, Zhen [Colorado State Univ., Fort Collins, CO (United States)]",
+      "Barange, Deepak K. [Colorado State Univ., Fort Collins, CO (United States)]",
+      "Urgun‐Demirtas, Meltem [Argonne National Laboratory (ANL), Argonne, IL (United States)]",
+      "Rorrer, Nicholas [National Renewable Energy Laboratory (NREL), Golden, CO (United States); BOTTLE Consortium, Golden, CO (United States)] (ORCID:0000000191345853)",
+      "Chen, Eugene Y.‐X. [Colorado State Univ., Fort Collins, CO (United States)] (ORCID:0000000175123484)"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "37 INORGANIC, ORGANIC, PHYSICAL, AND ANALYTICAL CHEMISTRY",
+      "All-P3HB tapes",
+      "Biodegradable polymer",
+      "Mono-materials",
+      "P3HB stereomicrostructure",
+      "Poly(3-hydroxybutyrate"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC02-06CH11357; AC36-08GO28308",
+    "sponsor_orgs": [
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Advanced Materials \u0026 Manufacturing Technologies Office (AMMTO)",
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Office of Sustainable Transportation. Bioenergy Technologies Office (BETO)"
+    ],
+    "research_orgs": [
+      "National Laboratory of the Rockies (NLR), Golden, CO (United States)"
+    ],
+    "journal_issn": "ISSN 1433-7851",
+    "other_identifiers": [
+      "Journal ID: ISSN 1433-7851; Journal ID: ISSN 1521-3773"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3017172"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3017172"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/3017172"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-02-28T03:18:55Z",
+    "relation": "Electronic Materials and Applications - Denver, Colorado, United States of America - February - 2025",
+    "report_number": "SAND2025-02185C",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/3021000",
+    "title": "Reverse-Engineering a Legacy Ferroelectric Material",
+    "other_number": "1770180",
+    "contract_number": "NA0003525",
+    "publication_date": "2025-02-01T00:00:00Z",
+    "osti_id": "3021000",
+    "product_type": "Conference",
+    "authors": [
+      "Kamm, Gabrielle Elise [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000151496526)",
+      "Neuman, Eric William [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000339209998)",
+      "Dong, Wen [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000157345622)",
+      "Bishop, Sean Robert [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000213331859)",
+      "Yang, Pin [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Trujillo, Robert Frank [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Bachman, William Bryant [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Bailey, Cameron Peter [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Ehlers, Scott Jerimiah [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Eizaguirre, Paige Aliya [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0009000807533375)"
+    ],
+    "doe_contract_number": "NA0003525",
+    "subjects": [],
+    "sponsor_orgs": [
+      "National Nuclear Security Administration"
+    ],
+    "research_orgs": [
+      "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "other_identifiers": [
+      "1770180"
+    ],
+    "conference_info": "Electronic Materials and Applications - Denver, Colorado, United States of America - February - 2025",
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3021000"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3021000"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-05-20T11:18:15Z",
+    "relation": "Journal Name: ACS Applied Energy Materials Journal Issue: 18 Journal Volume: 8",
+    "report_number": "NLR/JA-5900-99862",
+    "identifier": "AC36-08GO28308",
+    "journal_issue": "18",
+    "nondoe_contract_number": "2132659; DGE2140739",
+    "country_publication": "United States",
+    "publisher": "American Chemical Society (ACS)",
+    "journal_type": "AM",
+    "doi": "10.1021/acsaem.5c01989",
+    "description": "Proton exchange membrane water electrolyzers (PEMWEs) are expected to play a crucial role in the global green energy transition during the 21st century. They provide a versatile and sustainable solution for generating hydrogen with very high purity in combination with renewable energies, such as solar and wind. Despite their promise, PEMWEs face several critical problems, including high costs, performance limitations, and durability challenges, particularly at low iridium (Ir) loading on the anode. Advancing next-generation PEMWEs requires extensive work on materials engineering of all cell components, including the catalyst layer (CL), membrane, porous transport layer (PTL), bipolar plate (BPP), and gasket. This task must be performed with the complementary contribution of different modeling and characterization techniques. This review presents a critical perspective from academia, research centers, and industry, mapping main developments, remaining gaps, and strategic pathways to advance PEMWE technology. A focus is devoted to key aspects, such as operation at low Ir loading, membrane durability, multiscale transport layers, porous and non-porous flow fields, multiphysics modeling, and multipurpose characterization techniques, which are thoroughly discussed. By unifying these topics, this review provides readers with the essential knowledge to grasp current developments and tackle tomorrow\u0027s challenges in PEMWE engineering.",
+    "title": "Materials Engineering for High Performance and Durability Proton Exchange Membrane Water Electrolyzers",
+    "other_number": "Journal ID: ISSN 2574-0962",
+    "contract_number": "AC36-08GO28308",
+    "publication_date": "2025-09-11T00:00:00Z",
+    "journal_volume": "8",
+    "osti_id": "3025382",
+    "journal_name": "ACS Applied Energy Materials",
+    "product_type": "Journal Article",
+    "authors": [
+      "García-Salaberri, Pablo A. [Universidad Rey Juan Carlos, Madrid (Spain)] (ORCID:0000000239185415)",
+      "van Eijk, Lonneke [Colorado School of Mines, Golden, CO (United States)] (ORCID:0000000317271360)",
+      "Bangay, William [Johnson Matthey Technology Centre, Reading (United Kingdom)]",
+      "Ferner, Kara J. [Carnegie Mellon University, Pittsburgh, PA (United States)] (ORCID:0000000210419898)",
+      "Ha, Mee H. [Carnegie Mellon University, Pittsburgh, PA (United States)]",
+      "Moore, Michael [Johnson Matthey Technology Centre, Reading (United Kingdom)]",
+      "Perea, Ivan [University of Alberta, Edmonton, AB (Canada)]",
+      "Kusoglu, Ahmet [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0000000227611050)",
+      "Secanell, Marc [University of Alberta, Edmonton, AB (Canada); Newcastle University, Newcastle upon Tyne (United Kingdom)]",
+      "Das, Prodip K. [University of Edinburgh, Scotland (United Kingdom)] (ORCID:0000000190963721)",
+      "Firas, Nausir [University of California, Irvine, CA (United States)] (ORCID:0000000163130206)",
+      "Pylypenko, Svitlana [Colorado School of Mines, Golden, CO (United States); National Renewable Energy Laboratory (NREL), Golden, CO (United States)] (ORCID:000000017982734X)",
+      "Novy, Melissa [Johnson Matthey Technology Centre, Reading (United Kingdom)] (ORCID:0000000311121011)",
+      "Yandrasits, Michael [Johnson Matthey Technology Centre, Reading (United Kingdom)]",
+      "Saha, Suvash C. [University of Technology Sydney, NSW (Australia)] (ORCID:0000000299628919)",
+      "Bayat, Ali [University of Technology Sydney, NSW (Australia)]",
+      "Litster, Shawn [Carnegie Mellon University, Pittsburgh, PA (United States)] (ORCID:0000000319731834)",
+      "Zenyuk, Iryna V. [University of California, Irvine, CA (United States)] (ORCID:0000000216120475)"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "37 INORGANIC, ORGANIC, PHYSICAL, AND ANALYTICAL CHEMISTRY",
+      "PEMWE",
+      "characterization",
+      "critical minerals",
+      "design",
+      "durability",
+      "materials",
+      "modeling",
+      "performance"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC36-08GO28308",
+    "sponsor_orgs": [
+      "National Science Foundation (NSF)",
+      "USDOE"
+    ],
+    "research_orgs": [
+      "National Laboratory of the Rockies (NLR), Golden, CO (United States)"
+    ],
+    "journal_issn": "ISSN 2574-0962",
+    "other_identifiers": [
+      "Journal ID: ISSN 2574-0962"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3025382"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3025382"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/3025382"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-09-26T13:22:05Z",
+    "report_number": "SAND--2025-03968",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/2554120",
+    "description": "Accurate and efficient constitutive modeling remains a cornerstone issue for solid mechanics analysis. Over the years, the LAMÉ advanced material model library has grown to address this challenge by implementing models capable of describing material systems spanning soft polymers to stiff ceramics including both isotropic and anisotropic responses. Inelastic behaviors including (visco)plasticity, damage, and fracture have all incorporated for use in various analyses. This multitude of options an",
+    "title": "Library of Advanced Materials for Engineering (LAMÉ) (V.5.24)",
+    "contract_number": "NA0003525",
+    "publication_date": "2025-04-01T04:00:00Z",
+    "osti_id": "2554120",
+    "product_type": "Technical Report",
+    "authors": [
+      "Lester, Brian T. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Buche, Michael Robert [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Cundiff, Kenneth Noel [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Scherzinger, William M. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Long, Kevin Nicholas [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Reedlunn, Benjamin [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "96 KNOWLEDGE MANAGEMENT AND PRESERVATION"
+    ],
+    "doe_contract_number": "NA0003525",
+    "sponsor_orgs": [
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2554120"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2554120"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-03-09T08:01:14Z",
+    "report_number": "UoM--18941",
+    "identifier": "SC0018941",
+    "country_publication": "United States",
+    "doi": "10.2172/2513436",
+    "description": "This project focuses on the development of \u003cem\u003estimuli-responsive\u003c/em\u003e hybrid \u003cem\u003emultifunctional\u003c/em\u003e materials. We place emphasis on the design, synthesis, structural characterization, evaluation of functional properties (electronic, thermal and optical) of several (1-x)Cu\u003csub\u003e2\u003c/sub\u003eSe/(x)WBGS \u003cem\u003ehierarchical bulk composites between\u003c/em\u003e Cu\u003csub\u003e2\u003c/sub\u003eSe, a narrow band gap semiconductor (NBGS), with a range of wider band gap semiconductors (WBGS) such as CuMSe\u003csub\u003e2\u003c/sub\u003e (M \u003d Al, Ga, In, Fe, Cr) and Cu\u003csub\u003e4\u003c/sub\u003eTiSe\u003csub\u003e4\u003c/sub\u003e. Cu2Se is a well-studied NBGS with excellent thermoelectric properties (high electrical conductivity, large thermopower, etc.) while CuMSe\u003csub\u003e2\u003c/sub\u003e and Cu\u003csub\u003e4\u003c/sub\u003eTiSe\u003csub\u003e4\u003c/sub\u003e are high performance solar absorber materials (large band gap, large absorption coefficient, etc.). Our primary objectives are (i) to demonstrate the ability to integrate dissimilar functional properties such as large optical absorption coefficient and high electronic conductivity, within (1-x)Cu\u003csub\u003e2\u003c/sub\u003eSe/(x)WBGS composite; and (ii) to establish the correlation between the hierarchical structural entanglement of Cu\u003csub\u003e2\u003c/sub\u003eSe with WBGS (CuMSe\u003csub\u003e2\u003c/sub\u003e or Cu\u003csub\u003e4\u003c/sub\u003eTiSe\u003csub\u003e4\u003c/sub\u003e) phase, the interactions between native electronic defects within the coexisting phases in the resulting (1-x)Cu\u003csub\u003e2\u003c/sub\u003eSe/(x)WBGS \u003cem\u003ebulk composites\u003c/em\u003e, and the impacts on their electronic conductivity, thermal transport and optical properties.",
+    "title": "Hierarchical Hybrid Multifunctional Materials through Interface Engineering",
+    "contract_number": "SC0018941; ",
+    "publication_date": "2025-02-10T00:00:00Z",
+    "osti_id": "2513436",
+    "product_type": "Technical Report",
+    "authors": [
+      "Poudeu, Pierre Ferdinand [Univ. of Michigan, Ann Arbor, MI (United States)]",
+      "Uher, Ctirad [Univ. of Michigan, Ann Arbor, MI (United States)]"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "double carrier transport processes at the interfaces",
+      "Hiearchical composites",
+      "native defects interactions and hybridizations",
+      "negative photoconductivity",
+      "photon coherence in bulk nanocomposites",
+      "temperature induced p-type to n-type electronic transitions"
+    ],
+    "doe_contract_number": "SC0018941; ",
+    "sponsor_orgs": [
+      "USDOE Office of Science (SC), Basic Energy Sciences (BES)"
+    ],
+    "research_orgs": [
+      "Univ. of Michigan, Ann Arbor, MI (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2513436"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2513436"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-05-16T04:18:24Z",
+    "relation": "TMS 2025 Annual Meeting \u0026 Exhibition - Las Vegas, Nevada, United States of America - March - 2025",
+    "report_number": "SAND2025-03381C",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/3023877",
+    "title": "Machine learning potentials and other tools in LAMMPS for materials engineering",
+    "other_number": "1772723",
+    "contract_number": "NA0003525; ",
+    "publication_date": "2025-03-01T00:00:00Z",
+    "osti_id": "3023877",
+    "product_type": "Conference",
+    "authors": [
+      "Goff, James Michael [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000170267200)",
+      "Wood, Mitchell Anthony [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Leverant, Calen John [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000313432841)",
+      "Stevens, Mark J. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)] (ORCID:0000000222900224)",
+      "Rempe, Susan [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]"
+    ],
+    "doe_contract_number": "NA0003525; ",
+    "subjects": [],
+    "sponsor_orgs": [
+      "National Nuclear Security Administration"
+    ],
+    "research_orgs": [
+      "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "other_identifiers": [
+      "1772723"
+    ],
+    "conference_info": "TMS 2025 Annual Meeting \u0026 Exhibition - Las Vegas, Nevada, United States of America - March - 2025",
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3023877"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3023877"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-05-22T22:09:38Z",
+    "relation": "Journal Name: Nuclear Engineering and Technology Journal Issue: 10 Journal Volume: 57",
+    "identifier": "NE0008954",
+    "journal_issue": "10",
+    "country_publication": "Korea, Republic of",
+    "publisher": "Elsevier",
+    "journal_type": "PA",
+    "doi": "10.1016/j.net.2025.103700",
+    "description": "Not Available",
+    "title": "Bentonite as an engineered barrier material for nuclear waste repository - Geotechnical perspectives, key properties, knowledge gaps, and opportunities",
+    "doe_funded_flag": "Y",
+    "other_number": "Journal ID: ISSN 1738-5733;S1738573325002682; 103700; PII: S1738573325002682",
+    "contract_number": "NE0008954",
+    "publication_date": "2025-10-01T00:00:00Z",
+    "journal_sunset_date": "2025-05-12T00:00:00Z",
+    "journal_volume": "57",
+    "osti_id": "2565740",
+    "journal_name": "Nuclear Engineering and Technology",
+    "product_type": "Journal Article",
+    "authors": [
+      "Noh, Dong-Hwa",
+      "Kim, Seunghee (ORCID:0000000303863007)",
+      "Calaunan, Jose Maria Ferdinand Victoria (ORCID:0000000254030913)",
+      "Feng, Yuan (ORCID:0000000153071943)",
+      "Eun, Jongwan",
+      "Kim, Yong-Rak (ORCID:000000025421750X)"
+    ],
+    "article_type": "Published Article",
+    "doe_contract_number": "NE0008954",
+    "subjects": [],
+    "sponsor_orgs": [
+      "USDOE"
+    ],
+    "research_orgs": [],
+    "journal_issn": "ISSN 1738-5733",
+    "other_identifiers": [
+      "Journal ID: ISSN 1738-5733;S1738573325002682; 103700; PII: S1738573325002682"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2565740"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2565740"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-06-13T09:41:28Z",
+    "report_number": "SAND--2024-13452",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/2480119",
+    "description": "Accurate and efficient constitutive modeling remains a cornerstone issue for solid mechanics analysis. Over the years, the LAMÉ advanced material model library has grown to address this challenge by implementing models capable of describing material systems spanning soft polymers to stiff ceramics including both isotropic and anisotropic responses. Inelastic behaviors including (visco)plasticity, damage, and fracture have all incorporated for use in various analyses. This multitude of options and flexibility, however, comes at the cost of many capabilities, features, and responses and the ensuing complexity in the resulting implementation. Therefore, to enhance confidence and enable the utilization of the LAMÉ library in application, this effort seeks to document and verify the various models in the LAMÉ library. Specifically, the broader strategy, organization, and interface of the library itself is first presented. The physical theory, numerical implementation, and user guide for a large set of models is then discussed. Importantly, a number of verification tests are performed with each model to not only have confidence in the model itself but also highlight some important response characteristics and features that may be of interest to end-users. Finally, in looking ahead to the future, approaches to add material models to this library and further expand the capabilities are presented.",
+    "title": "Library of Advanced Materials for Engineering (LAMÉ) 5.22",
+    "contract_number": "NA0003525",
+    "publication_date": "2024-10-08T04:00:00Z",
+    "osti_id": "2480119",
+    "product_type": "Technical Report",
+    "authors": [
+      "Lester, Brian T. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Buche, Michael Robert [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Long, Kevin Nicholas [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Scherzinger, William M. [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Cundiff, Kenneth Noel [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Reedlunn, Benjamin [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Hamel, Craig [Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)]",
+      "Stershic, Andrew Joseph [Sandia National Laboratories (SNL-CA), Livermore, CA (United States)]"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "96 KNOWLEDGE MANAGEMENT AND PRESERVATION"
+    ],
+    "contributing_org": "LAMÉ Team",
+    "doe_contract_number": "NA0003525",
+    "sponsor_orgs": [
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2480119"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2480119"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-11-13T11:31:35Z",
+    "relation": "Journal Name: Engineering with Computers Journal Issue: 3 Journal Volume: 41",
+    "report_number": "LA-UR--24-21200; LA-UR--24-22856",
+    "identifier": "89233218CNA000001",
+    "journal_issue": "3",
+    "country_publication": "United States",
+    "publisher": "Springer",
+    "journal_type": "AM",
+    "doi": "10.1007/s00366-024-02098-5",
+    "description": "This study examines the potential of two variants of the material point method—the generalized interpolation material point (GIMP) and dual domain material point (DDMP) methods—in developing a robust computational framework for engineering lattice structures under different loading conditions. The study begins with assessing the ability of the two methods in predicting elastic buckling phenomena using column geometries with and without initial geometric imperfections. The results indicate that both methods effectively capture buckling phenomena when initial geometric imperfections are introduced. After this verification step, we create several models of tetrahedral lattice structures with varying strut diameter and orientation and subject them to quasi-static loading. We then validate the numerical results using laboratory test results. The results show that, while both methods accurately predict load–displacement curves in the pre-buckling regime, their predictive capabilities diminish in the post-buckling regime. Through visual comparison between the numerical and experimental deformed shapes, it appears that the discrepancies between model and experimental results are attributed to initial geometric imperfections in the lattices that occurred during 3D printing. We then establish a second set of lattice models where different types of initial geometric imperfections are considered. The results from these models show that imperfections have a negligible influence in the pre-buckling regime but affect the behavior considerably in the post-buckling regime. As a final step in this work, we subject the lattice models to impact loading and employ hypothetical soft and stiff materials. These results show that the lattice stiffness, which depends on material stiffness, strut diameter, and orientation, significantly influences the ability of a lattice structure to resist impact. In particular, we find that a stiffer lattice (i.e., one made with a stiff material and thicker struts) is capable of absorbing more energy than a softer one during impact. Although material nonlinearities, inelasticity, and detailed contact formulations are not considered in this study, the findings obtained herein lay the groundwork for engineering lattice structures under extreme loading conditions through a simulation-driven framework based on particle-based methods.",
+    "availability": "10.1007/s00366-024-02098-5",
+    "title": "Toward engineering lattice structures with the material point method (MPM)",
+    "other_number": "Journal ID: ISSN 0177-0667; Journal ID: ISSN 1435-5663;10.1007/s00366-024-02098-5",
+    "contract_number": "89233218CNA000001",
+    "publication_date": "2025-01-15T00:00:00Z",
+    "journal_volume": "41",
+    "osti_id": "2520122",
+    "journal_name": "Engineering with Computers",
+    "product_type": "Journal Article",
+    "authors": [
+      "Giraldo-Londoño, Oliver [Univ. of Missouri, Columbia, MO (United States)]",
+      "Muñetón-López, Rogelio A. [Univ. of Missouri, Columbia, MO (United States)]",
+      "Barclay, Paul Linford [Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)] (ORCID:0000000229768756)",
+      "Zhuang, Xiatian [Univ. of Missouri, Columbia, MO (United States)]",
+      "Zhang, Duan Zhong [Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)] (ORCID:0000000256112250)",
+      "Chen, Zhen [Univ. of Missouri, Columbia, MO (United States)]"
+    ],
+    "subjects": [
+      "97 MATHEMATICS AND COMPUTING",
+      "Computational Design Of Materials",
+      "Computational Materials Science",
+      "Computational Solid Mechanics",
+      "DDMP",
+      "GIMP",
+      "Materials Mechanics",
+      "Mechanical Statics and Structures",
+      "Solid Mechanics",
+      "impact",
+      "lattices",
+      "material point method",
+      "metamaterials"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "89233218CNA000001",
+    "sponsor_orgs": [
+      "USDOE Laboratory Directed Research and Development (LDRD) Program",
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)"
+    ],
+    "journal_issn": "ISSN 1435-5663",
+    "other_identifiers": [
+      "Journal ID: ISSN 0177-0667; Journal ID: ISSN 1435-5663;10.1007/s00366-024-02098-5"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2520122"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2520122"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2520122"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2024-10-14T22:04:55Z",
+    "relation": "Journal Name: Matter (Online) Journal Issue: 9 Journal Volume: 7",
+    "identifier": "NONE",
+    "journal_issue": "9",
+    "country_publication": "United States",
+    "publisher": "Elsevier",
+    "journal_type": "PM",
+    "doi": "10.1016/j.matt.2024.07.011",
+    "description": "Not Available",
+    "title": "Unlocking the societal potential of engineered living materials",
+    "doe_funded_flag": "Y",
+    "other_number": "Journal ID: ISSN 2590-2385;S2590238524004041; PII: S2590238524004041",
+    "publication_date": "2024-09-01T00:00:00Z",
+    "journal_sunset_date": "2025-09-04T00:00:00Z",
+    "journal_volume": "7",
+    "osti_id": "2439640",
+    "journal_name": "Matter (Online)",
+    "product_type": "Journal Article",
+    "authors": [
+      "Heveran, Chelsea M. (ORCID:0000000214067439)",
+      "Gerlach, Robin",
+      "Hernandez, Christopher J.",
+      "Intemann, Kristen",
+      "Meyer, Anne S.",
+      "Ajo-Franklin, Caroline",
+      "Charrier, Marimikel",
+      "Srubar, III, Wilfred V.",
+      "Joshi, Neel",
+      "Nelson, Alshakim",
+      "Fields, Matthew W."
+    ],
+    "article_type": "Publisher\u0027s Accepted Manuscript",
+    "subjects": [],
+    "sponsor_orgs": [
+      "USDOE"
+    ],
+    "research_orgs": [],
+    "journal_issn": "ISSN 2590-2385",
+    "other_identifiers": [
+      "Journal ID: ISSN 2590-2385;S2590238524004041; PII: S2590238524004041"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2439640"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2439640"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-06-13T09:41:28Z",
+    "report_number": "SAND--2024-08084",
+    "identifier": "NA0003525",
+    "country_publication": "United States",
+    "doi": "10.2172/2429908",
+    "description": "Accurate and efficient constitutive modeling remains a cornerstone issue for solid mechanics analysis. Over the years, the LAMÉ advanced material model library has grown to address this challenge by implementing models capable of describing material systems spanning soft polymers to stiff ceramics including both isotropic and anisotropic responses. Inelastic behaviors including (visco)plasticity, damage, and fracture have all incorporated for use in various analyses. This multitude of options and flexibility, however, comes at the cost of many capabilities, features, and responses and the ensuing complexity in the resulting implementation. Therefore, to enhance confidence and enable the utilization of the LAMÉ library in application, this effort seeks to document and verify the various models in the LAMÉ library. Specifically, the broader strategy, organization, and interface of the library itself is first presented. The physical theory, numerical implementation, and user guide for a large set of models is then discussed. Importantly, a number of verification tests are performed with each model to not only have confidence in the model itself but also highlight some important response characteristics and features that may be of interest to end-users. Finally, in looking ahead to the future, approaches to add material models to this library and further expand the capabilities are presented.",
+    "title": "Library of Advanced Materials for Engineering (LAMÉ) 5.20",
+    "contract_number": "NA0003525",
+    "publication_date": "2024-06-27T04:00:00Z",
+    "osti_id": "2429908",
+    "product_type": "Technical Report",
+    "authors": [
+      "Lester, Brian T. [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]",
+      "Scherzinger, William M. [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]",
+      "Long, Kevin Nicholas [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]",
+      "Vignes, Chet [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]",
+      "Cundiff, Kenneth Noel [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]",
+      "Stershic, Andrew Joseph [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]",
+      "Buche, Michael Robert [Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)]"
+    ],
+    "subjects": [
+      "36 MATERIALS SCIENCE",
+      "42 ENGINEERING",
+      "96 KNOWLEDGE MANAGEMENT AND PRESERVATION"
+    ],
+    "contributing_org": "LAMÉ Team",
+    "doe_contract_number": "NA0003525",
+    "sponsor_orgs": [
+      "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+      "Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2429908"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2429908"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2026-04-22T19:03:56Z",
+    "relation": "AMPP Annual Conference and Expo 2025 - Nashville, Tennessee, United States of America - 4/6/2025-4/10/2025",
+    "identifier": "AC05-00OR22725",
+    "country_publication": "United States",
+    "publisher": "Association for Materials Protection and Performance, Texas, United States of America",
+    "doi": "10.5006/C2025-00576",
+    "description": "High temperature ferritic-martensitic steels are candidate materials for heavy-duty diesel engine pistons. The envisioned transition to hydrogen blended fuels is expected to alter the post-combustion atmosphere in the engines, primarily resulting in a higher water vapor content (\u003e 20 vol%) and potentially higher exhaust gas temperatures. The oxidation resistance of existing and newly developed alloys will be a critical life-limiting mechanism under these conditions. In the present work, the oxidation behavior of candidate piston alloys was evaluated in air+10 vol.% H2O and air+30 vol.% H2O at 700°C. Thermal cyclic (1h cycle) exposures were conducted for two variants of commercial UNSS42200 ferritic-martensitic steel and two developmental alloy steels for up to 300h. The developmental alloys each have similar compositions but with one containing elevated Cu levels of 3 wt.%, A significant reduction in resistance to breakaway oxidation was observed for the commercial alloys in the higher water vapor atmosphere. Microstructural characterization (optical metallography, scanning electron microscopy and electron microprobe analysis) revealed the formation of thick Fe-rich oxides even for the high Cr (~12 wt.%) steels after an initial stage of protective oxidation with MnCr-rich spinels. The impact of the evaporation-induced loss of Cr on the time and temperature dependent compositional changes in the alloys was correlated with experimental findings. For the developmental alloys, Cu additions appear to play a role in significantly reducing oxidation kinetics in air+30 vol.% H2O at 700°C.",
+    "title": "Impact of Hydrogen Combustion on the Oxidation-induced Degradation of Heavy-duty Diesel Engine Piston Materials",
+    "contract_number": "AC05-00OR22725; ",
+    "publication_date": "2025-04-01T00:00:00Z",
+    "osti_id": "2573448",
+    "product_type": "Conference",
+    "authors": [
+      "Pillai, Rishi [ORNL] (ORCID:0000000243688197)",
+      "Pierce, Dean T [ORNL] (ORCID:0000000304223423)",
+      "Lowe, Tracie [ORNL]",
+      "Haynes, James A [ORNL] (ORCID:0000000242367383)"
+    ],
+    "doe_contract_number": "AC05-00OR22725; ",
+    "subjects": [],
+    "sponsor_orgs": [
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
+      "USDOE"
+    ],
+    "research_orgs": [
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+    ],
+    "conference_info": "AMPP Annual Conference and Expo 2025 - Nashville, Tennessee, United States of America - 4/6/2025-4/10/2025",
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2573448"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2573448"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2024-10-03T22:11:04Z",
+    "report_number": "FERMILAB-POSTER-24-0272-SQMS",
+    "identifier": "AC02-07CH11359",
+    "country_publication": "United States",
+    "doi": "10.2172/2448589",
+    "description": "While significant strides have been made to increase the coherence time of superconducting qubits, further advancements are essential for realizing scalable quantum computing. Decoherence is often a result of loss and noise stemming from two-level systems and excess quasiparticles, arising due to material defects, fabrication processes, and ambient exposure, particularly at surfaces and interfaces. Our recent efforts to mitigate these decoherence mechanisms have employed a variety of strategies, including low-loss surface encapsulation materials, advanced substrate preparation techniques, modifications to metal film growth, and the development of novel fabrication processes. The structural and chemical properties of materials, surfaces, and interfaces are studied using scanning probe microscopy, electron microscopy, photoelectron spectroscopy, mass spectrometry, and X-ray diffraction, which is correlated to device performance metrics, including superconducting resonator internal quality factor and qubit T1 time. This information is used to identify and understand material sources of loss and their origins in the device fabrication process. Through multi-institution efforts within SQMS we have identified the loss mechanism of interstitial hydrogen in niobium-based devices and shown how standard fabrication processes introduce these hydrides, developing strategies to mitigate their formation.1 Furthermore, we have characterized the metal-substrate interface, including the loss of niobium-silicides formed at that interface, and developed silicon surface treatments that reduce atomic scale roughness and oxygen content at the metal-substrate and Josephson junction interfaces.2-4 By developing the connection between materials properties and the overall performance of superconducting quantum circuitry, we can develop fabrication strategies to mitigate material losses, thus supporting the ongoing efforts to enhance coherence time in superconducting quantum devices. 1. Torres-Castanedo, C. G.*, Goronzy, D. P.*, et al., Adv. Funct. Mater., 2401365 (2024) 2. Lu, X., et al., Phys. Rev. Materials 6, 064402 (2022) 3. Berti, G., Appl. Phys. Lett. 122, 192605 (2023) 4. Kopas, C. J., Goronzy, D. P., et al., arXiv:2408.02863 (2024)",
+    "title": "Material and Interface Engineering Strategies to Mitigate Decoherence in Superconducting Qubits",
+    "other_number": "oai:inspirehep.net:2831732",
+    "contract_number": "AC02-07CH11359",
+    "publication_date": "2024-09-23T04:00:00Z",
+    "osti_id": "2448589",
+    "product_type": "Conference",
+    "authors": [
+      "Goronzy, Dominic P. [Northwestern U.]",
+      "McFadden, Anthony [NIST, Boulder]",
+      "Garcia‐Wetten, David A. [Northwestern U.]",
+      "Walker, Mitchell J. [Northwestern U.]",
+      "Vallières, André [Northwestern U.]",
+      "Russell, Megan [Northwestern U.]",
+      "Torres‐Castanedo, Carlos G. [Northwestern U.]",
+      "Pham, Thang [Northwestern U.]",
+      "Materise, Nicholas [Colorado School of Mines]",
+      "Kopas, Cameron J. [Rigetti Computing; U. Oxford (main)]",
+      "Marshall, Jayss [Rigetti Computing; U. Oxford (main)]",
+      "Lachman, Ella [Rigetti Computing; U. Oxford (main)]",
+      "Zhelev, Nikolay [Oregon U.]",
+      "Sauls, James A. [Louisiana State U.]",
+      "Mutus, Joshua Y. [Rigetti Computing; U. Oxford (main)]",
+      "McRae, Corey H. [NIST, Boulder; U. Colorado, Boulder]",
+      "Dravid, Vinayak P. [Northwestern U.]",
+      "Bedzyk, Michael J. [Northwestern U.]",
+      "Hersam, Mark C. [Northwestern U.]"
+    ],
+    "doe_contract_number": "AC02-07CH11359",
+    "subjects": [],
+    "sponsor_orgs": [
+      "USDOE Office of Science (SC), High Energy Physics (HEP) (SC-25)"
+    ],
+    "research_orgs": [
+      "Fermi National Accelerator Laboratory (FNAL), Batavia, IL (United States)"
+    ],
+    "other_identifiers": [
+      "oai:inspirehep.net:2831732"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2448589"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/2448589"
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "entry_date": "2025-05-16T22:14:08Z",
+    "relation": "Journal Name: Acta Geotechnica ",
+    "identifier": "NE0008954",
+    "country_publication": "Germany",
+    "publisher": "Springer Science + Business Media",
+    "journal_type": "PA",
+    "doi": "10.1007/s11440-025-02627-6",
+    "description": "\u003ctitle\u003eAbstract\u003c/title\u003e\n \u003cp\u003e\n Buffer material is crucial for the engineering barrier system to dispose of high-level radioactive waste in a geological repository. A reliable buffer material should be able to maintain good sealing characteristics and minimize desiccation cracking. In this study, the effectiveness of inorganic fiber-reinforced engineering barrier material in reducing desiccation cracks in bentonite was evaluated via desiccation tests, image analysis, and air permeability tests. The effects of fiber type (E-glass fiber and basalt fiber) and fiber content (0.0%, 0.5%, 1.0%, 1.5%, 3.0%, and 5.0% of dry weight of the bentonite) on the development of desiccation cracks in the fiber–bentonite mixtures with the same given initial moisture content were evaluated. The results indicated that the addition of fibers could significantly reduce the crack size and area in bentonite during the drying. Basalt fibers showed a slightly better reinforcement effect than E-glass fibers when the fiber content was lower than 3.0%. The addition of fibers prevented the development of penetrating cracks and significantly reduced the permeability of the bentonite after drying. The permeabilities of basalt fiber- and E-glass fiber-reinforced bentonite composites with 3% reinforcement were 5.81 × 10\n \u003csup\u003e–11\u003c/sup\u003e\n  m\n \u003csup\u003e2\u003c/sup\u003e\n and 7.24 × 10\n \u003csup\u003e–11\u003c/sup\u003e\n  m\n \u003csup\u003e2\u003c/sup\u003e\n , respectively, which were 64 and 51 times smaller than that of pure bentonite. X-ray–CT observation of the internal structure of the samples after drying showed that the addition of fibers significantly changed the crack morphology and potentially increased the tortuosity.\n \u003c/p\u003e",
+    "title": "Evaluation of desiccation cracking characteristics of inorganic micro-fiber-reinforced engineered barrier material (IMEBM) for geological repository",
+    "doe_funded_flag": "Y",
+    "other_number": "Journal ID: ISSN 1861-1125;PII: 2627",
+    "contract_number": "NE0008954",
+    "publication_date": "2025-05-15T00:00:00Z",
+    "journal_sunset_date": "2025-05-15T00:00:00Z",
+    "osti_id": "2566607",
+    "journal_name": "Acta Geotechnica",
+    "product_type": "Journal Article",
+    "authors": [
+      "Feng, Yuan",
+      "Kim, Seunghee",
+      "Kim, Yong-Rak",
+      "Dzenis, Yuris",
+      "Eun, Jongwan (ORCID:0000000197342602)"
+    ],
+    "article_type": "Published Article",
+    "doe_contract_number": "NE0008954",
+    "subjects": [],
+    "sponsor_orgs": [
+      "USDOE"
+    ],
+    "research_orgs": [],
+    "journal_issn": "ISSN 1861-1125",
+    "other_identifiers": [
+      "Journal ID: ISSN 1861-1125;PII: 2627"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/2566607"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/2566607"
+      }
+    ]
+  }
+]

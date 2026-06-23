@@ -1,0 +1,49 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "12276",
+    "retmax": "25",
+    "retstart": "0",
+    "idlist": [
+      "13283517",
+      "13280683",
+      "13280827",
+      "13280337",
+      "13281817",
+      "13281699",
+      "13278958",
+      "12266051",
+      "13275478",
+      "13275833",
+      "13272121",
+      "13273693",
+      "13273097",
+      "13213181",
+      "13273177",
+      "13271659",
+      "13269267",
+      "13269364",
+      "13266774",
+      "13265176",
+      "13265405",
+      "13266054",
+      "13264987",
+      "13264631",
+      "13264613"
+    ],
+    "translationset": [
+      {
+        "from": "shipbuilding",
+        "to": "\"shipbuilders\"[All Fields] OR \"shipbuilding\"[All Fields]"
+      },
+      {
+        "from": "architecture",
+        "to": "\"architectural\"[All Fields] OR \"architecturally\"[All Fields] OR \"architecture\"[MeSH Terms] OR \"architecture\"[All Fields] OR \"architecture\u0027s\"[All Fields] OR \"architectured\"[All Fields] OR \"architectures\"[All Fields]"
+      }
+    ],
+    "querytranslation": "\"shipbuilders\"[All Fields] OR \"shipbuilding\"[All Fields] OR (\"naval\"[All Fields] AND (\"architectural\"[All Fields] OR \"architecturally\"[All Fields] OR \"architecture\"[MeSH Terms] OR \"architecture\"[All Fields] OR \"architecture s\"[All Fields] OR \"architectured\"[All Fields] OR \"architectures\"[All Fields]))"
+  }
+}
