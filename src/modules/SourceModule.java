@@ -29,34 +29,28 @@ public class SourceModule
 
         try
         {
-            String host = new URI(url).toURL().getHost();
-            SSLContext ctx = SSLContext.getInstance("TLS");
-            TrustManagerFactory tmf = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
-            tmf.init((KeyStore) null);
+            URL target = new URI(url).toURL();
+            HttpsURLConnection conn = (HttpsURLConnection) target.openConnection();
+            conn.setRequestMethod("HEAD");
+            conn.setConnectTimeout(30000);
+            conn.setReadTimeout(30000);
+            conn.connect();
 
-            X509TrustManager defaultTm = (X509TrustManager) tmf.getTrustManagers()[0];
-            CertCaptureTrustManager captureTm = new CertCaptureTrustManager(defaultTm);
+            java.security.cert.Certificate[] certs = conn.getServerCertificates();
+            conn.disconnect();
 
-            ctx.init(null, new TrustManager[]{captureTm}, null);
-            SSLSocketFactory factory = ctx.getSocketFactory();
-
-            SSLSocket socket = (SSLSocket) factory.createSocket(host, 443);
-            socket.setSoTimeout(30000);
-            socket.startHandshake();
-            socket.close();
-
-            X509Certificate[] chain = captureTm.getChain();
-            if (chain != null && chain.length > 0)
+            if (certs != null && certs.length > 0)
             {
+                String host = target.getHost();
                 String folder = "src/modules/" + topic + "/certs";
                 Files.createDirectories(Paths.get(folder));
 
                 KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());
                 ks.load(null, null);
 
-                for (int i = 0; i < chain.length; i++)
+                for (int i = 0; i < certs.length; i++)
                 {
-                    ks.setCertificateEntry(host + "-" + i, chain[i]);
+                    ks.setCertificateEntry(host + "-" + i, certs[i]);
                 }
 
                 String ksPath = folder + "/" + host + ".jks";
@@ -65,13 +59,13 @@ public class SourceModule
                     ks.store(fos, "changeit".toCharArray());
                 }
 
-                System.out.println("[SSL] Saved " + chain.length + " cert(s) for " + host + " -> " + ksPath);
+                System.out.println("[SSL] Saved " + certs.length + " cert(s) for " + host + " -> " + ksPath);
                 return true;
             }
         }
         catch (Exception e)
         {
-            e.printStackTrace();
+            System.out.println("[SSL] Failed for " + name + ": " + e.getMessage());
         }
         return false;
     }
