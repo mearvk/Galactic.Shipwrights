@@ -1,31 +1,13 @@
-import utils.Reacher;
-import utils.DictionaryProfiler;
-import utils.Speculator;
-import utils.SpeculatorTrainer;
+import utils.GalacticShipwright;
 
 public class Main
 {
     public static void main(String[] args)
     {
-        // Run Reacher to gather content from sources
-        new Reacher().reach();
+        GalacticShipwright galactic_shipwright = new GalacticShipwright();
 
-        // Run DictionaryProfiler to catalog words and definitions
-        new DictionaryProfiler().profile();
+        Thread thread = new Thread(galactic_shipwright, "GalacticShipwright");
 
-        // Train the Speculator if not already trained
-        SpeculatorTrainer trainer = new SpeculatorTrainer();
-        if (!trainer.isTrained())
-        {
-            System.out.println("[Main] Speculator not trained. Running trainer...");
-            trainer.train();
-        }
-        else
-        {
-            System.out.println("[Main] Speculator model found. Skipping training.");
-        }
-
-        // Run Speculator to analyze findings and share with known servers
-        new Speculator().speculate();
+        thread.start();
     }
 }
