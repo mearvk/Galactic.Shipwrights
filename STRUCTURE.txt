@@ -1,0 +1,89 @@
+Galactic.Shipwrights - Project Structure
+==========================================
+Last Updated: 2026-06-22
+
+/
+├── jars/                              # Third-party libraries
+│   ├── gson-2.11.0.jar                  - JSON parsing (Google)
+│   ├── jsoup-1.18.1.jar                 - HTML/XML parsing
+│   ├── rome-2.1.0.jar                   - RSS/Atom feed parsing
+│   ├── rome-utils-2.1.0.jar             - Rome utilities
+│   ├── jdom2-2.0.6.1.jar               - XML DOM (Rome dependency)
+│   ├── slf4j-api-2.0.13.jar            - Logging API
+│   ├── slf4j-simple-2.0.13.jar         - Logging implementation
+│   ├── api-0.28.0.jar                   - DJL Deep Java Library (AI inference)
+│   └── mysql-connector-j-8.4.0.jar     - MySQL JDBC driver
+│
+├── trainer/                           # AI training environment
+│   └── speculator.model                 - Trained model (TF-IDF weights, correlations)
+│
+├── src/
+│   ├── Main.java                      # Entry point: Reacher → DictionaryProfiler → Trainer → Speculator
+│   ├── config.xml                     # Central configuration
+│   ├── sources.xml                    # 45 internet sources (books, papers, images, manuals, data)
+│   ├── database.xml                   # MySQL config (requires MEARVK LLC Installer ID)
+│   ├── known.20000.xml                # Green.Durham.Grass.and.Herb server registry
+│   │
+│   ├── utils/                         # Core utility classes
+│   │   ├── Reacher.java                 - Web crawler; probes & fetches from all sources.xml entries
+│   │   ├── DictionaryProfiler.java      - Word discovery & definition lookup; outputs dictionary.list.txt
+│   │   ├── Speculator.java             - AI analysis engine; cross-source correlation & future projection
+│   │   ├── SpeculatorTrainer.java       - Builds TF-IDF model from corpus; saves weights to MySQL
+│   │   └── SpeculatorDB.java           - MySQL persistence (speculations, posits, hypotheses, correlations)
+│   │
+│   ├── modules/                       # Source connection modules
+│   │   ├── SourceModule.java            - Base class (HTTP/HTTPS aware, SSL cert exchange)
+│   │   ├── gutenberg/
+│   │   │   └── GutenbergModule.java     - Gutendex API (JSON search, book retrieval)
+│   │   ├── openlibrary/
+│   │   │   └── OpenLibraryModule.java   - Open Library search.json API
+│   │   ├── internetarchive/
+│   │   │   └── InternetArchiveModule.java - Advanced search + metadata APIs
+│   │   ├── wikipedia/
+│   │   │   └── WikipediaModule.java     - MediaWiki API (opensearch, query, content)
+│   │   └── arxiv/
+│   │       └── ArxivModule.java         - arXiv Atom export API
+│   │
+│   ├── edifiction/                    # Retrieved content (per-source folders)
+│   │   ├── project_gutenberg/           - Books & literature catalog
+│   │   ├── open_library/                - Library search results
+│   │   ├── internet_archive/            - Archive text metadata
+│   │   ├── wikipedia/                   - Encyclopedia articles
+│   │   ├── arxiv/                       - Academic papers
+│   │   ├── _speculations/               - Speculator output reports
+│   │   └── ... (45 source folders)
+│   │
+│   ├── data/                          # Research documents (.rdns format)
+│   │   └── research.rdns               - Paragraph-based academic notation document
+│   │
+│   ├── architect/                     # Domain classes + definitions
+│   │   ├── Architect.java
+│   │   └── definitions.xml             - Etymology: Greek, Latin, Italian, Gaelic
+│   ├── bove/
+│   │   ├── Bove.java
+│   │   └── definitions.xml             - Etymology: Italian (ox), Middle English (above)
+│   ├── builder/
+│   │   ├── Builder.java
+│   │   └── definitions.xml             - Etymology: OE bylda, Germanic, Gaelic saor
+│   ├── nail/
+│   │   ├── Nail.java
+│   │   └── definitions.xml             - Etymology: OE nægl, PIE, Gaelic tairne
+│   ├── person/
+│   │   ├── Person.java
+│   │   └── definitions.xml             - Etymology: Latin persona, Etruscan phersu
+│   ├── rudder/
+│   │   ├── Rudder.java
+│   │   └── definitions.xml             - Etymology: OE rōþor, Germanic, Gaelic stiúir
+│   ├── society/
+│   │   ├── Society.java
+│   │   └── definitions.xml             - Etymology: Latin societas, PIE *sekw-
+│   ├── swain/
+│   │   ├── Swain.java
+│   │   └── definitions.xml             - Etymology: ON sveinn, Gaelic giolla
+│   └── town/
+│       ├── Town.java
+│       └── definitions.xml             - Etymology: OE tūn, Celtic *dūnom, Gaelic dún
+│
+├── dictionary.list.txt                # Alphabetical word list with definitions
+├── STRUCTURE.txt                      # This file
+└── README.md                          # Project documentation

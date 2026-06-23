@@ -1,0 +1,50 @@
+Galactic Shipwrights — Research Distillation Notes
+====================================================
+Document Type: .rdns (Research Distillation & Notation System)
+Classification: College-level academic discourse and above
+Generated: 2026-06-22
+
+§1. Preamble
+
+This document synthesizes findings from the Galactic Shipwrights automated
+research pipeline. Content herein is distilled from primary sources including
+academic repositories (arXiv), digital libraries (Project Gutenberg, Internet
+Archive, Open Library), government technical archives (Library of Congress,
+OSTI, GovInfo), and museum collections (Metropolitan Museum, Smithsonian).
+
+The notation system (.rdns) is designed for paragraph-form analytical prose
+intended for readers with post-secondary education or equivalent intellectual
+engagement. Each section represents a discrete research thread with citations
+to machine-retrieved source material.
+
+§2. Methodology
+
+The Speculator engine performs multi-source correlation analysis across the
+edifiction corpus. It identifies cross-domain signal convergence by measuring
+term frequency distributions, co-occurrence patterns, and temporal clustering.
+Results exceeding an interest threshold of 0.5 (normalized) are flagged for
+human review and optional relay to collaborative research nodes.
+
+Hypotheses are generated through abductive reasoning over the corpus:
+given an observed pattern P across sources S₁...Sₙ, the system proposes
+explanatory frameworks ranked by parsimony and evidential support.
+
+§3. Current Research Threads
+
+[PENDING — Populated after Speculator execution against edifiction corpus]
+
+§4. Notation Conventions
+
+- §N.M denotes Section N, Subsection M
+- [SRC:name] denotes machine-retrieved source attribution
+- {H:id} denotes hypothesis reference by database ID
+- {P:id} denotes posit reference by database ID
+- Confidence intervals expressed as decimal [0.0, 1.0]
+- Temporal references in ISO 8601 format
+
+§5. Revision History
+
+2026-06-22 — Document initialized. Awaiting first Speculator pass.
+
+====================================================
+END OF DOCUMENT

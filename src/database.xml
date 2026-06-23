@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <!-- ShipWrights MySQL Database Configuration -->
+    <!-- Requires valid Installer ID from Max Rupplin - MEARVK LLC -->
+    <!-- Contact: Max Rupplin - MEARVK LLC for Installer ID provisioning -->
+    <!-- Format: MEARVK-XXXX-XXXX-XXXX -->
+
+    <connection>
+        <host>localhost</host>
+        <port>3306</port>
+        <database>ShipWrights</database>
+        <user>shipwrights</user>
+        <password></password>
+        <installerId></installerId>
+    </connection>
+
+    <schema>
+        <table name="speculations">Speculator output - scored topic analysis with projections</table>
+        <table name="posits">Factual statements derived from source material with evidence</table>
+        <table name="hypotheses">Proposed theories with status tracking (proposed/testing/supported/refuted)</table>
+        <table name="correlations">Cross-topic relationships with strength scores</table>
+        <table name="installer_log">Audit trail of database access by Installer ID</table>
+    </schema>
+</database>
