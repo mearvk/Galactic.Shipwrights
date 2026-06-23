@@ -36,5 +36,7 @@ public class Main
         GalacticShipwright.SELF = SELF;
 
         GalacticShipwright.BRIDGE.start();
+
+        SELF.start();
     }
 }
