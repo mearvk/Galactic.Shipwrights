@@ -36,8 +36,5 @@ public class Main
         GalacticShipwright.SELF = SELF;
 
         GalacticShipwright.BRIDGE.start();
-
-        Thread thread = new Thread(SELF, "GalacticShipwright");
-        thread.start();
     }
 }
