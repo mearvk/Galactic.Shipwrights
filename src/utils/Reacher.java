@@ -60,8 +60,21 @@ public class Reacher
                     String content = fetchContent(module, urlStr, capabilities);
                     if (content != null)
                     {
-                        module.save(content);
-                        System.out.println("[Reacher] " + name + " -> SAVED (" + content.length() + " bytes)");
+                        String safeName = name.replaceAll("[^a-zA-Z0-9]", "_").toLowerCase();
+                        String folder = "src/edifiction/" + safeName;
+                        java.nio.file.Files.createDirectories(java.nio.file.Paths.get(folder));
+                        String filename = java.time.LocalDate.now() + "." + module.getTopic() + ".data";
+                        java.nio.file.Path filePath = java.nio.file.Paths.get(folder, filename);
+
+                        if (java.nio.file.Files.exists(filePath))
+                        {
+                            System.out.println("[Reacher] " + name + " -> SKIPPED (file already exists: " + filePath + ")");
+                        }
+                        else
+                        {
+                            java.nio.file.Files.writeString(filePath, content);
+                            System.out.println("[Reacher] " + name + " -> SAVED to " + folder + "/" + filename + " (" + content.length() + " bytes)");
+                        }
                     }
                     else
                     {

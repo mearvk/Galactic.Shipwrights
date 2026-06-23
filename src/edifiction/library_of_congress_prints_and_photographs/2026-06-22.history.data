@@ -1,0 +1,1463 @@
+--- SOURCE: https://www.loc.gov/pictures/api ---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        
+    About Prints and Photographs Online Catalog API
+
+        </title>
+        
+        <meta http-equiv="Content-Language" content="en-us" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link title="schema(DC)"
+              rel="schema.dc"
+              href="http://purl.org/dc/elements/1.1/" />
+        <link title="schema(DCTerms)"
+              rel="schema.dcterms"
+              href="http://purl.org/dc/terms/" />
+        <link rel='canonical'
+              href='https://www.loc.gov/pictures/help'/>
+        <link rel='alternate'
+              type='application/json'
+              href='https://www.loc.gov/pictures/api?fo=json'/>
+        <link rel="dc.relation.isPartOf"
+              href='https://www.loc.gov/pictures'
+              title="Prints &amp; Photographs Online Catalog (Library of Congress)"/>
+
+
+        
+    
+        <meta name="keywords" content="" />
+        <meta name="description" content="The Prints and Photographs Online
+              Catalog (PPOC) contains catalog
+              records and digital images representing
+              a rich cross-section of
+              still pictures held by the Prints &amp; Photographs
+              Division and, in some cases, other units of the
+              Library of Congress. The Library of Congress
+              offers broad public access to
+              these materials
+              as a contribution to
+              education and scholarship." />
+        
+	<meta id="prop46" name="collection" content="" />
+
+        
+        <link rel='shortcut icon'
+              href='https://www.loc.gov/images/fav.ico'/>
+        
+        
+
+        <link rel="stylesheet" 
+              media="print" 
+              type="text/css" 
+              href='https://www.loc.gov/pictures/static/css/ppoc_print.css'/>
+        <link rel="stylesheet" 
+              media="screen, projection" 
+              type="text/css" 
+              href='https://www.loc.gov/pictures/static/css/ppoc_standard.css' />
+        <link rel="stylesheet"
+              media="screen, all"
+              type="text/css"
+              href='https://cdn.loc.gov/css/lochead.css'/>
+        <link rel="stylesheet"
+              media="screen, all"
+              type="text/css"
+              href='https://cdn.loc.gov/css/locfoot.css'/>
+        
+<link rel="stylesheet" 
+	  media="screen, projection" 
+	  type="text/css" 
+	  href='https://www.loc.gov/pictures/static/css/ppoc_2col.css' />
+
+        <style>
+            div.locshare-this{
+                display:none;
+            }
+        </style>
+        
+        
+        <script type='text/javascript' 
+                src='https://cdn.loc.gov/js/lib/jquery-1.4.2.js'>
+        </script>
+        <script type='text/javascript' 
+                src='https://www.loc.gov/pictures/static/plugins/jquery.hoverIntent.js'>
+        </script>
+        <script type='text/javascript' 
+                src='https://www.loc.gov/pictures/static/plugins/jquery.ifixpng.js'>
+        </script>
+        <script type='text/javascript'>
+            var ppoc_options = {
+                root:'/pictures/'
+            };
+        </script>
+        <script src="https://assets.adobedtm.com/f94f5647937d/624e2240e90d/launch-0610ec681aff.min.js" async></script>
+        
+		
+		<script type='text/javascript' 
+				src='https://cdn.loc.gov/sites/pictures.js'>
+		</script>
+		
+        <!--[if lte IE 7]>
+        <style type="text/css" media="screen">
+          div#topnav form input.button {
+              vertical-align: top;
+            }
+            #main_body form input.button {
+                vertical-align: top;
+            }
+            #content #main_menu #main_body #search_arrow{
+                margin-top:-8px;
+            }
+            #content #main_menu #main_body #search_tabs li,
+            #content #main_menu #main_body #search_tabs li:hover{
+                display:inline;
+                width: auto;
+                height:12px;
+                position: relative;
+                padding:8px 0 5px 0;
+            }
+            #content #main_menu #main_body #search_tabs li.selected{
+                display:inline;
+                width: auto;
+            }
+            #item #results_lookahead div.images, #results_lookahead div.images {
+                background-color:#FFFFFF;
+                height:auto;
+                margin: 12px 0 0 0;
+                padding:0;
+                vertical-align:middle;
+                width:165px;
+            }
+            #item #results_lookahead div, #results_lookahead div{
+                margin-bottom:0;
+            }
+            #itemnavclear{
+                height:0;
+                margin:0 0 0 0;
+                padding:0;
+                background:none;
+            }
+            
+            #main_body #tabs_carous ul.tabs {
+                width: 691px;
+            }
+        </style>
+    
+        
+        <![endif]-->
+    </head>
+<body>
+<a id="skip" href="#skip_menu">skip navigation</a>
+<div id="container">
+    
+    <div id="branding">
+    <h2>Library of Congress</h2>
+    <h3>Prints &amp; Photographs Online Catalog</h3>
+    </div>
+    
+    <div id="h-wrapper" class="fix-float">
+    <div id="header" class="fix-float">
+        <div class="logo">
+            <a href="https://www.loc.gov/" accesskey="1"><img src="https://cdn.loc.gov/images/img-head/logo-loc.png" width="141" height="32" alt="Library of Congress" /></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a class="btn-loc" href="https://ask.loc.gov/" accesskey="2">Ask a Librarian</a></li>
+                <li><a class="btn-loc" href="https://www.loc.gov/collections/" accesskey="3">Digital Collections</a></li>
+                <li><a class="btn-loc" href="https://catalog.loc.gov/" accesskey="4">Library Catalogs</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="https://www.loc.gov/search" method="get">
+                <label class="search_label" for="search">Search</label>
+                <div class="search_wrap">
+                    <input type='hidden' name='new' value='true'/>
+                    <input id="search" type="search" name="q" maxlength="200" accesskey="/" title="Search the Library of Congress website" placeholder="Search Loc.gov" class="locsuggest" /><button class="button" id="search_button" type="submit">GO</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.loc.gov/suggest/library-of-congress.js" type="text/javascript"></script>
+</div>
+
+    
+    <div id="crumb_nav">
+        <div id="crumb">
+            
+	
+            <a href="https://www.loc.gov">Library of Congress</a>
+            <span>&gt;</span>
+            <a href="https://www.loc.gov/rr/print/">Prints &amp; Photographs Reading Room</a>
+            <span>&gt;</span>
+            <a href='https://www.loc.gov/pictures/'>Prints &amp; Photographs Online Catalog</a>
+            
+	<span>&gt;</span> Help
+
+        </div>
+        
+    </div>
+    
+    <div id="announcement">
+        
+        
+        
+    </div>
+
+    <div id="content">
+      
+<div id="left_nav">
+    
+	<div id="left_nav_top">
+		<a href='https://www.loc.gov/pictures'>
+			<img src='https://www.loc.gov/pictures/static/images/ppoc_leftnav.gif'
+				 alt="Prints and Photographs Division" 
+				 width="218" 
+				 height="50" />
+		</a>
+	</div>
+	<div id='standard_nav'>
+		<ul id=''>
+		   <li><a href='https://www.loc.gov/pictures'>PPOC Home</a></li>
+           <li><a href='https://www.loc.gov/pictures/about'>About PPOC</a></li>
+           <li><a href='https://www.loc.gov/pictures/collections'>PPOC collections</a></li>
+           <li><a href='https://www.loc.gov/pictures/help#tips'>Search Tips</a></li>
+           <li><a href='https://www.loc.gov/pictures/help#downloading'>Download Tips</a></li>
+		</ul>
+    </div>
+    <div id="left_nav_mid">
+		
+		
+		
+        <h3>Browse By:</h3>
+        <ul id="index">
+			
+            
+            
+			<li>
+			    <a href='https://www.loc.gov/pictures/index/names/'>
+                Creator/Related Names
+                </a>
+            </li>
+            
+            
+			
+            
+            
+			<li>
+			    <a href='https://www.loc.gov/pictures/index/subjects/'>
+                Subjects
+                </a>
+            </li>
+            
+            
+			
+            
+            
+			<li>
+			    <a href='https://www.loc.gov/pictures/index/formats/'>
+                Formats
+                </a>
+            </li>
+            
+            
+			
+        </ul>
+		
+		
+				
+		
+		
+         <h2>More Resources</h2>
+        <ul id="res_links">
+          <li><a href="https://www.loc.gov/rr/print/"
+		  	>Prints &amp; Photographs Reading Room</a></li>
+          <li><a href="https://www.loc.gov/rr/askalib/ask-print.html"
+		  	>Ask a Prints &amp; Photographs Librarian</a></li>
+        </ul>
+		
+	   
+	</div>
+	
+    <div>
+        <a href="https://blogs.loc.gov/picturethis/"><img src='https://www.loc.gov/pictures/static/images/blog.gif'/></a>
+    </div>
+</div>
+
+<div id="page_head">
+	<span style="width: 100%;">
+		<a name="skip_menu"></a>
+	</span>
+	<h1 class="oneline">
+		 
+    About Prints and Photographs Online Catalog API
+
+	</h1>
+	<div id="sharewrapper">
+    <div class="locshare-this" id='ppocshare_browse'>&#160;</div>
+    </div>
+</div>
+
+
+
+<div id="main_menu">
+	<div id="main_body" style='padding:10px;'>
+		
+<h1 style=TEXT-ALIGN:center>
+  <a id=PPOC_JSON_HTTP_API_80869499948 name=PPOC_JSON_HTTP_API_80869499948></a>PPOC - JSON HTTP API
+</h1>
+<h2 style=TEXT-ALIGN:center>
+  <a id=Abstract_0971253191312117_6803_8160027424342244 name=Abstract_0971253191312117_6803_8160027424342244></a>Abstract
+</h2>
+<div style=TEXT-ALIGN:left>
+  <blockquote>
+    The Library of Congress' recently re-released Print &amp; Photographs Online Catalog (http://www.loc.gov/pictures/) provides a json serialization of the request-scoped state used to create every html page.&nbsp; This immediately enables PPOC to serve as a simple API for developers to make use of while building other applications, integrating Library data in new and innovative ways.<br>
+  </blockquote>
+</div>
+<hr class=pb>
+<h2 style=TEXT-ALIGN:center>
+  <a id=Disclaimer_6190051318896683 name=Disclaimer_6190051318896683></a>Disclaimer
+</h2>
+<div style=TEXT-ALIGN:left>
+  <blockquote>
+    This API is a work in progress. Use at your own risk!! We might (will likely) change this!
+  </blockquote>
+</div>
+<hr class=pb><br>
+<br>
+<div class=writely-toc id=WritelyTableOfContents toctype=none+none>
+  <ol class=writely-toc-none>
+    <li>
+      <a href=#PPOC_JSON_HTTP_API_80869499948 target=_self>PPOC - JSON HTTP API</a>
+    </li>
+    <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+      <li>
+        <a href=#Abstract_0971253191312117_6803_8160027424342244 target=_self>Abstract</a>
+      </li>
+      <li>
+        <a href=#Disclaimer_6190051318896683 target=_self>Disclaimer</a>
+      </li>
+      <li>
+        <a href=#General_Usage_8151936110270551_028657657637824685 target=_self>General Usage</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#HTML_and_JSON_for_every_URL_16 target=_self>HTML and JSON for every URL</a>
+        </li>
+        <li>
+          <a href=#URL_Parameters_and_HTTP_Header_9341092626501765 target=_self>URL Parameters and HTTP Headers</a>
+        </li>
+        <li>
+          <a href=#Motivation_6435946750697595_52_5451126730922864 target=_self>Motivation</a>
+        </li>
+      </ol>
+      <li>
+        <a href=#Home_8408263690830129_13648241 target=_self>Home (/)</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Response_49989577126794893_115_8645877607052337 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_featured_48111058158831466_37 target=_self>"featured"</a>
+          </li>
+          <li>
+            <a href=#_collections_8278503356157663_ target=_self>"collections"</a>
+          </li>
+          <li>
+            <a href=#_indexes_6174085226997594_0850 target=_self>"indexes"</a>
+          </li>
+          <li>
+            <a href=#_links_05042475779439248_39603_7952166543194127 target=_self>"links"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Search_15626900281916867_13804_7288827267039479 target=_self>Search</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_992118639962267_176292_7192582657780896 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_2165298864770735_5386_7886227946333195 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_collections_02523483912937041 target=_self>"search"</a>
+          </li>
+          <li>
+            <a href=#_views_5308604204984715_861467_9410232394453154 target=_self>"links"</a>
+          </li>
+          <li>
+            <a href=#_views_71706953232209_43178459 target=_self>"views"</a>
+          </li>
+          <li>
+            <a href=#_focus__6843670526566048 target=_self>"focus"</a>
+          </li>
+          <li>
+            <a href=#_pages_1959987029602137_305084 target=_self>"pages"</a>
+          </li>
+          <li>
+            <a href=#_collection_9193582046884607 target=_self>"collection"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Related_4838323283125048_41192 target=_self>Related</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_992118639962267_176292_07405665349112567 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_2165298864770735_5386_8324477285163138 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_collections_02523483912937041_702251344333583 target=_self>"search"</a>
+          </li>
+          <li>
+            <a href=#_views_5308604204984715_861467 target=_self>"links"</a>
+          </li>
+          <li>
+            <a href=#_views_71706953232209_05681625 target=_self>"views"</a>
+          </li>
+          <li>
+            <a href=#_results__7335476080654116 target=_self>"results"</a>
+          </li>
+          <li>
+            <a href=#_pages__2355799466954751 target=_self>"pages"</a>
+          </li>
+          <li>
+            <a href=#_collection__9448621649885507 target=_self>"collection"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Item_6678769363409772_09777724_9276407665415058 target=_self>Item</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_227058590549168_666948_6846191412981906 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_9037565867339976_5166_06468069445685509 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_item_34450008198436943_746131_6883011985226136 target=_self>"item"</a>
+          </li>
+          <li>
+            <a href=#_links_26065664967340674_14946_46946758297528246 target=_self>"links"</a>
+          </li>
+          <li>
+            <a href=#_thesaurus_entry_2491049620514_3964040952444591 target=_self>"thesaurus_entry"</a>
+          </li>
+          <li>
+            <a href=#_current_search_13705952740619_20532311875658127 target=_self>"current_search"</a>
+          </li>
+          <li>
+            <a href=#_related_8227878241941454_2388_2677864979525395 target=_self>"related"</a>
+          </li>
+          <li>
+            <a href=#_collection_9636096387397495_1_8780763393401507 target=_self>"collection"</a>
+          </li>
+          <li>
+            <a href=#_resources_2800498055141374_33_45323039978454827 target=_self>"resources"</a>
+          </li>
+          <li>
+            <a href=#_unrestricted_2773151751675657_3296202772607161 target=_self>"unrestricted"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Resource_6198491009961684_1766 target=_self>Resource</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_7640789228513888_80271_6369064973393184 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_6883559518907422_5424_01888051643368771 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_resource_3013703374430644_846 target=_self>"resource"</a>
+          </li>
+          <li>
+            <a href=#_item_7773849442870953_3662266_4785832996668089 target=_self>"item"</a>
+          </li>
+          <li>
+            <a href=#_links_30795659179157076_24402_40594432990493223 target=_self>"links"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Collections_4742360135586273_7_502593905172489 target=_self>Collections</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_6604793936335418_45750_8794339934330452 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_6677025663268493_0987_8568728625195302 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_collections_02523483912937041_922907740449316 target=_self>"collections"</a>
+          </li>
+          <li>
+            <a href=#_links_5308722369897307_141112_11279072085968611 target=_self>"links"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Collection_13096224754630248_6_3813819551567116 target=_self>Collection</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_6604793936335418_04741_907358094567282 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_6677025663268493_2053_40533640032747453 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_collection_7971473457006178_3_012643777289184976 target=_self>"collection"</a>
+          </li>
+          <li>
+            <a href=#_links_5666414596570052_389362_3062349601108253 target=_self>"links"</a>
+          </li>
+          <li>
+            <a href=#_resources_33571156841393723_6 target=_self>"resources"</a>
+          </li>
+          <li>
+            <a href=#_indexes_49605147558267637_322 target=_self>"indexes"</a>
+          </li>
+          <li>
+            <a href=#_current_resource_065268404365 target=_self>"current_resource"</a>
+          </li>
+        </ol>
+      </ol>
+      <li>
+        <a href=#Index_11742543432550101_496255 target=_self>Index</a>
+      </li>
+      <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+        <li>
+          <a href=#Options_6604793936335418_11675_28372243205248104 target=_self>Options</a>
+        </li>
+        <li>
+          <a href=#Response_6677025663268493_0361_5127431565988687 target=_self>Response</a>
+        </li>
+        <ol class="writely-toc-none writely-toc-subheading" style=MARGIN-LEFT:0pt>
+          <li>
+            <a href=#_indexPage_03744444977167005_0 target=_self>"current"</a>
+          </li>
+          <li>
+            <a href=#_index_title_04195586557162023 target=_self>"index_title"</a>
+          </li>
+          <li>
+            <a href=#_index_terms_48093638786357606 target=_self>"terms"</a>
+          </li>
+          <li>
+            <a href=#_indexPages_6658095108727078_2 target=_self>"pages"</a>
+          </li>
+          <li>
+            <a href=#_resources_6284594507862302_89_8964246285011352 target=_self>"resources"</a>
+          </li>
+          <li>
+            <a href=#_collection_9678989632786407_4_9269199363126478 target=_self>"collection"</a>
+          </li>
+          <li>
+            <a href=#_indexes_8823726975947356_9269 target=_self>"indexes"</a>
+          </li>
+          <li>
+            <a href=#_links_5297388506110664_934466 target=_self>"links"</a>
+          </li>
+        </ol>
+      </ol>
+    </ol>
+  </ol>
+</div>
+<br>
+<hr size=2>
+<h2>
+  <a id=General_Usage_8151936110270551_028657657637824685 name=General_Usage_8151936110270551_028657657637824685></a>General Usage
+</h2>
+<h3>
+  <a id=HTML_and_JSON_for_every_URL_16 name=HTML_and_JSON_for_every_URL_16></a>HTML and JSON for every URL
+</h3>
+Every URL exposes by http://www.loc.gov/pictures is available as html, json, and jsonp.<br>
+<h3>
+  <a id=URL_Parameters_and_HTTP_Header_9341092626501765 name=URL_Parameters_and_HTTP_Header_9341092626501765></a>URL Parameters and HTTP Headers
+</h3>
+The JSON serialization is requested by specifying the format in the request. This can be done in one of two ways:<br>
+1) URL query string parameter, "fo", e.g.,<br>
+&nbsp;&nbsp;&nbsp; html: http://loc.gov/pictures/item/89709841/<br>
+&nbsp;&nbsp;&nbsp; json: http://loc.gov/pictures/item/89709841/?fo=json<br>
+2) HTTP content negotiation via the HTTP_ACCEPT header, example with curl:<br>
+&nbsp;&nbsp;&nbsp; html: curl curl -H "Accept: text/html" http://loc.gov/pictures/search?q=river<br>
+&nbsp;&nbsp;&nbsp; json: curl -H "Accept: application/json" http://loc.gov/pictures/search?q=river<br>
+3) To enable jsonp, follow the conventions for json, but add the parameter callback=nameofyourcallback.<br>
+<h3>
+  <a id=Motivation_6435946750697595_52_5451126730922864 name=Motivation_6435946750697595_52_5451126730922864></a>Motivation
+</h3>
+In this example we use jQuery with the loc.gov/pictures api to create a mash up of random items from the featured collections.&nbsp; (Of course cross domain ajax calls are not usually permitted so this examples assumes you are in the loc.gov domain already or you can use the dataType:'jsonp' )<br>
+<blockquote>
+  $.ajax({<br>
+  &nbsp;&nbsp;&nbsp; type: 'get',<br>
+  &nbsp;&nbsp;&nbsp; url: 'https://loc.gov/pictures/',<br>
+  &nbsp;&nbsp;&nbsp; dataType:'json',<br>
+  &nbsp;&nbsp;&nbsp; data:{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; fo:'json',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; at:'featured'<br>
+  &nbsp;&nbsp; &nbsp;},<br>
+  &nbsp;&nbsp; &nbsp;success: function(response){<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; var featured = response.featured,<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;random = [<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Math.floor(Math.random()*featured.length),<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Math.floor(Math.random()*featured.length),<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Math.floor(Math.random()*featured.length)<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;];<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; $(random).each(function(index, value){<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; $.ajax({<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; type:'get',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; url:'https://loc.gov/pictures/search',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; dataType:'json',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; data:{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; fo:'json',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; at:'results',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; num:'3',<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; co: featured[value].code<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; },<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;success: function(response){<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#mashup').append(template, response.results);<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;});<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;});<br>
+  &nbsp;&nbsp; &nbsp;}<br>
+  })<br>
+</blockquote>
+<br>
+<hr size=2>
+<h2>
+  <a id=Home_8408263690830129_13648241 name=Home_8408263690830129_13648241></a>Home (/)
+</h2>
+describe base url options and response json<br>
+<br>
+<a href=http://loc.gov/pictures/search/?q=%3Cquery%3E&amp;fo=json id=sdi1 title="https://loc.gov/pictures/search/?q=<query>&amp;fo=json">http://loc.gov/pictures/?fo=json</a> Provides a list of featured collections, a list of all collections, and a list of global indexes.<br>
+<h3>
+  <a id=Response_49989577126794893_115_8645877607052337 name=Response_49989577126794893_115_8645877607052337></a>Response
+</h3>
+There are 12 featured collections and over 60 collections in all so the lists are shortened for brevity<br>
+<h4>
+  <a id=_featured_48111058158831466_37 name=_featured_48111058158831466_37></a><font face="courier new" size=2>"featured"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">[<font face="Courier New">{<br>
+  &nbsp;&nbsp; &nbsp;"<b>code</b>": "hlb",<br>
+  &nbsp;&nbsp; &nbsp;"<b>thumb</b>": "https://www.loc.gov/pictures/static/data/hlb/thumb.png",<br>
+  &nbsp;&nbsp; &nbsp;"<b>title</b>": "Cartoon Drawings: Herblock Collection",<br>
+  &nbsp;&nbsp; &nbsp;"<b>thumb_featured</b>": "https://www.loc.gov/pictures/static/data/hlb/featured.png",<br>
+  &nbsp;&nbsp; &nbsp;"<b>link</b>": "https://www.loc.gov/pictures/collection/hlb/",<br>
+  &nbsp;&nbsp; &nbsp;"<b>thumb_large</b>": "https://www.loc.gov/pictures/static/data/hlb/thumb_large.png"<br>
+  }</font>,{<br>
+  </font><font face="Courier New">&nbsp; //similar to above...<br>
+  ]</font><br>
+</blockquote>
+<h4>
+  <a id=_collections_8278503356157663_ name=_collections_8278503356157663_></a><font face="courier new" size=2>"collections"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">[{<br>
+  <br>
+  &nbsp;&nbsp;&nbsp; <i><font face="Courier New">//similar to above...</font></i><br>
+  <br>
+  },</font><font face="Courier New">{ <i>//...there are more than 60 collections, shortened for brevity</i><br>
+  <br>
+  &nbsp;&nbsp; &nbsp;<i><font face="Courier New">//similar to above...</font></i><br>
+  <br>
+  }]</font><br>
+</blockquote>
+<h4>
+  <a id=_indexes_6174085226997594_0850 name=_indexes_6174085226997594_0850></a><font face="courier new" size=2>"indexes"</font>
+</h4>
+This is a list of available indexes.&nbsp; Globally there are always three, though a given collection may have more or fewer indexes. See <a href=#_indexes_6174085226997594_0850_12015935611184902 id=n51j target=_self title=indexes>indexes</a> for a detailed example of the response object.<br>
+<h4>
+  <a id=_links_05042475779439248_39603_7952166543194127 name=_links_05042475779439248_39603_7952166543194127></a><font face="courier new" size=2>"links"</font>
+</h4>
+Provides a set of links which provide additional serializations of the current url.&nbsp; There are generally 2, json and html, but search and related provide additional links.<br>
+<blockquote>
+  <font face="Courier New">{<br>
+  &nbsp;&nbsp; &nbsp;"<b>json</b>": "https://loc.gov/pictures/?fo=json",<br>
+  &nbsp;&nbsp; &nbsp;"<b>html</b>": "https://loc.gov/pictures/"<br>
+  }</font>
+</blockquote>
+<br>
+<hr size=2>
+<h2>
+  <a id=Search_15626900281916867_13804_7288827267039479 name=Search_15626900281916867_13804_7288827267039479></a>Search
+</h2>
+<a href=http://loc.gov/pictures/search/?q=%3Cquery%3E&amp;fo=json id=hxvc title="https://loc.gov/pictures/search/?q=<query>&amp;fo=json">http://loc.gov/pictures/search/?q=&lt;query&gt;&amp;fo=json</a><br>
+<br>
+Searches descriptive information for the search terms specified by &lt;query&gt;.<br>
+<h3>
+  <a id=Options_992118639962267_176292_7192582657780896 name=Options_992118639962267_176292_7192582657780896></a>Options
+</h3>
+<b><font face="Courier New">Search Options<br>
+</font></b>
+<div style=MARGIN-LEFT:40px>
+  <b><font face="Courier New">q </font></b><font face="Courier New">- query, search terms (None)</font><br>
+</div>
+<div style=MARGIN-LEFT:40px>
+  <font face="Courier New"><b>fa</b> - facets, format = &lt;field&gt;|&lt;facet value&gt; (None)</font><br>
+</div>
+<div style=MARGIN-LEFT:40px>
+  <font face="Courier New"><b>co</b> - collection (None)</font><br>
+  <font face="Courier New"><b>co!</b> - _not_ collection (None)</font><br>
+  <font face="Courier New"><b>op</b> - operator (AND)</font><br>
+  <font face="Courier New"><b>va</b> - variants, (True)</font><br>
+  <font face="Courier New"><b>fi</b> - fields (None/"text")</font><br>
+</div>
+<font face="Courier New"><b><br>
+Results Options<br>
+</b></font>
+<div style=MARGIN-LEFT:40px>
+  <font face="Courier New"><b>c</b> - count (20)</font><br>
+  <font face="Courier New"><b>st</b> - style, (list)</font><br>
+  <font face="Courier New"><b>sp</b> - start page, (1)</font><br>
+  <font face="Courier New"><b>si</b> - start index (1)</font><br>
+  <font face="Courier New"><b>fo</b> - format</font><br>
+  <font face="Courier New"><b>sb</b> - sort by (relevance)</font><br>
+</div>
+<br>
+<h3>
+  <a id=Response_2165298864770735_5386_7886227946333195 name=Response_2165298864770735_5386_7886227946333195></a>Response
+</h3>
+<h4>
+  <a id=_collections_02523483912937041 name=_collections_02523483912937041></a><font face=verdana size=2>"search"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">{<br>
+  </font>
+  <div style=MARGIN-LEFT:40px>
+    <font face="Courier New">"<b>type</b>": "search", </font><br>
+  </div>
+  <div style=MARGIN-LEFT:40px>
+    <font face="Courier New"> "<b>query</b>": "sioux indians",<br>
+    "<b>field</b><font face="Courier New">": null,<br>
+    <font face="Courier New">"<b>sort_by</b>": null, </font></font>&nbsp;<br>
+    </font>
+  </div>
+  <div style=MARGIN-LEFT:40px>
+    <font face="Courier New"> "<b>hits</b>": "9"</font><br>
+  </div>
+  <font face="Courier New">}</font><br>
+</blockquote>
+<h4>
+  <a id=_views_5308604204984715_861467_9410232394453154 name=_views_5308604204984715_861467_9410232394453154></a><font face=verdana size=2>"links"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">{<br>
+  &nbsp;&nbsp; &nbsp;"<b>json</b>": "https://loc.gov/pictures/search?q=sioux%20indians&amp;fo=json",<br>
+  &nbsp;&nbsp; &nbsp;"<b>html</b>": "https://loc.gov/pictures/search?q=sioux%20indians"<br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;<b>"rss":</b> "https://loc.gov/pictures/search?q=<font face="Courier New">sioux%20indians</font>&amp;fo=rss"</font><br>
+  }</font>
+</blockquote>
+<h4 style=FONT-FAMILY:Verdana>
+  <a id=_views_71706953232209_43178459 name=_views_71706953232209_43178459></a><font size=2>"views"</font>
+</h4>
+<blockquote>
+  <font size=2><font face="Courier New">{<br>
+  </font></font>
+  <div style=MARGIN-LEFT:40px>
+    <font size=2><font face="Courier New"> "<b>current</b>": "list", </font></font><br>
+    <font size=2><font face="Courier New"> "<b>grid</b>": "https://loc.gov/pictures/search/?q=sioux+indians&amp;st=grid",</font></font><br>
+    <font size=2><font face="Courier New"> "<b>list</b>": "https://loc.gov/pictures/search/?q=sioux+indians", </font></font><br>
+    <font size=2><font face="Courier New"> "<b>gallery</b>": "https://loc.gov/pictures/search/?q=sioux+indians&amp;st=gallery", </font></font><br>
+    <font size=2><font face="Courier New"> "<b>slideshow</b>": "https://loc.gov/pictures/search/?q=sioux+indians&amp;st=slideshow"</font></font><br>
+  </div>
+  <font size=2><font face="Courier New">}<br>
+  </font></font>
+</blockquote>
+<br>
+<h4>
+  <a id=_focus__6843670526566048 name=_focus__6843670526566048></a><font face=verdana size=2>"focus" </font>
+</h4>
+<blockquote style="FONT-FAMILY:Courier New">
+  <font face=verdana size=2>{<br>
+  &nbsp;&nbsp;&nbsp; <b style="FONT-FAMILY:Courier New">"index": </b><font face="courier new">2,</font><br>
+  }</font>
+</blockquote>
+<b><font face=verdana size=2>"results"</font></b>
+<blockquote>
+  <font face="Courier New">[{<br>
+  </font>
+  <div style=MARGIN-LEFT:40px>
+    <font face="Courier New"> "<b>index</b>": 1, </font><br>
+    <font face="Courier New"> "<b>medium</b>": "5 photoprints (postcards) : gelatin silver ; 14 x 19 cm. or smaller.", </font><br>
+    <font face="Courier New"> "<b>reproduction_number</b>": "", </font><br>
+    <font face="Courier New"> "<b>title</b>": "Studio portraits of Comanche and Sioux Indians in native dress",</font><br>
+    <font face="Courier New"> "<b>creator</b>": "Bates Studio (Lawton, Okla.)", </font><font face="Courier New"><br>
+    "<b>call_number</b>": "LOT 12743 (F) [P&amp;P]", </font><br>
+    <font face="Courier New"> "<b>medium_brief</b>": "5 photoprints (postcards) :", </font><br>
+    <font face="Courier New"> "<b>pk</b>": "89705331", </font><br>
+    <font face="Courier New">"<b>created_published_date</b>": "c1910-c1911.",<br>
+    <b><font face="Courier New">"links": </font></b><font face="Courier New">{<br>
+    <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>item</b>": <font face="Courier New">"https://loc.gov/pictures/item/89705331/", </font> </font><br>
+    &nbsp;&nbsp; &nbsp;<font face="Courier New">"<b>resource</b>": "https://loc.gov/pictures/item/89705331/resource/",</font><br>
+    </font><font face="Courier New">},</font><b><br>
+    "image":</b> {<br>
+    <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>full</b>": "https://loc.gov/pictures/static/images/item/500x500_grouprecord.png", </font><br>
+    <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>thumb</b>": "<font face="Courier New">http://loc.gov</font>/pictures/static/images/item/grouprecord_thumb_large.jpg", </font><br>
+    <font face="Courier New"> &nbsp;&nbsp;&nbsp; "<b>square</b>": "<font face="Courier New">http://loc.gov/</font>pictures/static/images/item/grouprecord_square.png",<br>
+    <font face="Courier New">&nbsp;&nbsp;&nbsp; "<b>alt</b>": "group item thumbnail", </font><br>
+    </font>},<br>
+    </font><font face="Courier New">"<b>subjects</b>": [</font><br>
+  </div>
+  <div style=MARGIN-LEFT:40px>
+    <div style=MARGIN-LEFT:40px>
+      <font face="Courier New"> "Indians of North America--Clothing &amp; dress--1910-1920.", </font><br>
+      <font face="Courier New"> "Infants--1910-1920.", </font><br>
+      <font face="Courier New"> "Comanche Indians--1910-1920.", </font><br>
+      <font face="Courier New"> "Dakota Indians--1910-1920."</font><br>
+    </div>
+    <font face="Courier New"> ]</font><br>
+  </div>
+  <font face="Courier New"> },{<br>
+  </font>
+  <div style=MARGIN-LEFT:40px>
+    <font face="Courier New"> "<b>index</b>": 2,<br>
+    <font face="Courier New">"<b>medium</b>": "1 photographic print.", </font><br>
+    <font face="Courier New"> "<b>reproduction_number</b>": "LC-USZ62-105379 (b&amp;w film copy neg.)", </font><br>
+    <font face="Courier New"> "<b>title</b>": "[In the land of the Sioux]", </font></font><br>
+  </div>
+  <div style=MARGIN-LEFT:40px>
+    <font face="Courier New">"<b>creator</b>": "Curtis, Edward S., 1868-1952", </font><br>
+    <font face="Courier New">"<b>call_number</b>": "LOT 12319 &lt;item&gt; [P&amp;P] [P&amp;P]", </font><br>
+    <font face="Courier New"> "<b>medium_brief</b>": "1 photographic print.", </font><br>
+    <font face="Courier New"> "<b>pk</b>": "92511248", </font><br>
+    <font face="Courier New">"<b>created_published_date</b>": <font face="Courier New">"c1905.", </font><br>
+    <b><font face="Courier New">"links": </font></b><font face="Courier New">{<br>
+    <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>item</b>": <font face="Courier New">"<font face="Courier New">http://<font face="Courier New">loc.gov</font>/pictures/item/92511248/</font>", </font> </font><br>
+    &nbsp;&nbsp; &nbsp;<font face="Courier New">"<b>resource</b>": "https://loc.gov<font face="Courier New">/pictures/item/92511248/resource/</font>",</font><br>
+    </font><font face="Courier New">},</font><b><br>
+    "image":</b> {<br>
+    <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>full</b>": "<font face="Courier New">http://loc.gov/pictures/lcweb2/service/pnp/cph/3c00000/3c05000/3c05300/3c05379r.jpg</font>", </font><br>
+    <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>thumb</b>": "<font face="Courier New">http://www.loc.gov/pictures/static/data/media/925/925112/92511248/92511248/gallery.jpg</font>", </font><br>
+    <font face="Courier New"> &nbsp;&nbsp;&nbsp; "<b>square</b>": "<font face="Courier New">http://www.loc.gov/pictures/static/data/media/925/925112/92511248/92511248/square.jpg</font>",<br>
+    <font face="Courier New">&nbsp;&nbsp;&nbsp; "<b>alt</b>": "<font face="Courier New">digitized item thumbnail"</font>, </font><br>
+    </font>},</font><br>
+    <font face="Courier New">"<b>subjects</b>": [</font><br>
+    <div style=MARGIN-LEFT:40px>
+      <font face="Courier New"> "Indians of North America--Great Plains--1900-1910.", </font><br>
+      <font face="Courier New"> "Dakota Indians--1900-1910.", </font><br>
+      <font face="Courier New"> "Horseback riding--Great Plains--1900-1910."</font><br>
+    </div>
+    <font face="Courier New"> ]</font><br>
+  </div>
+  <font face="Courier New"> }]</font><br>
+</blockquote>
+<h4>
+  <a id=_pages_1959987029602137_305084 name=_pages_1959987029602137_305084></a><font face=verdana size=2>"pages"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">{</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>perpage</b>": 2, </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>last</b>": "https://<font face="Courier New">loc.gov</font>/pictures/search/?q=sioux&amp;sp=3", </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>results</b>": "1 - 2", </font><font face="Courier New"><br>
+  &nbsp;&nbsp;&nbsp; "<b>next</b>": "https://loc.gov/pictures/search/?q=sioux&amp;sp=2", </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>current</b>": 1, </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>page_list</b>": [</font><font face="Courier New">{</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>url</b>": null, </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>number</b>": 1</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;},{</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>url</b>": "https://<font face="Courier New">loc.gov</font>/pictures/search/?q=sioux&amp;sp=2", </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>number</b>": 2</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;},</font><font face="Courier New">{</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>url</b>": "https://<font face="Courier New">loc.gov</font>/pictures/search/?q=sioux&amp;sp=3", </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>number</b>": 3</font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;}</font><font face="Courier New">], </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>previous</b>": null, </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>total</b>": 3, </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>first</b>": null<br>
+  </font>}<br>
+</blockquote>
+<h4>
+  <a id=_collection_9193582046884607 name=_collection_9193582046884607></a>"collection"
+</h4>
+Provides collection metadata when the collection/&lt;code&gt; or ?co=&lt;code&gt; was provided. The index_terms are restricted to terms from this collections indexes. See <a href=#_collection_7971473457006178_3 id=fgp8 target=_self title=collection>collection</a> for the response objects details.<br>
+<br>
+<hr size=2>
+<h2>
+  <a id=Related_4838323283125048_41192 name=Related_4838323283125048_41192></a>Related
+</h2>
+http://loc.gov/pictures/related?fi=&lt;field&gt;&amp;q=&lt;term&gt;&amp;fo=json<br>
+<br>
+Related is very similar to search. While search utilizes full text indexing, and provides some field-specific searching, related finds items that have exact matches for the provided term in the field specified by &lt;field&gt;. Related makes use of the relations in the PPOC domain model and is useful for finding close fits in fields with controlled values.<br>
+<br>
+Another feature that is supported through Related, is "browse neighboring call numbers". In this case a list of items near<br>
+<h3>
+  <a id=Options_992118639962267_176292_07405665349112567 name=Options_992118639962267_176292_07405665349112567></a>Options
+</h3>
+<b><font face="Courier New">Search Options<br>
+</font></b>
+<div style=MARGIN-LEFT:40px>
+  <b><font face="Courier New">q </font></b><font face="Courier &#10;New">- query, related term (None)</font><br>
+</div>
+<div style=MARGIN-LEFT:40px>
+  <font face="Courier New"><b>co</b> - collection (None)</font><br>
+  <font face="Courier New"><b>co!</b> - _not_ collection (None)</font><br>
+  <font face="Courier New"><b>fi</b> - <font face="Courier &#10;New">must be one of: [subject|name|format]</font>(fi or pk required)</font><br>
+  <font face="Courier New"><b>pk</b> - primary key of item to use as basis for call number browse<font face="Courier &#10;New">. Must be the primary key (control number) of a valid, existing item.</font></font> <font face="Courier New">(fi or pk required)</font><br>
+</div>
+<font face="Courier New"><b><br>
+Results Options<br>
+</b></font>
+<div style=MARGIN-LEFT:40px>
+  <font face="Courier New"><b>c</b> - count (20)</font><br>
+  <font face="Courier &#10;New"><b>st</b> - style, (list)</font><br>
+  <font face="Courier New"><b>sp</b> - start page, (1)</font><br>
+  <font face="Courier New"><b>si</b> - start index (1)</font><br>
+  <font face="Courier New"><b>fo</b> - format</font><br>
+</div>
+<br>
+<h3>
+  <a id=Response_2165298864770735_5386_8324477285163138 name=Response_2165298864770735_5386_8324477285163138></a>Response
+</h3>
+<h4>
+  <a id=_collections_02523483912937041_702251344333583 name=_collections_02523483912937041_702251344333583></a><font face=verdana size=2>"search"</font>
+</h4>
+&nbsp;&nbsp;&nbsp; See Search "search".<br>
+&nbsp;&nbsp;&nbsp;<br>
+<h4>
+  <a id=_views_5308604204984715_861467 name=_views_5308604204984715_861467></a><font face=verdana size=2>"links"</font>
+</h4>
+&nbsp;&nbsp;&nbsp; See Search "links".<br>
+<h4 style=FONT-FAMILY:Verdana>
+  <a id=_views_71706953232209_05681625 name=_views_71706953232209_05681625></a><font size=2>"views"</font>
+</h4>
+&nbsp;&nbsp;&nbsp; See Search "views".<br>
+<h4 style=FONT-FAMILY:Verdana>
+  <a id=_results__7335476080654116 name=_results__7335476080654116></a><font size=2>"results"</font>
+</h4>
+&nbsp;&nbsp;&nbsp; See Search "results".
+<h4>
+  <a id=_pages__2355799466954751 name=_pages__2355799466954751></a><font face=verdana size=2>"pages"</font>
+</h4>
+&nbsp;&nbsp;&nbsp; See Search "pages"/<br>
+<h4>
+  <a id=_collection__9448621649885507 name=_collection__9448621649885507></a>"collection"
+</h4>
+&nbsp;&nbsp; &nbsp;Like Search "collection", provides collection metadata when the collection/&lt;code&gt; or ?co=&lt;code&gt; was provided. The index_terms are restricted to terms from this collections indexes. See <a href=#_collection_7971473457006178_3 id=u-2m target=_self title=collection>collection</a> for the response objects details.<br>
+<br>
+<hr size=2>
+<h2>
+  <a id=Item_6678769363409772_09777724_9276407665415058 name=Item_6678769363409772_09777724_9276407665415058></a>Item
+</h2>
+describe item options and response json<br>
+<br>
+<h3>
+  <a id=Options_227058590549168_666948_6846191412981906 name=Options_227058590549168_666948_6846191412981906></a>Options
+</h3>
+<b>collection/&lt;code&gt;</b> or <b>?co=&lt;code&gt;</b><br>
+<h3>
+  <a id=Response_9037565867339976_5166_06468069445685509 name=Response_9037565867339976_5166_06468069445685509></a>Response
+</h3>
+response properties here<br>
+<br>
+<h4>
+  <a id=_item_34450008198436943_746131_6883011985226136 name=_item_34450008198436943_746131_6883011985226136></a>"item"
+</h4>
+<blockquote>
+  <font face="Courier New">{<br>
+  <font face="Courier New"><br>
+  "<b>title</b>": "[Portrait of Henri Matisse]", </font><br>
+  <font face="Courier New"> "<b>control_number</b>": "2004663297", <font face="Courier New"><br>
+  "<b>date</b>": "1933 May 20.", <font face="Courier New"><br>
+  "<b>summary</b>": "", <font face="Courier New"><font face="Courier New"><br>
+  "<b>medium_brief</b>": "1 photographic print :", </font><br>
+  "<b>link</b>": "https://loc.gov/pictures/item/2004663297", </font><font face="Courier New"><br>
+  "<b>marc</b>": "https://loc.gov/pictures/item/2004663297/marc",<font face="Courier New"><br>
+  "<b>call_number</b>": "LOT 12735, no. 781 [P&amp;P]",</font><font face="Courier New"><br>
+  "<b>display_offsite</b>": true, <font face="Courier New"><br>
+  "<b>created_published</b>": "1933 May 20.", </font></font><br>
+  </font></font></font></font><font color=#000000>"<b>restriction</b>"</font>: "", <font face="Courier New"><br>
+  "<b>reproduction_number</b>": "LC-USZ62-103699 (b&amp;w film copy neg.)", </font><font face="Courier New"><br>
+  "<b>part_of</b>": "Van Vechten, Carl, 1880-1964. Portrait photographs of celebrities", </font><br>
+  "<b>thumb_gallery</b>": "https://loc.gov/pictures/static/data/media/200/200466/200466329/2004663297/gallery.jpg",<br>
+  "<b>other_number</b>": "",<br>
+  "<b>title_translation</b>": "",<br>
+  "<b>id</b>": "2004663297",<br>
+  "<b>contents</b>": "",<br>
+  "<b>sort_date</b>": "1500-01-01",<br>
+  "<b>stmt_of_responsibility</b>": "",<br>
+  "<b>other_titles</b>": "", <font face="Courier New"><font face="Courier New"><br>
+  "<b>repository</b>": "Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA", </font><br>
+  "<b>rights_information</b>": "For publication information see \"Carl Van Vechten Photographs (Lots 12735 and 12736)\" http://www.loc.gov/rr/print/res/079_vanv.html", </font><font face="Courier New"><font face="Courier New"><br>
+  "<b>terms</b>": [], <font face="Courier New"><br>
+  "<b>related_names</b>": [],<font face="Courier New"><br>
+  "<b>related_items</b>": [], <font face="Courier New"><br>
+  "<b>resource_links</b>": [<br>
+  &nbsp;&nbsp; &nbsp;"https://hdl.loc.gov/loc.pnp/van.5a52380",<br>
+  &nbsp;&nbsp; &nbsp;"https://hdl.loc.gov/loc.pnp/cph.3c03699"<br>
+  ], </font><br>
+  </font></font></font> "<b>formats</b>": [{<br>
+  &nbsp;&nbsp; &nbsp;"<b>link</b>": "https://loc.gov/pictures/related?fi=format&amp;q=Portrait photographs.",<br>
+  &nbsp;&nbsp; &nbsp;"<b>title</b>": "Portrait photographs."<br>
+  }],<br>
+  "<b>mediums</b>": [{<br>
+  &nbsp;&nbsp;&nbsp; "<b>medium</b>": "1 photographic print : gelatin silver.",<br>
+  &nbsp;&nbsp; &nbsp;"<b>label</b>": null<br>
+  }]</font>,<br>
+  "<b>creators</b>": [{<font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>role</b>": "photographer",<br>
+  &nbsp;&nbsp; &nbsp;"<b>title</b>": "Van Vechten, Carl, 1880-1964"</font>,<br>
+  &nbsp;&nbsp;&nbsp; "<b>link</b>": "https://loc.gov/pictures/related?fi=name&amp;q=Van Vechten, Carl, 1880-1964"<br>
+  }], <font face="Courier New"><br>
+  "<b>subjects</b>": [{<br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>title</b>": "Matisse, Henri,--1869-1954."</font>,<br>
+  &nbsp;&nbsp; &nbsp;"<b>link</b>": "https://<font face="Courier New">loc.gov</font>/pictures/related?fi=subject&amp;q=Matisse, Henri,--1869-1954."<br>
+  <br>
+  }],<br>
+  "<b>collections</b>": [{<br>
+  &nbsp;&nbsp; &nbsp;"<b>code</b>": "van", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>title</b>": "Van Vechten Collection"</font>,<br>
+  &nbsp;&nbsp; &nbsp;"<b>link</b>": "https://loc.gov/pictures/collection/van"<br>
+  }], </font><br>
+  "<b>notes</b>": [{<br>
+  &nbsp;&nbsp; &nbsp;"<b>note</b>": "Title derived from information on verso of photographic print.",<br>
+  &nbsp;&nbsp; &nbsp;"<b>label</b>": null<br>
+  },{<br>
+  &nbsp;&nbsp; &nbsp;"<b>note</b>": "Van Vechten number: XXIII C 7.",<br>
+  &nbsp;&nbsp; &nbsp;"<b>label</b>": null<br>
+  },{<br>
+  &nbsp;&nbsp; &nbsp;"<b>note</b>": "Also available on microfilm.",<br>
+  &nbsp;&nbsp; &nbsp;"<b>label</b>": null<br>
+  },{<br>
+  &nbsp;&nbsp; &nbsp;"<b>note</b>": "Gift; Carl Van Vechten Estate; 1966.",<br>
+  &nbsp;&nbsp; &nbsp;"<b>label</b>": null<br>
+  },{<br>
+  &nbsp;&nbsp; &nbsp;"<b>note</b>": "Forms part of: Portrait photographs of celebrities, a LOT which in turn forms part of the Carl Van Vechten photograph collection (Library of Congress).",<br>
+  &nbsp;&nbsp; &nbsp;"<b>label</b>": null<br>
+  }]<br>
+  <br>
+  }</font><br>
+</blockquote>
+<h4 style=FONT-FAMILY:Verdana>
+  <a id=_links_26065664967340674_14946_46946758297528246 name=_links_26065664967340674_14946_46946758297528246></a><font size=2>"links"</font>
+</h4>
+Provides a set of links which provide additional serializations of the current url.&nbsp; There are generally 2, json and html, but search and related provide additional links. See <a href=#_links_05042475779439248_39603 id=qim_ target=_self title=links>links</a> for more details and an example.<br>
+<h4>
+  <a id=_thesaurus_entry_2491049620514_3964040952444591 name=_thesaurus_entry_2491049620514_3964040952444591></a>"thesaurus_entry"
+</h4>
+This will be null unless this item is from the Thesaurus of Graphical Material<br>
+<br>
+<blockquote>
+  <font face="Courier New">{<br>
+  &nbsp;&nbsp; &nbsp;"<b>count</b>": 0,<br>
+  &nbsp;&nbsp; &nbsp;"<b>term</b>": "Ablution fountains",<br>
+  &nbsp;&nbsp; &nbsp;"<b>used_for</b>": [{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>count</b>": 3,<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>type</b>": "Related Term",<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>related</b>": "Bathing"<br>
+  &nbsp;&nbsp; &nbsp;},{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>count</b>": 10,<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>type</b>": "Related Term",<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>related</b>": "Fountains"<br>
+  &nbsp;&nbsp; &nbsp;},{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>count</b>": 23,<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>type</b>": "Related Term",<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>related</b>": "Rites &amp; ceremonies"<br>
+  &nbsp;&nbsp; &nbsp;},{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>count</b>": 0,<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>type</b>": "Used For",<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"<b>related</b>": "Fountains, Ablution"<br>
+  &nbsp;&nbsp; &nbsp;}],<br>
+  &nbsp;&nbsp; &nbsp;"<b>preferred_terms</b>": [], <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>related_terms</b>": [],<br>
+  &nbsp;&nbsp; &nbsp;"<b>narrower_terms</b>": [],<font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>broader_terms</b>": [{<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; "<b>count</b>": 5,<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; "<b>type</b>": "Broader Term",<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; "<b>related</b>": "Religious architectural elements"<br>
+  &nbsp;&nbsp; &nbsp;}], </font> </font><font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>facet_notes</b>": [<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;"--[country or state]--[city]"<br>
+  &nbsp;&nbsp; &nbsp;],<br>
+  &nbsp;&nbsp;&nbsp; "<b>scope_notes</b>": [], </font><br>
+  &nbsp;&nbsp; &nbsp;"<b>hisory_notes</b>": []<br>
+  }</font>
+</blockquote>
+<h4>
+  <a id=_current_search_13705952740619_20532311875658127 name=_current_search_13705952740619_20532311875658127></a>"current_search"
+</h4>
+<blockquote>
+  <font face="Courier New">{<font face="Courier New"><br>
+  <br>
+  &nbsp;&nbsp; &nbsp;"<b>current</b>": 2, <font face="Courier New">&nbsp;&nbsp;&nbsp;<br>
+  &nbsp;&nbsp; &nbsp;"<b>total</b>": 17, </font></font><br>
+  &nbsp;&nbsp; &nbsp;"<b>search_link</b>": "https://loc.gov/pictures/search/?q=henri",<br>
+  &nbsp;&nbsp; &nbsp;"<b>next</b>": "https://loc.gov/pictures/item/2002707053/", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>previous</b>": "https://loc.gov/pictures/item/2002724877/",</font><br>
+  &nbsp;&nbsp; &nbsp;"<b>next_img</b>": "https://www.loc.gov/pictures/static/data/media/200/200270/200270705/2002707053/thumb.jpg", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>previous_img</b>": "https://www.loc.gov/pictures/static/data/media/200/200272/200272487/2002724877/thumb.jpg", </font><br>
+  <br>
+  }</font><br>
+  <br>
+</blockquote>
+<h4>
+  <a id=_related_8227878241941454_2388_2677864979525395 name=_related_8227878241941454_2388_2677864979525395></a>"related"
+</h4>
+<blockquote>
+  <font face="Courier New">{</font><br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>lot_link</b>": null, </font><br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>neighbors</b>": "https://loc.gov/pictures/related?&amp;pk=2002706200&amp;st=gallery&amp;sb=call_number#focus", </font><br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>group_record</b>": null</font><br>
+  <font face="Courier New">}</font><br>
+</blockquote>
+<h4>
+  <a id=_collection_9636096387397495_1_8780763393401507 name=_collection_9636096387397495_1_8780763393401507></a>"collection"
+</h4>
+Provides collection metadata when the collection/&lt;code&gt; or ?co=&lt;code&gt; was provided. The index_terms are restricted to terms from this collections indexes. See <a href=#_collection_7971473457006178_3 id=l9-4 target=_self title=collection>collection</a> for the response objects details.<br>
+<h4>
+  <a id=_resources_2800498055141374_33_45323039978454827 name=_resources_2800498055141374_33_45323039978454827></a>"resources"
+</h4>
+May be an empty array if the item is not digitized, or if the item is from a collection like look, group, etc.&nbsp; There can be 0 or more resources.<br>
+<br>
+<blockquote>
+  <font face="Courier New">[{<br>
+  &nbsp;&nbsp; &nbsp;<i>//see <a href=#_resource_3013703374430644_846_4477980081338213 id=x.3k target=_self title=resource>resource</a> for field details and example</i><br>
+  },{<br>
+  &nbsp;&nbsp;&nbsp; <i><font face="Courier New">//see <a href=#_resource_3013703374430644_846_4477980081338213 id=lkkb target=_self title=resource>resource</a> for field details and example</font></i><br>
+  }]</font>
+</blockquote>
+<h4>
+  <a id=_unrestricted_2773151751675657_3296202772607161 name=_unrestricted_2773151751675657_3296202772607161></a>"unrestricted"
+</h4>
+<b>true </b>if the resources are all provided, <b>false </b>if some resources have been hidden (for example exclusion of links to high resolution tiffs)<br>
+<br>
+<br>
+<hr size=2>
+<h2>
+  <a id=Resource_6198491009961684_1766 name=Resource_6198491009961684_1766></a>Resource
+</h2>
+<a href=http://loc.gov/pictures/resource/ppmsc.03034?fo=json id=k9jw title=http://loc.gov/pictures/resource/ppmsc.03034?fo=json>http://loc.gov/pictures/resource/ppmsc.03034?fo=json</a><br>
+<br>
+A Resource is used to describe a digitization of an item.&nbsp; A photo or image may have been scanned several different ways, and those scans are in turn used to generate derivatives like thumbnails for view on the web.<br>
+<h3>
+  <a id=Options_7640789228513888_80271_6369064973393184 name=Options_7640789228513888_80271_6369064973393184></a>Options
+</h3>
+<b>resource/&lt;resource_id&gt; *</b>required<br>
+<b>?co=&lt;code&gt;</b><br>
+<br>
+Here are some example urls for clarity:<br>
+<ul>
+  <li>
+    http://loc.gov/pictures/resource/ppmsc.03034?fo=json
+  </li>
+  <li>
+    http://loc.gov/pictures/resource/cph.3a49538/?co=lomax&amp;fo=json
+  </li>
+</ul>
+<h3>
+  <a id=Response_6883559518907422_5424_01888051643368771 name=Response_6883559518907422_5424_01888051643368771></a>Response
+</h3>
+Provides a detailed description of this specific digital resource<br>
+<h4>
+  <a id=_resource_3013703374430644_846 name=_resource_3013703374430644_846></a>"resource"
+</h4>
+<blockquote>
+  <font face="Courier New">{<font face="Courier New"><br>
+  <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>id</b>": "ppmsc.03034", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>aggregate</b>": "ppmsc", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>external</b>": null, </font></font></font><br>
+  &nbsp;&nbsp; &nbsp;"<b>url</b>": "https://hdl.loc.gov/loc.pnp/ppmsc.03034", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>link</b>": "https://loc.gov/pictures/resource/ppmsc.03034"</font>,<br>
+  </font>&nbsp;&nbsp; &nbsp;"<b>note</b>": "original", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>item</b>": "03034", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>small_s</b>": 17029, <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>medium_s</b>": 69892, <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>large_s</b>": 139894, <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>larger_s</b>": 34239356,<br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>largest_s</b>": 0, </font><br>
+  </font></font></font><font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>small</b>": "https://lcweb2.loc.gov/service/pnp/ppmsc/03000/03034t.gif", </font></font></font><br>
+  &nbsp;&nbsp; &nbsp;"<b>medium</b>": "https://lcweb2.loc.gov/service/pnp/ppmsc/03000/03034r.jpg", <font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>large</b>": "https://lcweb2.loc.gov/service/pnp/ppmsc/03000/03034v.jpg", <font face="Courier New"><br>
+  &nbsp;&nbsp;&nbsp; "<b>larger</b>": "https://lcweb2.loc.gov/master/pnp/ppmsc/03000/03034u.tif", </font></font><br>
+  &nbsp;&nbsp; &nbsp;"<b>largest</b>": "https://memory.loc.gov/pp/notdig.gif"<br>
+  &nbsp;&nbsp;&nbsp;<br>
+  }</font>
+</blockquote>
+<h4>
+  <a id=_item_7773849442870953_3662266_4785832996668089 name=_item_7773849442870953_3662266_4785832996668089></a>"item"
+</h4>
+<font face=verdana>Provides a detailed bibliographic description of the item. See <a href=#_item_34450008198436943_746131 id=ilud target=_self title=item>item</a></font><font face=verdana> for more details and an example.</font><br>
+<br>
+<h4>
+  <a id=_links_30795659179157076_24402_40594432990493223 name=_links_30795659179157076_24402_40594432990493223></a>"links"
+</h4>
+Provides a set of links which provide additional serializations of the current url.&nbsp; There are generally 2, json and html, but search and related provide additional links. See <a href=#_links_05042475779439248_39603 id=p_.6 target=_self title=links>links</a> for more details and an example.<br>
+<br>
+<hr size=2>
+<h2>
+  <a id=Collections_4742360135586273_7_502593905172489 name=Collections_4742360135586273_7_502593905172489></a>Collections
+</h2>
+<a href=http://loc.gov/pictures/collections?fo=json id=glks title=http://loc.gov/pictures/collections?fo=json>http://loc.gov/pictures/collections?fo=json</a><br>
+<br>
+Provides a list of all available collections along with a brief summary and a number of additional details.<br>
+<h3>
+  <a id=Options_6604793936335418_45750_8794339934330452 name=Options_6604793936335418_45750_8794339934330452></a>Options
+</h3>
+No options<br>
+<h3>
+  <a id=Response_6677025663268493_0987_8568728625195302 name=Response_6677025663268493_0987_8568728625195302></a>Response
+</h3>
+Note there are over 60 collections, so the array below is truncated for brevity.<br>
+<h4>
+  <a id=_collections_02523483912937041_922907740449316 name=_collections_02523483912937041_922907740449316></a><font face="courier new" size=2>"collections"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">[{<br>
+  <br>
+  &nbsp;&nbsp;&nbsp; <i>//see <a href=#_collection_7971473457006178_3 id=kdzl target=_self title=collection>collection</a> for field details and examples</i><br>
+  <br>
+  },</font><font face="Courier New">{ <i>//...there are over 60 collections, shortened for brevity</i><br>
+  <br>
+  &nbsp;&nbsp; &nbsp;<font face="Courier New"><i>//see <a href=#_collection_7971473457006178_3 id=lvoy target=_self title=collection>collection</a> for field details and examples</i></font><br>
+  <br>
+  }]</font><br>
+</blockquote>
+<h4>
+  <a id=_links_5308722369897307_141112_11279072085968611 name=_links_5308722369897307_141112_11279072085968611></a>"links"
+</h4>
+Provides a set of links which provide additional serializations of the current url.&nbsp; There are generally 2, json and html, but search and related provide additional links. See <a href=#_links_05042475779439248_39603 id=jwtw target=_self title=links>links</a> for more details and an example.<br>
+<br>
+<hr size=2><br>
+<h2>
+  <a id=Collection_13096224754630248_6_3813819551567116 name=Collection_13096224754630248_6_3813819551567116></a>Collection
+</h2>
+<a href=http://loc.gov/pictures/collection/bbc/?fo=json id=didi title=http://loc.gov/pictures/collection/bbc/?fo=json>http://loc.gov/pictures/collection/&lt;code&gt;?fo=json</a><br>
+<br>
+Provides a summary of information about the collection (specified by the &lt;code&gt;) as well as links to additional resources such as html essays, indexes, and standard search entry points.<br>
+<br>
+<h3>
+  <a id=Options_6604793936335418_04741_907358094567282 name=Options_6604793936335418_04741_907358094567282></a>Options
+</h3>
+<b>collection/&lt;code&gt;</b> or <b>?co=&lt;code&gt;</b><br>
+<h3>
+  <a id=Response_6677025663268493_2053_40533640032747453 name=Response_6677025663268493_2053_40533640032747453></a>Response
+</h3>
+All links provided by the resources link property provide the same resources, collection, and indexes properties, but the essay property will contain the html content for the specified collection resource.<br>
+<h4>
+  <a id=_collection_7971473457006178_3_012643777289184976 name=_collection_7971473457006178_3_012643777289184976></a><font face="Courier New">"collection"</font>
+</h4>
+<blockquote>
+  <font face="Courier New">{</font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>code</b>": "ecur", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>digitized</b>": "All", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>display_offsite</b>": "Yes", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>title</b>": "Curtis (Edward S.) Collection", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>link</b>": "https://loc.gov/pictures/collection/ecur", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>banner_item</b>": "https://loc.gov/pictures/item/94504691", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>banner_title</b>": "Shows As He Goes. Edward S. Curtis, 1905.", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>banner</b>": "https://loc.gov/pictures/static/data/ecur/banner.jpg", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>from_date</b>": "1890", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>to_date</b>": "1929", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>view_all</b>": "https://loc.gov/pictures/search?st=grid&amp;c=100&amp;co=ecur", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>extent</b>": "about 1,000 photographic prints (selection from full collection)", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>rights</b>": "https://www.loc.gov/rr/print/res/369_curt.html", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>thumb</b>": "https://loc.gov/pictures/static/data/ecur/thumb.png"</font>,<br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>thumb_item</b>": "", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>thumb_large_item</b>": "", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>thumb_large</b>": "https://loc.gov/pictures/static/data/ecur/thumb_large.png", </font><br>
+  <font face="Courier New"> &nbsp;&nbsp; &nbsp;"<b>brief</b>": "Native Americans in the Pacific Northwest, New Southwest, Great Basin, Great Plains, Plateau Region, California, and Alaska. Features studio and field photographs. Selected images are primarily those for which copy photos have been produced."</font><br>
+  <font face="Courier New">}</font><br>
+</blockquote>
+<h4 style="FONT-FAMILY:Courier New">
+  <a id=_links_5666414596570052_389362_3062349601108253 name=_links_5666414596570052_389362_3062349601108253></a>"links"
+</h4>
+Provides a set of links which provide additional serializations of the current url.&nbsp; There are generally 2, json and html, but search and related provide additional links. See <a href=#_links_05042475779439248_39603 id=tcs. target=_self title=links>links</a> for more details and an example.<br>
+<h4>
+  <a id=_resources_33571156841393723_6 name=_resources_33571156841393723_6></a><font face="Courier New">"resources"</font>
+</h4>
+Provides a list of essays and supplemental resources about this collection.<br>
+<blockquote>
+  <font face="Courier New">[{<font face="Courier New"><br>
+  <br>
+  &nbsp; "<b>title</b>": "About this Collection",<br>
+  <font face="Courier New">&nbsp; "<b>link</b>": "https://loc.gov/pictures/collection/ecur/about.html",</font><br>
+  </font>&nbsp; "<b>content</b>": <font color=#000000>"https://loc.gov/pictures/static/data/ecur/resources/about.html"</font><br>
+  <br>
+  },<font face="Courier New">{</font><i>//there are many more, shortened here for brevity</i><br>
+  <font face="Courier New"><br>
+  &nbsp; "<b>title</b>": "Tribe Index",<br>
+  <font face="Courier New">&nbsp; "<b>link</b>": "https://loc.gov/pictures/collection/ecur/tribeindex.html",</font><br>
+  </font>&nbsp; "<b>content</b>": "https://loc.gov/pictures/static/data/ecur/resources/tribeindex.html"<br>
+  &nbsp; &nbsp;<br>
+  }]</font>
+</blockquote>
+<h4>
+  <a id=_indexes_49605147558267637_322 name=_indexes_49605147558267637_322></a><font face="Courier New">"indexes"</font>
+</h4>
+This is a list of available indexes.&nbsp; Globally there are always three, though a given collection may have more or fewer indexes. See <a href=#_indexes_6174085226997594_0850_12015935611184902 id=j214 target=_self title=indexes>indexes</a> for a detailed example of the response object.<br>
+<h4>
+  <a id=_current_resource_065268404365 name=_current_resource_065268404365></a><font face="Courier New">"current_resource"</font>
+</h4>
+The html content of the resource.<br>
+<blockquote>
+  <font face="Courier New">{<br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>link</b>": "https://loc.gov/pictures/collection/ecur/about.html",</font><br>
+  &nbsp;&nbsp; &nbsp;"<b>content</b>": "\n &lt;h2&gt;About this Collection&lt;/h2&gt;\n\n &lt;p&gt;The Edward S. Curtis Collection offers a unique glimpse\n into Curtis's work with indigenous cultures. The more than\n 2,400 silver-gelatin photographic prints were acquired by\n the Library of Congress through copyright deposit from\n about 1900 through 1930. About two-thirds (1,608) of these\n images were not published in Curtis's multi-volume work,\n &lt;cite&gt;The North American Indian&lt;/cite&gt;. The collection includes\n a large number of individual or group portraits, as well as\n traditional and ceremonial dress, dwellings and other\n structures, agriculture, arts and crafts, rites and\n ceremonies, dances, games, food preparation,\n transportation, and scenery. The portion of the collection\n that is cataloged online represents those photographs for\n which copy negatives or transparencies exist.&lt;/p&gt;\n "<br>
+  &nbsp;&nbsp;&nbsp;<br>
+  }</font><br>
+</blockquote>
+<br>
+<br>
+<hr size=2>
+<h2>
+  <a id=Index_11742543432550101_496255 name=Index_11742543432550101_496255></a>Index
+</h2>
+Indexes may be accessed http://loc.gov/pictures/index/subjects/&lt;start&gt;?fo=json, where &lt;start&gt; is an optional letter or the beginning of a word.&nbsp; For example http://loc.gov/pictures/index/subjects/b?fo=json will give me all subjects starting with 'b', while http://loc.gov/pictures/index/subjects/baby?fo=json will return only the index entries which begin with 'baby'.<br>
+<br>
+<ul>
+  <li>
+    http://loc.gov/pictures/index/subjects/?fo=json
+  </li>
+  <li>
+    http://loc.gov/pictures/index/subjects/a?fo=json
+  </li>
+  <li>
+    http://loc.gov/pictures/index/subjects/arch?fo=json<br>
+  </li>
+  <li>
+    http://loc.gov/pictures/collection/brum/index/subjects/?fo=json<br>
+  </li>
+</ul>
+<h3>
+  <a id=Options_6604793936335418_11675_28372243205248104 name=Options_6604793936335418_11675_28372243205248104></a>Options
+</h3>
+<b>index/&lt;type&gt;</b> - specifies the type of index.&nbsp; standard options are:<br>
+<ul>
+  <li>
+    <b>subjects</b>
+  </li>
+  <li>
+    <b>names</b>
+  </li>
+  <li>
+    <b>formats</b>
+  </li>
+</ul>
+<br>
+<b>collection/&lt;code&gt;</b> or <b>?co=&lt;code&gt;</b> - limits index selection to specific collection<br>
+<br>
+<b>/&lt;search_term&gt;</b> or <b>?q=&lt;search_term&gt;</b> - limits the index to entries beginning with the search_term<br>
+<br>
+<h3>
+  <a id=Response_6677025663268493_0361_5127431565988687 name=Response_6677025663268493_0361_5127431565988687></a>Response
+</h3>
+The response properties below are taken from:<br>
+<a href=http://www.loc.gov/pictures/collection/lomax/index/subjects/african?fo=json id=t8sz title=http://www.loc.gov/pictures/collection/lomax/index/subjects/african?fo=json>http://loc.gov/pictures/collection/lomax/index/subjects/african?fo=json</a><br>
+or its equivalent form:<br>
+<a href=http://www.loc.gov/pictures/collection/lomax/index/subjects/?q=african&amp;fo=json id=jsg5 title=http://www.loc.gov/pictures/collection/lomax/index/subjects/?q=african&amp;fo=json>http://www.loc.gov/pictures/collection/lomax/index/subjects/?q=african&amp;fo=json</a><br>
+<h4>
+  <a id=_indexPage_03744444977167005_0 name=_indexPage_03744444977167005_0></a>"current"
+</h4>
+The current term being used to filter the index when provided.&nbsp; Defaults to 'a'<br>
+<blockquote>
+  "african"<br>
+</blockquote>
+<h4>
+  <a id=_index_title_04195586557162023 name=_index_title_04195586557162023></a>"index_title"
+</h4>
+The title of the index currently being browsed.<br>
+<blockquote>
+  <font face="Courier New">"subjects"</font><br>
+</blockquote>
+<br>
+<h4>
+  <a id=_index_terms_48093638786357606 name=_index_terms_48093638786357606></a>"terms"
+</h4>
+<blockquote>
+  <font face="Courier New">[<font face="Courier New">{<br>
+  &nbsp;&nbsp; &nbsp;"<b>count</b>": 1,<br>
+  &nbsp;&nbsp; &nbsp;"<b>field</b>": "subjects",<br>
+  <font face="Courier New">&nbsp;&nbsp; &nbsp;"<b>value</b>": "African Americans--1930-1940."</font>,<br>
+  &nbsp;&nbsp; &nbsp;"<b>url</b>": "https://loc.gov/pictures/related?q=African%20Americans--1930-1940.&amp;fi=subjects&amp;co=lomax"<br>
+  },<br>
+  //..there are many more, shortened for brevity<font face="Courier New"><br>
+  {<br>
+  &nbsp;&nbsp; &nbsp;"<b>count</b>": 1,<br>
+  &nbsp;&nbsp; &nbsp;"<b>field</b>": "subjects",<font face="Courier New"><br>
+  &nbsp;&nbsp; &nbsp;"<b>value</b>": "African Americans--Women--1940."</font>,<br>
+  &nbsp;&nbsp; &nbsp;"<b>url</b>": "https://loc.gov/pictures/related?q=African%20Americans--Women--1940.&amp;fi=subjects&amp;co=lomax"<br>
+  }</font></font>]</font><br>
+</blockquote>
+<h4>
+  <a id=_indexPages_6658095108727078_2 name=_indexPages_6658095108727078_2></a>"pages"
+</h4>
+Provides a list of letters for which an index exists<br>
+<blockquote>
+  <font face="Courier New">["a", "b", "c", "f", "h", "i", "l", "m", "o", "r", "s", "v", "w"]</font><br>
+</blockquote>
+<h4>
+  <a id=_resources_6284594507862302_89_8964246285011352 name=_resources_6284594507862302_89_8964246285011352></a>"resources"
+</h4>
+Provides links to additional resources, like essays for a specific collection.&nbsp; This is only available when the collection/&lt;code&gt; or ?co=&lt;code&gt; was provided. See <a href=#_resources_2800498055141374_33 id=b583 target=_self title=resources>resources</a> for the response objects details.<br>
+<h4>
+  <a id=_collection_9678989632786407_4_9269199363126478 name=_collection_9678989632786407_4_9269199363126478></a>"collection"
+</h4>
+Provides collection metadata when the collection/&lt;code&gt; or ?co=&lt;code&gt; was provided. The index_terms are restricted to terms from this collections indexes. See <a href=#_collection_7971473457006178_3 id=g.-t target=_self title=collection>collection</a> for the response objects details.<br>
+<h4>
+  <a id=_indexes_8823726975947356_9269 name=_indexes_8823726975947356_9269></a><font face="Courier New">"indexes"</font>
+</h4>
+This is a list of available indexes.&nbsp; Globally there are always three, though a given collection may have more or fewer indexes.<br>
+<blockquote>
+  <font face="Courier New">[{<br>
+  &nbsp; "<b>count</b>": 1,<br>
+  &nbsp; "<b>link</b>": "https://loc.gov/pictures/collection/brum/index/formats/",<br>
+  &nbsp; "<b>title</b>": "formats"<br>
+  },{<br>
+  &nbsp; "<b>count</b>": 1,<br>
+  &nbsp; "<b>link</b>": "https://loc.gov/pictures/collection/brum/index/names/",<br>
+  &nbsp; "<b>title</b>": "names"<br>
+  },{<br>
+  &nbsp; "<b>count</b>": 53,<br>
+  &nbsp; "<b>link</b>": "https://loc.gov/pictures/collection/brum/index/subjects/",<br>
+  &nbsp; "<b>title</b>": "subjects"<br>
+  }]</font>
+</blockquote>
+<h4>
+  <a id=_links_5297388506110664_934466 name=_links_5297388506110664_934466></a>"links"
+</h4>
+Provides a set of links which provide additional serializations of the current url.&nbsp; There are generally 2, json and html, but search and related provide additional links. See <a href=#_links_05042475779439248_39603 id=p.rp target=_self title=links>links</a> for more details and an example.<br>
+<hr size=2><br>
+<br>
+	</div>
+</div>
+
+<div style='clear:both;'>&#160;</div>
+
+    </div>
+            
+
+<!-- begin: global footer --><div id="f-wrapper" class="fix-float"><div id="footer" class="fix-float"><div class="cols heading"><h2>Connect with the Library</h2><p><a class="ar-more foot" href="//www.loc.gov/homepage/connect.html">All ways to connect</a></p></div><div class="cols"><h3>Find Us On</h3><a href="//www.pinterest.com/LibraryCongress/"><img src="https://cdn.loc.gov/images/img-foot/pinterest.gif" alt="Pinterest" width="16" height="16" /></a> &nbsp; <a href="//www.facebook.com/libraryofcongress"><img src="https://cdn.loc.gov/images/img-foot/facebook.gif" alt="Facebook" width="16" height="16" /></a> &nbsp; <a href="//twitter.com/#!/librarycongress"><img src="https://cdn.loc.gov/images/img-foot/twitter.gif" alt="Twitter" width="16" height="16" /></a> &nbsp; <a href="//www.youtube.com/libraryofcongress"><img src="https://cdn.loc.gov/images/img-foot/youtube.gif" alt="YouTube" width="16" height="16" /></a> &nbsp; <a href="//www.flickr.com/photos/library_of_congress/"><img src="https://cdn.loc.gov/images/img-foot/flickr.gif" alt="Flickr" width="16" height="16" /></a></div><div class="cols"><h3>Subscribe &amp; Comment</h3><ul class="plain"><li><a href="//www.loc.gov/rss/">RSS &amp; E-Mail</a></li><li><a href="//blogs.loc.gov/">Blogs</a></li></ul></div><div class="cols"><h3>Download &amp; Play</h3><ul class="plain"><li><a href="//www.loc.gov/apps/">Apps</a></li><li><a href="//www.loc.gov/podcasts/">Podcasts</a></li><li><a href="//www.loc.gov/today/cyberlc/index.php">Webcasts</a></li><li><a href="//itunes.apple.com/us/institution/library-of-congress/id386017159" class="external foot mod">iTunesU<span> (external link)</span></a></li></ul></div><div class="cols"><h3>Questions</h3><ul class="plain"><li><a href="//ask.loc.gov/">Ask a Librarian</a></li><li><a href="//www.loc.gov/help/contact-general.html" accesskey="8">Contact Us</a></li></ul></div><div class="clear"><!-- --></div><p class="links"><a href="//www.loc.gov/about/">About</a> |
+      <a href="//www.loc.gov/pressroom/login">Press</a> |
+      <a href="//www.loc.gov/hr/employment/index.php">Jobs</a> |
+      <a href="//www.loc.gov/philanthropy/index.php">Donate</a><br /><a href="//www.loc.gov/about/oig/">Inspector General</a> |
+      <a href="//www.loc.gov/homepage/legal.html" accesskey="9">Legal</a> |
+      <a href="//www.loc.gov/access/" accesskey="0">Accessibility</a> |
+      <a href="//www.loc.gov/global/disclaim.html">External Link Disclaimer</a> |
+      <a href="//www.usa.gov/">USA.gov</a></p><span class="speech"><a href="//www.loc.gov/access/web.html">Speech Enabled</a></span></div><!-- end id:footer --></div><!-- end id:f-wrapper --><!-- end: global footer -->
+
+</div>
+</body>
+</html>
+
+

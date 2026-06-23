@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sources>
+    <!-- === BOOKS & TEXTS === -->
     <source>
         <name>Project Gutenberg</name>
         <url>https://www.gutenberg.org</url>
@@ -19,15 +20,259 @@
         <topic>archives</topic>
     </source>
     <source>
+        <name>Standard Ebooks</name>
+        <url>https://standardebooks.org</url>
+        <type>books</type>
+        <topic>literature</topic>
+    </source>
+    <source>
+        <name>HathiTrust Digital Library</name>
+        <url>https://www.hathitrust.org</url>
+        <type>books</type>
+        <topic>general</topic>
+    </source>
+    <source>
+        <name>Perseus Digital Library</name>
+        <url>https://www.perseus.tufts.edu</url>
+        <type>texts</type>
+        <topic>classics</topic>
+    </source>
+    <source>
+        <name>Biodiversity Heritage Library</name>
+        <url>https://www.biodiversitylibrary.org</url>
+        <type>books</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>Digital Public Library of America</name>
+        <url>https://dp.la</url>
+        <type>libraries</type>
+        <topic>general</topic>
+    </source>
+    <source>
+        <name>Public Domain Review</name>
+        <url>https://publicdomainreview.org</url>
+        <type>texts</type>
+        <topic>general</topic>
+    </source>
+
+    <!-- === ENCYCLOPEDIAS & REFERENCE === -->
+    <source>
         <name>Wikipedia</name>
         <url>https://en.wikipedia.org</url>
         <type>encyclopedia</type>
         <topic>general</topic>
     </source>
     <source>
+        <name>Wiktionary</name>
+        <url>https://en.wiktionary.org</url>
+        <type>dictionary</type>
+        <topic>language</topic>
+    </source>
+    <source>
+        <name>Wikisource</name>
+        <url>https://en.wikisource.org</url>
+        <type>texts</type>
+        <topic>literature</topic>
+    </source>
+    <source>
+        <name>Wikibooks</name>
+        <url>https://en.wikibooks.org</url>
+        <type>manuals</type>
+        <topic>education</topic>
+    </source>
+
+    <!-- === ACADEMIC PAPERS === -->
+    <source>
         <name>arXiv</name>
         <url>https://arxiv.org</url>
         <type>papers</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>PubMed Central</name>
+        <url>https://www.ncbi.nlm.nih.gov/pmc</url>
+        <type>papers</type>
+        <topic>medicine</topic>
+    </source>
+    <source>
+        <name>DOAJ - Directory of Open Access Journals</name>
+        <url>https://doaj.org</url>
+        <type>papers</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>Semantic Scholar</name>
+        <url>https://www.semanticscholar.org</url>
+        <type>papers</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>CORE</name>
+        <url>https://core.ac.uk</url>
+        <type>papers</type>
+        <topic>science</topic>
+    </source>
+
+    <!-- === IMAGES & ART === -->
+    <source>
+        <name>Metropolitan Museum of Art</name>
+        <url>https://www.metmuseum.org</url>
+        <type>images</type>
+        <topic>art</topic>
+    </source>
+    <source>
+        <name>Met Museum API</name>
+        <url>https://collectionapi.metmuseum.org/public/collection/v1</url>
+        <type>images</type>
+        <topic>art</topic>
+    </source>
+    <source>
+        <name>Art Institute of Chicago</name>
+        <url>https://api.artic.edu/api/v1</url>
+        <type>images</type>
+        <topic>art</topic>
+    </source>
+    <source>
+        <name>Smithsonian Open Access</name>
+        <url>https://api.si.edu/openaccess/api/v1.0</url>
+        <type>images</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>Rijksmuseum</name>
+        <url>https://www.rijksmuseum.nl</url>
+        <type>images</type>
+        <topic>art</topic>
+    </source>
+    <source>
+        <name>Europeana</name>
+        <url>https://www.europeana.eu</url>
+        <type>images</type>
+        <topic>culture</topic>
+    </source>
+    <source>
+        <name>Getty Open Content</name>
+        <url>https://www.getty.edu</url>
+        <type>images</type>
+        <topic>art</topic>
+    </source>
+    <source>
+        <name>Unsplash</name>
+        <url>https://api.unsplash.com</url>
+        <type>images</type>
+        <topic>photography</topic>
+    </source>
+    <source>
+        <name>NASA Images</name>
+        <url>https://images-api.nasa.gov</url>
+        <type>images</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>Wikimedia Commons</name>
+        <url>https://commons.wikimedia.org</url>
+        <type>images</type>
+        <topic>general</topic>
+    </source>
+    <source>
+        <name>Library of Congress Prints and Photographs</name>
+        <url>https://www.loc.gov/pictures</url>
+        <type>images</type>
+        <topic>history</topic>
+    </source>
+
+    <!-- === MANUALS & TECHNICAL DOCUMENTATION === -->
+    <source>
+        <name>Library of Congress</name>
+        <url>https://www.loc.gov</url>
+        <type>manuals</type>
+        <topic>government</topic>
+    </source>
+    <source>
+        <name>Chronicling America (Historic Newspapers)</name>
+        <url>https://chroniclingamerica.loc.gov</url>
+        <type>texts</type>
+        <topic>history</topic>
+    </source>
+    <source>
+        <name>US Government Publishing Office</name>
+        <url>https://www.govinfo.gov</url>
+        <type>manuals</type>
+        <topic>government</topic>
+    </source>
+    <source>
+        <name>National Technical Reports Library</name>
+        <url>https://ntrl.ntis.gov</url>
+        <type>manuals</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>DOE OSTI (Office of Scientific and Technical Information)</name>
+        <url>https://www.osti.gov</url>
+        <type>manuals</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>Data.gov</name>
+        <url>https://catalog.data.gov</url>
+        <type>data</type>
+        <topic>government</topic>
+    </source>
+    <source>
+        <name>US Patent and Trademark Office</name>
+        <url>https://www.uspto.gov</url>
+        <type>manuals</type>
+        <topic>patents</topic>
+    </source>
+    <source>
+        <name>EverySpec (Military Standards)</name>
+        <url>https://everyspec.com</url>
+        <type>manuals</type>
+        <topic>military</topic>
+    </source>
+    <source>
+        <name>OpenStax (Free Textbooks)</name>
+        <url>https://openstax.org</url>
+        <type>manuals</type>
+        <topic>education</topic>
+    </source>
+    <source>
+        <name>MIT OpenCourseWare</name>
+        <url>https://ocw.mit.edu</url>
+        <type>manuals</type>
+        <topic>education</topic>
+    </source>
+
+    <!-- === DATA & SCIENCE === -->
+    <source>
+        <name>NASA Open APIs</name>
+        <url>https://api.nasa.gov</url>
+        <type>data</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>USGS (US Geological Survey)</name>
+        <url>https://www.usgs.gov</url>
+        <type>data</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>NOAA (National Oceanic and Atmospheric)</name>
+        <url>https://www.ncdc.noaa.gov</url>
+        <type>data</type>
+        <topic>science</topic>
+    </source>
+    <source>
+        <name>WorldCat</name>
+        <url>https://www.worldcat.org</url>
+        <type>libraries</type>
+        <topic>general</topic>
+    </source>
+    <source>
+        <name>OpenDOAR (Directory of Open Access Repositories)</name>
+        <url>https://v2.sherpa.ac.uk/opendoar</url>
+        <type>libraries</type>
         <topic>science</topic>
     </source>
 </sources>

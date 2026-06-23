@@ -1,0 +1,1334 @@
+--- SOURCE: https://www.rijksmuseum.nl/api ---
+
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Data - Rijksmuseum</title>
+<meta name="description" content="RijksData: altijd open! Het Rijksmuseum verbindt mensen, kunst en geschiedenis. Onze databronnen vormen daarbij belangrijke bouwstenen."/>
+
+<link rel="canonical" href="https://www.rijksmuseum.nl/nl/onderzoek/onderzoek-doen/data"/>
+<meta name="robots" content="index, follow"/>
+
+
+<link rel="preload" href="https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Normal.woff2" as="font" crossorigin>
+<link rel="preload" href="https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Bold.woff2" as="font" crossorigin>
+
+<style>
+  @font-face {
+    font-family: RijksText;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Normal.woff2") format("woff2"),
+    url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Normal.woff") format("woff");
+  }
+  @font-face {
+    font-family: RijksText;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Bold.woff2") format("woff2"),
+         url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Bold.woff") format("woff");
+  }
+  @font-face {
+    font-family: RijksText;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Italic.woff2") format("woff2"),
+         url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Italic.woff") format("woff");
+}
+  @font-face {
+    font-family: RijksText;
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-BoldItalic.woff2") format("woff2"),
+         url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-BoldItalic.woff") format("woff");
+  }
+  @font-face {
+  font-family: RijksCyrillicText;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Normal-ukrainian-cyrillic.woff2") format("woff2"),
+       url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Normal-ukrainian-cyrillic.woff") format("woff");
+}
+@font-face {
+  font-family: RijksCyrillicText;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Bold-ukrainian-cyrillic.woff2") format("woff2"),
+       url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Bold-ukrainian-cyrillic.woff") format("woff");
+}
+@font-face {
+  font-family: RijksCyrillicText;
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Italic-ukrainian-cyrillic.woff2") format("woff2"),
+       url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-Italic-ukrainian-cyrillic.woff") format("woff");
+}
+@font-face {
+  font-family: RijksCyrillicText;
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-BoldItalic-ukrainian-cyrillic.woff2") format("woff2"),
+       url("https://www.rijksmuseum.nl/statics/fonts/Rijksmuseum-BoldItalic-ukrainian-cyrillic.woff") format("woff");
+}
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="https://www.rijksmuseum.nl/statics/generated/rijksmuseum-app.css?v=QjfWT3BR18qHG1Ce_KlyL6Xh3sekWvRI6X3_-4icGPo"/>
+
+<meta property="fb:app_id" content="297398297031568"/>
+<meta property="og:title" content="Data - Rijksmuseum"/>
+<meta property="og:description" content="RijksData: altijd open! Het Rijksmuseum verbindt mensen, kunst en geschiedenis. Onze databronnen vormen daarbij belangrijke bouwstenen."/>
+<meta property="og:site_name" content="Rijksmuseum.nl"/>
+<meta property="og:url" content="https://www.rijksmuseum.nl/nl/onderzoek/onderzoek-doen/data"/>
+<meta property="og:type" content="website"/>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@rijksmuseum"/>
+<meta name="twitter:title" content="Data - Rijksmuseum"/>
+<meta name="twitter:description" content="RijksData: altijd open! Het Rijksmuseum verbindt mensen, kunst en geschiedenis. Onze databronnen vormen daarbij belangrijke bouwstenen."/>
+
+<meta property="og:image" content="https://iiif.micr.io/JSCdF/0,0,4000,2761/1200,/0/default.jpg"/>
+<meta name="twitter:image" content="https://iiif.micr.io/JSCdF/0,0,4000,2761/1200,/0/default.jpg"/>
+
+  <meta property="og:image:alt" content="Computerdag voor vrouwen"/>
+  <meta name="twitter:image:alt" content="Computerdag voor vrouwen"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-precomposed-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-precomposed-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-precomposed-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-precomposed-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-precomposed-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-precomposed-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-precomposed-152x152.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon-precomposed-180x180.png" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="apple-mobile-web-app-title" content="Rijksmuseum">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TDHW9DQ');
+
+  window.dataLayer = window.dataLayer || [];
+
+      var pageLayout = "mobile";
+      if (window.innerWidth > 568) pageLayout = "tablet"; // mobile large breakpoint
+      if(window.innerWidth > 811) pageLayout = "desktop"; // desktop-small breakpoint
+
+      var gtmData = {"event":"page","app_platform":"web","website_id":"001","environment":"Production","content_type":"overview_page","content_id":"b760b0b0-645e-4d77-8da2-5fe90a3d2286","language":"nl"};
+      gtmData.page_layout = pageLayout;
+      dataLayer.push(gtmData);
+    
+
+  // We want to make sure that information about the variantkey is pushed before the "start" event below.
+  // All items before the "start" event can be identified as "initial loading state".
+  // before new events are fired.
+
+
+
+
+
+</script>
+<!-- End Google Tag Manager -->
+
+
+</head>
+<body>
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDHW9DQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<div style="display:none;" data-svg data-svg-path="https://www.rijksmuseum.nl/statics/generated/rijks-icons.svg?v=LEr2od284qOG_c184XLVumM3SEziuQWxo7R2Jp2JYEE"></div>
+
+<div id="rijksmuseum-app" data-convert-url="//cdn-4.convertexperiments.com/v1/js/10042695-10043546.js?environment=production">
+  
+<cookie-consent-bar convert-url="//cdn-4.convertexperiments.com/v1/js/10042695-10043546.js?environment=production" inline-template>
+  <transition name="fade-fast">
+    <aside ref="cookieConsentBarOverlay" class="cookie-consent-bar-overlay" role="dialog" aria-labelledby="cookie-consent-bar-title" v-cloak v-if="!consentGiven" v-on:click="onClickBackground">
+      <div class="cookie-consent-bar-wrap" :class="{'centered': isCentered}">
+        <div class="grid-row">
+          <div class="grid-column">
+            <div class="cookie-consent-bar" v-on:click.stop>
+              <h2 class="heading-3" id="cookie-consent-bar-title">Cookiegebruik</h2>
+
+              
+  <div class="markdown">
+    <p>Het Rijksmuseum maakt gebruik van cookies. Een cookie is een klein tekstbestand dat een website op uw computer of mobiel toestel opslaat wanneer u onze site bezoekt. Meer weten? Lees ons <a href="/nl/footer/cookiebeleid" target="_blank">cookiebeleid</a></p>
+
+  </div>
+
+
+              <div class="buttons-row">
+                <button class="button button-secondary" v-on:click="accept">
+                  <span>Accepteren</span>
+                </button>
+                <button class="link" v-on:click="decline">
+                  <span>Nee, liever niet</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </transition>
+</cookie-consent-bar>
+
+
+
+<navigation inline-template>
+  <div class="navigation hide-in-app-view" :class="{ open: menuOpen }" ref="wrapper">
+    <a id="skiptocontent" href="#maincontent">
+      Direct naar de inhoud
+    </a>
+    <header class="header grid-row">
+      <nav class="grid-column full-width header-inner">
+        <ul class="header-links header-links-left">
+          <li class="header-link header-button-icon">
+            <button class="button-icon transparent"
+                    ref="menuButton"
+                    v-on:click="onMenuToggle"
+                    v-on:keyup.esc="closeMenu"
+                    aria-controls="overlay-menu"
+                    :aria-expanded="menuOpen? 'true' : 'false'"
+                    :aria-label="menuOpen? 'Sluit menu' : 'Open menu'">
+              <transition name="fade-fast" mode="out-in">
+                <svg v-if="!menuOpen" key="menuburger" class="icon-menuburger " aria-hidden="true" focusable="false"><use xlink:href="#icon-menuburger" href="#icon-menuburger" ></use></svg>
+                <svg key="close" v-else class="icon-close " aria-hidden="true" focusable="false"><use xlink:href="#icon-close" href="#icon-close" ></use></svg>
+              </transition>
+            </button>
+
+            
+
+<transition name="fade" v-on:after-enter="onOverlayToggled" v-on:before-leave="onOverlayToggled">
+  <nav id="overlay-menu" class="overlay-menu blocks-full-height" v-show="menuOpen" v-cloak tabindex="0" v-on:keyup.esc="closeMenu">
+    <div class="menu-links grid-row">
+      <div class="grid-column full-width">
+        <height-expander inline-template>
+          <div class="quicklinks" data-focus-mobile>
+            <div class="horizontal-link-list">
+              <button class="link link-inverse" aria-controls="language-menu-mobile" v-on:click="toggleContent" :aria-expanded="openContent? 'true' : 'false'">
+                <span>
+                  Language
+                </span>
+              </button>
+              <a href="https://www.rijksmuseum.nl/nl/inloggen?redirectUrl=https://www.rijksmuseum.nl/nl/onderzoek/onderzoek-doen/data" class="link link-inverse" v-if="!$parent.loggedInUser">
+                <span>
+                  Inloggen
+                </span>
+              </a>
+              <a href="https://www.rijksmuseumshop.nl/nl?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=homepage_button_nl" class="link link-inverse">
+                <span>
+                  Giftshop
+                </span>
+              </a>
+              <a :href="$parent.collectionPersonalPageUrl" class="user-profile link" v-if="$parent.loggedInUser">
+                <img :src="$parent.loggedInUser.avatar" alt="" class="user-avatar" v-if="$parent.loggedInUser.avatar !== ''">
+                <div class="avatar-placeholder" v-text="$parent.loggedInUser.initials" v-else></div>
+              </a>
+
+            </div>
+            <transition name="fade-fast">
+              <div id="language-menu-mobile" class="language-menu-mobile" v-if="openContent">
+                  <ul class="language-menu-translations">
+                      <li class="language-menu-link">
+                        <a href="/nl/onderzoek/onderzoek-doen/data" class="link link-inverse">
+                          <span>Nederlands (Dutch)</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/en/research/conduct-research/data" class="link link-inverse">
+                          <span>English (English)</span>
+                        </a>
+                      </li>
+                  </ul>
+                  <ul class="language-menu-links">
+                      <li class="language-menu-link">
+                        <a href="/de/besuchen" class="link link-inverse">
+                          <span>Besucherinformationen</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/fr/visitez" class="link link-inverse">
+                          <span>Service visiteur</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/es/visit" class="link link-inverse">
+                          <span>Informacion para los visitantes</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/it/visita" class="link link-inverse">
+                          <span>Informazioni per i visitatori</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/pap/bishita" class="link link-inverse">
+                          <span>Informashon pa bishita</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/tr/ziyaret-edin" class="link link-inverse">
+                          <span>Ziyaret&#xE7;i bilgileri</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/ru/visit" class="link link-inverse">
+                          <span>&#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x441;&#x435;&#x442;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/ja/visit" class="link link-inverse">
+                          <span>&#x8A2A;&#x554F;&#x8005;&#x306E;&#x305F;&#x3081;&#x306E;&#x60C5;&#x5831;</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/zh/visit" class="link link-inverse">
+                          <span>&#x8377;&#x5170;&#x56FD;&#x7ACB;&#x535A;&#x7269;&#x9986;</span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/uk/visit" class="link link-inverse">
+                          <span>&#x41C;&#x443;&#x437;&#x435;&#x439; &#x440;&#x435;&#x43C;&#x431;&#x440;&#x430;&#x43D;&#x434;&#x442;&#x430;, &#x432;&#x435;&#x440;&#x43C;&#x435;&#x440;&#x430; &#x456; &#x432;&#x430;&#x43D; &#x433;&#x43E;&#x433;&#x430;</span>
+                        </a>
+                      </li>
+                  </ul>
+              </div>
+            </transition>
+          </div>
+        </height-expander>
+      </div>
+
+
+      <transition name="fade-in-bottom">
+        <div class="grid-column half-width extra-links-wrapper" v-if="menuOpen" data-focus-desktop>
+          <ul class="extra-links">
+              <li>
+                <a href="/nl/bezoek" class="link link-inverse">
+                  <span>
+                    Bezoek en tickets
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/zien-en-doen" class="link link-inverse">
+                  <span>
+                    Agenda en activiteiten
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/collectie" class="link link-inverse">
+                  <span>
+                    Collectie
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/stories" class="link link-inverse">
+                  <span>
+                    Stories
+                  </span>
+                </a>
+              </li>
+          </ul>
+          <ul class="extra-links">
+              <li>
+                <a href="/nl/steun" class="link link-inverse">
+                  <span>
+                    Steun ons
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.rijksmuseumshop.nl/nl?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=uitklapmenu_nl" class="link link-inverse">
+                  <span>
+                    Giftshop
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/onderzoek" class="link link-inverse">
+                  <span>
+                    Onderzoek
+                  </span>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </transition>
+      <transition name="fade-in-bottom">
+        <div class="grid-column half-width" v-if="menuOpen">
+          <h3 class="overlay-menu-header heading-3">
+            Aanbevolen
+          </h3>
+          <ul>
+              <li>
+                <a href="/nl/bezoek/praktische-info" class="link link-inverse">
+                  <span>
+                    Praktische informatie
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/families-en-kinderen" class="link link-inverse">
+                  <span>
+                    Families en kinderen
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/groepen" class="link link-inverse">
+                  <span>
+                    Groepen
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/onderwijs" class="link link-inverse">
+                  <span>
+                    Onderwijs
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/steun/vriendschappen" class="link link-inverse">
+                  <span>
+                    Vrienden
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/bezoek/toegankelijk" class="link link-inverse">
+                  <span>
+                    Toegankelijkheid
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/nl/pers" class="link link-inverse">
+                  <span>
+                    Pers
+                  </span>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </transition>
+      <div class="rijksmuseum-logo">
+        <a href="/nl" aria-label="Terug naar https://rijksmuseum.nl">
+          <span class="visually-hidden">Rijksmuseum</span>
+          <svg class="icon-rijks-logo " aria-hidden="true" focusable="false"><use xlink:href="#icon-rijks-logo" href="#icon-rijks-logo" ></use></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="block-half-width overlay-menu-link-block">
+      
+
+<a href="/nl/bezoek" class="block-link">
+  <div class="block-content grid-row">
+    <div class="grid-column fit-width-content block-content-ordered">
+      <h2 class="heading-2">
+        <span class="inline-link inline-link-inverse">
+          Bezoek het Rijksmuseum
+        </span>
+      </h2>
+
+          <p class="block-content-subtitle">
+            Het museum neemt je mee naar Rembrandt, Vermeer en Van Gogh
+          </p>
+
+      
+
+
+
+    </div>
+  </div>
+  
+
+
+<focus-point-image :object-positions='[
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  }
+]' inline-template>
+  <div class="background-image fit-parent object-fit-container cover" :style="backgroundPositionStyle">
+    <picture><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=320&amp;h=1391&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=6e41475398123ad4bae1d66b3b893d5852f38e36037f23d1459ac42cd68cbc9b 320w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=380&amp;h=1652&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=10ce4109bcbae98326fd4f407d7fedf28d1a2629f369eae6d48baf11b9ff8ce1 380w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=415&amp;h=1804&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=a55890108e0d1d91b5dc78d86caffe7c1ff39f8213a49f38c4f0bb467b411274 415w" media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=320&amp;h=1391&amp;fx=1190&amp;fy=1235&amp;c=70b50517cf8d77205beba88e7edbb2e071487b08ba47a8a374b58e3a8f5605e1 320w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=380&amp;h=1652&amp;fx=1190&amp;fy=1235&amp;c=e6f88fc406762ef77f22e39bd3a6a66b3dc13a019ea2ef5bc2c1a2353f439e4b 380w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=415&amp;h=1804&amp;fx=1190&amp;fy=1235&amp;c=1efcfa472b03ece19ad115123fb2ca78a6aa0f76218ff6a7950c6c8849af45d9 415w" media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=385&amp;h=1026&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=059428101479a396967ed9c741573a749ee5e5f4604224c35d18a162e7d792a5 385w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=720&amp;h=1920&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=c601a97dfccb5134bd835eec2cdefebfb3e7d88c1da46a164135d222a0914b6f 720w" media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=385&amp;h=1026&amp;fx=1190&amp;fy=1235&amp;c=b896bb62fd94dfd0925c62c107576bd2852de2b90747314d36aaeeb5594c5d32 385w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=720&amp;h=1920&amp;fx=1190&amp;fy=1235&amp;c=11ece39f373dffadfc296a248b6ba3531a2aa7229e8205b9b15e122d885f8baa 720w" media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=512&amp;h=769&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=ecdc442c7db1aad1caa8bed5ffe7ed4ad61fc5ac7731083abda40f58e3d42f56 512w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=720&amp;h=1082&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=20d89b62ffa99b0d5e9fe41e17c6442f3913be6066cf36cdfbda10f26de88e91 720w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1024&amp;h=1539&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=f516e613be465f353680a2cbc7de52400842f50740f3f0fd674875c62e440b43 1024w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=2165&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=9472e84559a5563e1546d9968da973a02682e67eefa93a86efc8872e0b882b9a 1440w" media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=512&amp;h=769&amp;fx=1190&amp;fy=1235&amp;c=0036a6fa1594bf5e18e2ce97b5e30e4e555ed37b766348143200bbc4a2280bd7 512w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=720&amp;h=1082&amp;fx=1190&amp;fy=1235&amp;c=ebbde9543a1d53e523aa69cfc432c02220150b49bad43d280c5b0c030dbb119d 720w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1024&amp;h=1539&amp;fx=1190&amp;fy=1235&amp;c=2a1623c253985c8c0f84897bbe86e4452e5b344ad56cf8b0396aa6d00b63bc1e 1024w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=2165&amp;fx=1190&amp;fy=1235&amp;c=b2b1b53b8bf21e2cb7ed14be69c265e81d803f4eb15b9c8a797f28a7639775e3 1440w" media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=720&amp;h=738&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=060412ff76869d944d27f71899c12ad3ce81ee1522ae1d8a7fea183263f3b0ab 720w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=960&amp;h=984&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=36545e00ad9def924c6d730f040a43f43ae987f9d1e2bac074c7295dc7d4eefa 960w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=1476&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=b57c4a985651db58d3d0249b3b1df06ee79b0467019e0c742968684e0a1a6907 1440w" media="(min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=720&amp;h=738&amp;fx=1190&amp;fy=1235&amp;c=ee89d8e41a64934564b346e73b059c1f827f547f04a80143410a9d5c69804aec 720w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=960&amp;h=984&amp;fx=1190&amp;fy=1235&amp;c=92f67369198fb2471be189310e16bccf6f423d7df772e4b1fff2355eeda58fc3 960w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=1476&amp;fx=1190&amp;fy=1235&amp;c=46fb3fbb060412ee63e920066ec47ead4dbe9862584df8fa9e18aece6bf8b03d 1440w" media="(min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=640&amp;h=695&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=193a2158e91511b4401091ffd4f09326f5925650faec0f742b59cf342ab89ee8 640w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=760&amp;h=826&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=eb053f7337c54e60f0caa7da70b6a2c5f2ba49e1f12fddacfe1bce8fbebc6b5a 760w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=830&amp;h=902&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=29d1247d71a49db2109d29580865b5f73be9021f5379106456072772a17e573b 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=640&amp;h=695&amp;fx=1190&amp;fy=1235&amp;c=8d18ae6ebeddc455c1b45fa0aa8dcc4780f5b0e08026803e5178bd3c6b94afbd 640w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=760&amp;h=826&amp;fx=1190&amp;fy=1235&amp;c=476f668e5593da237cc004e95cc44613addfe1b1895671e95cea18770753c990 760w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=830&amp;h=902&amp;fx=1190&amp;fy=1235&amp;c=bd5666e386f01656a32475b73b8f737edaf9bd897a40ceeac51f0450bb1784a9 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=770&amp;h=513&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=db4d7a606fc348f49157ed5acbf4d21c26fc777e9b2f0ac2dfc39deabbfc9fc5 770w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=960&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=45407bd1131d5d1231d58b61283d477cde6396ca556427112fb84061e4ec83ea 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=770&amp;h=513&amp;fx=1190&amp;fy=1235&amp;c=c96856c0f52b321f412307cf8ddfdbae36f23b4f65f9c64c53c3a41870f5e3ab 770w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=960&amp;fx=1190&amp;fy=1235&amp;c=508a32656de51734474268602c3209d6701eb289f520c9847c5e993f95b549c4 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1024&amp;h=384&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=c3e82e856be5d3a69b41ae4bde32026e4c8d5534b435c04bbb1bccd7bf9e0cc7 1024w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=541&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=a740c13b9dcf703d5e514fcbd86b7dcfa05d67d2ac0fb6596892208e81544073 1440w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=2048&amp;h=769&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=e56964035023b71b1e7e205f22242f8548057905851e57e265ba4f57afca269f 2048w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=2880&amp;h=1082&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=50c264d16bbef0420fe79040a342ffbad08fb239f5e6563861b4038daf8ea214 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1024&amp;h=384&amp;fx=1190&amp;fy=1235&amp;c=f5c499c18a682dff6e2c0d784b668654de2cb548ff1dc928c38d84484fa7bcd0 1024w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=541&amp;fx=1190&amp;fy=1235&amp;c=90c4e3f7e7b0e5906a4635952623dae5acea9029cabdcffd52671be3627abc12 1440w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=2048&amp;h=769&amp;fx=1190&amp;fy=1235&amp;c=f5336556b54d30bec69930a8e54039588931974b8f5d2bd30d87a27d8f827bf3 2048w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=2880&amp;h=1082&amp;fx=1190&amp;fy=1235&amp;c=1e32b14329393f11bbadb975a59bceb5fc1282660606d8161a9614fdf5d169f9 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=369&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=c87128d6c4b6cd0e453ec8925123a95c4b336a440345dfc1dea27f8179ea7e83 1440w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1920&amp;h=492&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=7003a917cca6d26bd6aa04fe7b125731f4d48285965a6c664998e5124f1e7f7a 1920w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=2880&amp;h=738&amp;fx=1190&amp;fy=1235&amp;format=webp&amp;c=67f990864e7ba836b4f24c39dc2837654f0ba646544e429d2106640388289dfb 2880w" sizes="100vw" type="image/webp" /><source data-srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1440&amp;h=369&amp;fx=1190&amp;fy=1235&amp;c=97a59af27258ba10ac5d3e1cc1ac72f949c7190e13e2e9e5e78d9ce8b8ac5bde 1440w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=1920&amp;h=492&amp;fx=1190&amp;fy=1235&amp;c=ebc0658a784ad3aa9d581dcb6349ae9dc50a5df41f15be251fd3e3da543559fc 1920w,https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=2880&amp;h=738&amp;fx=1190&amp;fy=1235&amp;c=8a33ad854a50516846fc2d8f241c83479ba7c33bf4d93cbabe749b38371b7dcd 2880w" sizes="100vw" /><img :style="objectPositionStyle" alt="" class="lazy-image not-loaded " data-src="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=960&amp;h=1080&amp;fx=1190&amp;fy=1235&amp;c=911b02c83374c6faa087e90f879d25025cfda62bf28b029e5ac3ca0d1085181e" /></picture>
+      <picture><source media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=86&amp;fx=1190&amp;fy=1235&amp;c=bd9e8932348e2a0a85233e488a81dca14f372bea4648bf75370c19c5dd7237c5" /><source media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=53&amp;fx=1190&amp;fy=1235&amp;c=ce335745fbbf0b7afd3fb5d7ad3bea1cde8fc3947951efc3fefd346bc14c56b2" /><source media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=30&amp;fx=1190&amp;fy=1235&amp;c=f22be63e2ca5bca8d99b395fe875f4460b50021d19fecede5a85ff908a67fe69" /><source media="(min-width: 50.75em)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=20&amp;fx=1190&amp;fy=1235&amp;c=f17926b01188f0a307f7c8a38f1fa6e2f04a5025e6a66ebfe8f309252427e9dd" /><source media="(max-aspect-ratio: 3/4)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=21&amp;fx=1190&amp;fy=1235&amp;c=7b13de2ed73b646c6829d872e99cd1c8728d223223e4718a52b4bc2ce2ea0507" /><source media="(max-aspect-ratio: 4/3)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=13&amp;fx=1190&amp;fy=1235&amp;c=501b8bfe3dd3eb0feabb2264b43b0eda2dc61cc79f3c5a64c1f1f4ee70a18352" /><source media="(max-aspect-ratio: 39/20)" sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=7&amp;fx=1190&amp;fy=1235&amp;c=d7859fff3ba956056026b551644623e61c5b895fe85e17b87d5b3017b2672030" /><source sizes="" srcset="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=5&amp;fx=1190&amp;fy=1235&amp;c=7b13af3660c6d1e8a1d18e04f1313f4f4a110e5529cd646833f002a62d259e49" /><img :style="objectPositionStyle" alt="" class="lazy-image-placeholder" src="https://www.rijksmuseum.nl/assets/147dde9e-c250-4ed9-b941-39800085a4e3?w=20&amp;h=11&amp;fx=1190&amp;fy=1235&amp;c=d6bb14dcaa22cb6e6e2432c20b5988e5bdc1ba33072e5f163473e606aa6d1c73" /></picture>
+  </div>
+</focus-point-image>
+
+</a>
+
+    </div>
+    <div class="grid-row sponsor-logos-wrapper">
+      
+
+<section class="sponsor-logos grid-row">
+  <div class="grid-column">
+      <div class="sponsor-logos-section">
+        
+
+  <div class="grid-column logo">
+    <a aria-label="Ministerie van Onderwijs, Cultuur en Wetenschap" href="/nl/footer/ocw" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/m-ocw-nl.svg" alt="Ministerie van Onderwijs, Cultuur en Wetenschap logo">
+    </a>
+  </div>
+
+      </div>
+      <div class="sponsor-logos-section">
+          <p class="sponsor-logos-section-heading">FOUNDER</p>
+        
+
+  <div class="grid-column logo">
+    <a aria-label="Kpn" href="/nl/steun/bedrijven/partnerships/kpn" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/kpn-logo-white.svg" alt="Kpn logo">
+    </a>
+  </div>
+
+      </div>
+      <div class="sponsor-logos-section">
+          <p class="sponsor-logos-section-heading">HOOFDPARTNERS</p>
+        
+
+  <div class="grid-column logo">
+    <a aria-label="Vriendenloterij" href="/nl/steun/bedrijven/partnerships/vriendenloterij" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/vrienden-loterij.svg" alt="Vriendenloterij logo">
+    </a>
+  </div>
+  <div class="grid-column logo">
+    <a aria-label="ING" href="/nl/steun/bedrijven/partnerships/ing" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/ing.svg" alt="ING logo">
+    </a>
+  </div>
+
+      </div>
+  </div>
+</section>
+
+    </div>
+  </nav>
+</transition>
+
+          </li>
+          <li class="header-link header-button-icon">
+            <a aria-label="Zoeken" href="/nl/content-zoeken" class="button-icon transparent">
+              <svg class="icon-search " aria-hidden="true" focusable="false"><use xlink:href="#icon-search" href="#icon-search" ></use></svg>
+            </a>
+          </li>
+            <transition name="fade-fast">
+              <li class="header-link header-cta header-back-button" v-if="!menuOpen">
+                <a href="/nl/onderzoek/onderzoek-doen" class="button button-back">
+                  <svg class="icon-arrow-thin " aria-hidden="true" focusable="false"><use xlink:href="#icon-arrow-thin" href="#icon-arrow-thin" ></use></svg>
+                  <span>Onderzoek doen</span>
+                </a>
+              </li>
+            </transition>
+        </ul>
+        <ul class="header-links header-options">
+          <tooltip-toggle-content inline-template>
+            <li v-on:click.stop="onClick" class="header-link header-language-menu language-menu-wrapper">
+              <button class="link link-inverse" v-on:click="toggleContent" :aria-expanded="openContent? 'true' : 'false'" aria-controls="header-language-menu" :class="{'clicked': openContent}">
+                <span>
+                  Language
+                </span>
+              </button>
+              <div class="language-menu" v-show="openContent" id="header-language-menu" :aria-hidden="openContent? 'false' : 'true'" v-cloak>
+                  <ul class="language-menu-translations">
+                      <li class="language-menu-link">
+                        <a href="/nl/onderzoek/onderzoek-doen/data" class="link link-inverse">
+                          <span>
+                            Nederlands (Dutch)
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/en/research/conduct-research/data" class="link link-inverse">
+                          <span>
+                            English (English)
+                          </span>
+                        </a>
+                      </li>
+                  </ul>
+                  <ul class="language-menu-links">
+                      <li class="language-menu-link">
+                        <a href="/de/besuchen" class="link link-inverse">
+                          <span>
+                            Besucherinformationen
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/fr/visitez" class="link link-inverse">
+                          <span>
+                            Service visiteur
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/es/visit" class="link link-inverse">
+                          <span>
+                            Informacion para los visitantes
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/it/visita" class="link link-inverse">
+                          <span>
+                            Informazioni per i visitatori
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/pap/bishita" class="link link-inverse">
+                          <span>
+                            Informashon pa bishita
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/tr/ziyaret-edin" class="link link-inverse">
+                          <span>
+                            Ziyaret&#xE7;i bilgileri
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/ru/visit" class="link link-inverse">
+                          <span>
+                            &#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x441;&#x435;&#x442;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/ja/visit" class="link link-inverse">
+                          <span>
+                            &#x8A2A;&#x554F;&#x8005;&#x306E;&#x305F;&#x3081;&#x306E;&#x60C5;&#x5831;
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/zh/visit" class="link link-inverse">
+                          <span>
+                            &#x8377;&#x5170;&#x56FD;&#x7ACB;&#x535A;&#x7269;&#x9986;
+                          </span>
+                        </a>
+                      </li>
+                      <li class="language-menu-link">
+                        <a href="/uk/visit" class="link link-inverse">
+                          <span>
+                            &#x41C;&#x443;&#x437;&#x435;&#x439; &#x440;&#x435;&#x43C;&#x431;&#x440;&#x430;&#x43D;&#x434;&#x442;&#x430;, &#x432;&#x435;&#x440;&#x43C;&#x435;&#x440;&#x430; &#x456; &#x432;&#x430;&#x43D; &#x433;&#x43E;&#x433;&#x430;
+                          </span>
+                        </a>
+                      </li>
+                  </ul>
+              </div>
+            </li>
+          </tooltip-toggle-content>
+          <li class="header-link" v-if="!loggedInUser">
+            <a href="https://www.rijksmuseum.nl/nl/inloggen?redirectUrl=https://www.rijksmuseum.nl/nl/onderzoek/onderzoek-doen/data" class="link link-inverse">
+              <span>
+                Inloggen
+              </span>
+            </a>
+          </li>
+            <li class="header-link">
+              <a href="https://www.rijksmuseumshop.nl/nl?utm_source=rijksmuseum.nl&amp;utm_medium=referral&amp;utm_campaign=webshop&amp;utm_content=homepage_button_nl" class="link link-inverse">
+                <span>
+                  Giftshop
+                </span>
+              </a>
+            </li>
+
+            <li class="header-link header-cta ticket-button">
+              <a v-on:click="sendTicketShopBtnEvent" href="https://www.rijksmuseum.nl/nl/tickets?variantKey=default-configuration" class="button button-primary ticket-button-link">
+                Rijksmuseum tickets
+              </a>
+            </li>
+            <li class="user-profile" v-if="loggedInUser" v-cloak>
+              <a :href="collectionPersonalPageUrl" class="link">
+                <img :src="loggedInUser.avatar" alt="" class="user-avatar" v-if="loggedInUser.avatar !== ''">
+                <div class="avatar-placeholder" v-text="loggedInUser.initials" v-else></div>
+              </a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</navigation>
+
+  <accessibility-helper inline-template>
+    <div class="visually-hidden" v-text="statusText" aria-live="polite" role="status"></div>
+  </accessibility-helper>
+
+  <main dir="ltr" id="maincontent">
+    
+
+<div class="blocks-full-height">
+  
+
+<section class="page-header block-full-width-overflow">
+  <div class="page-header-hero" role="presentation">
+
+
+
+<focus-point-image :object-positions='[
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  }
+]' inline-template>
+  <div class="background-image fit-parent object-fit-container cover" :style="backgroundPositionStyle">
+    <picture><source media="(max-aspect-ratio: 3/4)" sizes="100vw" srcset="https://iiif.micr.io/JSCdF/1365,0,1270,2761/640,1391/0/default.webp 640w,https://iiif.micr.io/JSCdF/1365,0,1270,2761/760,1652/0/default.webp 760w,https://iiif.micr.io/JSCdF/1365,0,1270,2761/830,1804/0/default.webp 830w" type="image/webp" /><source media="(max-aspect-ratio: 3/4)" sizes="100vw" srcset="https://iiif.micr.io/JSCdF/1365,0,1270,2761/640,1391/0/default.jpg 640w,https://iiif.micr.io/JSCdF/1365,0,1270,2761/760,1652/0/default.jpg 760w,https://iiif.micr.io/JSCdF/1365,0,1270,2761/830,1804/0/default.jpg 830w" /><source media="(max-aspect-ratio: 4/3)" sizes="100vw" srcset="https://iiif.micr.io/JSCdF/964,0,2072,2761/770,1026/0/default.webp 770w,https://iiif.micr.io/JSCdF/965,0,2070,2761/1440,1920/0/default.webp 1440w" type="image/webp" /><source media="(max-aspect-ratio: 4/3)" sizes="100vw" srcset="https://iiif.micr.io/JSCdF/964,0,2072,2761/770,1026/0/default.jpg 770w,https://iiif.micr.io/JSCdF/965,0,2070,2761/1440,1920/0/default.jpg 1440w" /><source media="(max-aspect-ratio: 39/20)" sizes="100vw" srcset="https://iiif.micr.io/JSCdF/162,0,3676,2761/1024,769/0/default.webp 1024w,https://iiif.micr.io/JSCdF/163,0,3674,2761/1440,1082/0/default.webp 1440w,https://iiif.micr.io/JSCdF/163,0,3674,2761/2048,1539/0/default.webp 2048w,https://iiif.micr.io/JSCdF/164,0,3672,2761/2880,2165/0/default.webp 2880w" type="image/webp" /><source media="(max-aspect-ratio: 39/20)" sizes="100vw" srcset="https://iiif.micr.io/JSCdF/162,0,3676,2761/1024,769/0/default.jpg 1024w,https://iiif.micr.io/JSCdF/163,0,3674,2761/1440,1082/0/default.jpg 1440w,https://iiif.micr.io/JSCdF/163,0,3674,2761/2048,1539/0/default.jpg 2048w,https://iiif.micr.io/JSCdF/164,0,3672,2761/2880,2165/0/default.jpg 2880w" /><source sizes="100vw" srcset="https://iiif.micr.io/JSCdF/0,355,4000,2050/1440,738/0/default.webp 1440w,https://iiif.micr.io/JSCdF/0,355,4000,2050/1920,984/0/default.webp 1920w,https://iiif.micr.io/JSCdF/0,355,4000,2050/2880,1476/0/default.webp 2880w" type="image/webp" /><source sizes="100vw" srcset="https://iiif.micr.io/JSCdF/0,355,4000,2050/1440,738/0/default.jpg 1440w,https://iiif.micr.io/JSCdF/0,355,4000,2050/1920,984/0/default.jpg 1920w,https://iiif.micr.io/JSCdF/0,355,4000,2050/2880,1476/0/default.jpg 2880w" /><img :style="objectPositionStyle" alt="Computerdag voor vrouwen" class="" src="https://iiif.micr.io/JSCdF/0,255,4000,2250/1920,1080/0/default.jpg" /></picture>
+  </div>
+</focus-point-image>
+  </div>
+  <div class="page-header-content grid-row">
+    <div class="grid-column full-width ">
+      
+
+
+
+
+      <h1 class="heading-1 ">Data</h1>
+        <p class="page-header-subtitle">RijksData: altijd open!</p>
+    </div>
+  </div>
+</section>
+
+  
+<section class="intro-block grid-row inline-block">
+  <div class="text-big grid-column seventy-percent-width">
+    
+  <div class="markdown">
+    <p>Het Rijksmuseum verbindt mensen, kunst en geschiedenis. Onze databronnen vormen daarbij belangrijke bouwstenen. Daarom bieden we ze op verschillende manieren aan. Geleid door het vooruitstrevende Open Databeleid en geïnspireerd door de FAIR data principes.</p>
+
+  </div>
+
+
+  </div>
+</section>
+
+
+
+
+
+<div class="block-full-width-overflow">
+  
+
+<a href="https://data.rijksmuseum.nl" class="block-link">
+  <div class="block-content grid-row">
+    <div class="grid-column fit-width-content block-content-ordered">
+      <h2 class="heading-2">
+        <span class="inline-link inline-link-inverse">
+          Rijksmuseum Data
+        </span>
+      </h2>
+
+
+      
+
+
+
+    </div>
+  </div>
+  
+
+
+<focus-point-image :object-positions='[
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  }
+]' inline-template>
+  <div class="background-image fit-parent object-fit-container cover" :style="backgroundPositionStyle">
+    <picture><source data-srcset="https://iiif.micr.io/NHdKh/1367,0,1266,2753/640,1391/0/default.webp 640w,https://iiif.micr.io/NHdKh/1367,0,1266,2753/760,1652/0/default.webp 760w,https://iiif.micr.io/NHdKh/1367,0,1266,2753/830,1804/0/default.webp 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/NHdKh/1367,0,1266,2753/640,1391/0/default.jpg 640w,https://iiif.micr.io/NHdKh/1367,0,1266,2753/760,1652/0/default.jpg 760w,https://iiif.micr.io/NHdKh/1367,0,1266,2753/830,1804/0/default.jpg 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/NHdKh/967,0,2066,2753/770,1026/0/default.webp 770w,https://iiif.micr.io/NHdKh/968,0,2064,2753/1440,1920/0/default.webp 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/NHdKh/967,0,2066,2753/770,1026/0/default.jpg 770w,https://iiif.micr.io/NHdKh/968,0,2064,2753/1440,1920/0/default.jpg 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/NHdKh/168,0,3665,2753/1024,769/0/default.webp 1024w,https://iiif.micr.io/NHdKh/169,0,3663,2753/1440,1082/0/default.webp 1440w,https://iiif.micr.io/NHdKh/169,0,3663,2753/2048,1539/0/default.webp 2048w,https://iiif.micr.io/NHdKh/169,0,3662,2753/2880,2165/0/default.webp 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/NHdKh/168,0,3665,2753/1024,769/0/default.jpg 1024w,https://iiif.micr.io/NHdKh/169,0,3663,2753/1440,1082/0/default.jpg 1440w,https://iiif.micr.io/NHdKh/169,0,3663,2753/2048,1539/0/default.jpg 2048w,https://iiif.micr.io/NHdKh/169,0,3662,2753/2880,2165/0/default.jpg 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/NHdKh/0,351,4000,2050/1440,738/0/default.webp 1440w,https://iiif.micr.io/NHdKh/0,351,4000,2050/1920,984/0/default.webp 1920w,https://iiif.micr.io/NHdKh/0,351,4000,2050/2880,1476/0/default.webp 2880w" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/NHdKh/0,351,4000,2050/1440,738/0/default.jpg 1440w,https://iiif.micr.io/NHdKh/0,351,4000,2050/1920,984/0/default.jpg 1920w,https://iiif.micr.io/NHdKh/0,351,4000,2050/2880,1476/0/default.jpg 2880w" sizes="100vw" /><img :style="objectPositionStyle" alt="NIKHEF Amsterdam" class="lazy-image not-loaded " data-src="https://iiif.micr.io/NHdKh/0,251,4000,2250/1920,1080/0/default.jpg" /></picture>
+      <picture><source media="(max-aspect-ratio: 3/4)" sizes="" srcset="https://iiif.micr.io/NHdKh/1360,0,1280,2753/20,43/0/default.jpg" /><source media="(max-aspect-ratio: 4/3)" sizes="" srcset="https://iiif.micr.io/NHdKh/942,0,2117,2753/20,26/0/default.jpg" /><source media="(max-aspect-ratio: 39/20)" sizes="" srcset="https://iiif.micr.io/NHdKh/165,0,3670,2753/20,15/0/default.jpg" /><source sizes="" srcset="https://iiif.micr.io/NHdKh/0,376,4000,2000/20,10/0/default.jpg" /><img :style="objectPositionStyle" alt="NIKHEF Amsterdam" class="lazy-image-placeholder" src="https://iiif.micr.io/NHdKh/0,276,4000,2200/20,11/0/default.jpg" /></picture>
+  </div>
+</focus-point-image>
+
+</a>
+
+</div>
+
+
+<section class="related-content block-row ">
+    <div class="block-half-width-overflow">
+      
+
+<a href="https://data.rijksmuseum.nl/" class="block-link">
+  <div class="block-content grid-row">
+    <div class="grid-column fit-width-content block-content-ordered">
+      <h2 class="heading-2">
+        <span class="inline-link inline-link-inverse">
+          Onze data in een notendop
+        </span>
+      </h2>
+
+
+      
+
+
+
+    </div>
+  </div>
+  
+
+
+<focus-point-image :object-positions='[
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  }
+]' inline-template>
+  <div class="background-image fit-parent object-fit-container cover" :style="backgroundPositionStyle">
+    <picture><source data-srcset="https://iiif.micr.io/ARkye/1683,0,635,2763/320,1391/0/default.webp 320w,https://iiif.micr.io/ARkye/1683,0,635,2763/380,1652/0/default.webp 380w,https://iiif.micr.io/ARkye/1683,0,635,2763/415,1804/0/default.webp 415w" media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/1683,0,635,2763/320,1391/0/default.jpg 320w,https://iiif.micr.io/ARkye/1683,0,635,2763/380,1652/0/default.jpg 380w,https://iiif.micr.io/ARkye/1683,0,635,2763/415,1804/0/default.jpg 415w" media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/ARkye/1482,0,1036,2763/385,1026/0/default.webp 385w,https://iiif.micr.io/ARkye/1482,0,1036,2763/720,1920/0/default.webp 720w" media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/1482,0,1036,2763/385,1026/0/default.jpg 385w,https://iiif.micr.io/ARkye/1482,0,1036,2763/720,1920/0/default.jpg 720w" media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/ARkye/1081,0,1839,2763/512,769/0/default.webp 512w,https://iiif.micr.io/ARkye/1081,0,1838,2763/720,1082/0/default.webp 720w,https://iiif.micr.io/ARkye/1081,0,1838,2763/1024,1539/0/default.webp 1024w,https://iiif.micr.io/ARkye/1082,0,1837,2763/1440,2165/0/default.webp 1440w" media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/1081,0,1839,2763/512,769/0/default.jpg 512w,https://iiif.micr.io/ARkye/1081,0,1838,2763/720,1082/0/default.jpg 720w,https://iiif.micr.io/ARkye/1081,0,1838,2763/1024,1539/0/default.jpg 1024w,https://iiif.micr.io/ARkye/1082,0,1837,2763/1440,2165/0/default.jpg 1440w" media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/ARkye/653,0,2695,2763/720,738/0/default.webp 720w,https://iiif.micr.io/ARkye/653,0,2695,2763/960,984/0/default.webp 960w,https://iiif.micr.io/ARkye/653,0,2695,2763/1440,1476/0/default.webp 1440w" media="(min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/653,0,2695,2763/720,738/0/default.jpg 720w,https://iiif.micr.io/ARkye/653,0,2695,2763/960,984/0/default.jpg 960w,https://iiif.micr.io/ARkye/653,0,2695,2763/1440,1476/0/default.jpg 1440w" media="(min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/ARkye/728,0,2544,2763/640,695/0/default.webp 640w,https://iiif.micr.io/ARkye/729,0,2542,2763/760,826/0/default.webp 760w,https://iiif.micr.io/ARkye/729,0,2542,2763/830,902/0/default.webp 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/728,0,2544,2763/640,695/0/default.jpg 640w,https://iiif.micr.io/ARkye/729,0,2542,2763/760,826/0/default.jpg 760w,https://iiif.micr.io/ARkye/729,0,2542,2763/830,902/0/default.jpg 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/ARkye/0,49,4000,2664/770,513/0/default.webp 770w,https://iiif.micr.io/ARkye/0,48,4000,2666/1440,960/0/default.webp 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/0,49,4000,2664/770,513/0/default.jpg 770w,https://iiif.micr.io/ARkye/0,48,4000,2666/1440,960/0/default.jpg 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/ARkye/0,631,4000,1500/1024,384/0/default.webp 1024w,https://iiif.micr.io/ARkye/0,630,4000,1502/1440,541/0/default.webp 1440w,https://iiif.micr.io/ARkye/0,631,4000,1501/2048,769/0/default.webp 2048w,https://iiif.micr.io/ARkye/0,630,4000,1502/2880,1082/0/default.webp 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/0,631,4000,1500/1024,384/0/default.jpg 1024w,https://iiif.micr.io/ARkye/0,630,4000,1502/1440,541/0/default.jpg 1440w,https://iiif.micr.io/ARkye/0,631,4000,1501/2048,769/0/default.jpg 2048w,https://iiif.micr.io/ARkye/0,630,4000,1502/2880,1082/0/default.jpg 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/ARkye/0,869,4000,1025/1440,369/0/default.webp 1440w,https://iiif.micr.io/ARkye/0,869,4000,1025/1920,492/0/default.webp 1920w,https://iiif.micr.io/ARkye/0,869,4000,1025/2880,738/0/default.webp 2880w" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/ARkye/0,869,4000,1025/1440,369/0/default.jpg 1440w,https://iiif.micr.io/ARkye/0,869,4000,1025/1920,492/0/default.jpg 1920w,https://iiif.micr.io/ARkye/0,869,4000,1025/2880,738/0/default.jpg 2880w" sizes="100vw" /><img :style="objectPositionStyle" alt="IBM International Operations (2)" class="lazy-image not-loaded " data-src="https://iiif.micr.io/ARkye/772,0,2456,2763/960,1080/0/default.jpg" /></picture>
+      <picture><source media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/ARkye/1679,0,642,2763/20,86/0/default.jpg" /><source media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/ARkye/1479,0,1042,2763/20,53/0/default.jpg" /><source media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/ARkye/1079,0,1842,2763/20,30/0/default.jpg" /><source media="(min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/ARkye/619,0,2763,2763/20,20/0/default.jpg" /><source media="(max-aspect-ratio: 3/4)" sizes="" srcset="https://iiif.micr.io/ARkye/685,0,2631,2763/20,21/0/default.jpg" /><source media="(max-aspect-ratio: 4/3)" sizes="" srcset="https://iiif.micr.io/ARkye/0,81,4000,2600/20,13/0/default.jpg" /><source media="(max-aspect-ratio: 39/20)" sizes="" srcset="https://iiif.micr.io/ARkye/0,681,4000,1400/20,7/0/default.jpg" /><source sizes="" srcset="https://iiif.micr.io/ARkye/0,881,4000,1000/20,5/0/default.jpg" /><img :style="objectPositionStyle" alt="IBM International Operations (2)" class="lazy-image-placeholder" src="https://iiif.micr.io/ARkye/0,281,4000,2200/20,11/0/default.jpg" /></picture>
+  </div>
+</focus-point-image>
+
+</a>
+
+    </div>
+    <div class="block-half-width-overflow">
+      
+
+<a href="https://data.rijksmuseum.nl/policy/introductie" class="block-link">
+  <div class="block-content grid-row">
+    <div class="grid-column fit-width-content block-content-ordered">
+      <h2 class="heading-2">
+        <span class="inline-link inline-link-inverse">
+          Informatie- en Databeleid
+        </span>
+      </h2>
+
+
+      
+
+
+
+    </div>
+  </div>
+  
+
+
+<focus-point-image :object-positions='[
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20) and (min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(min-width: 50.75em)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 3/4)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 4/3)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "(max-aspect-ratio: 39/20)",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  },
+  {
+    "mediaQuery": "",
+    "objectPosition": "center center"
+  }
+]' inline-template>
+  <div class="background-image fit-parent object-fit-container cover" :style="backgroundPositionStyle">
+    <picture><source data-srcset="https://iiif.micr.io/gIUXX/687,0,690,3000/320,1391/0/default.webp 320w,https://iiif.micr.io/gIUXX/687,0,690,3000/380,1652/0/default.webp 380w,https://iiif.micr.io/gIUXX/687,0,690,3000/415,1804/0/default.webp 415w" media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/687,0,690,3000/320,1391/0/default.jpg 320w,https://iiif.micr.io/gIUXX/687,0,690,3000/380,1652/0/default.jpg 380w,https://iiif.micr.io/gIUXX/687,0,690,3000/415,1804/0/default.jpg 415w" media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/gIUXX/470,0,1125,3000/385,1026/0/default.webp 385w,https://iiif.micr.io/gIUXX/470,0,1125,3000/720,1920/0/default.webp 720w" media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/470,0,1125,3000/385,1026/0/default.jpg 385w,https://iiif.micr.io/gIUXX/470,0,1125,3000/720,1920/0/default.jpg 720w" media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/gIUXX/34,0,1997,3000/512,769/0/default.webp 512w,https://iiif.micr.io/gIUXX/34,0,1996,3000/720,1082/0/default.webp 720w,https://iiif.micr.io/gIUXX/34,0,1996,3000/1024,1539/0/default.webp 1024w,https://iiif.micr.io/gIUXX/35,0,1995,3000/1440,2165/0/default.webp 1440w" media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/34,0,1997,3000/512,769/0/default.jpg 512w,https://iiif.micr.io/gIUXX/34,0,1996,3000/720,1082/0/default.jpg 720w,https://iiif.micr.io/gIUXX/34,0,1996,3000/1024,1539/0/default.jpg 1024w,https://iiif.micr.io/gIUXX/35,0,1995,3000/1440,2165/0/default.jpg 1440w" media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/gIUXX/0,442,2065,2116/720,738/0/default.webp 720w,https://iiif.micr.io/gIUXX/0,442,2065,2116/960,984/0/default.webp 960w,https://iiif.micr.io/gIUXX/0,442,2065,2116/1440,1476/0/default.webp 1440w" media="(min-width: 50.75em)" sizes="50vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/0,442,2065,2116/720,738/0/default.jpg 720w,https://iiif.micr.io/gIUXX/0,442,2065,2116/960,984/0/default.jpg 960w,https://iiif.micr.io/gIUXX/0,442,2065,2116/1440,1476/0/default.jpg 1440w" media="(min-width: 50.75em)" sizes="50vw" /><source data-srcset="https://iiif.micr.io/gIUXX/0,379,2065,2242/640,695/0/default.webp 640w,https://iiif.micr.io/gIUXX/0,378,2065,2244/760,826/0/default.webp 760w,https://iiif.micr.io/gIUXX/0,378,2065,2244/830,902/0/default.webp 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/0,379,2065,2242/640,695/0/default.jpg 640w,https://iiif.micr.io/gIUXX/0,378,2065,2244/760,826/0/default.jpg 760w,https://iiif.micr.io/gIUXX/0,378,2065,2244/830,902/0/default.jpg 830w" media="(max-aspect-ratio: 3/4)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/gIUXX/0,813,2065,1375/770,513/0/default.webp 770w,https://iiif.micr.io/gIUXX/0,812,2065,1376/1440,960/0/default.webp 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/0,813,2065,1375/770,513/0/default.jpg 770w,https://iiif.micr.io/gIUXX/0,812,2065,1376/1440,960/0/default.jpg 1440w" media="(max-aspect-ratio: 4/3)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/gIUXX/0,1113,2065,774/1024,384/0/default.webp 1024w,https://iiif.micr.io/gIUXX/0,1113,2065,775/1440,541/0/default.webp 1440w,https://iiif.micr.io/gIUXX/0,1113,2065,775/2048,769/0/default.webp 2048w,https://iiif.micr.io/gIUXX/0,1113,2065,775/2065,775/0/default.webp 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/0,1113,2065,774/1024,384/0/default.jpg 1024w,https://iiif.micr.io/gIUXX/0,1113,2065,775/1440,541/0/default.jpg 1440w,https://iiif.micr.io/gIUXX/0,1113,2065,775/2048,769/0/default.jpg 2048w,https://iiif.micr.io/gIUXX/0,1113,2065,775/2065,775/0/default.jpg 2880w" media="(max-aspect-ratio: 39/20)" sizes="100vw" /><source data-srcset="https://iiif.micr.io/gIUXX/0,1236,2065,529/1440,369/0/default.webp 1440w,https://iiif.micr.io/gIUXX/0,1236,2065,529/1920,492/0/default.webp 1920w,https://iiif.micr.io/gIUXX/0,1236,2065,529/2065,529/0/default.webp 2880w" sizes="100vw" type="image/webp" /><source data-srcset="https://iiif.micr.io/gIUXX/0,1236,2065,529/1440,369/0/default.jpg 1440w,https://iiif.micr.io/gIUXX/0,1236,2065,529/1920,492/0/default.jpg 1920w,https://iiif.micr.io/gIUXX/0,1236,2065,529/2065,529/0/default.jpg 2880w" sizes="100vw" /><img :style="objectPositionStyle" alt="Computerfestival De Meervaart" class="lazy-image not-loaded " data-src="https://iiif.micr.io/gIUXX/0,339,2065,2323/960,1080/0/default.jpg" /></picture>
+      <picture><source media="(max-aspect-ratio: 3/4) and (min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/gIUXX/684,0,697,3000/20,86/0/default.jpg" /><source media="(max-aspect-ratio: 4/3) and (min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/gIUXX/466,0,1132,3000/20,53/0/default.jpg" /><source media="(max-aspect-ratio: 39/20) and (min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/gIUXX/32,0,2000,3000/20,30/0/default.jpg" /><source media="(min-width: 50.75em)" sizes="" srcset="https://iiif.micr.io/gIUXX/0,468,2065,2065/20,20/0/default.jpg" /><source media="(max-aspect-ratio: 3/4)" sizes="" srcset="https://iiif.micr.io/gIUXX/0,416,2065,2168/20,21/0/default.jpg" /><source media="(max-aspect-ratio: 4/3)" sizes="" srcset="https://iiif.micr.io/gIUXX/0,829,2065,1342/20,13/0/default.jpg" /><source media="(max-aspect-ratio: 39/20)" sizes="" srcset="https://iiif.micr.io/gIUXX/0,1139,2065,722/20,7/0/default.jpg" /><source sizes="" srcset="https://iiif.micr.io/gIUXX/0,1242,2065,516/20,5/0/default.jpg" /><img :style="objectPositionStyle" alt="Computerfestival De Meervaart" class="lazy-image-placeholder" src="https://iiif.micr.io/gIUXX/0,933,2065,1135/20,11/0/default.jpg" /></picture>
+  </div>
+</focus-point-image>
+
+</a>
+
+    </div>
+</section>
+</div>
+
+  </main>
+
+
+
+
+
+<footer class="grid-row footer">
+  <div class="grid-column footer-content">
+    <div class="text-big visitor-info">
+      
+  <div class="markdown">
+    <h2>Bezoekersinformatie</h2>
+<p>Elke dag van 9-17 uur<br>
+Museumstraat 1, Amsterdam</p>
+
+  </div>
+
+    </div>
+    <ul class="primary-links">
+        <li class="footer-link">
+          <a href="/nl/over-ons" class="link link-inverse">
+            <span>
+              Over ons
+            </span>
+          </a>
+        </li>
+        <li class="footer-link">
+          <a href="/nl/pers" class="link link-inverse">
+            <span>
+              Pers
+            </span>
+          </a>
+        </li>
+        <li class="footer-link">
+          <a href="/nl/werken-bij" class="link link-inverse">
+            <span>
+              Werken bij
+            </span>
+          </a>
+        </li>
+        <li class="footer-link">
+          <a href="/nl/footer/contact" class="link link-inverse">
+            <span>
+              Contact
+            </span>
+          </a>
+        </li>
+    </ul>
+    <div class="buttons-section">
+      <ul class="link-buttons">
+        <li class="link-buttons-wrapper">
+          <a href="/nl/steun/doneer" class="button button-secondary">
+            Doneer ook
+          </a>
+          <a href="https://www.rijksmuseum.nl/nl/nieuwsbrief?slug=NIEUWSBRIEF_NL" class="button button-secondary">
+            Nieuwsbrief
+          </a>
+        </li>
+        <li class="logo-link">
+          <a href="/nl/steun/doneer/anbi-informatie" class="" target="_blank" rel="noopener">
+            <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/anbi.svg" alt="anbi logo">
+          </a>
+        </li>
+      </ul>
+      
+
+<ul class="social-logos">
+    <li class="logo">
+      <a aria-label="Instagram" href="https://www.instagram.com/rijksmuseum/" class="logo-link">
+        <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/instagram.svg" alt="Instagram logo">
+      </a>
+    </li>
+    <li class="logo">
+      <a aria-label="Facebook" href="https://www.facebook.com/rijksmuseum/" class="logo-link">
+        <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/Facebook.svg" alt="Facebook logo">
+      </a>
+    </li>
+    <li class="logo">
+      <a aria-label="Linkedin" href="https://www.linkedin.com/company/rijksmuseum" class="logo-link">
+        <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/linkedin.svg" alt="Linkedin logo">
+      </a>
+    </li>
+    <li class="logo">
+      <a aria-label="Tiktok" href="https://www.tiktok.com/@rijksmuseum" class="logo-link">
+        <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/tiktok.svg" alt="Tiktok logo">
+      </a>
+    </li>
+    <li class="logo">
+      <a aria-label="Youtube" href="https://www.youtube.com/channel/UCEXuPfYt1M3e8DT1LDeSfVg" class="logo-link">
+        <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/youtube.svg" alt="Youtube logo">
+      </a>
+    </li>
+</ul>
+
+    </div>
+    <ul class="logos">
+        <li class="sponsor-logos-section">
+          
+
+  <div class="grid-column logo">
+    <a aria-label="Ministerie van Onderwijs, Cultuur en Wetenschap" href="/nl/footer/ocw" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/m-ocw-nl.svg" alt="Ministerie van Onderwijs, Cultuur en Wetenschap logo">
+    </a>
+  </div>
+
+        </li>
+        <li class="sponsor-logos-section">
+            <p class="sponsor-logos-section-heading">FOUNDER</p>
+          
+
+  <div class="grid-column logo">
+    <a aria-label="Kpn" href="/nl/steun/bedrijven/partnerships/kpn" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/kpn-logo-white.svg" alt="Kpn logo">
+    </a>
+  </div>
+
+        </li>
+        <li class="sponsor-logos-section">
+            <p class="sponsor-logos-section-heading">HOOFDPARTNERS</p>
+          
+
+  <div class="grid-column logo">
+    <a aria-label="Vriendenloterij" href="/nl/steun/bedrijven/partnerships/vriendenloterij" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/vrienden-loterij.svg" alt="Vriendenloterij logo">
+    </a>
+  </div>
+  <div class="grid-column logo">
+    <a aria-label="ING" href="/nl/steun/bedrijven/partnerships/ing" class="logo-link">
+      <img class="logo-image" src="https://www.rijksmuseum.nl/statics/logos/ing.svg" alt="ING logo">
+    </a>
+  </div>
+
+        </li>
+    </ul>
+
+    <ul class="secondary-links horizontal-link-list">
+        <li class="link link-inverse">
+          <a href="/nl/footer/voorwaarden" class="">
+            <span>
+              Algemene voorwaarden
+            </span>
+          </a>
+        </li>
+        <li class="link link-inverse">
+          <a href="/nl/footer/privacybeleid" class="">
+            <span>
+              Privacy
+            </span>
+          </a>
+        </li>
+        <li class="link link-inverse">
+          <a href="/nl/footer/cookiebeleid" class="">
+            <span>
+              Cookiebeleid
+            </span>
+          </a>
+        </li>
+        <li class="link link-inverse">
+          <a href="/nl/footer/voorwaarden#anchor" class="">
+            <span>
+              Herroepingsrecht
+            </span>
+          </a>
+        </li>
+        <li class="link link-inverse">
+          <a href="/nl/bezoek/toegankelijk/toegankelijkheidsverklaring" class="">
+            <span>
+              Verklaring toegankelijkheid
+            </span>
+          </a>
+        </li>
+    </ul>
+  </div>
+</footer>
+</div>
+
+<script type="text/javascript">
+/**
+ * Safari 10.1 supports modules, but does not support the `nomodule` attribute - it will
+ * load <script nomodule> anyway. This snippet solve this problem, but only for script
+ * tags that load external code.
+ *
+ * This workaround is possible because Safari supports the non-standard 'beforeload' event.
+ * This allows us to trap the module and nomodule load.
+ *
+ * Note also that `nomodule` is supported in later versions of Safari - it's just 10.1 that
+ * omits this attribute.
+ */
+(function() {
+  var d = document;
+  var c = d.createElement('script');
+  if (!('noModule' in c) && 'onbeforeload' in c) {
+    var s = false;
+    d.addEventListener('beforeload', function(e) {
+      if (e.target === c) {
+        s = true;
+      } else if (!e.target.hasAttribute('nomodule') || !s) {
+        return;
+      }
+      e.preventDefault();
+    }, true);
+    c.type = 'module';
+    c.src = '.';
+    d.head.appendChild(c);
+    c.remove();
+  }
+}());
+</script>
+
+<script type="module" src="https://www.rijksmuseum.nl/statics/generated/rijksmuseum-app.mjs?v=nxLdSIKi4kxcq2Gx2bWbfkEFEMFv9c11hkzAavy4Cv0" async></script>
+
+<script nomodule src="https://www.rijksmuseum.nl/statics/generated/rijksmuseum-app.js?v=a72hrd2A7Tkg1V3geHhs6yQq-RnNunCdD_YsSmIsrnE" async></script>
+
+<script>
+  if (document.cookie.includes('rmshow-app-view=true'))
+    document.body.classList.add('show-app-view');
+</script>
+
+
+
+</body>
+</html>
+
+
+--- SITEMAP ---
+<?xml version="1.0" encoding="utf-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.rijksmuseum.nl/sitemap1.xml</loc><lastmod>2026-06-22T14:35:22Z</lastmod><changefreq>daily</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap2.xml</loc><lastmod>2026-06-23T01:01:54Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap3.xml</loc><lastmod>2026-06-23T01:03:17Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap4.xml</loc><lastmod>2026-06-23T01:04:40Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap5.xml</loc><lastmod>2026-06-23T01:06:01Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap6.xml</loc><lastmod>2026-06-23T01:07:13Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap7.xml</loc><lastmod>2026-06-23T01:08:36Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap8.xml</loc><lastmod>2026-06-23T01:09:56Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap9.xml</loc><lastmod>2026-06-23T01:10:26Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap10.xml</loc><lastmod>2026-06-23T01:10:31Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap11.xml</loc><lastmod>2026-06-23T01:10:34Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap12.xml</loc><lastmod>2026-06-23T01:10:35Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap13.xml</loc><lastmod>2026-06-23T01:10:36Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap14.xml</loc><lastmod>2026-06-23T01:10:37Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap15.xml</loc><lastmod>2026-06-23T01:10:38Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap16.xml</loc><lastmod>2026-06-23T01:10:39Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap17.xml</loc><lastmod>2026-06-23T01:10:40Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap18.xml</loc><lastmod>2026-06-23T01:10:43Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap19.xml</loc><lastmod>2026-06-23T01:10:44Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap20.xml</loc><lastmod>2026-06-23T01:10:45Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap21.xml</loc><lastmod>2026-06-23T01:10:46Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap22.xml</loc><lastmod>2026-06-23T01:10:47Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap23.xml</loc><lastmod>2026-06-23T01:10:48Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap24.xml</loc><lastmod>2026-06-23T01:10:49Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap25.xml</loc><lastmod>2026-06-23T01:10:51Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap26.xml</loc><lastmod>2026-06-23T01:10:52Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap27.xml</loc><lastmod>2026-06-23T01:10:53Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap28.xml</loc><lastmod>2026-06-23T01:10:54Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap29.xml</loc><lastmod>2026-06-23T01:10:57Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap30.xml</loc><lastmod>2026-06-23T01:10:59Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap31.xml</loc><lastmod>2026-06-23T01:11:01Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap32.xml</loc><lastmod>2026-06-23T01:11:02Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap33.xml</loc><lastmod>2026-06-23T01:11:04Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap34.xml</loc><lastmod>2026-06-23T01:11:05Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap35.xml</loc><lastmod>2026-06-23T01:11:07Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap36.xml</loc><lastmod>2026-06-23T01:11:07Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap37.xml</loc><lastmod>2026-06-23T01:11:08Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap38.xml</loc><lastmod>2026-06-23T01:11:10Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap39.xml</loc><lastmod>2026-06-23T01:11:10Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap40.xml</loc><lastmod>2026-06-23T01:11:12Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap41.xml</loc><lastmod>2026-06-23T01:11:13Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap42.xml</loc><lastmod>2026-06-23T01:11:14Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap43.xml</loc><lastmod>2026-06-23T01:11:15Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap44.xml</loc><lastmod>2026-06-23T01:10:30Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap45.xml</loc><lastmod>2026-06-23T00:01:38Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap46.xml</loc><lastmod>2026-06-23T00:03:00Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap47.xml</loc><lastmod>2026-06-23T00:04:16Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap48.xml</loc><lastmod>2026-06-23T00:05:25Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap49.xml</loc><lastmod>2026-06-23T00:06:33Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap50.xml</loc><lastmod>2026-06-23T00:07:42Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap51.xml</loc><lastmod>2026-06-23T00:08:46Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap52.xml</loc><lastmod>2026-06-23T00:09:46Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap53.xml</loc><lastmod>2026-06-23T00:10:45Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap54.xml</loc><lastmod>2026-06-23T00:11:40Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap55.xml</loc><lastmod>2026-06-23T00:12:34Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap56.xml</loc><lastmod>2026-06-23T00:13:26Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap57.xml</loc><lastmod>2026-06-23T00:14:19Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap58.xml</loc><lastmod>2026-06-23T00:15:15Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap59.xml</loc><lastmod>2026-06-23T00:17:36Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap60.xml</loc><lastmod>2026-06-23T00:19:05Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap61.xml</loc><lastmod>2026-06-23T00:20:23Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap62.xml</loc><lastmod>2026-06-23T00:21:41Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap63.xml</loc><lastmod>2026-06-23T00:22:58Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap64.xml</loc><lastmod>2026-06-23T00:24:18Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap65.xml</loc><lastmod>2026-06-23T00:25:36Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap66.xml</loc><lastmod>2026-06-23T00:26:56Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap67.xml</loc><lastmod>2026-06-23T00:28:13Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap68.xml</loc><lastmod>2026-06-23T00:29:29Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap69.xml</loc><lastmod>2026-06-23T00:30:49Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap70.xml</loc><lastmod>2026-06-23T00:32:12Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap71.xml</loc><lastmod>2026-06-23T00:33:31Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap72.xml</loc><lastmod>2026-06-23T00:34:47Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap73.xml</loc><lastmod>2026-06-23T00:36:13Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap74.xml</loc><lastmod>2026-06-23T00:37:29Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap75.xml</loc><lastmod>2026-06-23T00:38:51Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap76.xml</loc><lastmod>2026-06-23T00:40:11Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap77.xml</loc><lastmod>2026-06-23T00:41:28Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap78.xml</loc><lastmod>2026-06-23T00:42:48Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap79.xml</loc><lastmod>2026-06-23T00:44:05Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap80.xml</loc><lastmod>2026-06-23T00:45:47Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap81.xml</loc><lastmod>2026-06-23T00:47:08Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap82.xml</loc><lastmod>2026-06-23T00:48:24Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap83.xml</loc><lastmod>2026-06-23T00:49:38Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap84.xml</loc><lastmod>2026-06-23T00:50:52Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap85.xml</loc><lastmod>2026-06-23T00:52:05Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap86.xml</loc><lastmod>2026-06-23T00:53:23Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap87.xml</loc><lastmod>2026-06-23T00:54:39Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap88.xml</loc><lastmod>2026-06-23T00:55:51Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap89.xml</loc><lastmod>2026-06-23T00:57:09Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap90.xml</loc><lastmod>2026-06-23T00:58:24Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap91.xml</loc><lastmod>2026-06-23T00:59:44Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap><sitemap><loc>https://www.rijksmuseum.nl/sitemap92.xml</loc><lastmod>2026-06-23T01:00:37Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></sitemap></sitemapindex>
+
+
