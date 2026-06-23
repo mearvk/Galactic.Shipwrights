@@ -2,6 +2,7 @@ import utils.DictionaryProfiler;
 import utils.GalacticShipwright;
 import utils.GuildServer;
 import utils.ModuleInstallServer;
+import utils.JWSTFJ21Masquerade;
 
 public class Main
 {
@@ -29,6 +30,7 @@ public class Main
     public static final DictionaryProfiler DICTIONARYPROFILER = new DictionaryProfiler(DP_OUTPUT_FILE, DP_SCAN_DIR, DP_DEFINITION_SOURCES);
     public static final GuildServer GUILDSERVER = new GuildServer(1);
     public static final ModuleInstallServer MODULE_INSTALL_SERVER = new ModuleInstallServer();
+    public static final JWSTFJ21Masquerade MASQUERADE = new JWSTFJ21Masquerade();
     public static final GalacticShipwright SELF = new GalacticShipwright();
 
     public static void main(String[] args)
@@ -45,6 +47,11 @@ public class Main
         Thread moduleThread = new Thread(MODULE_INSTALL_SERVER, "ModuleInstallServer");
         moduleThread.setDaemon(true);
         moduleThread.start();
+
+        // JWSTFJ21 integration phase — attempts masquerade, falls back to standalone
+        Thread masqueradeThread = new Thread(MASQUERADE, "JWSTFJ21Masquerade");
+        masqueradeThread.setDaemon(true);
+        masqueradeThread.start();
 
         SELF.start();
     }

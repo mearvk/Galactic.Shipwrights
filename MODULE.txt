@@ -1,0 +1,212 @@
+GALACTIC.SHIPWRIGHTS MODULE — MODULE.txt
+==========================================
+Version: 1.00.0
+Date: 2026-06-23
+Owner: Maximilian Eric Alexander Rupplin von Keffikon — MEARVK LLC
+Contact: https://github.com/mearvk/Java.Web.Server.Telnet.Front.Java.21/discussions
+Email: mearvk@mearvk.us | mearvk@outlook.com
+Parent: https://github.com/mearvk/Java.Web.Server.Telnet.Front.Java.21
+
+MODULE RATIONALE
+----------------
+This module provides the Galactic Shipwrights automated research, analysis, and
+speculation platform as a sub-module of the NitroWebExpress™ / JWSTFJ21
+platform. It integrates via reflective masquerade into the NIO extended port
+space (0-1048576), registering its listeners under virtual port assignments
+that exceed the TCP 16-bit limit.
+
+Galactic Shipwrights crawls open-access internet sources — books, academic
+papers, images, technical manuals, government documents — and builds an
+AI-driven TF-IDF knowledge model from the collected corpus. It discovers
+cross-domain correlations and relays high-interest findings to collaborative
+research servers.
+
+COMPONENTS
+----------
+
+JWSTFJ21Masquerade       — Reflective integration engine. Discovers JWSTFJ21's
+                           PortRegistry, Module, and VirtualChannel classes at
+                           runtime. Registers local listeners under extended
+                           virtual ports. Degrades to standalone if parent not
+                           on classpath.
+                           Source: src/utils/JWSTFJ21Masquerade.java
+
+GuildServer              — Triple-redundant TCP server on port 10001.
+                           Primary instance binds port; two monitor threads
+                           detect failure and take over automatically.
+                           Source: src/utils/GuildServer.java
+
+ModuleInstallServer      — Port 2000 module install server.
+                           Accepts jar/sql files with valid Installer ID,
+                           NationalID, Moral Rating >= Very Good, IQ > 125.
+                           Source: src/utils/ModuleInstallServer.java
+
+Reacher                  — Web intelligence crawler. Connects to 45 configured
+                           sources, fetches real content using source-specific
+                           strategies. Saves results to src/edifiction/.
+                           Source: src/utils/Reacher.java
+
+DictionaryProfiler       — Scans all retrieved data for words, builds a master
+                           vocabulary, looks up definitions via Dictionary API.
+                           Source: src/utils/DictionaryProfiler.java
+
+SpeculatorTrainer        — Builds AI knowledge model from corpus (TF-IDF).
+                           Source: src/utils/SpeculatorTrainer.java
+
+Speculator               — Analyzes corpus using trained model, generates
+                           scored speculations, relays to servers on port 20000.
+                           Source: src/utils/Speculator.java
+
+SpeculatorDB             — MySQL persistence layer for ShipWrights database.
+                           Source: src/utils/SpeculatorDB.java
+
+PORT ASSIGNMENTS (LOCAL / PHYSICAL)
+------------------------------------
+
+2000      ModuleInstallServer (jar/sql acceptance with Installer ID gate)
+10001     GuildServer (triple-redundant TCP, STATUS queries, ACK)
+20000     Speculation relay target (outbound to Green.Durham.Grass.and.Herb)
+49152     Registration server
+
+PORT ASSIGNMENTS (JWSTFJ21 VIRTUAL / EXTENDED)
+-----------------------------------------------
+
+When integrated with a JWSTFJ21 instance running in extended port-range mode
+(0-1048576, across 127.0.0.1 through 127.0.0.17):
+
+  71001  -> local 10001   GuildServer
+  72000  -> local 2000    ModuleInstallServer
+  90000  -> local 20000   Speculation relay (outbound registration)
+  99152  -> local 49152   Registration server
+
+IP mapping (per JWSTFJ21 extended mode):
+  127.0.0.1 = ports 0-65535
+  127.0.0.2 = ports 65536-131071 (virtual ports 71001, 72000, 90000, 99152 land here)
+
+CONFIGURATION FILES
+-------------------
+
+src/config.xml                                  — Central configuration (Reacher, Speculator, etc.)
+src/sources.xml                                 — 45 internet sources to crawl
+src/database.xml                                — MySQL connection (requires Installer ID)
+configuration/jwstfj21-integration.xml          — JWSTFJ21 parent connection, virtual ports, reflection targets
+configuration/known.port.20000.servers.xml       — Green.Durham.Grass.and.Herb server registry
+configuration/known.port.49152.servers.xml       — Registration server IPs
+configuration/port.2000.config.xml              — Port 2000 menu access control
+
+PRIVATE-TO-MASQUERADE TRANSITION (GALACTIC SHIPWRIGHTS PERSPECTIVE)
+--------------------------------------------------------------------
+
+Galactic Shipwrights was originally designed as a private, standalone server
+suite — local listeners bound to physical TCP ports, direct MySQL access, no
+awareness of an outer hosting framework.
+
+The transition to masquerade-enabled operation introduces the following:
+
+1. STANDALONE (PRIVATE) MODE — default when JWSTFJ21 is absent.
+   - All listeners bind directly to physical ports (2000, 10001).
+   - Speculator relays outbound to port 20000 targets.
+   - No dependency on any external port registry or virtual channel layer.
+   - Full functionality retained: crawl, train, speculate, relay.
+
+2. MASQUERADE (INTEGRATED) MODE — activated when JWSTFJ21 is on classpath.
+   - JWSTFJ21Masquerade reflectively binds to the parent PortRegistry.
+   - Physical listeners remain running (backward compatibility).
+   - Virtual port registrations are added ON TOP of physical ports:
+       Physical 10001 still listens AND virtual 71001 is registered.
+       Physical 2000  still listens AND virtual 72000 is registered.
+   - Inbound traffic may arrive via either path; both route to the same
+     handler logic.
+   - Module announces itself to the JWSTFJ21 directory server (port 2000
+     on the parent), making it discoverable via <nwe-route> XML forwarding.
+
+3. WHAT CHANGES LOCALLY DURING TRANSITION:
+   - src/utils/JWSTFJ21Masquerade.java is compiled and loaded.
+   - configuration/jwstfj21-integration.xml is parsed for virtual port map.
+   - Main.java startup sequence gains a JWSTFJ21 integration phase after
+     the standard system-ready check.
+   - The program reports INTEGRATED or STANDALONE status at boot.
+   - No existing listener code is modified — masquerade wraps, not replaces.
+
+4. DUAL-HOMED IDENTITY:
+   - From JWSTFJ21's perspective: this is module "galactic-shipwrights",
+     Rank 4, reachable at virtual ports 71001-99152.
+   - From this program's perspective: it is still a private research platform
+     that happens to also be discoverable through a parent NIO masquerade layer.
+   - The Installer ID, NationalID gate, Moral Rating checks, and IQ requirements
+     remain enforced locally regardless of how traffic arrives.
+
+5. FALLBACK BEHAVIOR:
+   - If JWSTFJ21 classes disappear from classpath (jar removed, server down),
+     the masquerade deregisters cleanly and the program continues in private
+     standalone mode with zero degradation.
+   - Retry policy (30s interval, 10 max) allows re-integration if JWSTFJ21
+     comes back online without restarting this program.
+
+JWSTFJ21 INTEGRATION PROTOCOL
+-------------------------------
+
+1. On startup, Main.java loads configuration/jwstfj21-integration.xml.
+2. JWSTFJ21Masquerade is instantiated.
+3. Class.forName() attempts to locate:
+     com.mearvk.jwstfj21.PortRegistry
+     com.mearvk.jwstfj21.Module
+     com.mearvk.jwstfj21.VirtualChannel
+4. If found: registers this module's handlers under virtual ports via
+   PortRegistry.registerVirtualPort() and announces via announceModule().
+5. If not found: degrades to standalone mode, retries per retry policy
+   (default: every 30s, max 10 attempts).
+
+XML forwarding from JWSTFJ21 port 2000 directory server:
+  <nwe-route><port>71001</port><payload>STATUS</payload></nwe-route>
+  Routes to this module's GuildServer (local 10001).
+
+RANK & INSTALLER ID
+--------------------
+
+This module operates at Rank 4 (International/Free) within JWSTFJ21.
+Installer ID: Max Rupplin - MEARVK LLC
+
+Requirements for module acceptance by JWSTFJ21's ModuleInstallationService
+(port 49166) and ModuleLoaderDaemon (port 49188):
+  - Valid Installer ID from MEARVK LLC (format: MEARVK-XXXX-XXXX-XXXX)
+  - NationalID on file
+  - Moral Rating >= "Very Good"
+  - IQ > 125
+  - Signed acknowledgment of software authorization terms
+
+Rank upgrade requests and Technical Installer IDs:
+  https://github.com/mearvk/Java.Web.Server.Telnet.Front.Java.21/discussions
+
+DATABASE
+--------
+
+MySQL database: ShipWrights
+Tables:
+  speculations      — Scored speculation results with future projections
+  posits            — Evidence-backed statements
+  hypotheses        — Generated hypotheses with confidence/status
+  correlations      — Cross-source topic correlations
+  installer_log     — Installer ID connection log
+  jwstnj21_keys    — JWSTFJ21 public keys and Installer Tech IDs
+  module_installs   — Module installation log
+
+DEPENDENCIES
+------------
+
+JDK 17+
+MySQL 8.x (jdbc:mysql://localhost:3306/ShipWrights)
+Gson 2.11.0
+Jsoup 1.18.1
+ROME 2.1.0
+JDOM2 2.0.6.1
+SLF4J 2.0.13
+DJL API 0.28.0
+MySQL Connector/J 8.4.0
+No additional dependencies required for JWSTFJ21 integration — reflection only.
+
+AUTHOR
+------
+Max Rupplin — MEARVK LLC
+https://github.com/mearvk/Java.Web.Server.Telnet.Front.Java.21/discussions
+mearvk@mearvk.us | mearvk@outlook.com

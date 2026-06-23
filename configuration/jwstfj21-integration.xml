@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jwstfj21Integration>
+    <!--
+        JWSTFJ21 Integration Configuration for Galactic Shipwrights
+        Parent: https://github.com/mearvk/Java.Web.Server.Telnet.Front.Java.21
+        Module Name: galactic-shipwrights
+        Rank: 4 (International/Free)
+    -->
+
+    <module>
+        <name>galactic-shipwrights</name>
+        <rank>4</rank>
+        <version>1.00.0</version>
+        <installerId>MEARVK-XXXX-XXXX-XXXX</installerId>
+    </module>
+
+    <!-- Reflection targets for JWSTFJ21 classpath discovery -->
+    <reflectionTargets>
+        <class>com.mearvk.jwstfj21.PortRegistry</class>
+        <class>com.mearvk.jwstfj21.Module</class>
+        <class>com.mearvk.jwstfj21.VirtualChannel</class>
+    </reflectionTargets>
+
+    <!-- Virtual port mappings (JWSTFJ21 extended -> local physical) -->
+    <virtualPorts>
+        <mapping virtual="71001" local="10001" handler="GuildServer" />
+        <mapping virtual="72000" local="2000"  handler="ModuleInstallServer" />
+        <mapping virtual="90000" local="20000" handler="Speculator" />
+        <mapping virtual="99152" local="49152" handler="RegistrationServer" />
+    </virtualPorts>
+
+    <!-- Retry policy for integration attempts -->
+    <retryPolicy>
+        <intervalSeconds>30</intervalSeconds>
+        <maxAttempts>10</maxAttempts>
+    </retryPolicy>
+
+    <!-- JWSTFJ21 parent directory server for module announcement -->
+    <parentDirectory>
+        <host>127.0.0.1</host>
+        <port>2000</port>
+    </parentDirectory>
+</jwstfj21Integration>

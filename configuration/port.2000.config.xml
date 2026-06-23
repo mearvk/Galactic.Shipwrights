@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<port2000Config>
+    <!--
+        Configuration for port 2000 ModuleInstallServer menu access.
+        Controls which server lists clients can query and what credentials are needed.
+    -->
+
+    <!-- Allow clients to query port 20000 server IPs/domains -->
+    <queryPort20000>
+        <enabled>true</enabled>
+        <requireNationalId>true</requireNationalId>
+        <requireJWSTFJ21Rank4>false</requireJWSTFJ21Rank4>
+    </queryPort20000>
+
+    <!-- Allow clients to query port 49152 server IPs/domains -->
+    <queryPort49152>
+        <enabled>true</enabled>
+        <requireNationalId>true</requireNationalId>
+        <requireJWSTFJ21Rank4>false</requireJWSTFJ21Rank4>
+    </queryPort49152>
+
+    <!-- Register a new Rank 4 Java.Telnet.Finance.Server (JWSTNJ21) -->
+    <!-- https://github.com/mearvk/Java.Web.Server.Telnet.Front.Java.21 -->
+    <registerJWSTFJ21>
+        <enabled>true</enabled>
+        <requirePublicKey>true</requirePublicKey>
+        <requiredRank>4</requiredRank>
+    </registerJWSTFJ21>
+</port2000Config>

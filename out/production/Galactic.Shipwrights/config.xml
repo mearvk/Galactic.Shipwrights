@@ -39,4 +39,17 @@
         <relayPort>20000</relayPort>
         <minInterestScore>0.7</minInterestScore>
     </speculator>
+
+    <moduleInstallServer>
+        <port>2000</port>
+        <configFile>configuration/port.2000.config.xml</configFile>
+        <knownServers49152>configuration/known.port.49152.servers.xml</knownServers49152>
+        <modulesDir>modules</modulesDir>
+    </moduleInstallServer>
+
+    <jwstfj21Integration>
+        <enabled>true</enabled>
+        <configFile>configuration/jwstfj21-integration.xml</configFile>
+        <mode>auto</mode> <!-- auto: attempt integration, fallback to standalone -->
+    </jwstfj21Integration>
 </config>
