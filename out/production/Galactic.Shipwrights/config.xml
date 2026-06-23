@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+    <!-- Galactic Shipwrights - Central Configuration -->
+    <!-- Max Rupplin - MEARVK LLC -->
+
+    <guildServer>
+        <port>10001</port>
+        <redundancy>3</redundancy>
+        <monitorInterval>5000</monitorInterval>
+    </guildServer>
+
     <reacher>
         <sourcesPath>src/sources.xml</sourcesPath>
         <outputDir>src/edifiction</outputDir>
         <timeout>30000</timeout>
+        <userAgent>GalacticShipwrights/1.0</userAgent>
+        <respectRobotsTxt>true</respectRobotsTxt>
     </reacher>
+
     <dictionaryProfiler>
         <enabled>true</enabled>
         <outputFile>dictionary.list.txt</outputFile>
@@ -14,4 +26,17 @@
             <source>https://api.dictionaryapi.dev/api/v2/entries/en/</source>
         </definitionSources>
     </dictionaryProfiler>
+
+    <speculatorTrainer>
+        <modelDir>trainer</modelDir>
+        <modelFile>trainer/speculator.model</modelFile>
+        <corpusDir>src/edifiction</corpusDir>
+        <databaseConfig>src/database.xml</databaseConfig>
+    </speculatorTrainer>
+
+    <speculator>
+        <knownServersFile>configuration/known.port.20000.servers.xml</knownServersFile>
+        <relayPort>20000</relayPort>
+        <minInterestScore>0.7</minInterestScore>
+    </speculator>
 </config>

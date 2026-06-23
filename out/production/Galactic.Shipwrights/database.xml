@@ -12,6 +12,8 @@
         <user>shipwrights</user>
         <password></password>
         <installerId></installerId>
+        <useSSL>true</useSSL>
+        <serverTimezone>UTC</serverTimezone>
     </connection>
 
     <schema>
