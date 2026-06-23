@@ -1,12 +1,15 @@
 import utils.DictionaryProfiler;
 import utils.GalacticShipwright;
 import utils.GuildServer;
+import utils.ModuleInstallServer;
 
 public class Main
 {
     // GalacticShipwright settings
     public static final String KNOWN_SERVERS_FILE = "configuration/known.port.20000.servers.xml";
+    public static final String KNOWN_MODULE_SERVERS_FILE = "configuration/known.port.49152.servers.xml";
     public static final int RELAY_PORT = 20000;
+    public static final int MODULE_INSTALL_PORT = 2000;
     public static final double MIN_INTEREST_SCORE = 0.7;
 
     // DictionaryProfiler settings
@@ -25,6 +28,7 @@ public class Main
     // Components
     public static final DictionaryProfiler DICTIONARYPROFILER = new DictionaryProfiler(DP_OUTPUT_FILE, DP_SCAN_DIR, DP_DEFINITION_SOURCES);
     public static final GuildServer GUILDSERVER = new GuildServer(1);
+    public static final ModuleInstallServer MODULE_INSTALL_SERVER = new ModuleInstallServer();
     public static final GalacticShipwright SELF = new GalacticShipwright();
 
     public static void main(String[] args)
@@ -36,6 +40,11 @@ public class Main
         GalacticShipwright.SELF = SELF;
 
         GalacticShipwright.BRIDGE.start();
+
+        // Start ModuleInstallServer on port 2000
+        Thread moduleThread = new Thread(MODULE_INSTALL_SERVER, "ModuleInstallServer");
+        moduleThread.setDaemon(true);
+        moduleThread.start();
 
         SELF.start();
     }
