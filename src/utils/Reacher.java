@@ -218,25 +218,70 @@ public class Reacher
     private String fetchGutenberg(String baseUrl)
     {
         StringBuilder sb = new StringBuilder();
-        String[] queries = {"science", "history", "engineering", "navigation", "architecture", "trade"};
+        String[] queries = {"science", "history", "engineering", "navigation", "architecture", "trade", "shipbuilding"};
+        String gutendex = "https://gutendex.com/books/";
+
         for (String q : queries)
         {
-            String html = fetchRaw(baseUrl + "/ebooks/search/?query=" + q + "&submit_search=Search");
-            if (html != null)
+            String json = fetchRaw(gutendex + "?search=" + q);
+            if (json != null)
             {
-                org.jsoup.nodes.Document doc = Jsoup.parse(html);
-                Elements bookLinks = doc.select("li.booklink");
-                sb.append("--- GUTENBERG SEARCH: ").append(q).append(" (").append(bookLinks.size()).append(" results) ---\n");
-                for (Element book : bookLinks)
+                try
                 {
-                    String title = book.select("span.title").text();
-                    String author = book.select("span.subtitle").text();
-                    String link = book.select("a").attr("href");
-                    sb.append("  ").append(title).append(" | ").append(author).append(" | ").append(baseUrl).append(link).append("\n");
+                    JsonObject obj = JsonParser.parseString(json).getAsJsonObject();
+                    int count = obj.get("count").getAsInt();
+                    JsonArray results = obj.getAsJsonArray("results");
+                    sb.append("--- GUTENBERG (Gutendex): ").append(q).append(" (").append(count).append(" total) ---\n");
+                    for (int i = 0; i < results.size(); i++)
+                    {
+                        JsonObject book = results.get(i).getAsJsonObject();
+                        int id = book.get("id").getAsInt();
+                        String title = book.get("title").getAsString();
+                        String author = "unknown";
+                        if (book.has("authors") && book.getAsJsonArray("authors").size() > 0)
+                        {
+                            author = book.getAsJsonArray("authors").get(0).getAsJsonObject().get("name").getAsString();
+                        }
+                        String textUrl = "";
+                        if (book.has("formats"))
+                        {
+                            JsonObject formats = book.getAsJsonObject("formats");
+                            if (formats.has("text/plain; charset=utf-8"))
+                                textUrl = formats.get("text/plain; charset=utf-8").getAsString();
+                            else if (formats.has("text/plain"))
+                                textUrl = formats.get("text/plain").getAsString();
+                        }
+                        sb.append("  [").append(id).append("] ").append(title).append(" | ").append(author);
+                        if (!textUrl.isEmpty()) sb.append(" | ").append(textUrl);
+                        sb.append("\n");
+                    }
+                    sb.append("\n");
                 }
-                sb.append("\n");
+                catch (Exception e) { sb.append(json).append("\n"); }
             }
         }
+
+        // Also get popular books
+        String popular = fetchRaw(gutendex + "?sort=popular");
+        if (popular != null)
+        {
+            try
+            {
+                JsonObject obj = JsonParser.parseString(popular).getAsJsonObject();
+                JsonArray results = obj.getAsJsonArray("results");
+                sb.append("--- GUTENBERG POPULAR (Top ").append(results.size()).append(") ---\n");
+                for (int i = 0; i < results.size(); i++)
+                {
+                    JsonObject book = results.get(i).getAsJsonObject();
+                    int id = book.get("id").getAsInt();
+                    String title = book.get("title").getAsString();
+                    int downloads = book.get("download_count").getAsInt();
+                    sb.append("  [").append(id).append("] ").append(title).append(" (").append(downloads).append(" downloads)\n");
+                }
+            }
+            catch (Exception e) { /* skip */ }
+        }
+
         return sb.length() > 0 ? sb.toString() : null;
     }
 

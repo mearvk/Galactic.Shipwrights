@@ -1,0 +1,222 @@
+{
+  "pagination": {
+    "total": 132132,
+    "limit": 25,
+    "offset": 0,
+    "total_pages": 5286,
+    "current_page": 1
+  },
+  "data": [
+    {
+      "_score": 65.45485,
+      "id": 152747,
+      "title": "York Harbor, Coast of Maine",
+      "date_display": "1877",
+      "artist_display": "Martin Johnson Heade (American, 1819–1904)",
+      "image_id": "3192ae4d-ffca-fe91-af12-2ca681f43e13"
+    },
+    {
+      "_score": 62.90993,
+      "id": 24645,
+      "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\"",
+      "date_display": "1830/33",
+      "artist_display": "Katsushika Hokusai 葛飾 北斎 \nJapanese, 1760-1849",
+      "image_id": "b3974542-b9b4-7568-fc4b-966738f61d78"
+    },
+    {
+      "_score": 60.0713,
+      "id": 109330,
+      "title": "Little Harbor in Normandy",
+      "date_display": "spring 1909",
+      "artist_display": "Georges Braque\nFrench, 1882–1963",
+      "image_id": "f521e7ef-2732-88b0-30e1-24353308c297"
+    },
+    {
+      "_score": 54.203865,
+      "id": 93903,
+      "title": "The Return of Odysseus (Homage to Pinturicchio and Benin)",
+      "date_display": "1977",
+      "artist_display": "Romare Howard Bearden\nAmerican, 1911-1988",
+      "image_id": "42d31893-d3ff-3fbd-bd05-2e02b2162e07"
+    },
+    {
+      "_score": 51.681065,
+      "id": 46230,
+      "title": "Reliquary Casket of Saints Adrian and Natalia",
+      "date_display": "1100–50",
+      "artist_display": "León, Spain",
+      "image_id": "e1ac9f2d-591e-6063-ae1b-d0cd1c66a3a3"
+    },
+    {
+      "_score": 46.638542,
+      "id": 9863,
+      "title": "Coin Depicting a Ship\u0027s Prow",
+      "date_display": "after 307-243 BCE",
+      "artist_display": "Greek",
+      "image_id": "d0d1b9af-15dd-e690-359f-653f01707af0"
+    },
+    {
+      "_score": 46.521732,
+      "id": 25853,
+      "title": "Wine Cistern",
+      "date_display": "1553",
+      "artist_display": "Francesco Durantino\nItalian, active 1543-after 1553",
+      "image_id": "a69557c8-2883-6634-5cf0-93f060ec280a"
+    },
+    {
+      "_score": 43.965393,
+      "id": 34055,
+      "title": "A Grey Day, Tangier",
+      "date_display": "1911",
+      "artist_display": "Sir John Lavery\nIrish, 1856-1941",
+      "image_id": "eed81daf-23af-bc1d-7c71-a3c08192a30f"
+    },
+    {
+      "_score": 37.162453,
+      "id": 53949,
+      "title": "Container for Gold Dust, Snuff, or Tobacco (Adakawa)",
+      "date_display": "Mid–/late 19th century",
+      "artist_display": "Akan-speaking peoples\nGhana; manufactured in England\nCoastal West Africa"
+    },
+    {
+      "_score": 36.598167,
+      "id": 73493,
+      "title": "Untitled (Ship)",
+      "date_display": "1988",
+      "artist_display": "Ed Ruscha\nAmerican, born 1937",
+      "image_id": "248b01dc-297d-1835-94ca-d17407ee4dd2"
+    },
+    {
+      "_score": 35.768215,
+      "id": 225016,
+      "title": "A Siren Beside a Ship",
+      "date_display": "2014",
+      "artist_display": "Mark Bradford\nAmerican, born 1961",
+      "image_id": "5fc89305-7b02-ef42-d93b-5fd55d073ce9"
+    },
+    {
+      "_score": 35.683388,
+      "id": 65320,
+      "title": "Arctic Death Ship",
+      "date_display": "1976",
+      "artist_display": "H.C. Westermann\nAmerican, 1922-1981",
+      "image_id": "d9ffd997-7a48-ca78-cb3a-119b0f825ad6"
+    },
+    {
+      "_score": 34.954,
+      "id": 83627,
+      "title": "“Paul and Virginie” Furnishing Fabric",
+      "date_display": "c. 1795",
+      "artist_display": "Manufactured by Petitpierre et Cie. (French, c. 1790-1802)\nBased on the story by Bernardin de Saint-Pierre (French, 1737-1814)\nFrance, Nantes",
+      "image_id": "e82d427d-e92f-28b2-1377-ea3e8bf9cee9"
+    },
+    {
+      "_score": 34.92286,
+      "id": 158440,
+      "title": "Ships Quilt",
+      "date_display": "c. 1937",
+      "artist_display": "Made by Marie Alsop (American, active c. 1933)\nWest Virginia, United States",
+      "image_id": "0dc1f76a-e1a8-54aa-ada9-ca6a7d5e8f0e"
+    },
+    {
+      "_score": 34.73479,
+      "id": 119274,
+      "title": "Pendant Shaped as a Ship",
+      "date_display": "c. 1870/90",
+      "artist_display": "Designed by Reinhold Vasters (German, active 1853-90); probably made by him or possibly by Alfred André (French, 1839-1919)",
+      "image_id": "a5eff319-28d2-f3cd-f039-ad0da14f56f9"
+    },
+    {
+      "_score": 33.769344,
+      "id": 30361,
+      "title": "Entrance to the Port of Honfleur",
+      "date_display": "1863–64",
+      "artist_display": "Johan Barthold Jongkind (Dutch, 1819-1891)",
+      "image_id": "d1549113-7586-2193-de9f-80c1ce58ed64"
+    },
+    {
+      "_score": 33.41456,
+      "id": 44040,
+      "title": "Death Ship in Port",
+      "date_display": "1972",
+      "artist_display": "H. C. Westermann\nAmerican, 1922-1981",
+      "image_id": "399a9c94-dde2-836f-dea2-fbd59c8dcb68"
+    },
+    {
+      "_score": 33.019417,
+      "id": 22617,
+      "title": "Ships",
+      "date_display": "1919",
+      "artist_display": "Lyonel Feininger\nAmerican, 1871-1956",
+      "image_id": "9159258f-8498-e8cd-90f1-c1468a700130"
+    },
+    {
+      "_score": 32.87849,
+      "id": 89728,
+      "title": "L\u0027Hommage de l\u0027Amérique á la France (America\u0027s Tribute to France) (Furnishing Fabric)",
+      "date_display": "c. 1780",
+      "artist_display": "Design attributed to Jean Baptiste Huet (French, 1745–1811)\nManufactured by Christophe-Philippe Oberkampf (naturalized French, 1738-1815), Oberkampf Manufactory (French, 1760-1843)\nJouy-en-Josas, France",
+      "image_id": "bb8fb902-cf86-b557-7534-788fdb41787e"
+    },
+    {
+      "_score": 32.54423,
+      "id": 181946,
+      "title": "Homing Ship",
+      "date_display": "1944, printed 1970s",
+      "artist_display": "André Kertész\nAmerican, born Hungary, 1894–1985",
+      "image_id": "b43e3b77-8900-fbd3-a73d-4e1dc932ceed"
+    },
+    {
+      "_score": 32.35156,
+      "id": 30629,
+      "title": "Tankard (Hanap) with Ships",
+      "date_display": "Ottoman dynasty (1299–1923), late 16th century",
+      "artist_display": "Turkey\nIznik",
+      "image_id": "22c5f7b7-01c1-eddd-1ed7-93b353409d68"
+    },
+    {
+      "_score": 32.293423,
+      "id": 14350,
+      "title": "The Turret Ship",
+      "date_display": "1887",
+      "artist_display": "James McNeill Whistler\nAmerican, 1834-1903",
+      "image_id": "6fd6de33-dda3-dd0e-da4d-167124919f66"
+    },
+    {
+      "_score": 32.156635,
+      "id": 148882,
+      "title": "Nautilus (Furnishing Fabric)",
+      "date_display": "1956/57",
+      "artist_display": "Designed by Mary Warren (English, active c. 1950s)\nProduced by Heal\u0027s Fabrics Ltd.\nEngland, London",
+      "image_id": "fe322745-7850-0755-5a25-c7239746934f"
+    },
+    {
+      "_score": 31.849216,
+      "id": 108732,
+      "title": "Ship Figurehead: Female Bust",
+      "date_display": "1800–15",
+      "artist_display": "Artist unknown (American, 19th century)",
+      "image_id": "2c30edea-5fab-e99e-d7e8-3a78e4a486be"
+    },
+    {
+      "_score": 31.403746,
+      "id": 108741,
+      "title": "Ship Figurehead: Native American Bust",
+      "date_display": "c. 1860",
+      "artist_display": "Artist unknown (American, 19th century)\nNew York",
+      "image_id": "4e985ad8-c92e-d986-4454-92221ec66aa6"
+    }
+  ],
+  "info": {
+    "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+    "license_links": [
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+      "https://www.artic.edu/terms"
+    ],
+    "version": "1.14"
+  },
+  "config": {
+    "iiif_url": "https://www.artic.edu/iiif/2",
+    "website_url": "http://www.artic.edu"
+  }
+}

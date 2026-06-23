@@ -1,14 +1,15 @@
 package modules.gutenberg;
 
 import modules.SourceModule;
+import com.google.gson.*;
 
 public class GutenbergModule extends SourceModule
 {
-    // Search API: https://www.gutenberg.org/ebooks/search/?query=TERM
-    // Returns HTML results; use .txt.utf-8 format for plain text downloads
-    // Example: https://www.gutenberg.org/ebooks/11.txt.utf-8
+    // Gutendex API: https://gutendex.com/books/?search=TERM
+    // Returns JSON with count, results[] containing id, title, authors, formats, subjects, etc.
+    // Supports: ?search=, ?topic=, ?languages=, ?author_year_start=, ?author_year_end=, ?sort=popular/ascending/descending
 
-    private static final String SEARCH_URL = "https://www.gutenberg.org/ebooks/search/?query=";
+    private static final String GUTENDEX_URL = "https://gutendex.com/books/";
 
     public GutenbergModule()
     {
@@ -17,14 +18,22 @@ public class GutenbergModule extends SourceModule
 
     public String search(String query)
     {
-        String searchUrl = SEARCH_URL + query.replace(" ", "+");
-        return fetch(searchUrl);
+        return fetch(GUTENDEX_URL + "?search=" + query.replace(" ", "%20"));
     }
 
-    public String fetchBook(int bookId)
+    public String searchByTopic(String topic)
     {
-        String bookUrl = getUrl() + "/ebooks/" + bookId + ".txt.utf-8";
-        return fetch(bookUrl);
+        return fetch(GUTENDEX_URL + "?topic=" + topic.replace(" ", "%20"));
+    }
+
+    public String getPopular()
+    {
+        return fetch(GUTENDEX_URL + "?sort=popular");
+    }
+
+    public String getBook(int id)
+    {
+        return fetch(GUTENDEX_URL + id);
     }
 
     private String fetch(String urlStr)
@@ -34,8 +43,9 @@ public class GutenbergModule extends SourceModule
             java.net.URL target = new java.net.URI(urlStr).toURL();
             java.net.HttpURLConnection conn = (java.net.HttpURLConnection) target.openConnection();
             conn.setRequestMethod("GET");
-            conn.setConnectTimeout(10000);
-            conn.setReadTimeout(10000);
+            conn.setConnectTimeout(30000);
+            conn.setReadTimeout(30000);
+            conn.setRequestProperty("User-Agent", "GalacticShipwrights/1.0");
 
             java.io.BufferedReader reader = new java.io.BufferedReader(
                 new java.io.InputStreamReader(conn.getInputStream()));
