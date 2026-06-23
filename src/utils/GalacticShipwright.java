@@ -1,9 +1,20 @@
 package utils;
 
-public class GalacticShipwright implements Runnable
+public class GalacticShipwright extends Thread
 {
     public static GalacticShipwright SELF;
     public static final Bridge BRIDGE = new Bridge();
+
+    public GalacticShipwright()
+    {
+        super("GalacticShipwright");
+    }
+
+    public void start()
+    {
+        Thread thread = new Thread(this, "GalacticShipwright");
+        thread.start();
+    }
 
     @Override
     public void run()

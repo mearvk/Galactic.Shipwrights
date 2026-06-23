@@ -29,15 +29,14 @@ public class Main
 
     public static void main(String[] args)
     {
-        // Wire components into Bridge
         GalacticShipwright.BRIDGE.DICTIONARYPROFILER = DICTIONARYPROFILER;
+
         GalacticShipwright.BRIDGE.GUILDSERVER = GUILDSERVER;
+
         GalacticShipwright.SELF = SELF;
 
-        // Start Bridge (shutdown hooks, GuildServer)
         GalacticShipwright.BRIDGE.start();
 
-        // Start the Shipwright pipeline on its own thread
         Thread thread = new Thread(SELF, "GalacticShipwright");
         thread.start();
     }
