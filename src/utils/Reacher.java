@@ -37,13 +37,30 @@ public class Reacher
 
                 SourceModule module = new SourceModule(name, urlStr, topic);
 
+                System.out.println("[Reacher] Connecting to: " + name + " (" + urlStr + ") port " + module.getPort());
+
+                if (module.getPort() == 443)
+                {
+                    module.exchangeAndSaveSSLCerts();
+                }
+
                 if (module.connect())
                 {
+                    System.out.println("[Reacher] " + name + " -> CONNECTED. Polling...");
                     String content = module.poll();
                     if (content != null)
                     {
                         module.save(content);
+                        System.out.println("[Reacher] " + name + " -> SAVED (" + content.length() + " bytes)");
                     }
+                    else
+                    {
+                        System.out.println("[Reacher] " + name + " -> POLL FAILED (null response)");
+                    }
+                }
+                else
+                {
+                    System.out.println("[Reacher] " + name + " -> CONNECTION FAILED");
                 }
             }
         }

@@ -4,6 +4,8 @@ import javax.net.ssl.*;
 import java.io.*;
 import java.net.*;
 import java.nio.file.*;
+import java.security.*;
+import java.security.cert.*;
 import java.time.LocalDate;
 
 public class SourceModule
@@ -19,6 +21,88 @@ public class SourceModule
         this.url = url;
         this.topic = topic;
         this.port = url.startsWith("https") ? 443 : 80;
+    }
+
+    public boolean exchangeAndSaveSSLCerts()
+    {
+        if (port != 443) return false;
+
+        try
+        {
+            String host = new URI(url).toURL().getHost();
+            SSLContext ctx = SSLContext.getInstance("TLS");
+            TrustManagerFactory tmf = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
+            tmf.init((KeyStore) null);
+
+            X509TrustManager defaultTm = (X509TrustManager) tmf.getTrustManagers()[0];
+            CertCaptureTrustManager captureTm = new CertCaptureTrustManager(defaultTm);
+
+            ctx.init(null, new TrustManager[]{captureTm}, null);
+            SSLSocketFactory factory = ctx.getSocketFactory();
+
+            SSLSocket socket = (SSLSocket) factory.createSocket(host, 443);
+            socket.setSoTimeout(30000);
+            socket.startHandshake();
+            socket.close();
+
+            X509Certificate[] chain = captureTm.getChain();
+            if (chain != null && chain.length > 0)
+            {
+                String folder = "src/modules/" + topic + "/certs";
+                Files.createDirectories(Paths.get(folder));
+
+                KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());
+                ks.load(null, null);
+
+                for (int i = 0; i < chain.length; i++)
+                {
+                    ks.setCertificateEntry(host + "-" + i, chain[i]);
+                }
+
+                String ksPath = folder + "/" + host + ".jks";
+                try (FileOutputStream fos = new FileOutputStream(ksPath))
+                {
+                    ks.store(fos, "changeit".toCharArray());
+                }
+
+                System.out.println("[SSL] Saved " + chain.length + " cert(s) for " + host + " -> " + ksPath);
+                return true;
+            }
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    private static class CertCaptureTrustManager implements X509TrustManager
+    {
+        private final X509TrustManager delegate;
+        private X509Certificate[] chain;
+
+        CertCaptureTrustManager(X509TrustManager delegate)
+        {
+            this.delegate = delegate;
+        }
+
+        public X509Certificate[] getChain() { return chain; }
+
+        public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException
+        {
+            delegate.checkClientTrusted(chain, authType);
+        }
+
+        public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException
+        {
+            this.chain = chain;
+            delegate.checkServerTrusted(chain, authType);
+        }
+
+        public X509Certificate[] getAcceptedIssuers()
+        {
+            return delegate.getAcceptedIssuers();
+        }
     }
 
     public boolean connect()
