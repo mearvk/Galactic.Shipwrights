@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="gson-2.11.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/gson-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/jdom2-2.0.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/jsoup-1.18.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/rome-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/rome-utils-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/slf4j-api-2.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/slf4j-simple-2.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
