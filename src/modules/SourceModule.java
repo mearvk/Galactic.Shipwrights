@@ -28,8 +28,8 @@ public class SourceModule
             URL target = new URI(url).toURL();
             HttpURLConnection conn = openConnection(target);
             conn.setRequestMethod("HEAD");
-            conn.setConnectTimeout(5000);
-            conn.setReadTimeout(5000);
+            conn.setConnectTimeout(30000);
+            conn.setReadTimeout(30000);
             int code = conn.getResponseCode();
             conn.disconnect();
             return code >= 200 && code < 400;
@@ -48,8 +48,8 @@ public class SourceModule
             URL target = new URI(url).toURL();
             HttpURLConnection conn = openConnection(target);
             conn.setRequestMethod("GET");
-            conn.setConnectTimeout(10000);
-            conn.setReadTimeout(10000);
+            conn.setConnectTimeout(30000);
+            conn.setReadTimeout(30000);
 
             BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
             StringBuilder sb = new StringBuilder();
