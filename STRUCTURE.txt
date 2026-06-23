@@ -1,8 +1,11 @@
 Galactic.Shipwrights - Project Structure
 ==========================================
-Last Updated: 2026-06-22
+Last Updated: 2026-06-23
 
 /
+├── configuration/                     # Deployment configuration
+│   └── known.port.20000.servers.xml     - Green.Durham.Grass.and.Herb server registry
+│
 ├── jars/                              # Third-party libraries
 │   ├── gson-2.11.0.jar                  - JSON parsing (Google)
 │   ├── jsoup-1.18.1.jar                 - HTML/XML parsing
@@ -17,14 +20,22 @@ Last Updated: 2026-06-22
 ├── trainer/                           # AI training environment
 │   └── speculator.model                 - Trained model (TF-IDF weights, correlations)
 │
+├── images/                            # Project imagery
+│   ├── shipwright.jpeg                  - Shipwright reference image
+│   └── azimut-benetti.jpeg              - Azimut-Benetti reference image
+│
+├── dictionaries/                      # Dictionary output directory
+│
 ├── src/
-│   ├── Main.java                      # Entry point: Reacher → DictionaryProfiler → Trainer → Speculator
+│   ├── Main.java                      # Entry point: starts GuildServer + GalacticShipwright pipeline
 │   ├── config.xml                     # Central configuration
 │   ├── sources.xml                    # 45 internet sources (books, papers, images, manuals, data)
 │   ├── database.xml                   # MySQL config (requires MEARVK LLC Installer ID)
-│   ├── known.20000.xml                # Green.Durham.Grass.and.Herb server registry
+│   ├── known.port.20000.servers.xml   # Green.Durham.Grass.and.Herb server registry (src copy)
 │   │
 │   ├── utils/                         # Core utility classes
+│   │   ├── GalacticShipwright.java      - Pipeline orchestrator (Runnable): Reacher → Profiler → Trainer → Speculator
+│   │   ├── GuildServer.java             - Triple-redundant TCP server on port 10001 with failover monitors
 │   │   ├── Reacher.java                 - Web crawler; probes & fetches from all sources.xml entries
 │   │   ├── DictionaryProfiler.java      - Word discovery & definition lookup; outputs dictionary.list.txt
 │   │   ├── Speculator.java             - AI analysis engine; cross-source correlation & future projection
@@ -41,17 +52,55 @@ Last Updated: 2026-06-22
 │   │   │   └── InternetArchiveModule.java - Advanced search + metadata APIs
 │   │   ├── wikipedia/
 │   │   │   └── WikipediaModule.java     - MediaWiki API (opensearch, query, content)
-│   │   └── arxiv/
-│   │       └── ArxivModule.java         - arXiv Atom export API
+│   │   ├── arxiv/
+│   │   │   └── ArxivModule.java         - arXiv Atom export API
+│   │   ├── science/certs/              - SSL certificates for science sources
+│   │   ├── general/certs/              - SSL certificates for general sources
+│   │   ├── education/certs/            - SSL certificates for education sources
+│   │   ├── military/certs/             - SSL certificates for military sources
+│   │   ├── patents/certs/              - SSL certificates for patents sources
+│   │   ├── government/certs/           - SSL certificates for government sources
+│   │   ├── history/certs/              - SSL certificates for history sources
+│   │   ├── photography/certs/          - SSL certificates for photography sources
+│   │   ├── art/certs/                  - SSL certificates for art sources
+│   │   ├── culture/certs/              - SSL certificates for culture sources
+│   │   ├── medicine/certs/             - SSL certificates for medicine sources
+│   │   ├── language/certs/             - SSL certificates for language sources
+│   │   ├── literature/certs/           - SSL certificates for literature sources
+│   │   ├── classics/certs/             - SSL certificates for classics sources
+│   │   └── archives/certs/             - SSL certificates for archives sources
 │   │
 │   ├── edifiction/                    # Retrieved content (per-source folders)
 │   │   ├── project_gutenberg/           - Books & literature catalog
 │   │   ├── open_library/                - Library search results
 │   │   ├── internet_archive/            - Archive text metadata
-│   │   ├── wikipedia/                   - Encyclopedia articles
-│   │   ├── arxiv/                       - Academic papers
-│   │   ├── _speculations/               - Speculator output reports
-│   │   └── ... (45 source folders)
+│   │   ├── standard_ebooks/             - Standard Ebooks literature
+│   │   ├── perseus_digital_library/     - Classical texts
+│   │   ├── public_domain_review/        - Public domain works
+│   │   ├── semantic_scholar/            - Academic papers
+│   │   ├── pubmed_central/              - Medical papers
+│   │   ├── arxiv/                       - Science preprints
+│   │   ├── core/                        - Academic aggregator
+│   │   ├── nasa_images/                 - NASA imagery metadata
+│   │   ├── nasa_open_apis/              - NASA science data
+│   │   ├── art_institute_of_chicago/    - Art collection
+│   │   ├── rijksmuseum/                 - Dutch art collection
+│   │   ├── europeana/                   - European cultural heritage
+│   │   ├── getty_open_content/          - Getty art collection
+│   │   ├── library_of_congress/         - US government documents
+│   │   ├── library_of_congress_prints_and_photographs/ - Historic images
+│   │   ├── chronicling_america__historic_newspapers_/  - Historic newspapers
+│   │   ├── us_government_publishing_office/            - Government publications
+│   │   ├── doe_osti__office_of_scientific_and_technical_information_/ - DOE tech info
+│   │   ├── data_gov/                    - Government datasets
+│   │   ├── us_patent_and_trademark_office/ - Patents
+│   │   ├── everyspec__military_standards_/ - Military standards
+│   │   ├── usgs__us_geological_survey_/ - Geological data
+│   │   ├── mit_opencourseware/          - MIT educational content
+│   │   ├── openstax__free_textbooks_/   - Free textbooks
+│   │   ├── noaa__national_oceanic_and_atmospheric_/ - Weather/ocean data
+│   │   ├── worldcat/                    - Library catalog
+│   │   └── opendoar__directory_of_open_access_repositories_/ - OA repos
 │   │
 │   ├── data/                          # Research documents (.rdns format)
 │   │   └── research.rdns               - Paragraph-based academic notation document
@@ -84,6 +133,9 @@ Last Updated: 2026-06-22
 │       ├── Town.java
 │       └── definitions.xml             - Etymology: OE tūn, Celtic *dūnom, Gaelic dún
 │
+├── start.sh                           # Build & run script
 ├── dictionary.list.txt                # Alphabetical word list with definitions
+├── LEGAL.md                           # Legal information
 ├── STRUCTURE.txt                      # This file
-└── README.md                          # Project documentation
+├── README.md                          # Project documentation
+└── LICENSE                            # License file

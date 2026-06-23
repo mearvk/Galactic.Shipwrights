@@ -35,9 +35,23 @@ The system discovers patterns across sources, generates hypotheses about topic r
                                                      ▼
                                           Green.Durham.Grass.and.Herb
                                               (port 20000)
+
+┌──────────────────────────────────────────────┐
+│  GuildServer (port 10001)                    │
+│  Triple-redundant TCP with failover monitors │
+└──────────────────────────────────────────────┘
 ```
 
 ## Components
+
+### Main (`src/Main.java`)
+Entry point. Starts the triple-redundant GuildServer on port 10001, then launches the GalacticShipwright pipeline on its own thread.
+
+### GalacticShipwright (`src/utils/GalacticShipwright.java`)
+Pipeline orchestrator (Runnable). Executes the full sequence: Reacher → DictionaryProfiler → SpeculatorTrainer → Speculator.
+
+### GuildServer (`src/utils/GuildServer.java`)
+Triple-redundant TCP server on port 10001. Primary instance binds the port; two monitor threads detect failure and take over automatically. Accepts connections, responds to STATUS queries, and ACKs incoming messages.
 
 ### Reacher (`src/utils/Reacher.java`)
 Web intelligence crawler. Connects to 45 configured sources, probes their capabilities (APIs, feeds, robots.txt, sitemaps), and fetches real content using source-specific strategies. Uses Gson for JSON, Jsoup for HTML/XML. Saves results to `src/edifiction/SOURCE/`.
@@ -71,7 +85,7 @@ Each domain term (architect, bove, builder, nail, person, rudder, society, swain
 | `src/config.xml` | Reacher & DictionaryProfiler settings |
 | `src/sources.xml` | 45 internet sources to crawl |
 | `src/database.xml` | MySQL connection (requires Installer ID) |
-| `src/known.20000.xml` | Green.Durham.Grass.and.Herb server registry |
+| `configuration/known.port.20000.servers.xml` | Green.Durham.Grass.and.Herb server registry |
 
 ## Requirements
 
@@ -83,19 +97,28 @@ Each domain term (architect, bove, builder, nail, person, rudder, society, swain
 ## Build & Run
 
 ```bash
-# Compile
-javac -cp "jars/*" -sourcepath src -d out src/Main.java
+# Using start script
+./start.sh
 
-# Run
+# Or manually:
+javac -cp "jars/*" -sourcepath src -d out src/Main.java
 java -cp "out:jars/*" Main
 ```
 
+## Ports
+
+| Port | Service | Description |
+|------|---------|-------------|
+| 10001 | GuildServer | Triple-redundant TCP server (inbound) |
+| 20000 | Green.Durham.Grass.and.Herb | Speculation relay target (outbound) |
+
 ## Execution Order
 
-1. **Reacher** — Crawls all 45 sources, saves to `src/edifiction/`
-2. **DictionaryProfiler** — Catalogs words, looks up definitions
-3. **SpeculatorTrainer** — Trains model (skipped if `trainer/speculator.model` exists)
-4. **Speculator** — Analyzes corpus, generates hypotheses, relays to servers
+1. **GuildServer** — Starts triple-redundant TCP listener on port 10001
+2. **Reacher** — Crawls all 45 sources, saves to `src/edifiction/`
+3. **DictionaryProfiler** — Catalogs words, looks up definitions
+4. **SpeculatorTrainer** — Trains model (skipped if `trainer/speculator.model` exists)
+5. **Speculator** — Analyzes corpus, generates hypotheses, relays to servers
 
 ## Dependencies (jars/)
 
