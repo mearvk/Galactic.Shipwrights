@@ -2,6 +2,13 @@ package utils;
 
 public class GalacticShipwright implements Runnable
 {
+    private DictionaryProfiler dictionaryProfiler;
+
+    public GalacticShipwright(DictionaryProfiler dictionaryProfiler)
+    {
+        this.dictionaryProfiler = dictionaryProfiler;
+    }
+
     @Override
     public void run()
     {
@@ -9,7 +16,7 @@ public class GalacticShipwright implements Runnable
         new Reacher().reach();
 
         // Run DictionaryProfiler to catalog words and definitions
-        new DictionaryProfiler().profile();
+        dictionaryProfiler.profile();
 
         // Train the Speculator if not already trained
         SpeculatorTrainer trainer = new SpeculatorTrainer();

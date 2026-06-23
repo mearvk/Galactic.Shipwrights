@@ -207,7 +207,7 @@ public class DictionaryProfiler
         catch (Exception e) { e.printStackTrace(); }
     }
 
-    private void saveDictionary()
+    public void saveDictionary()
     {
         try
         {
