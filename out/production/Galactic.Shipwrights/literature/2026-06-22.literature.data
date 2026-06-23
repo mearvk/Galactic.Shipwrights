@@ -1,0 +1,1838 @@
+--- SOURCE: https://www.gutenberg.org/ebooks/search/?sort_order=downloads ---
+<!DOCTYPE html>
+<!--
+
+DON'T USE THIS PAGE FOR SCRAPING.
+
+Seriously. You'll only get your IP blocked.
+
+Download https://www.gutenberg.org/feeds/catalog.rdf.bz2 instead,
+which contains *all* Project Gutenberg metadata in one RDF/XML file.
+
+--><html lang="en-US">
+
+
+
+
+<head>
+<style>
+.icon   { background: transparent url(/pics/sprite.png) 0 0 no-repeat; }
+.page_content a.subtle_link:link {color:currentColor; text-decoration: none;}
+.page_content a.subtle_link:hover {color:#003366}
+</style>
+<link rel="stylesheet" type="text/css" href="/gutenberg/gutenberg-globals.css?v=3">
+<script>//
+var canonical_url   = "http://www.gutenberg.org/ebooks/search/?sort_order=downloads";
+var lang            = "en_US";
+var msg_load_more   = "Load More Results…";
+var page_mode       = "screen";
+var dialog_title    = "";
+var dialog_message  = "";
+//</script>
+<link rel="shortcut icon" href="/gutenberg/favicon.ico">
+<link rel="canonical" href="http://www.gutenberg.org/ebooks/search/?sort_order=downloads">
+<link rel="search" type="application/opensearchdescription+xml" title="Search Project Gutenberg" href="https://www.gutenberg.org/catalog/osd-books.xml">
+<link rel="alternate nofollow" type="application/atom+xml;profile=opds-catalog" title="OPDS feed" href="/ebooks/search.opds/?sort_order=downloads">
+<link rel="apple-touch-icon" href="/gutenberg/apple-icon.png">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="default-style" content="text/css">
+<meta name="title" content="All Books">
+<meta name="description" content="Project Gutenberg offers 78,740 free eBooks for iPhone, iPad, Kobo, Android and Kindle.">
+<meta name="keywords" content="ebook, ebooks, free ebooks, free books, book, books, audio books">
+<meta name="classification" content="public">
+<meta property="og:title" content="All Books">
+<meta property="og:description" content="Project Gutenberg offers 78,740 free eBooks for iPhone, iPad, Kobo, Android and Kindle.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://www.gutenberg.org/pics/logo-144x144.png">
+<meta property="og:url" content="http://www.gutenberg.org/ebooks/search/?sort_order=downloads">
+<meta property="og:site_name" content="Project Gutenberg">
+<meta property="fb:app_id" content="115319388529183">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@gutenberg_new">
+<meta name="twitter:image" content="http://www.gutenberg.org/pics/logo-144x144.png">
+<meta name="twitter:image:alt" content="book cover image">
+<title>All Books - Project Gutenberg</title>
+<link rel="self" title="This Page" href="/ebooks/search/">
+<link rel="next" title="Next Page" href="/ebooks/search/?start_index=26">
+<meta name="totalResults" content="26">
+<meta name="startIndex" content="1">
+<meta name="itemsPerPage" content="25">
+</head>
+<body class="search_results_page">
+<header class="noprint">
+<input type="radio" name="toggle" id="search-toggle" style="display: none">
+<input type="radio" name="toggle" id="search-close" style="display: none">
+<input type="checkbox" id="about-toggle" style="display: none">
+<div class="logo-container">
+<a href="#content" class="visually-hidden focusable skip-link">
+Skip to main content
+</a>
+<a id="main_logo" href="/" class="no-hover">
+<img src="/gutenberg/pg-logo-new.jpg" alt="Project Gutenberg" draggable="false">
+</a>
+</div>
+<div class="top-header">
+<form class="search-form" method="get" action="/ebooks/search/" accept-charset="utf-8">
+<label for="search-toggle" class="search-icon-btn" aria-label="Open Search">
+<svg class="search-icon" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+<path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+<path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</label>
+<label for="search-close" class="search-close-btn" aria-label="Close Search">X</label>
+<input type="text" class="search-input" name="query" placeholder="Quick search" aria-label="Search books">
+<button type="submit" class="search-button">Go!</button>
+</form>
+<div class="donate-container">
+<form class="donatelink" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="new">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XKAL6BZL3YPSN">
+<input class="donbtn" type="image" src="/pics/en_US.gif" name="submit" alt="Donate via PayPal">
+</form>
+<a href="/donate/" class="donate-link"> Donate </a>
+</div>
+</div>
+<div class="lower-header">
+<div class="dropdown" tabindex="0">
+<label for="about-toggle" class="dropdown-button" aria-haspopup="true">About<span aria-hidden="true" class="dropdown-icon">▼</span></label>
+<div class="dropdown-content">
+<a href="/about/">About Project Gutenberg </a>
+<a href="/help/reading_options.html">Reading Options &amp; Kindle</a>
+<a href="/about/contact_information.html">Contact Us</a>
+<a href="/about/background/">History &amp; Philosophy</a>
+<a href="/help/">Help Pages</a>
+<a href="/ebooks/offline_catalogs.html">Offline Catalogs</a>
+<a href="/donate/">Donate</a>
+</div>
+</div>
+<div class="main-links">
+<a href="/browse/scores/top" class="link-freq-downloaded">Frequently Downloaded</a>
+<a href="/ebooks/categories" class="link-main-categories">Main Categories</a>
+<a href="/ebooks/bookshelf/" class="link-reading-lists">Reading Lists</a>
+<a href="/ebooks/" class="link-advanced-search">Search Options</a>
+</div>
+</div>
+<div class="tertiary-header">
+<a href="/browse/scores/top" class="tertiary-link link-freq-downloaded">Frequently Downloaded</a>
+<a href="/ebooks/categories" class="tertiary-link link-main-categories">Main Categories</a>
+</div>
+</header>
+<div class="container">
+<div id="content" class="page_content">
+<h1>All Books</h1>
+<div class="body">
+<ul class="results">
+<li>
+<p>Sort By:</p>
+<div class="sort-dropdown">
+<button class="sort-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+<span>Popularity</span><span>▼</span>
+</button>
+<div class="sort-dropdown-menu" role="menu">
+<a href="/ebooks/search/?sort_order=release_date" role="menuitem">Release Date</a>
+<a href="/ebooks/search/?sort_order=title" role="menuitem">Title</a>
+<a href="/ebooks/search/?sort_order=random" role="menuitem">Random</a>
+</div>
+</div>
+</li>
+<li class="statusline">
+<div class="padded">
+<span>Displaying results 1–25</span>
+<span class="links">
+|
+<a title="Go to the next page of results." accesskey="+" href="/ebooks/search/?sort_order=downloads&amp;start_index=26">Next</a>
+</span>
+</div>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2701" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2701/pg2701.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Moby Dick; Or, The Whale</span>
+<span class="subtitle">Herman Melville</span>
+<span class="extra">154167 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1342" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1342/pg1342.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Pride and Prejudice</span>
+<span class="subtitle">Jane Austen</span>
+<span class="extra">131123 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/45304" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/45304/pg45304.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The City of God, Volume I</span>
+<span class="subtitle">Saint of Hippo Augustine</span>
+<span class="extra">109273 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1513" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1513/pg1513.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Romeo and Juliet</span>
+<span class="subtitle">William Shakespeare</span>
+<span class="extra">96556 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2641" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2641/pg2641.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">A Room with a View</span>
+<span class="subtitle">E. M. Forster</span>
+<span class="extra">92401 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2554" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2554/pg2554.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Crime and Punishment</span>
+<span class="subtitle">Fyodor Dostoyevsky</span>
+<span class="extra">88171 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/84" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/84/pg84.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Frankenstein; or, the modern prometheus</span>
+<span class="subtitle">Mary Wollstonecraft Shelley</span>
+<span class="extra">84348 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/11" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/11/pg11.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Alice's Adventures in Wonderland</span>
+<span class="subtitle">Lewis Carroll</span>
+<span class="extra">80477 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1184" accesskey="9">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1184/pg1184.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Count of Monte Cristo</span>
+<span class="subtitle">Alexandre Dumas and Auguste Maquet</span>
+<span class="extra">77831 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/145" accesskey="0">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/145/pg145.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Middlemarch</span>
+<span class="subtitle">George Eliot</span>
+<span class="extra">75553 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/100" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/100/pg100.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Complete Works of William Shakespeare</span>
+<span class="subtitle">William Shakespeare</span>
+<span class="extra">72975 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/67979" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/67979/pg67979.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Blue Castle: a novel</span>
+<span class="subtitle">L. M. Montgomery</span>
+<span class="extra">72141 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1260" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1260/pg1260.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Jane Eyre: An Autobiography</span>
+<span class="subtitle">Charlotte Brontë</span>
+<span class="extra">63953 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1661" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1661/pg1661.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Adventures of Sherlock Holmes</span>
+<span class="subtitle">Arthur Conan Doyle</span>
+<span class="extra">62950 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/5197" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/5197/pg5197.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">My Life — Volume 1</span>
+<span class="subtitle">Richard Wagner</span>
+<span class="extra">62862 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/37106" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/37106/pg37106.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Little Women; Or, Meg, Jo, Beth, and Amy</span>
+<span class="subtitle">Louisa May Alcott</span>
+<span class="extra">61913 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/345" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/345/pg345.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Dracula</span>
+<span class="subtitle">Bram Stoker</span>
+<span class="extra">58448 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/43" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/43/pg43.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The strange case of Dr. Jekyll and Mr. Hyde</span>
+<span class="subtitle">Robert Louis Stevenson</span>
+<span class="extra">55882 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1259" accesskey="9">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1259/pg1259.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Twenty years after</span>
+<span class="subtitle">Alexandre Dumas and Auguste Maquet</span>
+<span class="extra">54476 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/8492" accesskey="0">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/8492/pg8492.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The King in Yellow</span>
+<span class="subtitle">Robert W. Chambers</span>
+<span class="extra">52633 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/65238" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/65238/pg65238.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Secret of Chimneys</span>
+<span class="subtitle">Agatha Christie</span>
+<span class="extra">50547 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/3268" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/3268/pg3268.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Mysteries of Udolpho</span>
+<span class="subtitle">Ann Ward Radcliffe</span>
+<span class="extra">49601 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2680" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2680/pg2680.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Meditations</span>
+<span class="subtitle">Emperor of Rome Marcus Aurelius</span>
+<span class="extra">49119 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2465" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2465/pg2465.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Carmen</span>
+<span class="subtitle">Prosper Mérimée</span>
+<span class="extra">46450 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/16389" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/16389/pg16389.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Enchanted April</span>
+<span class="subtitle">Elizabeth Von Arnim</span>
+<span class="extra">46189 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="statusline">
+<div class="padded">
+Displaying results 1–25
+<span class="links">
+|
+<a title="Go to the next page of results." accesskey="+" href="/ebooks/search/?sort_order=downloads&amp;start_index=26">Next</a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer" role="contentinfo">
+<footer role="contentinfo">
+<ul>
+<li>
+<a href="/about/" title="About Project Gutenberg">About Project Gutenberg</a>
+</li>
+<li>
+<a href="/policy/privacy_policy.html" title="Privacy Policy">Privacy policy</a>
+</li>
+<li>
+<a href="/policy/permission.html" title="Permissions, Licensing and other Common Requests">Permissions</a>
+</li>
+<li>
+<a href="/policy/terms_of_use.html" title="Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a href="/a11y/" title="Accessibility">Accessibility</a>
+</li>
+<li>
+<a href="/about/contact_information.html" title="How to contact Project Gutenberg">Contact Us</a>
+</li>
+<li><a href="/help/" title="Help, How-To, Procedures, Guidance and Information">Help</a></li>
+</ul>
+<a href="https://www.ibiblio.org/" title="Project Gutenberg is hosted by ibiblio">
+<img src="/gutenberg/ibiblio-logo.png" alt="ibiblio" width="110" height="32">
+</a>
+</footer>
+</div>
+</body>
+</html>
+
+
+--- SOURCE: https://www.gutenberg.org/ebooks/search/?query=science ---
+<!DOCTYPE html>
+<!--
+
+DON'T USE THIS PAGE FOR SCRAPING.
+
+Seriously. You'll only get your IP blocked.
+
+Download https://www.gutenberg.org/feeds/catalog.rdf.bz2 instead,
+which contains *all* Project Gutenberg metadata in one RDF/XML file.
+
+--><html lang="en-US">
+
+
+
+
+<head>
+<style>
+.icon   { background: transparent url(/pics/sprite.png) 0 0 no-repeat; }
+.page_content a.subtle_link:link {color:currentColor; text-decoration: none;}
+.page_content a.subtle_link:hover {color:#003366}
+</style>
+<link rel="stylesheet" type="text/css" href="/gutenberg/gutenberg-globals.css?v=3">
+<script>//
+var canonical_url   = "http://www.gutenberg.org/ebooks/search/?query=science";
+var lang            = "en_US";
+var msg_load_more   = "Load More Results…";
+var page_mode       = "screen";
+var dialog_title    = "";
+var dialog_message  = "";
+//</script>
+<link rel="shortcut icon" href="/gutenberg/favicon.ico">
+<link rel="canonical" href="http://www.gutenberg.org/ebooks/search/?query=science">
+<link rel="search" type="application/opensearchdescription+xml" title="Search Project Gutenberg" href="https://www.gutenberg.org/catalog/osd-books.xml">
+<link rel="alternate nofollow" type="application/atom+xml;profile=opds-catalog" title="OPDS feed" href="/ebooks/search.opds/?query=science">
+<link rel="apple-touch-icon" href="/gutenberg/apple-icon.png">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="default-style" content="text/css">
+<meta name="title" content="Books: science">
+<meta name="description" content="Project Gutenberg offers 78,740 free eBooks for iPhone, iPad, Kobo, Android and Kindle.">
+<meta name="keywords" content="ebook, ebooks, free ebooks, free books, book, books, audio books">
+<meta name="classification" content="public">
+<meta property="og:title" content="Books: science">
+<meta property="og:description" content="Project Gutenberg offers 78,740 free eBooks for iPhone, iPad, Kobo, Android and Kindle.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://www.gutenberg.org/pics/logo-144x144.png">
+<meta property="og:url" content="http://www.gutenberg.org/ebooks/search/?query=science">
+<meta property="og:site_name" content="Project Gutenberg">
+<meta property="fb:app_id" content="115319388529183">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@gutenberg_new">
+<meta name="twitter:image" content="http://www.gutenberg.org/pics/logo-144x144.png">
+<meta name="twitter:image:alt" content="book cover image">
+<title>Books: science - Project Gutenberg</title>
+<link rel="self" title="This Page" href="/ebooks/search/">
+<link rel="next" title="Next Page" href="/ebooks/search/?start_index=26">
+<meta name="totalResults" content="26">
+<meta name="startIndex" content="1">
+<meta name="itemsPerPage" content="25">
+</head>
+<body class="search_results_page">
+<header class="noprint">
+<input type="radio" name="toggle" id="search-toggle" style="display: none">
+<input type="radio" name="toggle" id="search-close" style="display: none">
+<input type="checkbox" id="about-toggle" style="display: none">
+<div class="logo-container">
+<a href="#content" class="visually-hidden focusable skip-link">
+Skip to main content
+</a>
+<a id="main_logo" href="/" class="no-hover">
+<img src="/gutenberg/pg-logo-new.jpg" alt="Project Gutenberg" draggable="false">
+</a>
+</div>
+<div class="top-header">
+<form class="search-form" method="get" action="/ebooks/search/" accept-charset="utf-8">
+<label for="search-toggle" class="search-icon-btn" aria-label="Open Search">
+<svg class="search-icon" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+<path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+<path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</label>
+<label for="search-close" class="search-close-btn" aria-label="Close Search">X</label>
+<input type="text" class="search-input" name="query" placeholder="Quick search" aria-label="Search books">
+<button type="submit" class="search-button">Go!</button>
+</form>
+<div class="donate-container">
+<form class="donatelink" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="new">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XKAL6BZL3YPSN">
+<input class="donbtn" type="image" src="/pics/en_US.gif" name="submit" alt="Donate via PayPal">
+</form>
+<a href="/donate/" class="donate-link"> Donate </a>
+</div>
+</div>
+<div class="lower-header">
+<div class="dropdown" tabindex="0">
+<label for="about-toggle" class="dropdown-button" aria-haspopup="true">About<span aria-hidden="true" class="dropdown-icon">▼</span></label>
+<div class="dropdown-content">
+<a href="/about/">About Project Gutenberg </a>
+<a href="/help/reading_options.html">Reading Options &amp; Kindle</a>
+<a href="/about/contact_information.html">Contact Us</a>
+<a href="/about/background/">History &amp; Philosophy</a>
+<a href="/help/">Help Pages</a>
+<a href="/ebooks/offline_catalogs.html">Offline Catalogs</a>
+<a href="/donate/">Donate</a>
+</div>
+</div>
+<div class="main-links">
+<a href="/browse/scores/top" class="link-freq-downloaded">Frequently Downloaded</a>
+<a href="/ebooks/categories" class="link-main-categories">Main Categories</a>
+<a href="/ebooks/bookshelf/" class="link-reading-lists">Reading Lists</a>
+<a href="/ebooks/" class="link-advanced-search">Search Options</a>
+</div>
+</div>
+<div class="tertiary-header">
+<a href="/browse/scores/top" class="tertiary-link link-freq-downloaded">Frequently Downloaded</a>
+<a href="/ebooks/categories" class="tertiary-link link-main-categories">Main Categories</a>
+</div>
+</header>
+<div class="container">
+<div id="content" class="page_content">
+<h1>Books: science</h1>
+<div class="body">
+<ul class="results">
+<li>
+<p>Sort By:</p>
+<div class="sort-dropdown">
+<button class="sort-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+<span>Popularity</span><span>▼</span>
+</button>
+<div class="sort-dropdown-menu" role="menu">
+<a href="/ebooks/search/?query=science&amp;sort_order=release_date" role="menuitem">Release Date</a>
+<a href="/ebooks/search/?query=science&amp;sort_order=title" role="menuitem">Title</a>
+</div>
+</div>
+</li>
+<li class="navlink grayed">
+<a class="link" href="/ebooks/authors/search/?query=science" accesskey="0">
+<span class="cell leftcell without-cover">
+<span class="icon-wrapper">
+<span class="icon icon_author"></span>
+</span>
+</span>
+<span class="cell content">
+<span class="title">Authors</span>
+<span class="subtitle">7 author names match your search.</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="navlink grayed">
+<a class="link" href="/ebooks/subjects/search/?query=science" accesskey="1">
+<span class="cell leftcell without-cover">
+<span class="icon-wrapper">
+<span class="icon icon_subject"></span>
+</span>
+</span>
+<span class="cell content">
+<span class="title">Subjects</span>
+<span class="subtitle">134 subject headings match your search.</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="navlink grayed">
+<a class="link" href="/ebooks/bookshelves/search/?query=science" accesskey="2">
+<span class="cell leftcell without-cover">
+<span class="icon-wrapper">
+<span class="icon icon_bookshelf"></span>
+</span>
+</span>
+<span class="cell content">
+<span class="title">Bookshelves</span>
+<span class="subtitle">14 bookshelves match your search.</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="statusline">
+<div class="padded">
+<span>Displaying results 1–25</span>
+<span class="links">
+|
+<a title="Go to the next page of results." accesskey="+" href="/ebooks/search/?query=science&amp;start_index=26">Next</a>
+</span>
+</div>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/84" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/84/pg84.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Frankenstein; or, the modern prometheus</span>
+<span class="subtitle">Mary Wollstonecraft Shelley</span>
+<span class="extra">84348 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/345" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/345/pg345.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Dracula</span>
+<span class="subtitle">Bram Stoker</span>
+<span class="extra">58448 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/43" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/43/pg43.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The strange case of Dr. Jekyll and Mr. Hyde</span>
+<span class="subtitle">Robert Louis Stevenson</span>
+<span class="extra">55882 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/8492" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/8492/pg8492.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The King in Yellow</span>
+<span class="subtitle">Robert W. Chambers</span>
+<span class="extra">52633 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/72" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/72/pg72.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Thuvia, maid of Mars</span>
+<span class="subtitle">Edgar Rice Burroughs</span>
+<span class="extra">37258 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/19476" accesskey="9">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/19476/pg19476.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">A Honeymoon in Space</span>
+<span class="subtitle">George Chetwynd Griffith</span>
+<span class="extra">36230 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/22541" accesskey="0">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/22541/pg22541.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Misplaced Battleship</span>
+<span class="subtitle">Harry Harrison</span>
+<span class="extra">34908 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/45839" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/45839/pg45839.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Dracula</span>
+<span class="subtitle">Bram Stoker</span>
+<span class="extra">33427 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/42" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/42/pg42.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The strange case of Dr. Jekyll and Mr. Hyde</span>
+<span class="subtitle">Robert Louis Stevenson</span>
+<span class="extra">33066 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/55" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/55/pg55.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Wonderful Wizard of Oz</span>
+<span class="subtitle">L. Frank Baum</span>
+<span class="extra">31666 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/40284" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/40284/pg40284.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Sex Life of the Gods</span>
+<span class="subtitle">M. E. Knerr</span>
+<span class="extra">30472 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/27509" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/27509/pg27509.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The 2006 CIA World Factbook</span>
+<span class="subtitle">United States. Central Intelligence Agency</span>
+<span class="extra">29042 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/18857" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/18857/pg18857.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">A Journey to the Centre of the Earth</span>
+<span class="subtitle">Jules Verne</span>
+<span class="extra">28939 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1514" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1514/pg1514.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">A Midsummer Night's Dream</span>
+<span class="subtitle">William Shakespeare</span>
+<span class="extra">28612 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/829" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/829/pg829.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Gulliver's Travels into Several Remote Nations of the World</span>
+<span class="subtitle">Jonathan Swift</span>
+<span class="extra">27679 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/68283" accesskey="9">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/68283/pg68283.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The call of Cthulhu</span>
+<span class="subtitle">H. P. Lovecraft</span>
+<span class="extra">26634 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2825" accesskey="0">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2825/pg2825.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Undine</span>
+<span class="subtitle">Freiherr de Friedrich Heinrich Karl La Motte-Fouqué</span>
+<span class="extra">26544 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1232" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1232/pg1232.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Prince</span>
+<span class="subtitle">Niccolò Machiavelli</span>
+<span class="extra">25542 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/17157" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/17157/pg17157.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Gulliver's Travels into Several Remote Regions of the World</span>
+<span class="subtitle">Jonathan Swift</span>
+<span class="extra">25156 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/26563" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/26563/pg26563.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Crack of Doom</span>
+<span class="subtitle">Robert Cromie</span>
+<span class="extra">24990 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/27558" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/27558/pg27558.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The 2003 CIA World Factbook</span>
+<span class="subtitle">United States. Central Intelligence Agency</span>
+<span class="extra">24953 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2087" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2087/pg2087.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Life and Letters of Charles Darwin — Volume 1</span>
+<span class="subtitle">Charles Darwin</span>
+<span class="extra">24637 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/164" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/164/pg164.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Twenty Thousand Leagues under the Sea</span>
+<span class="subtitle">Jules Verne</span>
+<span class="extra">24430 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/70652" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/70652/pg70652.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">At the mountains of madness</span>
+<span class="subtitle">H. P. Lovecraft</span>
+<span class="extra">24267 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/10002" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/10002/pg10002.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The House on the Borderland</span>
+<span class="subtitle">William Hope Hodgson</span>
+<span class="extra">23977 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="statusline">
+<div class="padded">
+Displaying results 1–25
+<span class="links">
+|
+<a title="Go to the next page of results." accesskey="+" href="/ebooks/search/?query=science&amp;start_index=26">Next</a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer" role="contentinfo">
+<footer role="contentinfo">
+<ul>
+<li>
+<a href="/about/" title="About Project Gutenberg">About Project Gutenberg</a>
+</li>
+<li>
+<a href="/policy/privacy_policy.html" title="Privacy Policy">Privacy policy</a>
+</li>
+<li>
+<a href="/policy/permission.html" title="Permissions, Licensing and other Common Requests">Permissions</a>
+</li>
+<li>
+<a href="/policy/terms_of_use.html" title="Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a href="/a11y/" title="Accessibility">Accessibility</a>
+</li>
+<li>
+<a href="/about/contact_information.html" title="How to contact Project Gutenberg">Contact Us</a>
+</li>
+<li><a href="/help/" title="Help, How-To, Procedures, Guidance and Information">Help</a></li>
+</ul>
+<a href="https://www.ibiblio.org/" title="Project Gutenberg is hosted by ibiblio">
+<img src="/gutenberg/ibiblio-logo.png" alt="ibiblio" width="110" height="32">
+</a>
+</footer>
+</div>
+</body>
+</html>
+
+
+--- SOURCE: https://www.gutenberg.org/ebooks/search/?query=history ---
+<!DOCTYPE html>
+<!--
+
+DON'T USE THIS PAGE FOR SCRAPING.
+
+Seriously. You'll only get your IP blocked.
+
+Download https://www.gutenberg.org/feeds/catalog.rdf.bz2 instead,
+which contains *all* Project Gutenberg metadata in one RDF/XML file.
+
+--><html lang="en-US">
+
+
+
+
+<head>
+<style>
+.icon   { background: transparent url(/pics/sprite.png) 0 0 no-repeat; }
+.page_content a.subtle_link:link {color:currentColor; text-decoration: none;}
+.page_content a.subtle_link:hover {color:#003366}
+</style>
+<link rel="stylesheet" type="text/css" href="/gutenberg/gutenberg-globals.css?v=3">
+<script>//
+var canonical_url   = "http://www.gutenberg.org/ebooks/search/?query=history";
+var lang            = "en_US";
+var msg_load_more   = "Load More Results…";
+var page_mode       = "screen";
+var dialog_title    = "";
+var dialog_message  = "";
+//</script>
+<link rel="shortcut icon" href="/gutenberg/favicon.ico">
+<link rel="canonical" href="http://www.gutenberg.org/ebooks/search/?query=history">
+<link rel="search" type="application/opensearchdescription+xml" title="Search Project Gutenberg" href="https://www.gutenberg.org/catalog/osd-books.xml">
+<link rel="alternate nofollow" type="application/atom+xml;profile=opds-catalog" title="OPDS feed" href="/ebooks/search.opds/?query=history">
+<link rel="apple-touch-icon" href="/gutenberg/apple-icon.png">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="default-style" content="text/css">
+<meta name="title" content="Books: history">
+<meta name="description" content="Project Gutenberg offers 78,740 free eBooks for iPhone, iPad, Kobo, Android and Kindle.">
+<meta name="keywords" content="ebook, ebooks, free ebooks, free books, book, books, audio books">
+<meta name="classification" content="public">
+<meta property="og:title" content="Books: history">
+<meta property="og:description" content="Project Gutenberg offers 78,740 free eBooks for iPhone, iPad, Kobo, Android and Kindle.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://www.gutenberg.org/pics/logo-144x144.png">
+<meta property="og:url" content="http://www.gutenberg.org/ebooks/search/?query=history">
+<meta property="og:site_name" content="Project Gutenberg">
+<meta property="fb:app_id" content="115319388529183">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@gutenberg_new">
+<meta name="twitter:image" content="http://www.gutenberg.org/pics/logo-144x144.png">
+<meta name="twitter:image:alt" content="book cover image">
+<title>Books: history - Project Gutenberg</title>
+<link rel="self" title="This Page" href="/ebooks/search/">
+<link rel="next" title="Next Page" href="/ebooks/search/?start_index=26">
+<meta name="totalResults" content="26">
+<meta name="startIndex" content="1">
+<meta name="itemsPerPage" content="25">
+</head>
+<body class="search_results_page">
+<header class="noprint">
+<input type="radio" name="toggle" id="search-toggle" style="display: none">
+<input type="radio" name="toggle" id="search-close" style="display: none">
+<input type="checkbox" id="about-toggle" style="display: none">
+<div class="logo-container">
+<a href="#content" class="visually-hidden focusable skip-link">
+Skip to main content
+</a>
+<a id="main_logo" href="/" class="no-hover">
+<img src="/gutenberg/pg-logo-new.jpg" alt="Project Gutenberg" draggable="false">
+</a>
+</div>
+<div class="top-header">
+<form class="search-form" method="get" action="/ebooks/search/" accept-charset="utf-8">
+<label for="search-toggle" class="search-icon-btn" aria-label="Open Search">
+<svg class="search-icon" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+<path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+<path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</label>
+<label for="search-close" class="search-close-btn" aria-label="Close Search">X</label>
+<input type="text" class="search-input" name="query" placeholder="Quick search" aria-label="Search books">
+<button type="submit" class="search-button">Go!</button>
+</form>
+<div class="donate-container">
+<form class="donatelink" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="new">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XKAL6BZL3YPSN">
+<input class="donbtn" type="image" src="/pics/en_US.gif" name="submit" alt="Donate via PayPal">
+</form>
+<a href="/donate/" class="donate-link"> Donate </a>
+</div>
+</div>
+<div class="lower-header">
+<div class="dropdown" tabindex="0">
+<label for="about-toggle" class="dropdown-button" aria-haspopup="true">About<span aria-hidden="true" class="dropdown-icon">▼</span></label>
+<div class="dropdown-content">
+<a href="/about/">About Project Gutenberg </a>
+<a href="/help/reading_options.html">Reading Options &amp; Kindle</a>
+<a href="/about/contact_information.html">Contact Us</a>
+<a href="/about/background/">History &amp; Philosophy</a>
+<a href="/help/">Help Pages</a>
+<a href="/ebooks/offline_catalogs.html">Offline Catalogs</a>
+<a href="/donate/">Donate</a>
+</div>
+</div>
+<div class="main-links">
+<a href="/browse/scores/top" class="link-freq-downloaded">Frequently Downloaded</a>
+<a href="/ebooks/categories" class="link-main-categories">Main Categories</a>
+<a href="/ebooks/bookshelf/" class="link-reading-lists">Reading Lists</a>
+<a href="/ebooks/" class="link-advanced-search">Search Options</a>
+</div>
+</div>
+<div class="tertiary-header">
+<a href="/browse/scores/top" class="tertiary-link link-freq-downloaded">Frequently Downloaded</a>
+<a href="/ebooks/categories" class="tertiary-link link-main-categories">Main Categories</a>
+</div>
+</header>
+<div class="container">
+<div id="content" class="page_content">
+<h1>Books: history</h1>
+<div class="body">
+<ul class="results">
+<li>
+<p>Sort By:</p>
+<div class="sort-dropdown">
+<button class="sort-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+<span>Popularity</span><span>▼</span>
+</button>
+<div class="sort-dropdown-menu" role="menu">
+<a href="/ebooks/search/?query=history&amp;sort_order=release_date" role="menuitem">Release Date</a>
+<a href="/ebooks/search/?query=history&amp;sort_order=title" role="menuitem">Title</a>
+</div>
+</div>
+</li>
+<li class="navlink grayed">
+<a class="link" href="/ebooks/authors/search/?query=history" accesskey="0">
+<span class="cell leftcell without-cover">
+<span class="icon-wrapper">
+<span class="icon icon_author"></span>
+</span>
+</span>
+<span class="cell content">
+<span class="title">Authors</span>
+<span class="subtitle">14 author names match your search.</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="navlink grayed">
+<a class="link" href="/ebooks/subjects/search/?query=history" accesskey="1">
+<span class="cell leftcell without-cover">
+<span class="icon-wrapper">
+<span class="icon icon_subject"></span>
+</span>
+</span>
+<span class="cell content">
+<span class="title">Subjects</span>
+<span class="subtitle">4776 subject headings match your search.</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="navlink grayed">
+<a class="link" href="/ebooks/bookshelves/search/?query=history" accesskey="2">
+<span class="cell leftcell without-cover">
+<span class="icon-wrapper">
+<span class="icon icon_bookshelf"></span>
+</span>
+</span>
+<span class="cell content">
+<span class="title">Bookshelves</span>
+<span class="subtitle">16 bookshelves match your search.</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="statusline">
+<div class="padded">
+<span>Displaying results 1–25</span>
+<span class="links">
+|
+<a title="Go to the next page of results." accesskey="+" href="/ebooks/search/?query=history&amp;start_index=26">Next</a>
+</span>
+</div>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/45304" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/45304/pg45304.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The City of God, Volume I</span>
+<span class="subtitle">Saint of Hippo Augustine</span>
+<span class="extra">109273 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1184" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1184/pg1184.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Count of Monte Cristo</span>
+<span class="subtitle">Alexandre Dumas and Auguste Maquet</span>
+<span class="extra">77831 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/67979" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/67979/pg67979.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Blue Castle: a novel</span>
+<span class="subtitle">L. M. Montgomery</span>
+<span class="extra">72141 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1259" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1259/pg1259.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Twenty years after</span>
+<span class="subtitle">Alexandre Dumas and Auguste Maquet</span>
+<span class="extra">54476 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/6593" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/6593/pg6593.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">History of Tom Jones, a Foundling</span>
+<span class="subtitle">Henry Fielding</span>
+<span class="extra">41486 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/75201" accesskey="9">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/75201/pg75201.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">A farewell to arms</span>
+<span class="subtitle">Ernest Hemingway</span>
+<span class="extra">37562 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/245" accesskey="0">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/245/pg245.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Life on the Mississippi</span>
+<span class="subtitle">Mark Twain</span>
+<span class="extra">36373 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/20203" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/20203/pg20203.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Autobiography of Benjamin Franklin</span>
+<span class="subtitle">Benjamin Franklin</span>
+<span class="extra">35282 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/76639" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/76639/pg76639.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Eloisa :  or, A series of original letters</span>
+<span class="subtitle">Jean-Jacques Rousseau</span>
+<span class="extra">34905 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/98" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/98/pg98.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">A Tale of Two Cities</span>
+<span class="subtitle">Charles Dickens</span>
+<span class="extra">33177 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/23" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/23/pg23.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Narrative of the Life of Frederick Douglass, an American Slave</span>
+<span class="subtitle">Frederick Douglass</span>
+<span class="extra">32860 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/23784" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/23784/pg23784.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The History of Sir Richard Calmady: A Romance</span>
+<span class="subtitle">Lucas Malet</span>
+<span class="extra">32421 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/174" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/174/pg174.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Picture of Dorian Gray</span>
+<span class="subtitle">Oscar Wilde</span>
+<span class="extra">32290 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/2600" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/2600/pg2600.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">War and Peace</span>
+<span class="subtitle">graf Leo Tolstoy</span>
+<span class="extra">32277 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/15399" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/15399/pg15399.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African</span>
+<span class="subtitle">Olaudah Equiano</span>
+<span class="extra">29469 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/6400" accesskey="9">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/6400/pg6400.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Lives of the Twelve Caesars, Complete</span>
+<span class="subtitle">Suetonius</span>
+<span class="extra">29247 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/27997" accesskey="0">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/27997/pg27997.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Robert Orange</span>
+<span class="subtitle">John Oliver Hobbes</span>
+<span class="extra">29243 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/589" accesskey="1">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/589/pg589.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Catriona</span>
+<span class="subtitle">Robert Louis Stevenson</span>
+<span class="extra">29053 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/46976" accesskey="2">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/46976/pg46976.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Anabasis of Alexander :  or, The history of the wars and conquests of Alexander the Great</span>
+<span class="subtitle">Arrian</span>
+<span class="extra">28937 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/1212" accesskey="3">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/1212/pg1212.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Love and Freindship [sic]</span>
+<span class="subtitle">Jane Austen</span>
+<span class="extra">27473 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/32155" accesskey="4">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/32155/pg32155.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Love Letters of Henry VIII to Anne Boleyn; With Notes</span>
+<span class="subtitle">King of England Henry VIII</span>
+<span class="extra">27427 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/25789" accesskey="5">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/25789/pg25789.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Emily Brontë</span>
+<span class="subtitle">A. Mary F. Robinson</span>
+<span class="extra">27417 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/4200" accesskey="6">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/4200/pg4200.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Diary of Samuel Pepys — Complete</span>
+<span class="subtitle">Samuel Pepys</span>
+<span class="extra">27006 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/37499" accesskey="7">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/37499/pg37499.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">Napoleon's Letters to Josephine, 1796-1812
+</span>
+<span class="subtitle">Emperor of the French Napoleon I</span>
+<span class="extra">26884 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="booklink">
+<a class="link" href="/ebooks/7524" accesskey="8">
+<span class="cell leftcell with-cover">
+<img class="cover-thumb" src="/cache/epub/7524/pg7524.cover.small.jpg" alt="">
+</span>
+<span class="cell content">
+<span class="title">The Germany and the Agricola of Tacitus</span>
+<span class="subtitle">Cornelius Tacitus</span>
+<span class="extra">26792 downloads</span>
+</span>
+<span class="hstrut"></span>
+</a>
+</li>
+<li class="statusline">
+<div class="padded">
+Displaying results 1–25
+<span class="links">
+|
+<a title="Go to the next page of results." accesskey="+" href="/ebooks/search/?query=history&amp;start_index=26">Next</a>
+</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer" role="contentinfo">
+<footer role="contentinfo">
+<ul>
+<li>
+<a href="/about/" title="About Project Gutenberg">About Project Gutenberg</a>
+</li>
+<li>
+<a href="/policy/privacy_policy.html" title="Privacy Policy">Privacy policy</a>
+</li>
+<li>
+<a href="/policy/permission.html" title="Permissions, Licensing and other Common Requests">Permissions</a>
+</li>
+<li>
+<a href="/policy/terms_of_use.html" title="Terms of Use">Terms of Use</a>
+</li>
+<li>
+<a href="/a11y/" title="Accessibility">Accessibility</a>
+</li>
+<li>
+<a href="/about/contact_information.html" title="How to contact Project Gutenberg">Contact Us</a>
+</li>
+<li><a href="/help/" title="Help, How-To, Procedures, Guidance and Information">Help</a></li>
+</ul>
+<a href="https://www.ibiblio.org/" title="Project Gutenberg is hosted by ibiblio">
+<img src="/gutenberg/ibiblio-logo.png" alt="ibiblio" width="110" height="32">
+</a>
+</footer>
+</div>
+</body>
+</html>
+
+
+--- SOURCE: https://www.gutenberg.org/cache/epub/feeds/today.rss ---
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="0.91">
+  <channel>
+    <title>Project Gutenberg Recently Posted or Updated EBooks</title>
+    <link>https://www.gutenberg.org</link>
+    <description>
+       EBooks posted or updated today on Project Gutenberg.
+       This feed is regenerated every night.
+    </description>
+    <language>en-us</language>
+    <webMaster>webmaster@gutenberg.org</webMaster>
+    <pubDate>Mon, 22 Jun 2026 17:51:24 -0400</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 17:51:24 -0400</lastBuildDate>
+    <item>
+      <title>Poems by Emily Dickinson, Three Series, Complete by Emily Dickinson</title>
+      <link>https://www.gutenberg.org/ebooks/12242</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The decline of the West, Volume 2 : by Oswald Spengler</title>
+      <link>https://www.gutenberg.org/ebooks/78914</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Flappers and Philosophers by F. Scott  Fitzgerald</title>
+      <link>https://www.gutenberg.org/ebooks/4368</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Le pacifisme by Émile Faguet</title>
+      <link>https://www.gutenberg.org/ebooks/78925</link>
+      <description>Language: French</description>
+    </item>
+
+    <item>
+      <title>Emma by Jane Austen</title>
+      <link>https://www.gutenberg.org/ebooks/158</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The Metamorphosis by Franz Kafka</title>
+      <link>https://www.gutenberg.org/ebooks/26298</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The waltz of the dogs : by Leonid Andreyev</title>
+      <link>https://www.gutenberg.org/ebooks/78902</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The Condition of the Working-Class in England in 1844 by Friedrich Engels</title>
+      <link>https://www.gutenberg.org/ebooks/17306</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The Master Mummer by E. Phillips  Oppenheim</title>
+      <link>https://www.gutenberg.org/ebooks/28161</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>How to conquer stupidity by Leo Markun</title>
+      <link>https://www.gutenberg.org/ebooks/78906</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The agent by Stephen Marlowe</title>
+      <link>https://www.gutenberg.org/ebooks/78912</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Crack of doom by Stephen Marlowe</title>
+      <link>https://www.gutenberg.org/ebooks/78907</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Hunt the red roe by Alan Payne</title>
+      <link>https://www.gutenberg.org/ebooks/78910</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Du Kremlin au Pacifique by Georges Ducrocq</title>
+      <link>https://www.gutenberg.org/ebooks/78904</link>
+      <description>Language: French</description>
+    </item>
+
+    <item>
+      <title>As holy and enchanted by Kris Neville</title>
+      <link>https://www.gutenberg.org/ebooks/78909</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The story of Cairo by Stanley Lane-Poole</title>
+      <link>https://www.gutenberg.org/ebooks/78916</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>In camp and kitchen : by Lucy H.  Yates</title>
+      <link>https://www.gutenberg.org/ebooks/78919</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Survivor by Jr. Irving E. Cox</title>
+      <link>https://www.gutenberg.org/ebooks/78911</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The curse of gold by W. C.  Tuttle</title>
+      <link>https://www.gutenberg.org/ebooks/78924</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Hair-trigger Hollibaugh by W. C.  Tuttle</title>
+      <link>https://www.gutenberg.org/ebooks/78923</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Salt of the Earth by W. C.  Tuttle</title>
+      <link>https://www.gutenberg.org/ebooks/78900</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The money-spider by William Le Queux</title>
+      <link>https://www.gutenberg.org/ebooks/78920</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>The rise and fall of the mustache : by Robert J.  Burdette</title>
+      <link>https://www.gutenberg.org/ebooks/78913</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Forever is so long by John Jakes</title>
+      <link>https://www.gutenberg.org/ebooks/78908</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Sacred symbols in art by Elisabeth Goldsmith</title>
+      <link>https://www.gutenberg.org/ebooks/78921</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>There is confusion by Jessie Redmon Fauset</title>
+      <link>https://www.gutenberg.org/ebooks/78915</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Histoire de l&#039;idée laïque en France au XIXe siècle by Georges Weill</title>
+      <link>https://www.gutenberg.org/ebooks/78903</link>
+      <description>Language: French</description>
+    </item>
+
+    <item>
+      <title>Model yachts and model yacht sailing : by James E. Walton</title>
+      <link>https://www.gutenberg.org/ebooks/78905</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Adventures of a donkey by a graduate of St. Joseph&#039;s P. S. and la comtesse de Ségur</title>
+      <link>https://www.gutenberg.org/ebooks/78917</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Senator Fulbright&#039;s secret memorandum by James D. Bales</title>
+      <link>https://www.gutenberg.org/ebooks/78918</link>
+      <description>Language: English</description>
+    </item>
+
+    <item>
+      <title>Is man a free agent? : by James H. Loryea</title>
+      <link>https://www.gutenberg.org/ebooks/78922</link>
+      <description>Language: English</description>
+    </item>
+
+  </channel>
+</rss>
+
+
