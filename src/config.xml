@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <reacher>
+        <sourcesPath>src/sources.xml</sourcesPath>
+        <outputDir>src/edifiction</outputDir>
+        <timeout>30000</timeout>
+    </reacher>
+    <dictionaryProfiler>
+        <enabled>true</enabled>
+        <outputFile>dictionary.list.txt</outputFile>
+        <scanDirs>src/edifiction</scanDirs>
+        <definitionSources>
+            <source>https://en.wiktionary.org/w/api.php</source>
+            <source>https://api.dictionaryapi.dev/api/v2/entries/en/</source>
+        </definitionSources>
+    </dictionaryProfiler>
+</config>

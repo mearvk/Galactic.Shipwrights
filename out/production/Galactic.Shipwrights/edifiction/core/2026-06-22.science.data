@@ -1,0 +1,1837 @@
+{
+  "totalHits": 22433,
+  "limit": 25,
+  "offset": 0,
+  "scrollId": "",
+  "results": [
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "McGinnis, Heather M."
+        },
+        {
+          "name": "Phelps, Ronald L."
+        },
+        {
+          "name": "Lan, Wenschel D."
+        },
+        {
+          "name": "Thomason, Gary"
+        },
+        {
+          "name": "Savattone, James A."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849473"
+      ],
+      "createdDate": "2025-02-20T12:55:47+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:17:49+01:00",
+      "abstract": "NPS NRP Executive SummaryChief of Naval Operations, ADM Gilday, and Commandant of the Marine Corps, Gen Berger, directed modernization efforts across the Naval Services. The concept of Naval Operational Architecture (NOA) enables the development of additional beyond-line-of-sight (BLOS) targeting and fires delivered from widely distributed points within and outside a near-peer\u0027s weapons engagement zones (WEZ). Research into proliferated low-earth orbiting communications satellites (pLEO) reveal an intersection with the Joint All Domain Command and Control (JADC2) priority and the Navy and Marine components leveraging efforts such as Task Force Overmatch (DEVSECOPS). There is an immediate need to develop requirements and analyze alternate architectures for delivering BLOS precision fires in future contested environments in the context of Great Power Competition.    Faculty experience with space mission architecture design will be leveraged to advise students in achieving the following objectives:  1) Research and develop operational, functional objective and threshold requirements for a proliferated LEO systems within the JADC2 framework to enable BLOS precision fires.  2) Analyze alternative architectures for the requirements which enable BLOS precision fires in a contested environment.  A phased approach will be used to meet the research objectives. First, a capabilities or system requirements-like document will be generated to include validation criteria and in-phase lessons learned. Second, standard aerospace modeling/simulation techniques will be used to define the mission and architecture requirements and analyze the alternatives for architectures enabling BLOS precision fires through a contested environment to include in-phase lessons learned. Third, individual student thesis research will occur to completion/graduation of the students and any final closing actions through the remainder of the project period.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Marine Corps Capabilities Development Directorate (CDD), DC CD\u0026IHQMC Combat Development and Integration (CD\u0026I",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71803/NPS-22-M255-B-NRP_ExecSum-Final_Lan.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 145008011,
+      "identifiers": [
+        {
+          "identifier": "565849473",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71803",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71803",
+          "type": "oai"
+        }
+      ],
+      "title": "Proliferated LEO Architecture Enabling Beyond Line of Sight Fires (pLEO BLOS Fires)",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71803"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71803/NPS-22-M255-B-NRP_ExecSum-Final_Lan.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71803/NPS-22-M255-B-NRP_ExecSum-Final_Lan.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008011"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "McGinnis, Heather M."
+        },
+        {
+          "name": "Phelps, Ronald L."
+        },
+        {
+          "name": "Lan, Wenschel D."
+        },
+        {
+          "name": "Thomason, Gary"
+        },
+        {
+          "name": "Savattone, James A."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849505"
+      ],
+      "createdDate": "2025-02-20T12:53:03+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:17:48+01:00",
+      "abstract": "NPS NRP Project PosterChief of Naval Operations, ADM Gilday, and Commandant of the Marine Corps, Gen Berger, directed modernization efforts across the Naval Services. The concept of Naval Operational Architecture (NOA) enables the development of additional beyond-line-of-sight (BLOS) targeting and fires delivered from widely distributed points within and outside a near-peer\u0027s weapons engagement zones (WEZ). Research into proliferated low-earth orbiting communications satellites (pLEO) reveal an intersection with the Joint All Domain Command and Control (JADC2) priority and the Navy and Marine components leveraging efforts such as Task Force Overmatch (DEVSECOPS). There is an immediate need to develop requirements and analyze alternate architectures for delivering BLOS precision fires in future contested environments in the context of Great Power Competition.  Faculty experience with space mission architecture design will be leveraged to advise students in achieving the following objectives: 1) Research and develop operational, functional objective and threshold requirements for a proliferated LEO systems within the JADC2 framework to enable BLOS precision fires. 2) Analyze alternative architectures for the requirements which enable BLOS precision fires in a contested environment.  A phased approach will be used to meet the research objectives. First, a capabilities or system requirements-like document will be generated to include validation criteria and in-phase lessons learned. Second, standard aerospace modeling/simulation techniques will be used to define the mission and architecture requirements and analyze the alternatives for architectures enabling BLOS precision fires through a contested environment to include in-phase lessons learned. Third, individual student thesis research will occur to completion/graduation of the students and any final closing actions through the remainder of the project period.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Marine Corps Capabilities Development Directorate (CDD), DC CD\u0026IHQMC Combat Development and Integration (CD\u0026I",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71802/NPS-22-M255-B_NRP-Poster_Lan.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 145007971,
+      "identifiers": [
+        {
+          "identifier": "565849505",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71802",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71802",
+          "type": "oai"
+        }
+      ],
+      "title": "Proliferated LEO Architecture Enabling Beyond Line of Sight Fires (pLEO BLOS Fires)",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71802"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71802/NPS-22-M255-B_NRP-Poster_Lan.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71802/NPS-22-M255-B_NRP-Poster_Lan.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145007971"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Greathouse, Carlus A."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/36697958"
+      ],
+      "createdDate": "2024-04-29T11:34:00+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2016-07-14T01:00:00+01:00",
+      "abstract": "This thesis describes a web-based continuous learning module (CLM) for use in introducing members of the Department of the Navy\u0027s acquisition community to software reuse in the context of Naval Open Architecture. The CLM introduces the student to principles for effective software reuse, explains the unique challenges of software reuse, discusses software reuse within the context of the Naval Open Architecture under the current Department of Defense and DoN policy and guidance, provides a strategy for successful software reuse, and introduces the student to the Software Hardware Asset Reuse Enterprise (SHARE) repository established by the Navy\u0027s Open Architecture (OA) program.Approved for public release; distribution is unlimited.US Navy (USN) author.http://archive.org/details/softwarereuseinn10945423",
+      "documentType": "",
+      "downloadUrl": "http://calhoun.nps.edu/bitstream/handle/10945/4237/08Mar_Greathouse.pdf?sequence\u003d3\u0026isAllowed\u003dy",
+      "fieldOfStudy": "Thesis",
+      "fullText": "Not available for public API users.",
+      "id": 21322805,
+      "identifiers": [
+        {
+          "identifier": "36697958",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/4237",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/4237",
+          "type": "oai"
+        }
+      ],
+      "title": "Software reuse in the Naval Open Architecture",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/4237"
+      ],
+      "publishedDate": "",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "http://calhoun.nps.edu/bitstream/handle/10945/4237/08Mar_Greathouse.pdf?sequence\u003d3\u0026isAllowed\u003dy"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2008,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "http://calhoun.nps.edu/bitstream/handle/10945/4237/08Mar_Greathouse.pdf?sequence\u003d3\u0026isAllowed\u003dy"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/21322805"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Lan, Wenschel D."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/528267400"
+      ],
+      "createdDate": "2025-08-20T12:57:12+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2022-06-22T17:21:53+01:00",
+      "abstract": "NPS NRP Executive SummaryMission Architecture for Maritime Domain Awareness Using Small SatellitesApproved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N2/N6 - Information Warfar",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/70008/NPS-19-N324-B_NRP_ExecSum-Final_Lan.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 125179053,
+      "identifiers": [
+        {
+          "identifier": "528267400",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/70008",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/70008",
+          "type": "oai"
+        }
+      ],
+      "title": "Mission Architecture for Maritime Domain Awareness Using Small Satellites",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/70008"
+      ],
+      "publishedDate": "",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/70008/NPS-19-N324-B_NRP_ExecSum-Final_Lan.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2019,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/70008/NPS-19-N324-B_NRP_ExecSum-Final_Lan.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/125179053"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Godin, Arkady A."
+        },
+        {
+          "name": "Green, John M."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849391"
+      ],
+      "createdDate": "2025-08-19T16:38:55+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:19:08+01:00",
+      "abstract": "NPS NRP Executive SummaryAs Joint capabilities mature and shape into the Joint All Domain C2 Concept, Services, COCOMs and Coalition Partners will need to invest into efforts that would seamlessly integrate into Joint capabilities. The objective for the Navy is to study the options for Navy, including Naval Special Warfare Command under SOCOM, on how to integrate Navy\u0027s data strategy and architecture under the unifying JADC2 umbrella. The other objectives are to explore alternatives considered by the SOCOM and the Air Force, which are responsible for JADC2 Information Advantage and Digital Mission Command \u0026 Control. A major purpose of Joint, Services/COCOMs, agencies and Coalition Partners capabilities is to provide shared core of integrated canonical services for data, information, and knowledge with representations for vertical interoperability across all command levels and JADC2, lateral interoperability between Naval Service/COCOMs, and any combination of JADC2 constituents, agencies, and coalition partners.  Our research plan is to explore available data strategy options by leveraging previous NRP work (NPS-20-N313-A). We will participate in emerging data strategy by Navy JADC2 project Overmatch. By working with MITRE our team will explore Air Force JADC2 data strategy implemented in ABMS DataOne component. Our goal is to find a seamless integration between Naval Data Strategy and data strategies behind JADC2 Information Advantage and Digital Mission Command \u0026 Control capabilities. Our plan includes studying Service-to-Service and Service-to-COCOM interoperability options required for Joint operations with a goal to minimize OODA\u0027s loop latency across sensing, situation discovery \u0026 monitoring, and knowledge understanding-for-planning, deciding, and acting. Our team realizes JADC2 requires virtual model allowing interoperability between subordinate C2 for services, agencies, and partner. Without such flexible \u0027joint\u0027 intersection organizational principal hierarchical structure it would be impossible to define necessary temporal and spatial fidelities for each level of organizational command required for implanting JADC2.  Research deliverables will document the results of the exploration of Joint, COCOM, Agency and Partner Data Strategies approaches as JADC2 interoperability options to the emerging JADC2. We strive for standard JADC2 interface.  Keywords: JADC2, ABMS, DataOne, Information Advantage, Digital Mission Command, IntegrationApproved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N2/N6 - Information Warfar",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71937/NPS-22-N279-A_NRP_ExecSum_Final_Godin.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 145008134,
+      "identifiers": [
+        {
+          "identifier": "565849391",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71937",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71937",
+          "type": "oai"
+        }
+      ],
+      "title": "Naval Integration into Joint Data Strategies and Architectures in JADC2",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71937"
+      ],
+      "publishedDate": "2022-10-22T01:00:00+01:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71937/NPS-22-N279-A_NRP_ExecSum_Final_Godin.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71937/NPS-22-N279-A_NRP_ExecSum_Final_Godin.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008134"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/304644669"
+      ],
+      "createdDate": "2021-08-12T09:34:46+01:00",
+      "dataProviders": [
+        {
+          "id": 15137,
+          "name": "Repository of Faculty of Mechanical Engineering and Naval Architecture University of Zagreb",
+          "url": "https://api.core.ac.uk/v3/data-providers/15137",
+          "logo": "https://api.core.ac.uk/data-providers/15137/logo"
+        }
+      ],
+      "depositedDate": "2020-01-08T12:07:12+00:00",
+      "abstract": "This booklet contains abstracts presented at the First Annual PhD Workshop held at University of Zagreb, Faculty of Mechanical Engineering and Naval Architecture, on July 3, 2015. Annual PhD Workshop is the integral part of new PhD programme of Mechanical Engineering, Naval Architecture, Aeronautical Engineering and Metallurgical Engineering, launched on academic year 2014/15. The new program is jointly developed by two faculties of University of Zagreb, Faculty of Mechanical Engineering and Naval Architecture and Faculty of Metallurgy, in order to enhance efficiency of PhD education, to improve scientific excellence of two faculties as well as to facilitate scientific and research cooperation between the academia and the industry. PhD workshop is aimed to provide forum for exchange of ideas among PhD students, to get all PhD students at one place and to monitor progress of their PhD theses. Workshop should help students to strengthen their presentation skills and unify quality and transparency of PhD theses produced at different modules of PhD programme. Abstract in this booklet are structured in a way to encourage students to write clearly and concisely purposes of their PhD theses in order to bring their research closer to the wide community and even to those who are not specialists in the field. This booklet could be a valuable and relevant reference for PhD students and their mentors as it represents kind of milestone in the progress of their PhDs. It will also be useful for all stakeholders of PhD education to evaluate quality and progress of PhD theses. Finally, it can be useful for the industry in Croatia as it contains in one place most of the research efforts at two faculties. Contributions collected in the booklet of abstracts are from different modules of new PhD study: Process and Energy Engineering (9 contributions), Theory of Structures (6), Mechatronics and Robotics (4), Naval Architecture and Ocean Engineering (3), Industrial Engineering and Management (3), Scientific Metrology in Mechanical Engineering (1) and Computational Mechanics (1). Diversity of these topics clearly indicates broad and rich research interests and activities at the Faculty of Mechanical Engineering and Naval Architecture and Faculty of Metallurgy. It should be mentioned that presently more than 100 students are enrolled in PhD education at two faculties, but only those among them inscribed in new PhD programme are invited to participate at this First Annual PhD Workshop",
+      "documentType": "",
+      "downloadUrl": "",
+      "fieldOfStudy": "info:eu-repo/semantics/conferenceProceedings",
+      "fullText": "Not available for public API users.",
+      "id": 122763564,
+      "identifiers": [
+        {
+          "identifier": "304644669",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:repozitorij.fsb.unizg.hr:fsb_5475",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:repozitorij.fsb.unizg.hr:fsb_5475",
+          "type": "oai"
+        }
+      ],
+      "title": "First annual PhD workshop : PhD study of Mechanical Engineering, Naval Architecture and Metallurgical Engineering book of abstracts",
+      "oaiIds": [
+        "oai:repozitorij.fsb.unizg.hr:fsb_5475"
+      ],
+      "publishedDate": "2015-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [],
+      "updatedDate": "",
+      "yearPublished": 2015,
+      "journals": [],
+      "links": [
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/122763564"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Godin, Arkady A."
+        },
+        {
+          "name": "Green, John M."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849322"
+      ],
+      "createdDate": "2024-04-29T12:52:07+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:19:07+01:00",
+      "abstract": "NPS NRP Project PosterAs Joint capabilities mature and shape into the Joint All Domain C2 Concept, Services, COCOMs and Coalition Partners will need to invest into efforts that would seamlessly integrate into Joint capabilities. The objective for the Navy is to study the options for Navy, including Naval Special Warfare Command under SOCOM, on how to integrate Navy\u0027s data strategy and architecture under the unifying JADC2 umbrella. The other objectives are to explore alternatives considered by the SOCOM and the Air Force, which are responsible for JADC2 Information Advantage and Digital Mission Command \u0026 Control. A major purpose of Joint, Services/COCOMs, agencies and Coalition Partners capabilities is to provide shared core of integrated canonical services for data, information, and knowledge with representations for vertical interoperability across all command levels and JADC2, lateral interoperability between Naval Service/COCOMs, and any combination of JADC2 constituents, agencies, and coalition partners.  Our research plan is to explore available data strategy options by leveraging previous NRP work (NPS-20-N313-A). We will participate in emerging data strategy by Navy JADC2 project Overmatch. By working with MITRE our team will explore Air Force JADC2 data strategy implemented in ABMS DataOne component. Our goal is to find a seamless integration between Naval Data Strategy and data strategies behind JADC2 Information Advantage and Digital Mission Command \u0026 Control capabilities. Our plan includes studying Service-to-Service and Service-to-COCOM interoperability options required for Joint operations with a goal to minimize OODA\u0027s loop latency across sensing, situation discovery \u0026 monitoring, and knowledge understanding-for-planning, deciding, and acting. Our team realizes JADC2 requires virtual model allowing interoperability between subordinate C2 for services, agencies, and partner. Without such flexible \u0027joint\u0027 intersection organizational principal hierarchical structure it would be impossible to define necessary temporal and spatial fidelities for each level of organizational command required for implanting JADC2.  Research deliverables will document the results of the exploration of Joint, COCOM, Agency and Partner Data Strategies approaches as JADC2 interoperability options to the emerging JADC2. We strive for standard JADC2 interface.  Keywords: JADC2, ABMS, DataOne, Information Advantage, Digital Mission Command, IntegrationApproved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N2/N6 - Information Warfar",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71936/NPS-22-N279-A_NPS-Poster_Godin.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 145007910,
+      "identifiers": [
+        {
+          "identifier": "565849322",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71936",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71936",
+          "type": "oai"
+        }
+      ],
+      "title": "Naval Integration into Joint Data Strategies and Architectures in JADC2",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71936"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71936/NPS-22-N279-A_NPS-Poster_Godin.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71936/NPS-22-N279-A_NPS-Poster_Godin.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145007910"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Godin, Arkady A."
+        },
+        {
+          "name": "Green, John M."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849437"
+      ],
+      "createdDate": "2025-05-28T16:05:18+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:19:09+01:00",
+      "abstract": "NPS NRP Technical ReportAs Joint capabilities mature and shape into the Joint All Domain C2 Concept, Services, COCOMs and Coalition Partners will need to invest into efforts that would seamlessly integrate into Joint capabilities. The objective for the Navy is to study the options for Navy, including Naval Special Warfare Command under SOCOM, on how to integrate Navy\u0027s data strategy and architecture under the unifying JADC2 umbrella. The other objectives are to explore alternatives considered by the SOCOM and the Air Force, which are responsible for JADC2 Information Advantage and Digital Mission Command \u0026 Control. A major purpose of Joint, Services/COCOMs, agencies and Coalition Partners capabilities is to provide shared core of integrated canonical services for data, information, and knowledge with representations for vertical interoperability across all command levels and JADC2, lateral interoperability between Naval Service/COCOMs, and any combination of JADC2 constituents, agencies, and coalition partners.  Our research plan is to explore available data strategy options by leveraging previous NRP work (NPS-20-N313-A). We will participate in emerging data strategy by Navy JADC2 project Overmatch. By working with MITRE our team will explore Air Force JADC2 data strategy implemented in ABMS DataOne component. Our goal is to find a seamless integration between Naval Data Strategy and data strategies behind JADC2 Information Advantage and Digital Mission Command \u0026 Control capabilities. Our plan includes studying Service-to-Service and Service-to-COCOM interoperability options required for Joint operations with a goal to minimize OODA\u0027s loop latency across sensing, situation discovery \u0026 monitoring, and knowledge understanding-for-planning, deciding, and acting. Our team realizes JADC2 requires virtual model allowing interoperability between subordinate C2 for services, agencies, and partner. Without such flexible \u0027joint\u0027 intersection organizational principal hierarchical structure it would be impossible to define necessary temporal and spatial fidelities for each level of organizational command required for implanting JADC2.  Research deliverables will document the results of the exploration of Joint, COCOM, Agency and Partner Data Strategies approaches as JADC2 interoperability options to the emerging JADC2. We strive for standard JADC2 interface.  Keywords: JADC2, ABMS, DataOne, Information Advantage, Digital Mission Command, IntegrationApproved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N2/N6 - Information Warfar",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71938/NPS-22-N279-A_NRP-TechReport_NPS-IS-22-003_Godin.pdf?sequence\u003d1",
+      "fieldOfStudy": "Technical Report",
+      "fullText": "Not available for public API users.",
+      "id": 145008171,
+      "identifiers": [
+        {
+          "identifier": "565849437",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71938",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71938",
+          "type": "oai"
+        }
+      ],
+      "title": "Naval Integration into Joint Data Strategies and Architectures in JADC2",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71938"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71938/NPS-22-N279-A_NRP-TechReport_NPS-IS-22-003_Godin.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71938/NPS-22-N279-A_NRP-TechReport_NPS-IS-22-003_Godin.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008171"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Maule,  Randy W."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/694281097"
+      ],
+      "createdDate": "2025-11-20T02:03:57+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2025-11-20T02:03:57+00:00",
+      "abstract": "NPS NRP Executive SummaryThis study extends previous naval and private sector distance-training research to evaluate systems and methods to support electronic training delivery for Naval Education \u0026 Training Command (NETC), Center for Seabees and Facilities Engineering (CSFE), Civil Engineer Corps Officers School (CECOS). We examined architecture variables and strategies, including naval service architecture, the Total Learning Architecture (TLA), Ready Relevant Learning (RRL), tactical cloud, and NETC Information Technology (IT) Modernization Roadmap. We presented options for hardware architecture and software training design to support CECOS in-service schoolhouse and distance training.Approved for public release. Distribution is unlimited.This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N1 - Manpower, Personnel, Training \u0026 Educatio",
+      "documentType": "",
+      "downloadUrl": "",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 312749522,
+      "identifiers": [
+        {
+          "identifier": "694281097",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74405",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74405",
+          "type": "oai"
+        }
+      ],
+      "title": "Modernized Training Technologies and Distance Learning Strategies",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/74405"
+      ],
+      "publishedDate": "2023-10-21T01:00:00+01:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [],
+      "updatedDate": "",
+      "yearPublished": 2023,
+      "journals": [],
+      "links": [
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/312749522"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Gallup, Shelley"
+        },
+        {
+          "name": "Wood, Brian"
+        },
+        {
+          "name": "MacKinnon, Douglas"
+        },
+        {
+          "name": "Garza, Victor R."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849561"
+      ],
+      "createdDate": "2025-02-28T14:49:11+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:18:38+01:00",
+      "abstract": "NPS NRP Project PosterThe Networked Airborne ISR\u0026T Long Endurance - Communications Architecture (NAILE-CA) concept provides a long-haul unmanned aircraft system (UAS) sensor constellation for intelligence, surveillance, reconnaissance and targeting (ISR\u0026T). NAILE-CA does not have network specifics to provide determination of the bandwidth, data links, apertures, compute, security, and autonomy requirements. Through analysis of current radio and networking technologies, we simulated how to optimize network traffic for the NAILE-CA concept. We found by completing a thorough analysis of sensor network traffic and correlation of data we were able to proffer recommendations on optimizing network links. These recommendations include: The NAILE concept can essentially be called a Flying Ad Hoc Network (FANET), which has a specific topology and can be modeled and analyzed. We have found that four common routing algorithms can be used to connect the unmanned aerial vehicles (UAVs) in the FANET and maintain the necessary communication links. To improve the performance of the FANET in NAILE, we recommend using a directional antenna and adding location and direction information to the routing algorithm. We also need an efficient and reliable routing algorithm that can find the best routes between the UAVs and recover quickly when a UAV is replaced due to flight endurance limitations. We have found that certain algorithms are better at building and maintaining routes quickly, according to our models. In addition, the UAVs in NAILE will need to be able to carry large payloads and have good power efficiency to extend their flight endurance. Using a directional antenna on the UAVs will help conserve power and improve the performance of the FANET in NAILE.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Commander, Naval Information Forces (COMNAVIFOR)U.S. Fleet Forces Command (USFF",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71901/NPS-22-N234-A_NRP-Poster_Garza.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 145008048,
+      "identifiers": [
+        {
+          "identifier": "565849561",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71901",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71901",
+          "type": "oai"
+        }
+      ],
+      "title": "Networked Airborne ISR\u0026T Long Endurance - Communications Architecture (NAILE-CA)",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71901"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71901/NPS-22-N234-A_NRP-Poster_Garza.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71901/NPS-22-N234-A_NRP-Poster_Garza.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008048"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Gallup, Shelley"
+        },
+        {
+          "name": "Wood, Brian"
+        },
+        {
+          "name": "MacKinnon, Douglas"
+        },
+        {
+          "name": "Garza, Victor R."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849403"
+      ],
+      "createdDate": "2025-02-28T15:18:43+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:18:38+01:00",
+      "abstract": "NPS NRP Executive SummaryThe Networked Airborne ISR\u0026T Long Endurance - Communications Architecture (NAILE-CA) concept provides a long-haul unmanned aircraft system (UAS) sensor constellation for intelligence, surveillance, reconnaissance and targeting (ISR\u0026T). NAILE-CA does not have network specifics to provide determination of the bandwidth, data links, apertures, compute, security, and autonomy requirements. Through analysis of current radio and networking technologies, we simulated how to optimize network traffic for the NAILE-CA concept. We found by completing a thorough analysis of sensor network traffic and correlation of data we were able to proffer recommendations on optimizing network links. These recommendations include: The NAILE concept can essentially be called a Flying Ad Hoc Network (FANET), which has a specific topology and can be modeled and analyzed. We have found that four common routing algorithms can be used to connect the unmanned aerial vehicles (UAVs) in the FANET and maintain the necessary communication links. To improve the performance of the FANET in NAILE, we recommend using a directional antenna and adding location and direction information to the routing algorithm. We also need an efficient and reliable routing algorithm that can find the best routes between the UAVs and recover quickly when a UAV is replaced due to flight endurance limitations. We have found that certain algorithms are better at building and maintaining routes quickly, according to our models. In addition, the UAVs in NAILE will need to be able to carry large payloads and have good power efficiency to extend their flight endurance. Using a directional antenna on the UAVs will help conserve power and improve the performance of the FANET in NAILE.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Commander, Naval Information Forces (COMNAVIFOR)U.S. Fleet Forces Command (USFF",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71900/NPS-22-N234-A_NRP_ExecSum-Final_Garza.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 145008080,
+      "identifiers": [
+        {
+          "identifier": "565849403",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71900",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71900",
+          "type": "oai"
+        }
+      ],
+      "title": "Networked Airborne ISR\u0026T Long Endurance - Communications Architecture (NAILE-CA)",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71900"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71900/NPS-22-N234-A_NRP_ExecSum-Final_Garza.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71900/NPS-22-N234-A_NRP_ExecSum-Final_Garza.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008080"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Singh, Gurminder"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/672543968"
+      ],
+      "createdDate": "2025-09-23T03:03:53+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2025-09-23T03:03:53+01:00",
+      "abstract": "NPS NRP Executive SummaryZero Trust Architecture (ZTA) security was adopted by the DOD (Freter, 2022; DISA, 2022), pursuant to the Presidential Executive Order on 12 May 2021 (Biden, 2021). The framework and implementation of ZTA by the DOD is currently at an early stage of development for many use cases. This research project evaluates zero trust (ZT) implementation from three separate perspectives: • Navy shipboard ZT, as it relates to the Consolidated Afloat Network Enterprise System (CANES), focusing on user continuous authentication (CA) (Dodd, 2023). • U.S. Marine Corp ground units at the tactical edge (ATE), addressing key architectural features to address ZT requirements (Oshiro, 2023). • Joint coalition forces ZT at the tactical level; ongoing thesis research by Thomas Schmitt, completion estimated September 2024. The key finding for Navy adoption of ZT for CANES is that the initial best course of action is to assess what current software and hardware systems would work best in situ before implementing full ZTA. A micro-segmentation next generation firewall was assessed along with CA software. A suitable candidate software, TypingDNA ActiveLock (TypingDNA, n.d.), was determined based on Navy afloat needs, which, in a preliminary assessment, was found to work well for CA. The key finding for the USMC ATE research, after investigating and assessing the security requirements using Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege (STRIDE) (Meier et al., 2003) and tactical edge mission requirements, was a base framework that can be used for Tactical Zero Trust Architecture (TZTA). This framework was assessed against various tactical edge mission types, and other necessary framework parts were determined to be added to the base framework. The final study focusing on ZTA in sharing of information with coalition partners is not yet completed.Approved for public release. Distribution is unlimited.This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N2/N6 - Information Warfar",
+      "documentType": "",
+      "downloadUrl": "",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 303065977,
+      "identifiers": [
+        {
+          "identifier": "672543968",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74306",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74306",
+          "type": "oai"
+        }
+      ],
+      "title": "Implementing Zero Trust Architecture on Tactical Edge Computing Environments",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/74306"
+      ],
+      "publishedDate": "2023-12-28T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [],
+      "updatedDate": "",
+      "yearPublished": 2023,
+      "journals": [],
+      "links": [
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/303065977"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Godin, Arkady"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/343435937"
+      ],
+      "createdDate": "2024-04-29T12:52:16+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2021-04-14T19:02:26+01:00",
+      "abstract": "Naval Research Program PosterApproved for public release; distribution is unlimited.NPS-18-M173-",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/64396/NRWG19_NPS-18-M173-B_NPS_NRP_Poster_Godin.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 95297139,
+      "identifiers": [
+        {
+          "identifier": "343435937",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/64396",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/64396",
+          "type": "oai"
+        }
+      ],
+      "title": "A Big Data Architecture in Support of the Running Estimate",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/64396"
+      ],
+      "publishedDate": "",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/64396/NRWG19_NPS-18-M173-B_NPS_NRP_Poster_Godin.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2018,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/64396/NRWG19_NPS-18-M173-B_NPS_NRP_Poster_Godin.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/95297139"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Horner, Douglas P."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/528267435",
+        "https://api.core.ac.uk/v3/outputs/528269535"
+      ],
+      "createdDate": "2024-04-29T12:52:08+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2022-06-22T19:24:04+01:00",
+      "abstract": "NPS NRP Project PosterThe combination of unmanned systems and Artificial Intelligence/Machine Learning (AI/ML) provides a methodology to significantly improve NAVSPECWAR (NSW) operations. This proposal focuses on evaluating an augmented, collaborative, unmanned systems architecture as a force multiplier for NSW expeditionary warfare mission objectives. The goal is to analyze the proposed architecture for increasing combat effectiveness by minimizing the management and coordination through advanced AI/ML techniques.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Naval Special Warfare Command (NAVSPECWARCOM)N7 - Warfighting Developmen",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/69886/NPS-21-N105-C_NRP-Poster_Horner.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 125179021,
+      "identifiers": [
+        {
+          "identifier": "528267435",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69886",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "528269535",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69885",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69886",
+          "type": "oai"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69885",
+          "type": "oai"
+        }
+      ],
+      "title": "Shoot, Move and Communicate - Increasing NSW mission effectiveness through AI/ML augmented unmanned systems",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/69886",
+        "oai:calhoun.nps.edu:10945/69885"
+      ],
+      "publishedDate": "2021-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/69886/NPS-21-N105-C_NRP-Poster_Horner.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2021,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/69886/NPS-21-N105-C_NRP-Poster_Horner.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/125179021"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Godin, Arkady A."
+        },
+        {
+          "name": "Miller, Scot A."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/528268845",
+        "https://api.core.ac.uk/v3/outputs/528269347"
+      ],
+      "createdDate": "2024-04-29T12:52:18+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2022-06-22T19:24:07+01:00",
+      "abstract": "NPS NRP Executive SummaryThe Naval Special Warfare Command (NAVSPECWARCOM) needs to envision and design a C5I systems architecture so hyper-networked that SOF personnel will acquire emergent and disaggregate information, plan/decide/act faster; and use disruptive technologies to create decisive effects in all domains. Adopting Digital Mission Command (DMC) in Joint All Domain Command \u0026 Control (JADC2) environment assures asymmetric advantage for SA, decision timeliness and knowledge ubiquity. Our prime research objective advances this by designing a \"SA knowledge\" service, an adaptive service closing a feedback loop between the dynamic world view and an operator\u0027s decision space over this view. The aim is to address the customer\u0027s research objective which is dynamically managing discerning workflows at the tactical edge. The approach on this study will define major functional requirements for the disruptive storage. This will include exploring the suitability of multi-dimensional cubes storage for DMC of the Future. Our research team will envision how to represent battlespace situations via graph data models using events to make it adaptive to the world view. We\u0027ll also delve into multiple contexts available for a given situation. Finally, we\u0027ll explore an idea of a \"world state\" for a given situations, and how to use \"action\" events to present dynamic world model by moving from one \"world state\" to the other. The results of studying current and envisioned architectures to ensure alignment must be captured in IPR presentations and a final report. They will include proposed C5I architecture based on disruptive technologies with recommendations for envisioned capabilities that satisfy future requirements. Our research will ensure proposed C5I architecture will be scalable and extensible.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Naval Special Warfare Command (NAVSPECWARCOM)N7 - Warfighting Developmen",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/69796/NPS-21-N108-A_NRP_ExecSum_Final-Godin.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 125202263,
+      "identifiers": [
+        {
+          "identifier": "528268845",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69796",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "528269347",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69797",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69796",
+          "type": "oai"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69797",
+          "type": "oai"
+        }
+      ],
+      "title": "Digital Mission Command in the Joint Force Operations",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/69796",
+        "oai:calhoun.nps.edu:10945/69797"
+      ],
+      "publishedDate": "2021-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/69796/NPS-21-N108-A_NRP_ExecSum_Final-Godin.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2021,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/69796/NPS-21-N108-A_NRP_ExecSum_Final-Godin.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/125202263"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Kamel, Magdi"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/343434689"
+      ],
+      "createdDate": "2024-04-29T12:53:32+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2021-04-14T19:02:16+01:00",
+      "abstract": "Naval Research Program PosterN16-N320-ANaval Research ProgramN1 – Manpower, Personnel, Training and Educatio",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/56301/Kamel_NPS_N16-N320-A_Poster.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 95297137,
+      "identifiers": [
+        {
+          "identifier": "343434689",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/56301",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/56301",
+          "type": "oai"
+        }
+      ],
+      "title": "Development of a Big Data Application Architecture for Navy MPTE",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/56301"
+      ],
+      "publishedDate": "2016-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/56301/Kamel_NPS_N16-N320-A_Poster.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2016,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/56301/Kamel_NPS_N16-N320-A_Poster.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/95297137"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Phelps, Ronald L."
+        },
+        {
+          "name": "Lan, Wenschel D."
+        },
+        {
+          "name": "Savattone, James A."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849537"
+      ],
+      "createdDate": "2025-02-28T14:10:47+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:18:24+01:00",
+      "abstract": "NPS NRP Project PosterChief of Naval Operations, ADM Gilday, and Commandant of the Marine Corps, Gen Berger, directed modernization efforts across the Naval Services. The concept of Naval Operational Architecture (NOA) enables the development of additional beyond-line-of-sight (BLOS) targeting and fires delivered from widely distributed points within and outside a near-peer\u0027s weapons engagement zones (WEZ). Research into proliferated low-earth orbiting communications satellites (pLEO) reveal an intersection with the Joint All Domain Command and Control (JADC2) priority and the Navy and Marine components leveraging efforts such as Task Force Overmatch (DEVSECOPS). There is an immediate need to develop requirements and analyze alternate architectures for delivering BLOS precision fires in future contested environments in the context of Great Power Competition. Faculty experience with space mission architecture design will be leveraged to advise students in achieving the following objectives: 1) Research and develop operational, functional objective and threshold requirements for a proliferated LEO systems within the JADC2 framework to enable BLOS precision fires. 2) Analyze alternative architectures for the requirements which enable BLOS precision fires in a contested environment. A phased approach will be used to meet the research objectives. First, a capabilities or system requirements-like document will be generated to include validation criteria and in-phase lessons learned. Second, standard aerospace modeling/simulation techniques will be used to define the mission and architecture requirements and analyze the alternatives for architectures enabling BLOS precision fires through a contested environment to include in-phase lessons learned. Third, individual student thesis research will occur to completion/graduation of the students and any final closing actions through the remainder of the project period.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Naval Special Warfare Command (NAVSPECWARCOM)N9 - Warfare System",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71879/NPS-22-N192-A_NRP-Poster_Lan.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 145008072,
+      "identifiers": [
+        {
+          "identifier": "565849537",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71879",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71879",
+          "type": "oai"
+        }
+      ],
+      "title": "Bento Box—Modular/Recoverable Stratospheric Balloon Capabilities to Support Distributed Maritime Operations",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71879"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71879/NPS-22-N192-A_NRP-Poster_Lan.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71879/NPS-22-N192-A_NRP-Poster_Lan.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008072"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Nissen, Mark E."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/528266939",
+        "https://api.core.ac.uk/v3/outputs/528267946"
+      ],
+      "createdDate": "2024-04-29T12:52:11+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2022-06-22T17:22:13+01:00",
+      "abstract": "NPS NRP Executive SummaryAs a key tenet of readiness, it is important to know, measure, and understand unit-level proficiency and individual career proficiency. This is especially relevant in trying to assess the seamanship of surface warfare officers (SWOs). This research works to develop a knowledge management (KM) approach in order to enable real-time tracking and future forecasting of SWO proficiency. The KM approach will be developed to enhance quality design characteristics such as intuitive operation, natural data entry, agility, and global reach.Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)Commander, Naval Surface Forces (CNSF",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/70041/NPS-19-N156-A_NRP_ExecSum-Final_Nissen.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 125178727,
+      "identifiers": [
+        {
+          "identifier": "528266939",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/70041",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "528267946",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/70042",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/70041",
+          "type": "oai"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/70042",
+          "type": "oai"
+        }
+      ],
+      "title": "Surface Warfare Proficiency Knowledge Management Architecture",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/70041",
+        "oai:calhoun.nps.edu:10945/70042"
+      ],
+      "publishedDate": "",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/70041/NPS-19-N156-A_NRP_ExecSum-Final_Nissen.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2019,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/70041/NPS-19-N156-A_NRP_ExecSum-Final_Nissen.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/125178727"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Seagren, Chad W."
+        },
+        {
+          "name": "Reich, Daniel"
+        },
+        {
+          "name": "Bacolod, Marigee"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849547"
+      ],
+      "createdDate": "2024-04-29T12:52:23+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:17:46+01:00",
+      "abstract": "NPS NRP Project PosterIn his planning guidance, the Commandant states \"We will... accelerate our transformation from disconnected legacy systems to an integrated data architecture that treats data as it should be - a critical resource.\" This project is a bold step in support of that transformation for Manpower \u0026 Reserve Affairs (M\u0026RA). M\u0026RA possesses numerous mathematical models that support the management of the Human Resources Development Process (HRDP). Our approach will demonstrate how M\u0026RA can leverage the latest technology in data architecture and decision support models to overcome these deficiencies. We will formulate modernized versions of models to fill the roles currently held by the Total Force Planning Model (TFPM) and the Enlisted End-Strength Planning Model (ESPM). In addition, we will formulate a model to analyze changes in structure that currently has no legacy counterpart. Finally, we will thoroughly plan and describe the data architecture in which they reside. We will answer the following questions: 1. To what extent may we integrate a group manpower models into a family of interconnected modern models that share a data architecture scheme in order to improve planning and the human-machine teaming with analysts? 2. To what extent may the answer to (1) provide a template to modernize the rest of the system?Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)HQMC Manpower and Reserve Affairs (M\u0026RA",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71797/NPS-22-M205-A_NRP-Poster_Seagren.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 145008055,
+      "identifiers": [
+        {
+          "identifier": "565849547",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71797",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71797",
+          "type": "oai"
+        }
+      ],
+      "title": "M\u0026RA Manpower Models Modernization",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71797"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71797/NPS-22-M205-A_NRP-Poster_Seagren.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71797/NPS-22-M205-A_NRP-Poster_Seagren.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008055"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Seagren, Chad W."
+        },
+        {
+          "name": "Reich, Daniel"
+        },
+        {
+          "name": "Bacolod, Marigee"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/565849554"
+      ],
+      "createdDate": "2024-04-29T12:52:23+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2023-04-21T00:17:46+01:00",
+      "abstract": "NPS NRP Executive SummaryIn his planning guidance, the Commandant states \"We will... accelerate our transformation from disconnected legacy systems to an integrated data architecture that treats data as it should be - a critical resource.\" This project is a bold step in support of that transformation for Manpower \u0026 Reserve Affairs (M\u0026RA). M\u0026RA possesses numerous mathematical models that support the management of the Human Resources Development Process (HRDP). Our approach will demonstrate how M\u0026RA can leverage the latest technology in data architecture and decision support models to overcome these deficiencies. We will formulate modernized versions of models to fill the roles currently held by the Total Force Planning Model (TFPM) and the Enlisted End-Strength Planning Model (ESPM). In addition, we will formulate a model to analyze changes in structure that currently has no legacy counterpart. Finally, we will thoroughly plan and describe the data architecture in which they reside. We will answer the following questions: 1. To what extent may we integrate a group manpower models into a family of interconnected modern models that share a data architecture scheme in order to improve planning and the human-machine teaming with analysts? 2. To what extent may the answer to (1) provide a template to modernize the rest of the system?Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)HQMC Manpower and Reserve Affairs (M\u0026RA",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/71796/NPS-22-M205-A_NRP_ExecSum-Final-Seagren.pdf?sequence\u003d1",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 145008064,
+      "identifiers": [
+        {
+          "identifier": "565849554",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71796",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/71796",
+          "type": "oai"
+        }
+      ],
+      "title": "M\u0026RA Manpower Models Modernization",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/71796"
+      ],
+      "publishedDate": "2022-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/71796/NPS-22-M205-A_NRP_ExecSum-Final-Seagren.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2022,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/71796/NPS-22-M205-A_NRP_ExecSum-Final-Seagren.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/145008064"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Jasper, Scott"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/694280942"
+      ],
+      "createdDate": "2025-11-19T02:00:50+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2025-11-19T02:00:50+00:00",
+      "abstract": "NPS NRP Executive SummaryThe adoption of Zero Trust principles and capabilities into deployed networks is a top priority for the military services. In order to achieve the ambitious goal of operating on a Zero Trust-based cybersecurity architecture by 2027, the Navy procured the Naval Identity Services (NIS) solution for authentication and authorization. In 2024 and 2025, the Naval Postgraduate School studied and analyzed the integration of the NIS solution in United States Marine Corps (USMC) simulated tactical network environments.Approved for public release. Distribution is unlimited.This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)HQMC Information (DCI",
+      "documentType": "",
+      "downloadUrl": "",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 312751312,
+      "identifiers": [
+        {
+          "identifier": "694280942",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74399",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74399",
+          "type": "oai"
+        }
+      ],
+      "title": "Tactical Authentication and Authorization",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/74399"
+      ],
+      "publishedDate": "2025-03-26T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [],
+      "updatedDate": "",
+      "yearPublished": 2025,
+      "journals": [],
+      "links": [
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/312751312"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Russo, Paul John."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/36735236"
+      ],
+      "createdDate": "2024-04-29T11:32:49+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2017-03-21T00:00:00+00:00",
+      "abstract": "The advent of personal computers, workstations, and multiple interconnected Local Area Networks at the Naval Postgraduate School (NPS), Monterey, California, has resulted in significant distribution, redundancy, and fragmentation of the data elements and databases necessary to effectively manage the organization. This thesis addresses this issue by accomplishing the following two goals. First, it develops a high-level model of the organization\u0027s information architecture through the use of the Information Engineering methodology, with· automated support from the Texas Instruments\u0027 Integrated Computer Aided Software Engineering (I-CASE) tool Information Engineering FacilityTM (IEFTM). Based on the high-level model it then provides an analysis of data management architecture alternatives to address the current problems. The thesis main recommendation is for the implementation of a client/server information processing architecture at NPS. The enterprise and information architecture analyses provide additional recommendations to improve the current NPS organizational structure.Approved for public release; distribution is unlimited.U.S. Navy (USN) authorhttp://archive.org/details/aninformationrch109454301",
+      "documentType": "",
+      "downloadUrl": "http://calhoun.nps.edu/bitstream/handle/10945/43019/94Sep_Russo.pdf?sequence\u003d3\u0026isAllowed\u003dy",
+      "fieldOfStudy": "Thesis",
+      "fullText": "Not available for public API users.",
+      "id": 21361737,
+      "identifiers": [
+        {
+          "identifier": "36735236",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/43019",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/43019",
+          "type": "oai"
+        }
+      ],
+      "title": "An information architecture for the Naval Postgraduate School enterprise",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/43019"
+      ],
+      "publishedDate": "",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "http://calhoun.nps.edu/bitstream/handle/10945/43019/94Sep_Russo.pdf?sequence\u003d3\u0026isAllowed\u003dy"
+      ],
+      "updatedDate": "",
+      "yearPublished": 1994,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "http://calhoun.nps.edu/bitstream/handle/10945/43019/94Sep_Russo.pdf?sequence\u003d3\u0026isAllowed\u003dy"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/21361737"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Kendall, Tony"
+        },
+        {
+          "name": "Mooren, Emily"
+        },
+        {
+          "name": "Johnson, Bonnie"
+        },
+        {
+          "name": "Zhao, Ying"
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/343437131",
+        "https://api.core.ac.uk/v3/outputs/343437641"
+      ],
+      "createdDate": "2024-04-29T12:52:20+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2021-04-14T19:02:42+01:00",
+      "abstract": "Naval Research Program PosterNPS-N16-N273-ANaval Research ProgramN2/N6, National Maritime Intelligence Cente",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/56364/Zhao_NPS-N16-N273-A_Poster.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 95297830,
+      "identifiers": [
+        {
+          "identifier": "343437131",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/56364",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "343437641",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/57743",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/56364",
+          "type": "oai"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/57743",
+          "type": "oai"
+        }
+      ],
+      "title": "Applying the Soar Architecture to Model Cognitive Functions in a Kill Chain",
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/56364",
+        "oai:calhoun.nps.edu:10945/57743"
+      ],
+      "publishedDate": "2016-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/56364/Zhao_NPS-N16-N273-A_Poster.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2016,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/56364/Zhao_NPS-N16-N273-A_Poster.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/95297830"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Maule, Randy W."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/528267884",
+        "https://api.core.ac.uk/v3/outputs/528268540"
+      ],
+      "createdDate": "2024-04-29T12:52:10+01:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2022-06-22T19:24:03+01:00",
+      "abstract": "NPS NRP Project PosterIn A Design for Maintaining Maritime Superiority, Version 2 the CNO called for the design of a comprehensive operational architecture for Distributed Maritime Operations (DMO): (a) tactical grid to connect distributed nodes; (b) data storage, processing, and technology at the nodes; (c) an overarching data strategy; and (d) analytic tools including artificial intelligence/machine learning (AI/ML). This project informs DMO objectives with technical designs for hardware, software, processing and AI/ML at the tactical edge. The Naval S\u0026T Strategic Plan identifies Warfighter Performance to ensure readiness through information processing. System capability and information processing frameworks will support officer DMO qualification. Joint Cross-service Research Project ID NPS-21-J087-A (combines topics NPS-21-M187, NPS-21-N087, and NPS-21-N372)Approved for public release. Distribution is unlimited. This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE 0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)U.S. Fleet Forces Command (USFF)N2/N6 - Information WarfareMarine Corps Forces Command (COMMARFORCOM)II Marine Expeditionary Forc",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstream/handle/10945/69799/NPS-21-J087-A_NRP-Poster_Maule.pdf?sequence\u003d1",
+      "fieldOfStudy": "Poster",
+      "fullText": "Not available for public API users.",
+      "id": 125178874,
+      "identifiers": [
+        {
+          "identifier": "528267884",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69799",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "528268540",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69798",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69799",
+          "type": "oai"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/69798",
+          "type": "oai"
+        }
+      ],
+      "title": "DMO Tactical Grid Edge Processing, Mission Analytics, Officer Qualification",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/69799",
+        "oai:calhoun.nps.edu:10945/69798"
+      ],
+      "publishedDate": "2021-01-01T00:00:00+00:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstream/handle/10945/69799/NPS-21-J087-A_NRP-Poster_Maule.pdf?sequence\u003d1"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2021,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstream/handle/10945/69799/NPS-21-J087-A_NRP-Poster_Maule.pdf?sequence\u003d1"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/125178874"
+        }
+      ]
+    },
+    {
+      "acceptedDate": "",
+      "authors": [
+        {
+          "name": "Russell, James A."
+        },
+        {
+          "name": "Huntley, Wade L."
+        }
+      ],
+      "citationCount": 0,
+      "contributors": [],
+      "outputs": [
+        "https://api.core.ac.uk/v3/outputs/694281025"
+      ],
+      "createdDate": "2025-11-25T02:06:10+00:00",
+      "dataProviders": [
+        {
+          "id": 910,
+          "name": "Calhoun, Institutional Archive of the Naval Postgraduate School",
+          "url": "https://api.core.ac.uk/v3/data-providers/910",
+          "logo": "https://api.core.ac.uk/data-providers/910/logo"
+        }
+      ],
+      "depositedDate": "2025-11-25T02:06:10+00:00",
+      "abstract": "NPS NRP Executive SummaryAs currently envisioned, Fleet Design 2.0 (and beyond) ensures that long-range planning processes will help guide decision-making on fleet architecture. This may dramatically change the shape and content of the Navy’s fleet – which today remains based on legacy platforms and concepts of employment rooted in the experiences of the Cold War and World War II. Fleet Design 2.0 must respond to evolving geopolitics while integrating advances in technologies, and producing at scale within the nation\u0027s industrial base. This project analyzes the intersection between long-term strategic planning and the features of the industrial base that may affect force regeneration and sustainment in peace and in war. Inherent characteristics of the industrial base should figure prominently in helping to support decision-making that will determine the shape of fleet architecture, which itself must be tied to a coherent theory of war. This project seeks to unpack and operationalize considerations surrounding the industrial base in the Fleet Design 2.0 planning process. The report emphasizes an historical perspective as illustrative in developing ways of breaking down these issues for the U.S. Navy to sort through as it prepares to more coherently link its fleet architecture with war plans and regeneration.Approved for public release. Distribution is unlimited.This research is supported by funding from the Naval Postgraduate School, Naval Research Program (PE0605853N/2098). https://nps.edu/nrpChief of Naval Operations (CNO)N7 - Warfighting Developmen",
+      "documentType": "",
+      "downloadUrl": "https://calhoun.nps.edu/bitstreams/a6f355ae-1505-432c-9bdd-afe55374e6a1/download",
+      "fieldOfStudy": "Report",
+      "fullText": "Not available for public API users.",
+      "id": 312743546,
+      "identifiers": [
+        {
+          "identifier": "694281025",
+          "type": "core_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74438",
+          "type": "oai_id"
+        },
+        {
+          "identifier": "oai:calhoun.nps.edu:10945/74438",
+          "type": "oai"
+        }
+      ],
+      "title": "Design, Force Regeneration, and Strategic Planning",
+      "oaiIds": [
+        "oai:calhoun.nps.edu:10945/74438"
+      ],
+      "publishedDate": "2025-03-31T01:00:00+01:00",
+      "publisher": "",
+      "references": [],
+      "sourceFulltextUrls": [
+        "https://calhoun.nps.edu/bitstreams/a6f355ae-1505-432c-9bdd-afe55374e6a1/download"
+      ],
+      "updatedDate": "",
+      "yearPublished": 2025,
+      "journals": [],
+      "links": [
+        {
+          "type": "download",
+          "url": "https://calhoun.nps.edu/bitstreams/a6f355ae-1505-432c-9bdd-afe55374e6a1/download"
+        },
+        {
+          "type": "display",
+          "url": "https://core.ac.uk/works/312743546"
+        }
+      ]
+    }
+  ],
+  "searchId": "d8e1ee8100bc19720e8da297716313ac"
+}
