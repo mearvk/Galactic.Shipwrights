@@ -2,12 +2,8 @@ package utils;
 
 public class GalacticShipwright implements Runnable
 {
-    private DictionaryProfiler dictionaryProfiler;
-
-    public GalacticShipwright(DictionaryProfiler dictionaryProfiler)
-    {
-        this.dictionaryProfiler = dictionaryProfiler;
-    }
+    public static GalacticShipwright SELF;
+    public static final Bridge BRIDGE = new Bridge();
 
     @Override
     public void run()
@@ -16,7 +12,7 @@ public class GalacticShipwright implements Runnable
         new Reacher().reach();
 
         // Run DictionaryProfiler to catalog words and definitions
-        dictionaryProfiler.profile();
+        BRIDGE.DICTIONARYPROFILER.profile();
 
         // Train the Speculator if not already trained
         SpeculatorTrainer trainer = new SpeculatorTrainer();
@@ -34,5 +30,23 @@ public class GalacticShipwright implements Runnable
         new Speculator().speculate();
 
         System.out.println("[GalacticShipwright] Complete.");
+    }
+
+    public static class Bridge
+    {
+        public DictionaryProfiler DICTIONARYPROFILER;
+        public GuildServer GUILDSERVER;
+
+        public void start()
+        {
+            // Register shutdown hooks
+            Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+                System.out.println("[Bridge] Shutdown - saving dictionary...");
+                if (DICTIONARYPROFILER != null) DICTIONARYPROFILER.saveDictionary();
+            }, "ShutdownHook-Dictionary"));
+
+            // Start GuildServer
+            GuildServer.startAll();
+        }
     }
 }
