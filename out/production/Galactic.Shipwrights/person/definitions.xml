@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="person">
+    <definition language="English" period="c.1200">
+        <word>person</word>
+        <meaning>A human being, any individual; an individual's character or part played in life</meaning>
+        <origin>From Old French persone, from Latin persona</origin>
+    </definition>
+    <definition language="Latin" period="classical">
+        <word>persona</word>
+        <meaning>Actor's mask; character in a play; human being, individual; assumed identity</meaning>
+        <origin>Possibly from Etruscan phersu "mask". Traditional folk etymology connects to personare "to sound through" (mask amplifying voice), but the long 'o' makes this unlikely.</origin>
+    </definition>
+    <definition language="Etruscan" period="ancient">
+        <word>phersu</word>
+        <meaning>Mask (theatrical or ceremonial)</meaning>
+        <note>Probable ultimate origin of Latin persona</note>
+    </definition>
+    <definition language="Old French" period="12c">
+        <word>persone</word>
+        <meaning>Human being, any person, individual</meaning>
+        <origin>From Latin persona</origin>
+    </definition>
+    <definition language="Medieval Latin (ecclesiastical)" period="mid-13c">
+        <word>persona</word>
+        <meaning>One of the persons of the Trinity; parish priest, parson</meaning>
+        <usage>Theological use; also applied to a clergyman holding church office</usage>
+    </definition>
+    <definition language="Late Latin" period="post-classical">
+        <word>personalis</word>
+        <meaning>Pertaining to a person, individual, private</meaning>
+    </definition>
+    <definition language="Irish Gaelic" period="modern">
+        <word>duine / pearsa</word>
+        <meaning>duine: person, human being (native term); pearsa: person (borrowed from Latin/English)</meaning>
+        <origin>duine from Old Irish duine, from Proto-Celtic *doniyo- "person"</origin>
+    </definition>
+    <definition language="Proto-Indo-European" period="ancient">
+        <word>*sekw- (related root)</word>
+        <meaning>"To follow" — root of socius (companion), relevant to person as social being</meaning>
+    </definition>
+    <definition language="Italian" period="medieval">
+        <word>persona</word>
+        <meaning>Person, individual; character; body</meaning>
+        <origin>Directly from Latin persona</origin>
+    </definition>
+</definitions>

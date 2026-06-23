@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="swain">
+    <definition language="English (Middle English)" period="mid-12c">
+        <word>swein / swain</word>
+        <meaning>Young man attendant upon a knight; servant; peasant; later a rustic lover, suitor</meaning>
+        <origin>From Old Norse sveinn "boy, servant, attendant"</origin>
+    </definition>
+    <definition language="Old Norse" period="pre-1492">
+        <word>sveinn</word>
+        <meaning>Boy, lad, servant, attendant</meaning>
+        <origin>From Proto-Germanic *swainaz "attendant, servant," properly "one's own (man)"</origin>
+        <etymology>From PIE *swoi-no-, from root *s(w)e- "oneself, alone, apart"</etymology>
+    </definition>
+    <definition language="Proto-Germanic" period="ancient">
+        <word>*swainaz</word>
+        <meaning>Attendant, servant; one's own man; relative, young man</meaning>
+        <origin>From PIE *swoi-no- from root *s(w)e- "oneself"</origin>
+        <cognates>Old English swān (swineherd), Gothic swain</cognates>
+    </definition>
+    <definition language="Old English" period="pre-1492">
+        <word>swān</word>
+        <meaning>Swineherd, herdsman, peasant</meaning>
+        <origin>Related to Old Norse sveinn; also attested as personal name Swein, Sweġen</origin>
+    </definition>
+    <definition language="English (poetic)" period="1500s onwards">
+        <word>swain</word>
+        <meaning>A young lover, suitor; a rustic or pastoral admirer</meaning>
+        <usage>Common in pastoral poetry to denote a young man in love</usage>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>giolla / gille</word>
+        <meaning>Boy, servant, attendant (near-fit for swain's servant meaning)</meaning>
+        <origin>From Old Irish gilla "servant, youth"</origin>
+        <note>Mac Suibhne (McSwain) is an Irish Gaelic surname sometimes confused with Swain</note>
+    </definition>
+    <definition language="Scottish Gaelic" period="pre-1492">
+        <word>gille</word>
+        <meaning>Boy, servant, attendant; lad</meaning>
+        <note>Primary meaning is servant/attendant, paralleling Norse sveinn</note>
+    </definition>
+    <definition language="Proto-Indo-European" period="ancient">
+        <word>*s(w)e-</word>
+        <meaning>Oneself, alone, apart (root of swain via "one's own man")</meaning>
+        <cognates>Latin suus "his own", Greek hos "his"</cognates>
+    </definition>
+</definitions>

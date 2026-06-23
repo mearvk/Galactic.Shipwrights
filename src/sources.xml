@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+    <source>
+        <name>Project Gutenberg</name>
+        <url>https://www.gutenberg.org</url>
+        <type>books</type>
+        <topic>literature</topic>
+    </source>
+    <source>
+        <name>Open Library</name>
+        <url>https://openlibrary.org</url>
+        <type>libraries</type>
+        <topic>general</topic>
+    </source>
+    <source>
+        <name>Internet Archive</name>
+        <url>https://archive.org</url>
+        <type>libraries</type>
+        <topic>archives</topic>
+    </source>
+    <source>
+        <name>Wikipedia</name>
+        <url>https://en.wikipedia.org</url>
+        <type>encyclopedia</type>
+        <topic>general</topic>
+    </source>
+    <source>
+        <name>arXiv</name>
+        <url>https://arxiv.org</url>
+        <type>papers</type>
+        <topic>science</topic>
+    </source>
+</sources>

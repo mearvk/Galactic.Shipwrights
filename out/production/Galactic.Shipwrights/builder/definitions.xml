@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="builder">
+    <definition language="English (Middle English)" period="c.1350-1400">
+        <word>bildere / byldere</word>
+        <meaning>One who builds, constructs houses or other structures</meaning>
+        <origin>From Middle English bylden + -er (agent suffix)</origin>
+    </definition>
+    <definition language="English (Old English)" period="pre-1492">
+        <word>bylda / bȳtla</word>
+        <meaning>Builder, hammerer; one who constructs</meaning>
+        <origin>From Old English byldan "to construct a house", verb form of bold "house"</origin>
+    </definition>
+    <definition language="Old English" period="pre-1492">
+        <word>byldan</word>
+        <meaning>To construct a house, to build</meaning>
+        <origin>Verb form of bold "house", from Proto-Germanic *buthla- "building, house"</origin>
+        <etymology>From PIE *bhu- "to dwell", from root *bheue- "to be, exist, grow"</etymology>
+    </definition>
+    <definition language="Proto-Germanic" period="ancient">
+        <word>*buthla-</word>
+        <meaning>Building, house, dwelling</meaning>
+        <cognates>Old Saxon bodl "house", Old Frisian bodel "building, house"</cognates>
+    </definition>
+    <definition language="Proto-Indo-European" period="ancient">
+        <word>*bheue- / *bhu-</word>
+        <meaning>To be, exist, grow; to dwell</meaning>
+        <note>Root of build, booth, bower, and related dwelling concepts</note>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>tógálaí / foirgneoir</word>
+        <meaning>tógálaí: builder (one who raises/erects); foirgneoir: builder, constructor</meaning>
+        <origin>tógálaí from tóg "to raise, lift, build"</origin>
+    </definition>
+    <definition language="Irish Gaelic (historical)" period="pre-1492">
+        <word>saor</word>
+        <meaning>Craftsman, builder, carpenter; also means "free" (a free craftsman)</meaning>
+        <origin>From Old Irish saer "craftsman, wright". Gobán Saor = legendary master builder of 7th century Ireland</origin>
+        <note>Saor carries dual meaning of "craftsman" and "free person" — builders were freemen</note>
+    </definition>
+    <definition language="Old High German" period="pre-1492">
+        <word>zimbarman</word>
+        <meaning>Builder, carpenter (timber-man)</meaning>
+        <origin>From zimbar "timber, building material" + man</origin>
+    </definition>
+    <definition language="Italian" period="medieval">
+        <word>costruttore / muratore</word>
+        <meaning>costruttore: builder, constructor; muratore: mason, bricklayer</meaning>
+        <origin>costruttore from Latin construere "to pile up, build"</origin>
+    </definition>
+</definitions>

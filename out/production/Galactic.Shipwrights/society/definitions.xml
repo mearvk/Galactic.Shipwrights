@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="society">
+    <definition language="English" period="1530s">
+        <word>society</word>
+        <meaning>Companionship, friendly association with others; an organized community of people</meaning>
+        <origin>From Old French societe "company" (12c.), from Latin societatem "fellowship, association, alliance, union, community"</origin>
+    </definition>
+    <definition language="Latin" period="classical">
+        <word>societas (gen. societatis)</word>
+        <meaning>Fellowship, association, alliance, union, community</meaning>
+        <origin>From socius "companion, ally"</origin>
+    </definition>
+    <definition language="Latin" period="classical">
+        <word>socius</word>
+        <meaning>Companion, ally, associate, comrade, business partner</meaning>
+        <origin>From PIE *sokw-yo-, suffixed form of root *sekw- "to follow"</origin>
+    </definition>
+    <definition language="Old French" period="12c">
+        <word>societé / compagnie</word>
+        <meaning>Company, fellowship, association</meaning>
+        <origin>From Latin societatem</origin>
+    </definition>
+    <definition language="Proto-Indo-European" period="ancient">
+        <word>*sekw-</word>
+        <meaning>To follow (root of socius, society, sequel, second)</meaning>
+        <note>The concept of society derives from "those who follow together"</note>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>cumann / sochaí</word>
+        <meaning>cumann: society, association, club, fellowship; sochaí: community, populace</meaning>
+        <origin>cumann from Old Irish cumaṅ "obligation, bond"</origin>
+    </definition>
+    <definition language="Scottish Gaelic" period="pre-1492">
+        <word>comann</word>
+        <meaning>Society, association, fellowship, company</meaning>
+    </definition>
+    <definition language="Italian" period="medieval">
+        <word>società</word>
+        <meaning>Society, company, partnership, association</meaning>
+        <origin>From Latin societatem</origin>
+    </definition>
+    <definition language="Germanic (near-fit)" period="pre-1492">
+        <word>Genossenschaft / Gemeinschaft</word>
+        <meaning>Genossenschaft: cooperative, fellowship (from Genosse "companion"); Gemeinschaft: community (from gemein "common")</meaning>
+        <note>Germanic languages formed society-concepts from "companion" or "common" roots rather than borrowing from Latin</note>
+    </definition>
+</definitions>

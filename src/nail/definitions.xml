@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="nail">
+    <definition language="English (Old English)" period="pre-1492">
+        <word>nægl</word>
+        <meaning>1. Fingernail or toenail (original sense). 2. Small metal spike or peg for fastening.</meaning>
+        <origin>From Proto-West Germanic *nagl, from Proto-Germanic *naglaz, from PIE *h₃nogʰ- "nail"</origin>
+    </definition>
+    <definition language="English (verb, Old English)" period="pre-1492">
+        <word>næglian</word>
+        <meaning>To fix or fasten something onto something else with nails</meaning>
+        <origin>From Proto-Germanic *ganaglijan</origin>
+    </definition>
+    <definition language="Proto-Germanic" period="ancient">
+        <word>*naglaz</word>
+        <meaning>Nail (both fingernail and metal fastener)</meaning>
+        <cognates>Old Saxon negil, Old Norse nagl, Old High German nagal, German Nagel, Gothic ganagljan</cognates>
+    </definition>
+    <definition language="Proto-Indo-European" period="ancient">
+        <word>*h₃nogʰ-</word>
+        <meaning>Nail (of finger/toe)</meaning>
+        <cognates>Latin unguis, Greek onyx, Sanskrit nakha</cognates>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>tairne / tairnge</word>
+        <meaning>Nail (metal fastener)</meaning>
+        <origin>From Middle Irish tairnge, from Proto-Celtic *tarankyos "nail", from PIE *terh₁- "to drill, rub"</origin>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>ionga</word>
+        <meaning>Fingernail, toenail, claw</meaning>
+        <origin>From Old Irish inga, from Proto-Celtic *angʷīnā, from PIE *h₃nogʰ- (same root as English nail)</origin>
+    </definition>
+    <definition language="Germanic (surname)" period="medieval">
+        <word>Nahilo / Nail</word>
+        <meaning>Ancient Germanic personal name based on element nah "sufficient, adequate"</meaning>
+        <usage>Surname; also metonymic occupational name for a maker of nails, or nickname for a tall slender person</usage>
+    </definition>
+    <definition language="Latin" period="classical">
+        <word>unguis</word>
+        <meaning>Nail, claw, talon, hoof</meaning>
+        <origin>From PIE *h₃nogʰ- (same root as English nail, Old English naegl)</origin>
+    </definition>
+    <definition language="Old Norse" period="pre-1492">
+        <word>nagl / nagli</word>
+        <meaning>Nail (metal peg); also fingernail</meaning>
+    </definition>
+</definitions>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="rudder">
+    <definition language="English (Old English)" period="pre-1492">
+        <word>rōþor</word>
+        <meaning>Oar, steering oar; paddle used for steering a vessel</meaning>
+        <origin>From Proto-West Germanic *rōþr, from Proto-Germanic *rōþrą "oar, rudder"</origin>
+        <etymology>Related to Old English rōwan "to row"</etymology>
+    </definition>
+    <definition language="Middle English" period="pre-1492">
+        <word>rodder / rother / ruder</word>
+        <meaning>Broad flat piece of wood attached to the stern of a boat for steering (sense from c. 1300)</meaning>
+    </definition>
+    <definition language="Proto-Germanic" period="ancient">
+        <word>*rōþrą</word>
+        <meaning>Oar, rudder, instrument for rowing or steering</meaning>
+        <cognates>Old Frisian rōther, Old High German ruodar, Old Norse rōthr, Dutch roer, German Ruder</cognates>
+    </definition>
+    <definition language="Proto-Indo-European" period="ancient">
+        <word>*erə- / *h₁reh₁-</word>
+        <meaning>To row, to move (root of rudder, row)</meaning>
+        <cognates>Latin rēmus "oar", Greek eretmon "oar"</cognates>
+    </definition>
+    <definition language="Old Norse" period="pre-1492">
+        <word>rōthr / stjórnborði</word>
+        <meaning>rōthr: oar/rudder; stjórnborði: steerboard (starboard side where rudder was mounted)</meaning>
+    </definition>
+    <definition language="Old High German" period="pre-1492">
+        <word>ruodar</word>
+        <meaning>Rudder, oar</meaning>
+        <origin>From Proto-Germanic *rōþrą</origin>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>stiúir</word>
+        <meaning>Rudder, helm; steering device; direction, guidance</meaning>
+        <origin>Borrowed from Old Norse stýri "rudder, helm"</origin>
+        <note>Also figurative: any means of governing or directing a course</note>
+    </definition>
+    <definition language="Old English (related)" period="pre-1492">
+        <word>stēor</word>
+        <meaning>Rudder, control, guidance, steering</meaning>
+        <origin>From Proto-Germanic *steuro "rudder, steering", extended from PIE *sta- "to stand, make firm"</origin>
+    </definition>
+    <definition language="English (figurative)" period="general">
+        <word>rudder</word>
+        <meaning>Any means of governing, directing, or guiding a course; a leader or principle</meaning>
+    </definition>
+</definitions>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="town">
+    <definition language="English (Old English)" period="pre-1492">
+        <word>tūn</word>
+        <meaning>Enclosure, garden, field, yard; farm, manor; homestead, dwelling house, mansion; later group of houses, village</meaning>
+        <origin>From Proto-Germanic *tunaz, *tunan "fortified place"</origin>
+    </definition>
+    <definition language="Middle English" period="pre-1492">
+        <word>toun</word>
+        <meaning>Inhabited place having some degree of local government; village, settlement</meaning>
+    </definition>
+    <definition language="Proto-Germanic" period="ancient">
+        <word>*tūną / *tunaz</word>
+        <meaning>Fortified place, enclosed area, fence</meaning>
+        <origin>Borrowed from Proto-Celtic *dūnom "stronghold, rampart"</origin>
+        <cognates>Old Saxon tun, Old Norse tún "enclosure, homestead", Old Frisian tun "fence", Dutch tuin "garden", Old High German zūn, German Zaun "fence, hedge"</cognates>
+    </definition>
+    <definition language="Proto-Celtic" period="ancient">
+        <word>*dūnom</word>
+        <meaning>Stronghold, rampart, fortified hill</meaning>
+        <origin>Possibly from PIE *duh₂-nós "lasting, durable" from *dewh₂- "to last"</origin>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>dún</word>
+        <meaning>Fort, fortress, stronghold, fortified place; castle</meaning>
+        <origin>From Old Irish dún, from Proto-Celtic *dūnom</origin>
+        <note>Same Celtic root that was borrowed into Germanic as *tūną (town). Cognate pair: Irish dún = English town</note>
+    </definition>
+    <definition language="Scottish Gaelic" period="pre-1492">
+        <word>dùn</word>
+        <meaning>Fort, heap, hill-fort</meaning>
+        <note>Common in place names: Edinburgh (Dùn Èideann), Dundee, Dunbar</note>
+    </definition>
+    <definition language="Welsh (Brythonic Celtic)" period="pre-1492">
+        <word>din / dinas</word>
+        <meaning>din: fortress, fortified place, camp; dinas: city, fortified town</meaning>
+        <origin>From Proto-Celtic *dūnom</origin>
+    </definition>
+    <definition language="Gaulish-Latin" period="ancient">
+        <word>-dunum</word>
+        <meaning>Fortified place (in place names: Lugdunum=Lyon, Singidunum=Belgrade)</meaning>
+    </definition>
+    <definition language="Old Norse" period="pre-1492">
+        <word>tún</word>
+        <meaning>Enclosure, homestead, farmyard</meaning>
+    </definition>
+    <definition language="Italian" period="medieval">
+        <word>città / borgo</word>
+        <meaning>città: city (from Latin civitas); borgo: town, village, borough (from Germanic *burg)</meaning>
+    </definition>
+</definitions>

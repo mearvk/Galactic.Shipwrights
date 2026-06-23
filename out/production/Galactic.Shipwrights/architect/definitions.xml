@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="architect">
+    <definition language="English" period="1560s">
+        <word>architect</word>
+        <meaning>A person skilled in the art of building, one who plans and designs buildings and supervises their construction.</meaning>
+        <origin>From French architecte, from Latin architectus, from Greek arkhitekton "master builder, director of works"</origin>
+        <etymology>Greek arkhi- "chief" + tekton "builder, carpenter" (from PIE root *teks- "to weave, fabricate")</etymology>
+    </definition>
+    <definition language="Latin" period="classical">
+        <word>architectus</word>
+        <meaning>Master builder, chief constructor</meaning>
+        <origin>From Greek arkhitekton</origin>
+    </definition>
+    <definition language="Greek" period="ancient">
+        <word>arkhitekton (ἀρχιτέκτων)</word>
+        <meaning>Master builder, chief workman, director of works</meaning>
+        <etymology>arkhi- "chief" (see archon) + tekton "builder, carpenter"</etymology>
+    </definition>
+    <definition language="Italian" period="1500s">
+        <word>architetto</word>
+        <meaning>Architect, master builder</meaning>
+        <origin>Via Latin from Greek arkhitekton</origin>
+    </definition>
+    <definition language="Middle French" period="1500s">
+        <word>architecte</word>
+        <meaning>One who designs and oversees construction</meaning>
+        <origin>From Latin architectus</origin>
+    </definition>
+    <definition language="Irish Gaelic" period="pre-1492">
+        <word>ailtire</word>
+        <meaning>Architect, master builder</meaning>
+        <origin>From Old Irish ailtire "foster-father, nourisher; architect"</origin>
+    </definition>
+    <definition language="Scottish Gaelic" period="pre-1492">
+        <word>ailtire / ailteir</word>
+        <meaning>Architect, designer of buildings</meaning>
+    </definition>
+    <definition language="Germanic (PIE)" period="ancient">
+        <word>*teks-</word>
+        <meaning>To weave, to fabricate (root of tekton/architect)</meaning>
+        <note>The PIE root connects weaving and building as acts of fabrication</note>
+    </definition>
+</definitions>

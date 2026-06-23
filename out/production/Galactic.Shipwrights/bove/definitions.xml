@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions term="bove">
+    <definition language="English (Middle English)" period="pre-1492">
+        <word>bove / boven</word>
+        <meaning>Above, over, higher than; upon, on top of; watching over, superior to</meaning>
+        <origin>From Old English bufan, from Proto-West Germanic *biobanā, from *bi "by" + *ufanā "from above"</origin>
+        <etymology>Proto-Germanic *bi + *ufanē "from above". Cognate with Dutch boven.</etymology>
+    </definition>
+    <definition language="English (archaic)" period="pre-1492">
+        <word>bove</word>
+        <meaning>Apheretic form of "above"; used as adverb and preposition meaning over, higher than</meaning>
+        <origin>Inherited from Germanic via Old English bufan</origin>
+    </definition>
+    <definition language="Italian" period="medieval">
+        <word>bove</word>
+        <meaning>Ox, bull (variant of bue)</meaning>
+        <origin>From Latin bos, genitive bovis "ox, cattle"</origin>
+        <etymology>Latin bos from Greek bous (βοῦς) "ox, cattle"</etymology>
+        <usage>Occupational name for a plowman or herdsman; nickname for someone resembling an ox (patient, strong)</usage>
+    </definition>
+    <definition language="Latin" period="classical">
+        <word>bos (genitive: bovis)</word>
+        <meaning>Ox, bull, cow, cattle</meaning>
+        <origin>From Proto-Italic *gʷōws, from PIE *gʷṓws "cow"</origin>
+    </definition>
+    <definition language="Germanic (Proto-West)" period="ancient">
+        <word>*biobanā</word>
+        <meaning>From above, over</meaning>
+        <etymology>From *bi "by, near" + *ufanā "from above"</etymology>
+    </definition>
+    <definition language="Dutch" period="cognate">
+        <word>boven</word>
+        <meaning>Above, over, upstairs</meaning>
+        <origin>Cognate with English bove/above from same Proto-Germanic root</origin>
+    </definition>
+    <definition language="Middle English" period="c.1200-1492">
+        <word>boven / bove</word>
+        <meaning>(a) Above, over, higher than; (b) upon, on top of, on the surface of; (c) watching over, caring for; superior to, more exalted than</meaning>
+        <source>Middle English Dictionary, University of Michigan</source>
+    </definition>
+</definitions>
